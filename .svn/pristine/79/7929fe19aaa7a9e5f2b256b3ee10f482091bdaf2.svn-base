@@ -1,0 +1,6 @@
+server.port=8082
+
+record.path=D:\\test\\flv
+record.compensate=-1
+
+ffmpeg.path=D:\\soft\\ffmpeg\\ffmpeg\\bin\\
