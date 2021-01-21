@@ -3,10 +3,8 @@ package de.onvif.cache;
 
 import de.onvif.beans.CameraPojo;
 import de.onvif.push.CameraPush;
+import de.onvif.push.CameraPushWithWatermark;
 import de.onvif.soap.OnvifDevice;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -25,7 +23,14 @@ public final class CacheUtil {
 	/*
 	 * 保存push
 	 */
-	public static Map<String, CameraPush> PUSHMAP = new ConcurrentHashMap<>();
+	public static Map<String, CameraPushWithWatermark> PUSHMAP = new ConcurrentHashMap<>();
+
+	/*
+	 * 保存push
+	 */
+	public static Map<String, CameraPush> PUSHMAPANOTHER = new ConcurrentHashMap<>();
+
+	public static Map<String, Object> IMAGEJOB = new ConcurrentHashMap<>();
 
 	/**
 	 * 保存摄像机数据

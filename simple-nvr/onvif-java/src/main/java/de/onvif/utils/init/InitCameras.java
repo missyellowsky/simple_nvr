@@ -1,5 +1,6 @@
 package de.onvif.utils.init;
 
+import de.onvif.beans.DeviceInfo;
 import de.onvif.beans.StreamParam;
 import de.onvif.cache.CacheUtil;
 import de.onvif.discovery.OnvifDiscovery;
@@ -13,11 +14,17 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
+import javax.xml.soap.SOAPException;
+import java.net.ConnectException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
+import static de.onvif.beans.constant.Constant.DEVICE_CACHE;
 import static de.onvif.beans.constant.Constant.TRUE;
+import static de.onvif.utils.CommenUtils.getSftpInfo;
 
 @Component
 @Slf4j
@@ -39,11 +46,25 @@ public class InitCameras implements ApplicationRunner {
     private RedisUtils redisUtils;
 
     @Override
-    public void run(ApplicationArguments args) throws Exception {
+    public void run(ApplicationArguments args) {
+        try {
+            initCamera();
+        } catch (SOAPException e) {
+            log.error("SOAPException: " + e.getMessage());
+        } catch (ConnectException e) {
+            log.error("ConnectException: " + e.getMessage());
+        }
+    }
+
+    public List<DeviceInfo> initCamera() throws SOAPException, ConnectException {
         Collection<URL> urls = OnvifDiscovery.discoverOnvifURLs();
+        List<DeviceInfo> onvifDevices = new ArrayList<>();
         for (URL u : urls) {
             String ip = getSftpInfo(u);
             OnvifDevice device = new OnvifDevice(u, userName, password);
+            DeviceInfo deviceInfo = device.getDeviceInfo();
+            deviceInfo.setIp(ip);
+            onvifDevices.add(deviceInfo);
             CacheUtil.CAMERAMAP.put(ip, device);
             if (TRUE.equals(autoPush)) {
                 StreamParam streamParam = new StreamParam();
@@ -52,26 +73,8 @@ public class InitCameras implements ApplicationRunner {
                 mediaService.live(streamParam);
             }
         }
-    }
-
-
-    private String getSftpInfo(URL url) {
-        String userInfo = url.getUserInfo();
-        System.err.println("用户信息：" + userInfo);
-        if (userInfo != null) {
-            int index = userInfo.indexOf(":");
-            String userName = userInfo.substring(0, index);
-            System.err.println("用户名：" + userName);
-            String password = userInfo.substring(index + 1);
-            System.err.println("密码：" + password);
-        }
-        int port = url.getPort();
-        System.err.println("端口号：" + port);
-        String host = url.getHost();
-        System.err.println("host：" + host);
-        String path = url.getPath();
-        System.err.println("远程路径：" + path);
-        return host;
+        redisUtils.set(DEVICE_CACHE,onvifDevices);
+        return onvifDevices;
     }
 
 

@@ -135,11 +135,11 @@ public class FFmpegServiceImpl implements FFmpegService {
         List<String> urls = new ArrayList<>();
         String rsa = null;
         try {
-            rsa = java.net.URLEncoder.encode(java.net.URLEncoder.encode(java.net.URLEncoder.encode(RSAEncrypt.encrypt(member + "-" + System.currentTimeMillis(), publicKey), "UTF-8"),"UTF-8"),"UTF-8");
+            rsa = java.net.URLEncoder.encode(java.net.URLEncoder.encode(java.net.URLEncoder.encode(RSAEncrypt.encrypt(member + "-" + System.currentTimeMillis(), publicKey), "UTF-8"), "UTF-8"), "UTF-8");
         } catch (Exception e) {
             rsa = "";
         }
-        String url = chooseStreamType(recordParam.getStreamType(), cameraPojo.getPlayHost(), recordParam.getCameraIp(),id);
+        String url = chooseStreamType(recordParam.getStreamType(), cameraPojo.getPlayHost(), recordParam.getCameraIp(), id);
         String finalRsa = rsa;
         executorService.execute(new Runnable() {
             @Override
@@ -168,17 +168,23 @@ public class FFmpegServiceImpl implements FFmpegService {
         return url;
     }
 
-    private String chooseStreamType(String type, String host, String ip,String id) {
+    private String chooseStreamType(String type, String host, String ip, String id) {
+        String rsa = null;
+        try {
+            rsa = java.net.URLEncoder.encode(java.net.URLEncoder.encode(RSAEncrypt.encrypt(member + "-" + System.currentTimeMillis(), publicKey), "UTF-8"), "UTF-8");
+        } catch (Exception e) {
+            rsa = "";
+        }
         String newUrl;
         switch (type) {
             case HLS:
                 newUrl = "http://" + host + ":" + playPort + "/recordhls/" + id + "/index.m3u8";
                 break;
             case FLV:
-                newUrl = "http://" + host + ":" + playPort + "/live?port=" + port + "&app=recorder&stream=" + id;
+                newUrl = "http://" + host + ":" + playPort + "/live?port=" + port + "&app=recorder&stream=" + id + "&pass=" + rsa;
                 break;
             default:
-                newUrl = "rtmp://" + host + ":" + port + "/recorder/" + id;
+                newUrl = "rtmp://" + host + ":" + port + "/recorder/" + id + "?pass=" + rsa;
         }
         return newUrl;
     }

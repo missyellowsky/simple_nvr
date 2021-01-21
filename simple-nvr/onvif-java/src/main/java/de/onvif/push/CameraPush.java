@@ -2,23 +2,25 @@ package de.onvif.push;
 
 import de.onvif.beans.CameraPojo;
 import de.onvif.beans.Config;
-import org.apache.commons.lang3.StringUtils;
+import de.onvif.thread.ImageThread;
+import de.onvif.utils.ImageUtil;
 import org.bytedeco.ffmpeg.avcodec.AVPacket;
 import org.bytedeco.ffmpeg.avformat.AVFormatContext;
 import org.bytedeco.ffmpeg.global.avcodec;
 import org.bytedeco.ffmpeg.global.avutil;
 import org.bytedeco.javacv.*;
-import org.bytedeco.javacv.Frame;
-import org.bytedeco.opencv.opencv_core.IplImage;
+import org.bytedeco.opencv.global.opencv_imgproc;
+import org.opencv.core.Core;
+import org.opencv.core.Mat;
+import org.opencv.core.Size;
+import org.opencv.imgcodecs.Imgcodecs;
+import org.opencv.imgproc.Imgproc;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 
-import java.awt.*;
-import java.awt.image.BufferedImage;
 import java.text.SimpleDateFormat;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 import static org.bytedeco.ffmpeg.global.avcodec.av_packet_unref;
 
@@ -28,10 +30,13 @@ import static org.bytedeco.ffmpeg.global.avcodec.av_packet_unref;
  * @description javacv推数据帧
  * @time 2020年3月17日 下午2:32:42
  **/
+
 public class CameraPush {
     private final static Logger logger = LoggerFactory.getLogger(CameraPush.class);
     // 配置类
     private static Config config;
+
+
 
     // 通过applicationContext上下文获取Config类
     public static void setApplicationContext(ApplicationContext applicationContext) {
@@ -41,7 +46,7 @@ public class CameraPush {
     private CameraPojo pojo;// 设备信息
     private FFmpegFrameRecorder recorder;// 解码器
     private FFmpegFrameRecorder recorderExtra;// 第二解码器
-    private FFmpegFrameGrabber grabber;// 采集器
+    private FFmpegFrameGrabberNew grabber;// 采集器
     private int err_index = 0;// 推流过程中出现错误的次数
     private int exitcode = 0;// 退出状态码：0-正常退出;1-手动中断;
     private double framerate = 0;// 帧率
@@ -54,15 +59,19 @@ public class CameraPush {
         return exitcode;
     }
 
+    private final static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
     public CameraPush(CameraPojo cameraPojo) {
         this.pojo = cameraPojo;
     }
+
 
     /**
      * @return void
      * @Title: release
      * @Description:资源释放
      **/
+
     public void release() {
         try {
             grabber.stop();
@@ -76,6 +85,7 @@ public class CameraPush {
         }
     }
 
+
     /**
      * @return void
      * @Title: push
@@ -85,7 +95,7 @@ public class CameraPush {
         try {
             avutil.av_log_set_level(avutil.AV_LOG_INFO);
             FFmpegLogCallback.set();
-            grabber = new FFmpegFrameGrabber(pojo.getRtsp());
+            grabber = new FFmpegFrameGrabberNew(pojo.getRtsp());
             grabber.setOption("rtsp_transport", "tcp");
             // 设置采集器构造超时时间
             grabber.setOption("stimeout", "2000000");
@@ -125,17 +135,20 @@ public class CameraPush {
             recorder.setFormat("flv");
             // h264编/解码器
             recorder.setVideoCodec(avcodec.AV_CODEC_ID_H264);
+            recorder.setAudioCodec(avcodec.AV_CODEC_ID_AAC);
             recorder.setPixelFormat(avutil.AV_PIX_FMT_YUV420P);
             Map<String, String> videoOption = new HashMap<>();
 
             // 该参数用于降低延迟
             videoOption.put("tune", "zerolatency");
+
             /**
              ** 权衡quality(视频质量)和encode speed(编码速度) values(值)： *
              * ultrafast(终极快),superfast(超级快), veryfast(非常快), faster(很快), fast(快), *
              * medium(中等), slow(慢), slower(很慢), veryslow(非常慢) *
              * ultrafast(终极快)提供最少的压缩（低编码器CPU）和最大的视频流大小；而veryslow(非常慢)提供最佳的压缩（高编码器CPU）的同时降低视频流的大小
              */
+
             videoOption.put("preset", "ultrafast");
             // 画面质量参数，0~51；18~28是一个合理范围
             videoOption.put("crf", "28");
@@ -149,52 +162,23 @@ public class CameraPush {
             // 清空探测时留下的缓存
             grabber.flush();
 
-			/*AVPacket pkt = null;
+
+            AVPacket pkt = null;
 			long dts = 0;
 			long pts = 0;
 			int timebase = 0;
-			for (int no_frame_index = 0; no_frame_index < 5 && err_index < 5;) {
-				long time1 = System.currentTimeMillis();
-				if (exitcode == 1) {
-					break;
-				}
-				pkt = grabber.grabPacket();
-				if (pkt == null || pkt.size() == 0 || pkt.data() == null) {
-					// 空包记录次数跳过
-					logger.warn("JavaCV 出现空包 设备信息：[ip:" + pojo.getIp() + " channel:" + pojo.getChannel() + " stream:"
-							+ pojo.getStream() + " starttime:" + pojo.getStarttime() + " endtime:" + " rtsp:"
-							+ pojo.getRtsp() + pojo.getEndtime() + " url:" + pojo.getUrl() + "]");
-					no_frame_index++;
-					continue;
-				}
-				// 过滤音频
-				if (pkt.stream_index() == 1) {
-					av_packet_unref(pkt);
-					continue;
-				}
+            OpenCVFrameConverter.ToMat convertToMat = new OpenCVFrameConverter.ToMat();
+            org.bytedeco.opencv.opencv_core.Point point2 = new org.bytedeco.opencv.opencv_core.Point(100, 100);
+            org.bytedeco.opencv.opencv_core.Scalar scalar2 = new org.bytedeco.opencv.opencv_core.Scalar(0, 0, 0, 0);
 
-				// 矫正sdk回调数据的dts，pts每次不从0开始累加所导致的播放器无法续播问题
-				pkt.pts(pts);
-				pkt.dts(dts);
-				err_index += (recorder.recordPacket(pkt) ? 0 : 1);
-				// pts,dts累加
-				timebase = grabber.getFormatContext().streams(pkt.stream_index()).time_base().den();
-				pts += timebase / (int) framerate;
-				dts += timebase / (int) framerate;
-				// 将缓存空间的引用计数-1，并将Packet中的其他字段设为初始值。如果引用计数为0，自动的释放缓存空间。
-				av_packet_unref(pkt);
-
-				*//*long endtime = System.currentTimeMillis();
-				if ((long) (1000 /framerate) - (endtime - time1) > 0) {
-					Thread.sleep((long) (1000 / framerate) - (endtime - time1));
-				}*//*
-			}*/
             AVPacket packet;
-            long dts = 0;
+            //long dts = 0;
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            Frame frame = new Frame();
             while ((packet = grabber.grabPacket()) != null) {
                 long currentDts = packet.dts();
                 if (currentDts >= dts) {
+                    recorder.setTimestamp(grabber.getTimestamp());
                     recorder.recordPacket(packet);
                 }
                 dts = currentDts;
@@ -209,6 +193,22 @@ public class CameraPush {
                     + " rtsp:" + pojo.getRtsp() + " url:" + pojo.getUrl() + "]");
         }
     }
+
+
+    private void test(Frame frame){
+        frame.keyFrame = false;
+        frame.imageWidth = 0;
+        frame.imageHeight = 0;
+        frame.imageDepth = 0;
+        frame.imageChannels = 0;
+        frame.imageStride = 0;
+        frame.image = null;
+        frame.sampleRate = 0;
+        frame.audioChannels = 0;
+        frame.samples = null;
+        frame.opaque = null;
+    }
+
 
 
 }

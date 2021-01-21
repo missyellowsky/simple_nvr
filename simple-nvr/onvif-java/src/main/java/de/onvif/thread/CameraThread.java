@@ -4,6 +4,7 @@ import de.onvif.beans.CameraPojo;
 import de.onvif.cache.CacheUtil;
 import de.onvif.controller.MediaController;
 import de.onvif.push.CameraPush;
+import de.onvif.push.CameraPushWithWatermark;
 import de.onvif.service.MediaService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,17 +47,21 @@ public class CameraThread {
                 nowThread = Thread.currentThread();
                 CacheUtil.STREATMAP.put(cameraPojo.getToken(), cameraPojo);
                 // 执行转流推流任务
+                //CameraPushWithWatermark push = new CameraPushWithWatermark(cameraPojo);
                 CameraPush push = new CameraPush(cameraPojo);
-                CacheUtil.PUSHMAP.put(cameraPojo.getToken(), push);
+                //CacheUtil.PUSHMAP.put(cameraPojo.getToken(), push);
+                CacheUtil.PUSHMAPANOTHER.put(cameraPojo.getToken(), push);
                 push.push();
                 // 清除缓存
                 CacheUtil.STREATMAP.remove(cameraPojo.getToken());
                 MediaService.JOBMAP.remove(cameraPojo.getToken());
                 CacheUtil.PUSHMAP.remove(cameraPojo.getToken());
+                CacheUtil.PUSHMAPANOTHER.remove(cameraPojo.getToken());
             } catch (Exception e) {
                 CacheUtil.STREATMAP.remove(cameraPojo.getToken());
                 MediaService.JOBMAP.remove(cameraPojo.getToken());
                 CacheUtil.PUSHMAP.remove(cameraPojo.getToken());
+                CacheUtil.PUSHMAPANOTHER.remove(cameraPojo.getToken());
             }
         }
     }

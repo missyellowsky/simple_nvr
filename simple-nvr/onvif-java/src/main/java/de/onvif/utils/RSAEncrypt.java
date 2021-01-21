@@ -1,9 +1,14 @@
 package de.onvif.utils;
 
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.tomcat.util.codec.binary.Base64;
 
 import javax.crypto.Cipher;
-import java.security.*;
+import java.security.KeyFactory;
+import java.security.KeyPair;
+import java.security.KeyPairGenerator;
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.PKCS8EncodedKeySpec;
@@ -14,7 +19,7 @@ import java.util.Map;
 public class RSAEncrypt {
     private static Map<Integer, String> keyMap = new HashMap<Integer, String>();  //用于封装随机产生的公钥与私钥
     public static void main(String[] args) throws Exception {
-        /*//生成公钥和私钥
+        //生成公钥和私钥
         genKeyPair();
         //加密字符串
         String message = "df723820";
@@ -23,9 +28,9 @@ public class RSAEncrypt {
         String messageEn = encrypt(message,keyMap.get(0));
         System.out.println(message + "\t加密后的字符串为:" + messageEn);
         String messageDe = decrypt(messageEn,keyMap.get(1));
-        System.out.println("还原后的字符串为:" + messageDe);*/
-        String messageEn = encrypt("chinasoft-1610349284","MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChDmbpLaGNYomR1rMdlyLDpzTSJkqi7nAgXUHdnuQ9Opw625FxoPDnwjEDmksa4z1qSnjhj9aE8zmADwffTctk6Xtvd8mflMQBFJ0szonQPhNxg/JgR9I4d65+wSU1NGPjQbsleKdu45gDl5/1Bxpic63u+nEdFHPbP5HK2GItdQIDAQAB");
-        System.out.println(messageEn);
+        System.out.println("还原后的字符串为:" + messageDe);
+        /*String messageEn = encrypt("chinasoft-1610349284","MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChDmbpLaGNYomR1rMdlyLDpzTSJkqi7nAgXUHdnuQ9Opw625FxoPDnwjEDmksa4z1qSnjhj9aE8zmADwffTctk6Xtvd8mflMQBFJ0szonQPhNxg/JgR9I4d65+wSU1NGPjQbsleKdu45gDl5/1Bxpic63u+nEdFHPbP5HK2GItdQIDAQAB");
+        System.out.println(messageEn);*/
     }
 
     /**
@@ -36,7 +41,7 @@ public class RSAEncrypt {
         // KeyPairGenerator类用于生成公钥和私钥对，基于RSA算法生成对象
         KeyPairGenerator keyPairGen = KeyPairGenerator.getInstance("RSA");
         // 初始化密钥对生成器，密钥大小为96-1024位
-        keyPairGen.initialize(1024,new SecureRandom());
+        keyPairGen.initialize(512,new SecureRandom());
         // 生成一个密钥对，保存在keyPair中
         KeyPair keyPair = keyPairGen.generateKeyPair();
         RSAPrivateKey privateKey = (RSAPrivateKey) keyPair.getPrivate();   // 得到私钥
@@ -66,7 +71,14 @@ public class RSAEncrypt {
         //RSA加密
         Cipher cipher = Cipher.getInstance("RSA");
         cipher.init(Cipher.ENCRYPT_MODE, pubKey);
-        String outStr = Base64.encodeBase64String(cipher.doFinal(str.getBytes("UTF-8")));
+        byte[] data = str.getBytes("UTF-8");
+        byte[] enBytes = null;
+        for (int i = 0; i < data.length; i += 64) {
+            // 注意要使用2的倍数，否则会出现加密后的内容再解密时为乱码
+            byte[] doFinal = cipher.doFinal(ArrayUtils.subarray(data, i,i + 64));
+            enBytes = ArrayUtils.addAll(enBytes, doFinal);
+        }
+        String outStr = Base64.encodeBase64String(enBytes);
         return outStr;
     }
 
@@ -90,7 +102,14 @@ public class RSAEncrypt {
         //RSA解密
         Cipher cipher = Cipher.getInstance("RSA");
         cipher.init(Cipher.DECRYPT_MODE, priKey);
-        String outStr = new String(cipher.doFinal(inputByte));
+
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < inputByte.length; i += 128) {
+            byte[] doFinal = cipher.doFinal(ArrayUtils.subarray(inputByte, i, i + 128));
+            sb.append(new String(doFinal));
+        }
+
+        String outStr = new String(sb);
         return outStr;
     }
 
