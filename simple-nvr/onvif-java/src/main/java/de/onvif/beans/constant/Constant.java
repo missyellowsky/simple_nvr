@@ -23,8 +23,4 @@ public class Constant {
 
     //commen
     public static final String TRUE = "true";
-
-
-    //camera
-    public static final String DEVICE_CACHE = "DEVICE_CACHE";
 }
