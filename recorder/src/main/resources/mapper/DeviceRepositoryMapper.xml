@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.recorder.recorder.repository.DeviceRepository">
+
+    <select id="getCameraByIp" parameterType="java.lang.String" resultMap="cameraPojo">
+        select dh.deviceIp as ip, dh.playHost, hr.host from device_host dh
+        left join host_relations hr on hr.playHost = dh.playHost
+        where dh.deviceIp = #{ip}
+    </select>
+
+    <resultMap id="cameraPojo" type="de.onvif.beans.CameraPojo">
+        <id column="ip" property="ip"/>
+        <result column="playHost" property="playHost"/>
+        <collection property="host" ofType="java.lang.String">
+            <result column="host" />
+        </collection>
+    </resultMap>
+</mapper>

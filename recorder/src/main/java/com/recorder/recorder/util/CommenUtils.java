@@ -1,5 +1,9 @@
 package com.recorder.recorder.util;
 
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.Calendar;
+import java.util.TimeZone;
 import java.util.UUID;
 
 public class CommenUtils {
@@ -11,6 +15,10 @@ public class CommenUtils {
             "W", "X", "Y", "Z" };
 
 
+    /**
+     * 短uuid
+     * @return
+     */
     public static String generateShortUuid() {
         StringBuffer shortBuffer = new StringBuffer();
         String uuid = UUID.randomUUID().toString().replace("-", "");
@@ -21,6 +29,48 @@ public class CommenUtils {
         }
         return shortBuffer.toString();
 
+    }
+
+    /**
+     * 获取指定某一天的开始时间戳
+     *
+     * @param timeStamp 毫秒级时间戳
+     * @param timeZone  如 GMT+8:00
+     * @return
+     */
+    public static Long getDailyStartTime(Long timeStamp, String timeZone) {
+        if(StringUtils.isEmpty(timeZone)){
+            timeZone = "GMT+8:00";
+        }
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTimeZone(TimeZone.getTimeZone(timeZone));
+        calendar.setTimeInMillis(timeStamp);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.SECOND, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.MILLISECOND, 0);
+        return calendar.getTimeInMillis();
+    }
+
+    /**
+     * 获取指定某一天的结束时间戳
+     *
+     * @param timeStamp 毫秒级时间戳
+     * @param timeZone  如 GMT+8:00
+     * @return
+     */
+    public static Long getDailyEndTime(Long timeStamp, String timeZone) {
+        if(StringUtils.isEmpty(timeZone)){
+            timeZone = "GMT+8:00";
+        }
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTimeZone(TimeZone.getTimeZone(timeZone));
+        calendar.setTimeInMillis(timeStamp);
+        calendar.set(Calendar.HOUR_OF_DAY, 23);
+        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.SECOND, 59);
+        calendar.set(Calendar.MILLISECOND, 999);
+        return calendar.getTimeInMillis();
     }
 
 }

@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSONObject;
 import de.onvif.beans.*;
 import de.onvif.beans.constant.Constant;
 import de.onvif.cache.CacheUtil;
+import de.onvif.service.DeviceService;
 import de.onvif.service.MediaService;
 import de.onvif.soap.OnvifDevice;
 import de.onvif.thread.CameraThread;
@@ -51,6 +52,9 @@ public class MediaServiceImpl implements MediaService {
 
     @Autowired
     private RedisDataUtil redisDataUtil;
+
+    @Autowired
+    private DeviceService deviceService;
 
 
     /**
@@ -342,12 +346,22 @@ public class MediaServiceImpl implements MediaService {
      * @param ip
      * @return
      */
-    private CameraPojo getCameraByIp(String ip) {
+    private CameraPojo getCameraFromRedisByIp(String ip) {
         List<CameraPojo> cameraPojoList = redisDataUtil.getCameraHostFromRedis();
         CameraPojo cameraPojo = new CameraPojo();
         cameraPojo.setIp(ip);
         CameraPojo cameraPojoRedis = cameraPojoList.get(cameraPojoList.indexOf(cameraPojo));
         return cameraPojoRedis;
+    }
+
+    /**
+     * 通过ip从redis获取设备
+     * @param ip
+     * @return
+     */
+    private CameraPojo getCameraByIp(String ip) {
+        CameraPojo cameraPojo = deviceService.getCameraByIp(ip);
+        return cameraPojo;
     }
 
     /**
@@ -392,13 +406,13 @@ public class MediaServiceImpl implements MediaService {
         Socket rtspSocket = new Socket();
         Socket rtmpSocket = new Socket();
 
-        try {
+        /*try {
             rtmpSocket.connect(new InetSocketAddress(Utils.IpConvert(config.getPush_host()),
                     Integer.parseInt(config.getPush_port())), 1000);
         } catch (IOException e) {
             log.error("与推流IP：   " + config.getPush_host() + "   端口：   " + config.getPush_port() + " 建立TCP连接失败！");
             return null;
-        }
+        }*/
         // 执行任务
         CameraThread.MyRunnable job = new CameraThread.MyRunnable(cameraPojo);
         CameraThread.MyRunnable.es.execute(job);

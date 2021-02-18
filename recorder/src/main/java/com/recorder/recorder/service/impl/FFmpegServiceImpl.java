@@ -2,6 +2,7 @@ package com.recorder.recorder.service.impl;
 
 import com.recorder.recorder.beans.RecordParam;
 import com.recorder.recorder.beans.Result;
+import com.recorder.recorder.repository.DeviceRepository;
 import com.recorder.recorder.util.RSAEncrypt;
 import de.onvif.beans.CameraPojo;
 import com.recorder.recorder.service.FFmpegService;
@@ -13,13 +14,15 @@ import org.springframework.stereotype.Service;
 import org.thymeleaf.util.StringUtils;
 
 import java.io.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import static com.recorder.recorder.beans.constant.Constant.FLV;
 import static com.recorder.recorder.beans.constant.Constant.HLS;
-import static com.recorder.recorder.util.CommenUtils.generateShortUuid;
+import static com.recorder.recorder.util.CommenUtils.*;
 
 @Service
 @Slf4j
@@ -46,6 +49,12 @@ public class FFmpegServiceImpl implements FFmpegService {
     @Value("${config.play_port}")
     private String playPort;
 
+    @Value("${record.fileTime}")
+    private Long fileTime;
+
+    @Autowired
+    DeviceRepository deviceRepository;
+
     @Autowired
     private RedisDataUtil redisDataUtil;
 
@@ -65,16 +74,89 @@ public class FFmpegServiceImpl implements FFmpegService {
         return Result.success(url);
     }
 
-    private Map<String, Long> getRecordFile(String ip, String startTime, String endTime) {
-        Long startDate = Long.parseLong(startTime.substring(0, 10)) + compensate;
-        Long endDate = Long.parseLong(endTime.substring(0, 10)) + compensate;
-        if (startDate > endDate) {
-            return null;
+    @Override
+    public Result compensateFirstFlv(String path, long current) {
+        String[] pathSplit = path.split("/");
+        String fileName = pathSplit[pathSplit.length - 1];
+        System.out.println(fileName);
+        if (org.apache.commons.lang3.StringUtils.isEmpty(fileName)) {
+            return Result.fail();
         }
-        Map<String, Long> result = new HashMap<>();
-        Long videoLength = endDate - startDate;
-        result.put("videoLength", videoLength);
-        System.out.println(path);
+        String cstr = String.valueOf(current);
+        Long end = Long.parseLong(cstr.substring(0, cstr.length() - 3));
+        String startStr = fileName.split("-")[1].split("\\.")[0];
+        Long start = Long.parseLong(startStr);
+        Long timeOfDuration = end - start;
+        System.out.println(timeOfDuration);
+        System.out.println(fileTime);
+        if (timeOfDuration - fileTime > 1) {
+            String newFileName = path.replace(fileName, fileName.split("-")[0] + "-" + (start + (timeOfDuration - fileTime)) + ".flv");
+            System.out.println(start);
+            System.out.println(end);
+            System.out.println(timeOfDuration);
+
+            System.out.println(start + (timeOfDuration - fileTime));
+            renameFile(path, newFileName);
+        }
+        return Result.success();
+    }
+
+    @Override
+    public Result queryRecordList(String date, String ip) {
+        Long time = Long.parseLong(date);
+        Long startTime = getDailyStartTime(time * 1000, null);
+        Long endTime = getDailyEndTime(time * 1000, null);
+        List<String> files = getFilesByDate(startTime/1000, endTime/1000, ip);
+        return Result.success(files);
+    }
+
+    /**
+     * 根据日期查询当天所有回看文件
+     */
+    private List<String> getFilesByDate(Long startTime, Long endTime, String ip){
+        File[] files = checkOutFiles(ip);
+        System.out.println(files);
+        List<String> names = new ArrayList<>();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        for (File file1 :
+                files) {
+            String[] nameArray = file1.getName().split("-|\\.");
+            if (nameArray.length < 6) {
+                continue;
+            }
+            Long fileTime = Long.parseLong(nameArray[4]);
+            if(fileTime > startTime && fileTime < endTime){
+                Date date = null;
+                try {
+                    date = sdf.parse(sdf.format(fileTime * 1000));
+                } catch (ParseException e) {
+                    log.error("pase time failed, cause by: " + e.getMessage());
+                }
+                if(date != null){
+                    names.add(sdf.format(date));
+                }
+            }
+        }
+        return names;
+    }
+
+    /**
+     * 重命名文件
+     *
+     * @param oldFileName
+     * @param newFileName
+     * @return
+     */
+    public static void renameFile(String oldFileName, String newFileName) {
+        SimpleDateFormat fmdate = new SimpleDateFormat("yyyyMMddHHmmssSSS");
+        File oldFile = new File(oldFileName);
+        File newFile = new File(newFileName);
+        if (oldFile.exists() && oldFile.isFile()) {
+            oldFile.renameTo(newFile);
+        }
+    }
+
+    private File[] checkOutFiles(String ip){
         File file = new File(path);
         FilenameFilter fileNameFilter = new FilenameFilter() {
             @Override
@@ -87,7 +169,30 @@ public class FFmpegServiceImpl implements FFmpegService {
                 return false;
             }
         };
-        File[] files = file.listFiles(fileNameFilter);
+        return file.listFiles(fileNameFilter);
+    }
+
+
+    /**
+     * 根据摄像头ip,回看起始时间寻找需要的文件及播放时长、跳跃时长
+     *
+     * @param ip
+     * @param startTime
+     * @param endTime
+     * @return
+     */
+    private Map<String, Long> getRecordFile(String ip, String startTime, String endTime) {
+        Long startDate = Long.parseLong(startTime.substring(0, 10)) + compensate;
+        Long endDate = Long.parseLong(endTime.substring(0, 10)) + compensate;
+        if (startDate > endDate) {
+            return null;
+        }
+        Map<String, Long> result = new HashMap<>();
+        Long videoLength = endDate - startDate;
+        result.put("videoLength", videoLength);
+        System.out.println(path);
+
+        File[] files = checkOutFiles(ip);
         System.out.println(files);
         List<Long> names = new ArrayList<>();
         for (File file1 :
@@ -241,12 +346,22 @@ public class FFmpegServiceImpl implements FFmpegService {
         return null;
     }
 
-    private CameraPojo getCameraByIp(String ip) {
+    private CameraPojo getCameraFromRedisByIp(String ip) {
         List<CameraPojo> cameraPojoList = redisDataUtil.getCameraHostFromRedis();
         CameraPojo cameraPojo = new CameraPojo();
         cameraPojo.setIp(ip);
         CameraPojo cameraPojoRedis = cameraPojoList.get(cameraPojoList.indexOf(cameraPojo));
         return cameraPojoRedis;
+    }
+
+    /**
+     * 通过ip从redis获取设备
+     * @param ip
+     * @return
+     */
+    private CameraPojo getCameraByIp(String ip) {
+        CameraPojo cameraPojo = deviceRepository.getCameraByIp(ip);
+        return cameraPojo;
     }
 
     /**

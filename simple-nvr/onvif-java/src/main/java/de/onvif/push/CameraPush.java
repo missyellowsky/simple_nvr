@@ -126,7 +126,7 @@ public class CameraPush {
             recorder = new FFmpegFrameRecorder(pojo.getRtmp(), grabber.getImageWidth(), grabber.getImageHeight());
             recorder.setInterleaved(true);
             // 关键帧间隔，一般与帧率相同或者是视频帧率的两倍
-            recorder.setGopSize((int) framerate);
+            recorder.setGopSize(15);
             // 视频帧率(保证视频质量的情况下最低25，低于25会出现闪屏)
             recorder.setFrameRate(framerate);
             // 设置比特率
@@ -136,7 +136,7 @@ public class CameraPush {
             // h264编/解码器
             recorder.setVideoCodec(avcodec.AV_CODEC_ID_H264);
             recorder.setAudioCodec(avcodec.AV_CODEC_ID_AAC);
-            recorder.setPixelFormat(avutil.AV_PIX_FMT_YUV420P);
+            //recorder.setPixelFormat(avutil.AV_PIX_FMT_YUV420P);
             Map<String, String> videoOption = new HashMap<>();
 
             // 该参数用于降低延迟

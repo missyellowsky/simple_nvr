@@ -3,7 +3,7 @@ package de.onvif.beans;
 import java.io.Serializable;
 
 public class DeviceInfo implements Serializable {
-
+  private String id;
   private String manufacturer;
   private String model;
   private String firmwareVersion;
@@ -11,6 +11,7 @@ public class DeviceInfo implements Serializable {
   private String hardwareId;
   private String ip;
   private boolean isAlive = true;
+  private String playHost;
   public DeviceInfo(){}
   public DeviceInfo(
       String manufacturer,
@@ -39,6 +40,14 @@ public class DeviceInfo implements Serializable {
         + ", hardwareId="
         + hardwareId
         + "]";
+  }
+
+  public String getId() {
+    return id;
+  }
+
+  public void setId(String id) {
+    this.id = id;
   }
 
   public String getManufacturer() {
@@ -95,5 +104,21 @@ public class DeviceInfo implements Serializable {
 
   public void setIsAlive(boolean isAlive) {
     this.isAlive = isAlive;
+  }
+
+  public boolean isAlive() {
+    return isAlive;
+  }
+
+  public void setAlive(boolean alive) {
+    isAlive = alive;
+  }
+
+  public String getPlayHost() {
+    return playHost;
+  }
+
+  public void setPlayHost(String playHost) {
+    this.playHost = playHost;
   }
 }

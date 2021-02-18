@@ -7,6 +7,7 @@ import de.onvif.beans.DeviceInfo;
 import de.onvif.beans.HostRelations;
 import de.onvif.beans.Result;
 import de.onvif.beans.constant.Constant;
+import de.onvif.service.DeviceService;
 import de.onvif.soap.OnvifDevice;
 import de.onvif.utils.RedisUtils;
 import de.onvif.utils.componentUtils.RedisDataUtil;
@@ -16,10 +17,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.util.CollectionUtils;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.xml.soap.SOAPException;
 import java.net.ConnectException;
@@ -49,6 +47,9 @@ public class DeviceController {
     @Autowired
     InitCameras initCameras;
 
+    @Autowired
+    DeviceService deviceService;
+
     @RequestMapping(value = "device/refreshCamera", method = RequestMethod.GET)
     public Result refreshCamera() {
         List<DeviceInfo> onvifDevices = null;
@@ -66,17 +67,21 @@ public class DeviceController {
 
     @RequestMapping(value = "device/getCameras", method = RequestMethod.GET)
     public Result queryCameras() {
-        Object obj = redisUtils.get(Constant.DEVICE_CACHE);
+        /*Object obj = redisUtils.get(Constant.DEVICE_CACHE);
         if (obj == null) {
             obj = new LinkedList<DeviceInfo>();
         }
-        List<DeviceInfo> onvifDevices = JSONArray.parseArray(JSONObject.toJSONString(obj), DeviceInfo.class);
+        List<DeviceInfo> onvifDevices = JSONArray.parseArray(JSONObject.toJSONString(obj), DeviceInfo.class);*/
+        List<DeviceInfo> onvifDevices = null;
+        if(onvifDevices == null || onvifDevices.size() == 0){
+            onvifDevices = deviceService.queryCameras();
+        }
         return Result.success(onvifDevices);
     }
 
     @RequestMapping(value = "device/setCameraServer", method = RequestMethod.POST)
     public Result setCameraServer(@RequestBody CameraPojo cameraPojo) {
-        List<CameraPojo> cameraPojoList = redisDataUtil.getCameraHostFromRedis();
+       /* List<CameraPojo> cameraPojoList = redisDataUtil.getCameraHostFromRedis();
         if (cameraPojo == null || StringUtils.isEmpty(cameraPojo.getIp()) || StringUtils.isEmpty(cameraPojo.getPlayHost()) || CollectionUtils.isEmpty(cameraPojo.getHost())) {
             return Result.fail("Camera and host information are incomplete!");
         }
@@ -84,24 +89,37 @@ public class DeviceController {
             cameraPojoList.remove(cameraPojo);
         }
         cameraPojoList.add(cameraPojo);
-        redisUtils.set(Constant.CAMERA_HOST, cameraPojoList);
+        redisUtils.set(Constant.CAMERA_HOST, cameraPojoList);*/
+        deviceService.addCameraServer(cameraPojo);
+        return Result.success();
+    }
+
+    @RequestMapping(value = "device/editCameraServer", method = RequestMethod.POST)
+    public Result editCameraServer(@RequestBody CameraPojo cameraPojo){
+        deviceService.editCameraServer(cameraPojo);
         return Result.success();
     }
 
     @RequestMapping(value = "device/getCameraServer", method = RequestMethod.GET)
     public Result getCameraServer() {
-        return Result.success(redisDataUtil.getCameraHostFromRedis());
+        //List<CameraPojo> cameraPojoList = redisDataUtil.getCameraHostFromRedis();
+        List<DeviceInfo> cameraPojoList = null;
+        if(cameraPojoList == null || cameraPojoList.size() == 0){
+            cameraPojoList = deviceService.queryCameras();
+        }
+        return Result.success(cameraPojoList);
     }
 
     @RequestMapping(value = "device/setHostMapping", method = RequestMethod.POST)
     public Result setHostMapping(@RequestBody HostRelations hostRelations) {
         if (hostRelations != null && !StringUtils.isEmpty(hostRelations.getPlayHost())) {
-            List<HostRelations> hostRelationss = redisDataUtil.getHostRelationsListFromRedis();
+            /*List<HostRelations> hostRelationss = redisDataUtil.getHostRelationsListFromRedis();
             if (hostRelationss.contains(hostRelations)) {
                 hostRelationss.remove(hostRelations);
             }
             hostRelationss.add(hostRelations);
-            redisUtils.set(Constant.HOST_MAPPING, hostRelationss);
+            redisUtils.set(Constant.HOST_MAPPING, hostRelationss);*/
+            deviceService.setHostMapping(hostRelations);
         } else {
             return Result.fail("hostRelations is null");
         }
@@ -110,20 +128,25 @@ public class DeviceController {
 
     @RequestMapping(value = "device/getHostMapping", method = RequestMethod.GET)
     public Result getHostMapping() {
-        List<HostRelations> hostRelationss = redisDataUtil.getHostRelationsListFromRedis();
+        //List<HostRelations> hostRelationss = redisDataUtil.getHostRelationsListFromRedis();
+        List<HostRelations> hostRelationss = null;
+        if(hostRelationss == null || hostRelationss.size() == 0){
+            hostRelationss = deviceService.getHostMapping();
+        }
         return Result.success(hostRelationss);
     }
 
     @RequestMapping(value = "device/editHostMapping", method = RequestMethod.POST)
     public Result editHostMapping(@RequestBody HostRelations hostRelations) {
         if (hostRelations != null && !StringUtils.isEmpty(hostRelations.getPlayHost())) {
-            List<HostRelations> hostRelationss = redisDataUtil.getHostRelationsListFromRedis();
+            /*List<HostRelations> hostRelationss = redisDataUtil.getHostRelationsListFromRedis();
             if (!hostRelationss.contains(hostRelations)) {
                 return Result.fail("playHost not exist! please refresh the page and try again!");
             }
             hostRelationss.remove(hostRelations);
             hostRelationss.add(hostRelations);
-            redisUtils.set(Constant.HOST_MAPPING, hostRelationss);
+            redisUtils.set(Constant.HOST_MAPPING, hostRelationss);*/
+            deviceService.editHostMapping(hostRelations);
         } else {
             return Result.fail("hostRelations is null");
         }
@@ -133,17 +156,29 @@ public class DeviceController {
     @RequestMapping(value = "device/deleteHostMapping", method = RequestMethod.POST)
     public Result deleteHostMapping(@RequestBody HostRelations hostRelations) {
         if (hostRelations != null && !StringUtils.isEmpty(hostRelations.getPlayHost())) {
-            List<HostRelations> hostRelationss = redisDataUtil.getHostRelationsListFromRedis();
+            deviceService.deleteHostMapping(hostRelations);
+            /*List<HostRelations> hostRelationss = redisDataUtil.getHostRelationsListFromRedis();
             if (!hostRelationss.contains(hostRelations)) {
                 return Result.fail("playHost not exist! please refresh the page and try again!");
             }
             hostRelationss.remove(hostRelations);
-            redisUtils.set(Constant.HOST_MAPPING, hostRelationss);
+            redisUtils.set(Constant.HOST_MAPPING, hostRelationss);*/
         } else {
             return Result.fail("hostRelations is null");
         }
         return Result.success();
     }
 
+    /**
+     * 查询某天的所有回看文件
+     *
+     * @param date
+     * @param ip
+     * @return
+     */
+    @RequestMapping(value = "device/queryRecordList", method = RequestMethod.GET)
+    public Result queryRecordList(@RequestParam String date, @RequestParam String ip){
+        return deviceService.queryRecordList(date, ip);
+    }
 
 }

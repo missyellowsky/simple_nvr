@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="de.onvif.repository.DeviceRepository">
+
+    <resultMap id="hostMapping" type="de.onvif.beans.HostRelations">
+        <id column="playHost" property="playHost"/>
+        <collection property="host" ofType="java.lang.String">
+            <result column="host" />
+        </collection>
+    </resultMap>
+
+    <insert id="addDeviceHost" parameterType="de.onvif.beans.CameraPojo">
+        insert into device_host (playHost,deviceIp) values (#{playHost}, #{ip})
+    </insert>
+
+    <delete id="deleteDeviceHost" parameterType="de.onvif.beans.CameraPojo">
+        delete from device_host where deviceIp = #{ip}
+    </delete>
+
+    <select id="queryCameras" resultType="de.onvif.beans.DeviceInfo" >
+        select di.id, di.ip, di.isAlive, di.hardwareId, di.serialNumber, di.firmwareVersion, di.model, di.manufacturer, dh.playHost
+        from device_info di
+        left join device_host dh on dh.deviceIp = di.ip
+    </select>
+
+    <delete id="deleteCameras">
+        truncate table device_info
+    </delete>
+
+    <insert id="addDevices" >
+        insert into device_info (id, ip, isAlive,hardwareId,serialNumber,firmwareVersion,model,manufacturer) values
+        <foreach collection="list" separator="," item="item">
+            (#{item.id}, #{item.ip}, #{item.isAlive}, #{item.hardwareId}, #{item.serialNumber}, #{item.firmwareVersion}, #{item.model}, #{item.manufacturer})
+        </foreach>
+    </insert>
+
+    <insert id="setHostMapping">
+        insert into host_relations (playHost, host, createDate, updateDate) values
+        <foreach collection="host" item="item" separator="," >
+            (#{playHost}, #{item}, NOW(), NOW())
+        </foreach>
+    </insert>
+
+    <select id="getHostMapping" resultMap="hostMapping">
+        select playHost, host from host_relations order by createDate
+    </select>
+
+    <update id="editHostMapping" parameterType="de.onvif.beans.HostRelations">
+        select 1
+    </update>
+
+    <delete id="deleteHostMapping" parameterType="de.onvif.beans.HostRelations">
+        delete from host_relations where playHost = #{playHost}
+    </delete>
+
+    <select id="getCameraByIp" parameterType="java.lang.String" resultMap="cameraPojo">
+        select dh.deviceIp as ip, dh.playHost, hr.host from device_host dh
+        left join host_relations hr on hr.playHost = dh.playHost
+        where dh.deviceIp = #{ip}
+    </select>
+
+    <resultMap id="cameraPojo" type="de.onvif.beans.CameraPojo">
+        <id column="ip" property="ip"/>
+        <result column="playHost" property="playHost"/>
+        <collection property="host" ofType="java.lang.String">
+            <result column="host" />
+        </collection>
+    </resultMap>
+</mapper>
