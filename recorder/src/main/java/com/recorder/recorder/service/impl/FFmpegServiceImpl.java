@@ -17,6 +17,7 @@ import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -54,6 +55,8 @@ public class FFmpegServiceImpl implements FFmpegService {
 
     @Autowired
     DeviceRepository deviceRepository;
+
+    static Map<String, List<Process>> processMap = new ConcurrentHashMap<>();
 
     @Autowired
     private RedisDataUtil redisDataUtil;
@@ -108,6 +111,22 @@ public class FFmpegServiceImpl implements FFmpegService {
         Long endTime = getDailyEndTime(time * 1000, null);
         List<String> files = getFilesByDate(startTime/1000, endTime/1000, ip);
         return Result.success(files);
+    }
+
+    @Override
+    public Boolean dropStream(String name) {
+        List<Process> processes = processMap.get(name);
+        if(processes == null){
+            return true;
+        }
+        for (Process process:
+                processes) {
+            System.out.println(process.isAlive());
+            process.destroyForcibly();
+            processMap.remove(name);
+            System.out.println(process.isAlive());
+        }
+        return true;
     }
 
     /**
@@ -257,7 +276,7 @@ public class FFmpegServiceImpl implements FFmpegService {
                     System.out.println(command);
                     //执行command
                     try {
-                        exec(command);
+                        exec(id, command);
                     } catch (IOException e) {
                         log.error("执行命令失败: " + command);
                         log.error("执行命令失败原因: " + e.getMessage());
@@ -371,9 +390,15 @@ public class FFmpegServiceImpl implements FFmpegService {
      * @return
      * @throws IOException
      */
-    public static void exec(String cmd) throws IOException {
+    public static void exec(String name,String cmd) throws IOException {
         Runtime runtime = Runtime.getRuntime();
         Process process = runtime.exec(cmd);// 执行命令获取主进程
+        List<Process> processes = processMap.get(name);
+        if(processes == null ){
+            processes = new ArrayList<>();
+        }
+        processes.add(process);
+        processMap.put(name, processes);
     }
 
 }

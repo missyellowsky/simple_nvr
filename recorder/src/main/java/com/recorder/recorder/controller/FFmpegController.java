@@ -9,6 +9,7 @@ import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 @RestController
 public class FFmpegController {
@@ -49,6 +50,18 @@ public class FFmpegController {
     @RequestMapping(value = "record/queryRecordList", method = RequestMethod.GET)
     public Result queryRecordList(@RequestParam String date, @RequestParam String ip) {
         return fFmpegService.queryRecordList(date, ip);
+    }
+
+
+    @RequestMapping(value = "record/dropStream", method = RequestMethod.POST)
+    public Result dropStream(@RequestParam(name = "name", required = true) String name, HttpServletResponse response){
+        System.out.println(name);
+        Boolean result = fFmpegService.dropStream(name);
+        System.out.println(result);
+        if(!result){
+            response.setStatus(HttpServletResponse.SC_NOT_FOUND);//设置状态码
+        }
+        return Result.success();
     }
 
 }

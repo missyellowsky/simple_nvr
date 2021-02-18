@@ -10,4 +10,6 @@ public interface FFmpegService {
     Result compensateFirstFlv(String path, long current);
 
     Result queryRecordList(String date, String ip);
+
+    Boolean dropStream(String name);
 }
