@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AnalyticsEngineControl complex type.
+ * <p>AnalyticsEngineControl complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AnalyticsEngineControl"&gt;
@@ -81,7 +81,7 @@ public class AnalyticsEngineControl
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the engineToken property.
+     * 获取engineToken属性的值。
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Sets the value of the engineToken property.
+     * 设置engineToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Gets the value of the engineConfigToken property.
+     * 获取engineConfigToken属性的值。
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Sets the value of the engineConfigToken property.
+     * 设置engineConfigToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Gets the value of the multicast property.
+     * 获取multicast属性的值。
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Sets the value of the multicast property.
+     * 设置multicast属性的值。
      * 
      * @param value
      *     allowed object is
@@ -211,7 +211,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Gets the value of the subscription property.
+     * 获取subscription属性的值。
      * 
      * @return
      *     possible object is
@@ -223,7 +223,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Sets the value of the subscription property.
+     * 设置subscription属性的值。
      * 
      * @param value
      *     allowed object is
@@ -235,7 +235,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -247,7 +247,7 @@ public class AnalyticsEngineControl
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is

@@ -22,9 +22,9 @@ import org.w3c.dom.Element;
  * Subcription handling in the same way as base notification subscription.
  *       
  * 
- * <p>Java class for EventSubscription complex type.
+ * <p>EventSubscription complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="EventSubscription"&gt;
@@ -71,7 +71,7 @@ public class EventSubscription {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the filter property.
+     * 获取filter属性的值。
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class EventSubscription {
     }
 
     /**
-     * Sets the value of the filter property.
+     * 设置filter属性的值。
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class EventSubscription {
     }
 
     /**
-     * Gets the value of the subscriptionPolicy property.
+     * 获取subscriptionPolicy属性的值。
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class EventSubscription {
     }
 
     /**
-     * Sets the value of the subscriptionPolicy property.
+     * 设置subscriptionPolicy属性的值。
      * 
      * @param value
      *     allowed object is
@@ -178,9 +178,9 @@ public class EventSubscription {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

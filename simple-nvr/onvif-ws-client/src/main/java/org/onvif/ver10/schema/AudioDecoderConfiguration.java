@@ -22,9 +22,9 @@ import org.w3c.dom.Element;
  *         decoding .A decoder shall decode every data it receives (according to its capabilities).
  *       
  * 
- * <p>Java class for AudioDecoderConfiguration complex type.
+ * <p>AudioDecoderConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AudioDecoderConfiguration"&gt;

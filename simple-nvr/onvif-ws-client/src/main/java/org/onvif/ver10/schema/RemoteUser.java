@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RemoteUser complex type.
+ * <p>RemoteUser complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="RemoteUser"&gt;
@@ -61,7 +61,7 @@ public class RemoteUser {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the username property.
+     * 获取username属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class RemoteUser {
     }
 
     /**
-     * Sets the value of the username property.
+     * 设置username属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class RemoteUser {
     }
 
     /**
-     * Gets the value of the password property.
+     * 获取password属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class RemoteUser {
     }
 
     /**
-     * Sets the value of the password property.
+     * 设置password属性的值。
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class RemoteUser {
     }
 
     /**
-     * Gets the value of the useDerivedPassword property.
+     * 获取useDerivedPassword属性的值。
      * This getter has been renamed from isUseDerivedPassword() to getUseDerivedPassword() by cxf-xjc-boolean plugin.
      * 
      */
@@ -118,7 +118,7 @@ public class RemoteUser {
     }
 
     /**
-     * Sets the value of the useDerivedPassword property.
+     * 设置useDerivedPassword属性的值。
      * 
      */
     public void setUseDerivedPassword(boolean value) {

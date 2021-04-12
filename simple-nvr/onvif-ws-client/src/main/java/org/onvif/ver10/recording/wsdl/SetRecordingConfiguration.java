@@ -12,9 +12,9 @@ import org.onvif.ver10.schema.RecordingConfiguration;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -45,7 +45,7 @@ public class SetRecordingConfiguration {
     protected RecordingConfiguration recordingConfiguration;
 
     /**
-     * Gets the value of the recordingToken property.
+     * 获取recordingToken属性的值。
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class SetRecordingConfiguration {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * 设置recordingToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class SetRecordingConfiguration {
     }
 
     /**
-     * Gets the value of the recordingConfiguration property.
+     * 获取recordingConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class SetRecordingConfiguration {
     }
 
     /**
-     * Sets the value of the recordingConfiguration property.
+     * 设置recordingConfiguration属性的值。
      * 
      * @param value
      *     allowed object is

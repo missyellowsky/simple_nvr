@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for reasontext complex type.
+ * <p>reasontext complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="reasontext"&gt;
@@ -39,7 +39,7 @@ public class Reasontext {
     protected String lang;
 
     /**
-     * Gets the value of the value property.
+     * 获取value属性的值。
      * 
      * @return
      *     possible object is
@@ -51,7 +51,7 @@ public class Reasontext {
     }
 
     /**
-     * Sets the value of the value property.
+     * 设置value属性的值。
      * 
      * @param value
      *     allowed object is
@@ -63,7 +63,7 @@ public class Reasontext {
     }
 
     /**
-     * Gets the value of the lang property.
+     * 获取lang属性的值。
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class Reasontext {
     }
 
     /**
-     * Sets the value of the lang property.
+     * 设置lang属性的值。
      * 
      * @param value
      *     allowed object is

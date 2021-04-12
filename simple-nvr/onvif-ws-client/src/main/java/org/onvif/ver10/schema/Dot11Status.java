@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Dot11Status complex type.
+ * <p>Dot11Status complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Dot11Status"&gt;
@@ -81,7 +81,7 @@ public class Dot11Status {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ssid property.
+     * 获取ssid属性的值。
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the ssid property.
+     * 设置ssid属性的值。
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class Dot11Status {
     }
 
     /**
-     * Gets the value of the bssid property.
+     * 获取bssid属性的值。
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the bssid property.
+     * 设置bssid属性的值。
      * 
      * @param value
      *     allowed object is
@@ -129,7 +129,7 @@ public class Dot11Status {
     }
 
     /**
-     * Gets the value of the pairCipher property.
+     * 获取pairCipher属性的值。
      * 
      * @return
      *     possible object is
@@ -141,7 +141,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the pairCipher property.
+     * 设置pairCipher属性的值。
      * 
      * @param value
      *     allowed object is
@@ -153,7 +153,7 @@ public class Dot11Status {
     }
 
     /**
-     * Gets the value of the groupCipher property.
+     * 获取groupCipher属性的值。
      * 
      * @return
      *     possible object is
@@ -165,7 +165,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the groupCipher property.
+     * 设置groupCipher属性的值。
      * 
      * @param value
      *     allowed object is
@@ -177,7 +177,7 @@ public class Dot11Status {
     }
 
     /**
-     * Gets the value of the signalStrength property.
+     * 获取signalStrength属性的值。
      * 
      * @return
      *     possible object is
@@ -189,7 +189,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the signalStrength property.
+     * 设置signalStrength属性的值。
      * 
      * @param value
      *     allowed object is
@@ -201,7 +201,7 @@ public class Dot11Status {
     }
 
     /**
-     * Gets the value of the activeConfigAlias property.
+     * 获取activeConfigAlias属性的值。
      * 
      * @return
      *     possible object is
@@ -213,7 +213,7 @@ public class Dot11Status {
     }
 
     /**
-     * Sets the value of the activeConfigAlias property.
+     * 设置activeConfigAlias属性的值。
      * 
      * @param value
      *     allowed object is

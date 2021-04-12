@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioEncoderConfiguration complex type.
+ * <p>AudioEncoderConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AudioEncoderConfiguration"&gt;
@@ -74,7 +74,7 @@ public class AudioEncoderConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * 获取encoding属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class AudioEncoderConfiguration
     }
 
     /**
-     * Sets the value of the encoding property.
+     * 设置encoding属性的值。
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class AudioEncoderConfiguration
     }
 
     /**
-     * Gets the value of the bitrate property.
+     * 获取bitrate属性的值。
      * 
      */
     public int getBitrate() {
@@ -106,7 +106,7 @@ public class AudioEncoderConfiguration
     }
 
     /**
-     * Sets the value of the bitrate property.
+     * 设置bitrate属性的值。
      * 
      */
     public void setBitrate(int value) {
@@ -114,7 +114,7 @@ public class AudioEncoderConfiguration
     }
 
     /**
-     * Gets the value of the sampleRate property.
+     * 获取sampleRate属性的值。
      * 
      */
     public int getSampleRate() {
@@ -122,7 +122,7 @@ public class AudioEncoderConfiguration
     }
 
     /**
-     * Sets the value of the sampleRate property.
+     * 设置sampleRate属性的值。
      * 
      */
     public void setSampleRate(int value) {
@@ -130,7 +130,7 @@ public class AudioEncoderConfiguration
     }
 
     /**
-     * Gets the value of the multicast property.
+     * 获取multicast属性的值。
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class AudioEncoderConfiguration
     }
 
     /**
-     * Sets the value of the multicast property.
+     * 设置multicast属性的值。
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class AudioEncoderConfiguration
     }
 
     /**
-     * Gets the value of the sessionTimeout property.
+     * 获取sessionTimeout属性的值。
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class AudioEncoderConfiguration
     }
 
     /**
-     * Sets the value of the sessionTimeout property.
+     * 设置sessionTimeout属性的值。
      * 
      * @param value
      *     allowed object is

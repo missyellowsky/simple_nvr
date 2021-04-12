@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MotionInCells complex type.
+ * <p>MotionInCells complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MotionInCells"&gt;
@@ -89,7 +89,7 @@ public class MotionInCells {
     }
 
     /**
-     * Gets the value of the columns property.
+     * 获取columns属性的值。
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class MotionInCells {
     }
 
     /**
-     * Sets the value of the columns property.
+     * 设置columns属性的值。
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class MotionInCells {
     }
 
     /**
-     * Gets the value of the rows property.
+     * 获取rows属性的值。
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class MotionInCells {
     }
 
     /**
-     * Sets the value of the rows property.
+     * 设置rows属性的值。
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class MotionInCells {
     }
 
     /**
-     * Gets the value of the cells property.
+     * 获取cells属性的值。
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class MotionInCells {
     }
 
     /**
-     * Sets the value of the cells property.
+     * 设置cells属性的值。
      * 
      * @param value
      *     allowed object is

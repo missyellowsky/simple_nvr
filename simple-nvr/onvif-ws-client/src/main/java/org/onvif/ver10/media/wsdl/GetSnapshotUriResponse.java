@@ -12,9 +12,9 @@ import org.onvif.ver10.schema.MediaUri;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -41,7 +41,7 @@ public class GetSnapshotUriResponse {
     protected MediaUri mediaUri;
 
     /**
-     * Gets the value of the mediaUri property.
+     * 获取mediaUri属性的值。
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class GetSnapshotUriResponse {
     }
 
     /**
-     * Sets the value of the mediaUri property.
+     * 设置mediaUri属性的值。
      * 
      * @param value
      *     allowed object is

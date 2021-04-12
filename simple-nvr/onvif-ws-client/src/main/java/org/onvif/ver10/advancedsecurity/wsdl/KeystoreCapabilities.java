@@ -24,9 +24,9 @@ import org.w3c.dom.Element;
  * The capabilities of a keystore implementation on a device.
  *           
  * 
- * <p>Java class for KeystoreCapabilities complex type.
+ * <p>KeystoreCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="KeystoreCapabilities"&gt;
@@ -151,7 +151,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the anyElement property.
+     * 获取anyElement属性的值。
      * 
      * @return
      *     possible object is
@@ -163,7 +163,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the anyElement property.
+     * 设置anyElement属性的值。
      * 
      * @param value
      *     allowed object is
@@ -175,7 +175,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfKeys property.
+     * 获取maximumNumberOfKeys属性的值。
      * 
      * @return
      *     possible object is
@@ -187,7 +187,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfKeys property.
+     * 设置maximumNumberOfKeys属性的值。
      * 
      * @param value
      *     allowed object is
@@ -199,7 +199,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfCertificates property.
+     * 获取maximumNumberOfCertificates属性的值。
      * 
      * @return
      *     possible object is
@@ -211,7 +211,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfCertificates property.
+     * 设置maximumNumberOfCertificates属性的值。
      * 
      * @param value
      *     allowed object is
@@ -223,7 +223,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfCertificationPaths property.
+     * 获取maximumNumberOfCertificationPaths属性的值。
      * 
      * @return
      *     possible object is
@@ -235,7 +235,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfCertificationPaths property.
+     * 设置maximumNumberOfCertificationPaths属性的值。
      * 
      * @param value
      *     allowed object is
@@ -247,7 +247,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the rsaKeyPairGeneration property.
+     * 获取rsaKeyPairGeneration属性的值。
      * This getter has been renamed from isRSAKeyPairGeneration() to getRSAKeyPairGeneration() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -260,7 +260,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the rsaKeyPairGeneration property.
+     * 设置rsaKeyPairGeneration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -301,7 +301,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the pkcs10ExternalCertificationWithRSA property.
+     * 获取pkcs10ExternalCertificationWithRSA属性的值。
      * This getter has been renamed from isPKCS10ExternalCertificationWithRSA() to getPKCS10ExternalCertificationWithRSA() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -314,7 +314,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the pkcs10ExternalCertificationWithRSA property.
+     * 设置pkcs10ExternalCertificationWithRSA属性的值。
      * 
      * @param value
      *     allowed object is
@@ -326,7 +326,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the selfSignedCertificateCreationWithRSA property.
+     * 获取selfSignedCertificateCreationWithRSA属性的值。
      * This getter has been renamed from isSelfSignedCertificateCreationWithRSA() to getSelfSignedCertificateCreationWithRSA() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -339,7 +339,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the selfSignedCertificateCreationWithRSA property.
+     * 设置selfSignedCertificateCreationWithRSA属性的值。
      * 
      * @param value
      *     allowed object is
@@ -380,7 +380,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfPassphrases property.
+     * 获取maximumNumberOfPassphrases属性的值。
      * 
      * @return
      *     possible object is
@@ -392,7 +392,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfPassphrases property.
+     * 设置maximumNumberOfPassphrases属性的值。
      * 
      * @param value
      *     allowed object is
@@ -404,7 +404,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the pkcs8RSAKeyPairUpload property.
+     * 获取pkcs8RSAKeyPairUpload属性的值。
      * This getter has been renamed from isPKCS8RSAKeyPairUpload() to getPKCS8RSAKeyPairUpload() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -417,7 +417,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the pkcs8RSAKeyPairUpload property.
+     * 设置pkcs8RSAKeyPairUpload属性的值。
      * 
      * @param value
      *     allowed object is
@@ -429,7 +429,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the pkcs12CertificateWithRSAPrivateKeyUpload property.
+     * 获取pkcs12CertificateWithRSAPrivateKeyUpload属性的值。
      * This getter has been renamed from isPKCS12CertificateWithRSAPrivateKeyUpload() to getPKCS12CertificateWithRSAPrivateKeyUpload() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -442,7 +442,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the pkcs12CertificateWithRSAPrivateKeyUpload property.
+     * 设置pkcs12CertificateWithRSAPrivateKeyUpload属性的值。
      * 
      * @param value
      *     allowed object is
@@ -512,7 +512,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfCRLs property.
+     * 获取maximumNumberOfCRLs属性的值。
      * 
      * @return
      *     possible object is
@@ -524,7 +524,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfCRLs property.
+     * 设置maximumNumberOfCRLs属性的值。
      * 
      * @param value
      *     allowed object is
@@ -536,7 +536,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfCertificationPathValidationPolicies property.
+     * 获取maximumNumberOfCertificationPathValidationPolicies属性的值。
      * 
      * @return
      *     possible object is
@@ -548,7 +548,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfCertificationPathValidationPolicies property.
+     * 设置maximumNumberOfCertificationPathValidationPolicies属性的值。
      * 
      * @param value
      *     allowed object is
@@ -560,7 +560,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Gets the value of the enforceTLSWebClientAuthExtKeyUsage property.
+     * 获取enforceTLSWebClientAuthExtKeyUsage属性的值。
      * This getter has been renamed from isEnforceTLSWebClientAuthExtKeyUsage() to getEnforceTLSWebClientAuthExtKeyUsage() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -573,7 +573,7 @@ public class KeystoreCapabilities {
     }
 
     /**
-     * Sets the value of the enforceTLSWebClientAuthExtKeyUsage property.
+     * 设置enforceTLSWebClientAuthExtKeyUsage属性的值。
      * 
      * @param value
      *     allowed object is
@@ -614,9 +614,9 @@ public class KeystoreCapabilities {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

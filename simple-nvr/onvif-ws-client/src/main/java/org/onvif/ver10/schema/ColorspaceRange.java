@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ColorspaceRange complex type.
+ * <p>ColorspaceRange complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ColorspaceRange"&gt;
@@ -59,7 +59,7 @@ public class ColorspaceRange {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the x property.
+     * 获取x属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class ColorspaceRange {
     }
 
     /**
-     * Sets the value of the x property.
+     * 设置x属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class ColorspaceRange {
     }
 
     /**
-     * Gets the value of the y property.
+     * 获取y属性的值。
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class ColorspaceRange {
     }
 
     /**
-     * Sets the value of the y property.
+     * 设置y属性的值。
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class ColorspaceRange {
     }
 
     /**
-     * Gets the value of the z property.
+     * 获取z属性的值。
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class ColorspaceRange {
     }
 
     /**
-     * Sets the value of the z property.
+     * 设置z属性的值。
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class ColorspaceRange {
     }
 
     /**
-     * Gets the value of the colorspace property.
+     * 获取colorspace属性的值。
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class ColorspaceRange {
     }
 
     /**
-     * Sets the value of the colorspace property.
+     * 设置colorspace属性的值。
      * 
      * @param value
      *     allowed object is

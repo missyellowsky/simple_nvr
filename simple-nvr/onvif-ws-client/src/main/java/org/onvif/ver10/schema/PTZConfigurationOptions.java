@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZConfigurationOptions complex type.
+ * <p>PTZConfigurationOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZConfigurationOptions"&gt;
@@ -69,7 +69,7 @@ public class PTZConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the spaces property.
+     * 获取spaces属性的值。
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Sets the value of the spaces property.
+     * 设置spaces属性的值。
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Gets the value of the ptzTimeout property.
+     * 获取ptzTimeout属性的值。
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Sets the value of the ptzTimeout property.
+     * 设置ptzTimeout属性的值。
      * 
      * @param value
      *     allowed object is
@@ -147,7 +147,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Gets the value of the ptControlDirection property.
+     * 获取ptControlDirection属性的值。
      * 
      * @return
      *     possible object is
@@ -159,7 +159,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Sets the value of the ptControlDirection property.
+     * 设置ptControlDirection属性的值。
      * 
      * @param value
      *     allowed object is
@@ -171,7 +171,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -183,7 +183,7 @@ public class PTZConfigurationOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

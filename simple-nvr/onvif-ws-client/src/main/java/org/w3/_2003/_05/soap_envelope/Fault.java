@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  * 	    Fault reporting structure
  * 	  
  * 
- * <p>Java class for Fault complex type.
+ * <p>Fault complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Fault"&gt;
@@ -61,7 +61,7 @@ public class Fault {
     protected Detail detail;
 
     /**
-     * Gets the value of the code property.
+     * 获取code属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class Fault {
     }
 
     /**
-     * Sets the value of the code property.
+     * 设置code属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class Fault {
     }
 
     /**
-     * Gets the value of the reason property.
+     * 获取reason属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class Fault {
     }
 
     /**
-     * Sets the value of the reason property.
+     * 设置reason属性的值。
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class Fault {
     }
 
     /**
-     * Gets the value of the node property.
+     * 获取node属性的值。
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class Fault {
     }
 
     /**
-     * Sets the value of the node property.
+     * 设置node属性的值。
      * 
      * @param value
      *     allowed object is
@@ -133,7 +133,7 @@ public class Fault {
     }
 
     /**
-     * Gets the value of the role property.
+     * 获取role属性的值。
      * 
      * @return
      *     possible object is
@@ -145,7 +145,7 @@ public class Fault {
     }
 
     /**
-     * Sets the value of the role property.
+     * 设置role属性的值。
      * 
      * @param value
      *     allowed object is
@@ -157,7 +157,7 @@ public class Fault {
     }
 
     /**
-     * Gets the value of the detail property.
+     * 获取detail属性的值。
      * 
      * @return
      *     possible object is
@@ -169,7 +169,7 @@ public class Fault {
     }
 
     /**
-     * Sets the value of the detail property.
+     * 设置detail属性的值。
      * 
      * @param value
      *     allowed object is

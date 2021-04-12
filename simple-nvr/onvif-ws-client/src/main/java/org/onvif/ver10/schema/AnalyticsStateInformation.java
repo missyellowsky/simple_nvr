@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AnalyticsStateInformation complex type.
+ * <p>AnalyticsStateInformation complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AnalyticsStateInformation"&gt;
@@ -57,7 +57,7 @@ public class AnalyticsStateInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the analyticsEngineControlToken property.
+     * 获取analyticsEngineControlToken属性的值。
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class AnalyticsStateInformation {
     }
 
     /**
-     * Sets the value of the analyticsEngineControlToken property.
+     * 设置analyticsEngineControlToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class AnalyticsStateInformation {
     }
 
     /**
-     * Gets the value of the state property.
+     * 获取state属性的值。
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class AnalyticsStateInformation {
     }
 
     /**
-     * Sets the value of the state property.
+     * 设置state属性的值。
      * 
      * @param value
      *     allowed object is

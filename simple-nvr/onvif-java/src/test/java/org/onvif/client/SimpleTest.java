@@ -1,3 +1,4 @@
+/*
 package org.onvif.client;
 
 import de.onvif.soap.OnvifDevice;
@@ -54,3 +55,4 @@ public class SimpleTest {
     }
   }
 }
+*/

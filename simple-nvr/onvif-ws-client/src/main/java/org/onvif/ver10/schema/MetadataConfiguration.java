@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MetadataConfiguration complex type.
+ * <p>MetadataConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MetadataConfiguration"&gt;
@@ -84,7 +84,7 @@ public class MetadataConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ptzStatus property.
+     * 获取ptzStatus属性的值。
      * 
      * @return
      *     possible object is
@@ -96,7 +96,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the ptzStatus property.
+     * 设置ptzStatus属性的值。
      * 
      * @param value
      *     allowed object is
@@ -108,7 +108,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the events property.
+     * 获取events属性的值。
      * 
      * @return
      *     possible object is
@@ -120,7 +120,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the events property.
+     * 设置events属性的值。
      * 
      * @param value
      *     allowed object is
@@ -132,7 +132,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the analytics property.
+     * 获取analytics属性的值。
      * This getter has been renamed from isAnalytics() to getAnalytics() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -145,7 +145,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the analytics property.
+     * 设置analytics属性的值。
      * 
      * @param value
      *     allowed object is
@@ -157,7 +157,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the multicast property.
+     * 获取multicast属性的值。
      * 
      * @return
      *     possible object is
@@ -169,7 +169,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the multicast property.
+     * 设置multicast属性的值。
      * 
      * @param value
      *     allowed object is
@@ -181,7 +181,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the sessionTimeout property.
+     * 获取sessionTimeout属性的值。
      * 
      * @return
      *     possible object is
@@ -193,7 +193,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the sessionTimeout property.
+     * 设置sessionTimeout属性的值。
      * 
      * @param value
      *     allowed object is
@@ -235,7 +235,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the analyticsEngineConfiguration property.
+     * 获取analyticsEngineConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -247,7 +247,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the analyticsEngineConfiguration property.
+     * 设置analyticsEngineConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -259,7 +259,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -271,7 +271,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -283,7 +283,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Gets the value of the compressionType property.
+     * 获取compressionType属性的值。
      * 
      * @return
      *     possible object is
@@ -295,7 +295,7 @@ public class MetadataConfiguration
     }
 
     /**
-     * Sets the value of the compressionType property.
+     * 设置compressionType属性的值。
      * 
      * @param value
      *     allowed object is

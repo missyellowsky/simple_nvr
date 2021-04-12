@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoRateControl2 complex type.
+ * <p>VideoRateControl2 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoRateControl2"&gt;
@@ -61,7 +61,7 @@ public class VideoRateControl2 {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the frameRateLimit property.
+     * 获取frameRateLimit属性的值。
      * 
      */
     public float getFrameRateLimit() {
@@ -69,7 +69,7 @@ public class VideoRateControl2 {
     }
 
     /**
-     * Sets the value of the frameRateLimit property.
+     * 设置frameRateLimit属性的值。
      * 
      */
     public void setFrameRateLimit(float value) {
@@ -77,7 +77,7 @@ public class VideoRateControl2 {
     }
 
     /**
-     * Gets the value of the bitrateLimit property.
+     * 获取bitrateLimit属性的值。
      * 
      */
     public int getBitrateLimit() {
@@ -85,7 +85,7 @@ public class VideoRateControl2 {
     }
 
     /**
-     * Sets the value of the bitrateLimit property.
+     * 设置bitrateLimit属性的值。
      * 
      */
     public void setBitrateLimit(int value) {
@@ -123,7 +123,7 @@ public class VideoRateControl2 {
     }
 
     /**
-     * Gets the value of the constantBitRate property.
+     * 获取constantBitRate属性的值。
      * This getter has been renamed from isConstantBitRate() to getConstantBitRate() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -136,7 +136,7 @@ public class VideoRateControl2 {
     }
 
     /**
-     * Sets the value of the constantBitRate property.
+     * 设置constantBitRate属性的值。
      * 
      * @param value
      *     allowed object is

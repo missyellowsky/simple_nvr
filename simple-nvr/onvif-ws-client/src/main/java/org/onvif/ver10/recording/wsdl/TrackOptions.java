@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for TrackOptions complex type.
+ * <p>TrackOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="TrackOptions"&gt;
@@ -50,7 +50,7 @@ public class TrackOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the spareTotal property.
+     * 获取spareTotal属性的值。
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class TrackOptions {
     }
 
     /**
-     * Sets the value of the spareTotal property.
+     * 设置spareTotal属性的值。
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class TrackOptions {
     }
 
     /**
-     * Gets the value of the spareVideo property.
+     * 获取spareVideo属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class TrackOptions {
     }
 
     /**
-     * Sets the value of the spareVideo property.
+     * 设置spareVideo属性的值。
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class TrackOptions {
     }
 
     /**
-     * Gets the value of the spareAudio property.
+     * 获取spareAudio属性的值。
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class TrackOptions {
     }
 
     /**
-     * Sets the value of the spareAudio property.
+     * 设置spareAudio属性的值。
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class TrackOptions {
     }
 
     /**
-     * Gets the value of the spareMetadata property.
+     * 获取spareMetadata属性的值。
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class TrackOptions {
     }
 
     /**
-     * Sets the value of the spareMetadata property.
+     * 设置spareMetadata属性的值。
      * 
      * @param value
      *     allowed object is

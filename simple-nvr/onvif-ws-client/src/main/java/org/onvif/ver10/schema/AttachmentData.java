@@ -12,9 +12,9 @@ import org.w3._2004._08.xop.include.Include;
 
 
 /**
- * <p>Java class for AttachmentData complex type.
+ * <p>AttachmentData complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AttachmentData"&gt;
@@ -43,7 +43,7 @@ public class AttachmentData {
     protected String contentType;
 
     /**
-     * Gets the value of the include property.
+     * 获取include属性的值。
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class AttachmentData {
     }
 
     /**
-     * Sets the value of the include property.
+     * 设置include属性的值。
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class AttachmentData {
     }
 
     /**
-     * Gets the value of the contentType property.
+     * 获取contentType属性的值。
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class AttachmentData {
     }
 
     /**
-     * Sets the value of the contentType property.
+     * 设置contentType属性的值。
      * 
      * @param value
      *     allowed object is

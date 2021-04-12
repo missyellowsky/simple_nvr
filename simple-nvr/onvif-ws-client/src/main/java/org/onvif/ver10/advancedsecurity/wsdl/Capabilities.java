@@ -22,9 +22,9 @@ import org.w3c.dom.Element;
  *             device.
  *           
  * 
- * <p>Java class for Capabilities complex type.
+ * <p>Capabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -61,7 +61,7 @@ public class Capabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the keystoreCapabilities property.
+     * 获取keystoreCapabilities属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the keystoreCapabilities property.
+     * 设置keystoreCapabilities属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the tlsServerCapabilities property.
+     * 获取tlsServerCapabilities属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the tlsServerCapabilities property.
+     * 设置tlsServerCapabilities属性的值。
      * 
      * @param value
      *     allowed object is

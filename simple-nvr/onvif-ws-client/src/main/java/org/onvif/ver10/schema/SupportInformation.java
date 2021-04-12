@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for SupportInformation complex type.
+ * <p>SupportInformation complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SupportInformation"&gt;
@@ -42,7 +42,7 @@ public class SupportInformation {
     protected String string;
 
     /**
-     * Gets the value of the binary property.
+     * 获取binary属性的值。
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class SupportInformation {
     }
 
     /**
-     * Sets the value of the binary property.
+     * 设置binary属性的值。
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class SupportInformation {
     }
 
     /**
-     * Gets the value of the string property.
+     * 获取string属性的值。
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class SupportInformation {
     }
 
     /**
-     * Sets the value of the string property.
+     * 设置string属性的值。
      * 
      * @param value
      *     allowed object is

@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for StreamingCapabilities complex type.
+ * <p>StreamingCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="StreamingCapabilities"&gt;
@@ -94,7 +94,7 @@ public class StreamingCapabilities {
     }
 
     /**
-     * Gets the value of the rtpMulticast property.
+     * 获取rtpMulticast属性的值。
      * This getter has been renamed from isRTPMulticast() to getRTPMulticast() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -107,7 +107,7 @@ public class StreamingCapabilities {
     }
 
     /**
-     * Sets the value of the rtpMulticast property.
+     * 设置rtpMulticast属性的值。
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class StreamingCapabilities {
     }
 
     /**
-     * Gets the value of the rtptcp property.
+     * 获取rtptcp属性的值。
      * This getter has been renamed from isRTPTCP() to getRTPTCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -132,7 +132,7 @@ public class StreamingCapabilities {
     }
 
     /**
-     * Sets the value of the rtptcp property.
+     * 设置rtptcp属性的值。
      * 
      * @param value
      *     allowed object is
@@ -144,7 +144,7 @@ public class StreamingCapabilities {
     }
 
     /**
-     * Gets the value of the rtprtsptcp property.
+     * 获取rtprtsptcp属性的值。
      * This getter has been renamed from isRTPRTSPTCP() to getRTPRTSPTCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -157,7 +157,7 @@ public class StreamingCapabilities {
     }
 
     /**
-     * Sets the value of the rtprtsptcp property.
+     * 设置rtprtsptcp属性的值。
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class StreamingCapabilities {
     }
 
     /**
-     * Gets the value of the nonAggregateControl property.
+     * 获取nonAggregateControl属性的值。
      * This getter has been renamed from isNonAggregateControl() to getNonAggregateControl() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -182,7 +182,7 @@ public class StreamingCapabilities {
     }
 
     /**
-     * Sets the value of the nonAggregateControl property.
+     * 设置nonAggregateControl属性的值。
      * 
      * @param value
      *     allowed object is
@@ -194,7 +194,7 @@ public class StreamingCapabilities {
     }
 
     /**
-     * Gets the value of the noRTSPStreaming property.
+     * 获取noRTSPStreaming属性的值。
      * This getter has been renamed from isNoRTSPStreaming() to getNoRTSPStreaming() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -207,7 +207,7 @@ public class StreamingCapabilities {
     }
 
     /**
-     * Sets the value of the noRTSPStreaming property.
+     * 设置noRTSPStreaming属性的值。
      * 
      * @param value
      *     allowed object is

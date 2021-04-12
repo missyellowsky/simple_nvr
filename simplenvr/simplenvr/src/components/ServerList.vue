@@ -105,7 +105,6 @@
     name: 'ServerList',
     data() {
       var checkMultiIp = (rule,value,callback)=>{
-        debugger
         let host = value.split(",");
         if(host == null || host.length == 0){
           callback(new Error("错误的ip地址: " + value));
@@ -119,7 +118,6 @@
         callback();
       }
       var checkIp = (rule,value,callback)=>{
-        debugger
         let host = value;
         if(host == null || host.length == 0 || !this.isValidIP(host)){
           callback(new Error("错误的ip地址: " + value));
@@ -179,7 +177,6 @@
         })
       },
       hostFormatter(row, column){
-        debugger
         let host = row.host;
 
         if(host){
@@ -250,7 +247,6 @@
         this.title="新增服务器"
       },
       saveAddForm(addForm){
-        debugger
         this.$refs[addForm].validate( (valid) => {
           let params={
             playHost:this.addForm.playHost,

@@ -18,9 +18,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  * General date time inforamtion returned by the GetSystemDateTime method.
  *       
  * 
- * <p>Java class for SystemDateTime complex type.
+ * <p>SystemDateTime complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SystemDateTime"&gt;
@@ -70,7 +70,7 @@ public class SystemDateTime {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the dateTimeType property.
+     * 获取dateTimeType属性的值。
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Sets the value of the dateTimeType property.
+     * 设置dateTimeType属性的值。
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Gets the value of the daylightSavings property.
+     * 获取daylightSavings属性的值。
      * This getter has been renamed from isDaylightSavings() to getDaylightSavings() by cxf-xjc-boolean plugin.
      * 
      */
@@ -103,7 +103,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Sets the value of the daylightSavings property.
+     * 设置daylightSavings属性的值。
      * 
      */
     public void setDaylightSavings(boolean value) {
@@ -111,7 +111,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Gets the value of the timeZone property.
+     * 获取timeZone属性的值。
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Sets the value of the timeZone property.
+     * 设置timeZone属性的值。
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Gets the value of the utcDateTime property.
+     * 获取utcDateTime属性的值。
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Sets the value of the utcDateTime property.
+     * 设置utcDateTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Gets the value of the localDateTime property.
+     * 获取localDateTime属性的值。
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Sets the value of the localDateTime property.
+     * 设置localDateTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -183,7 +183,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class SystemDateTime {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

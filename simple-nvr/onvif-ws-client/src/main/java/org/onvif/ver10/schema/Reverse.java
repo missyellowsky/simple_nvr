@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Reverse complex type.
+ * <p>Reverse complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Reverse"&gt;
@@ -55,7 +55,7 @@ public class Reverse {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class Reverse {
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is

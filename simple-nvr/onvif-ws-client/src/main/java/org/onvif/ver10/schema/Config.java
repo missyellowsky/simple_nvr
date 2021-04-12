@@ -12,9 +12,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Config complex type.
+ * <p>Config complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Config"&gt;
@@ -46,7 +46,7 @@ public class Config {
     protected QName type;
 
     /**
-     * Gets the value of the parameters property.
+     * 获取parameters属性的值。
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class Config {
     }
 
     /**
-     * Sets the value of the parameters property.
+     * 设置parameters属性的值。
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class Config {
     }
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class Config {
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class Config {
     }
 
     /**
-     * Gets the value of the type property.
+     * 获取type属性的值。
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class Config {
     }
 
     /**
-     * Sets the value of the type property.
+     * 设置type属性的值。
      * 
      * @param value
      *     allowed object is

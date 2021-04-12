@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for NetworkInterfaceLink complex type.
+ * <p>NetworkInterfaceLink complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="NetworkInterfaceLink"&gt;
@@ -46,7 +46,7 @@ public class NetworkInterfaceLink {
     protected int interfaceType;
 
     /**
-     * Gets the value of the adminSettings property.
+     * 获取adminSettings属性的值。
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class NetworkInterfaceLink {
     }
 
     /**
-     * Sets the value of the adminSettings property.
+     * 设置adminSettings属性的值。
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class NetworkInterfaceLink {
     }
 
     /**
-     * Gets the value of the operSettings property.
+     * 获取operSettings属性的值。
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class NetworkInterfaceLink {
     }
 
     /**
-     * Sets the value of the operSettings property.
+     * 设置operSettings属性的值。
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class NetworkInterfaceLink {
     }
 
     /**
-     * Gets the value of the interfaceType property.
+     * 获取interfaceType属性的值。
      * 
      */
     public int getInterfaceType() {
@@ -102,7 +102,7 @@ public class NetworkInterfaceLink {
     }
 
     /**
-     * Sets the value of the interfaceType property.
+     * 设置interfaceType属性的值。
      * 
      */
     public void setInterfaceType(int value) {

@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Vector2D complex type.
+ * <p>Vector2D complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Vector2D"&gt;
@@ -42,7 +42,7 @@ public class Vector2D {
     protected String space;
 
     /**
-     * Gets the value of the x property.
+     * 获取x属性的值。
      * 
      */
     public float getX() {
@@ -50,7 +50,7 @@ public class Vector2D {
     }
 
     /**
-     * Sets the value of the x property.
+     * 设置x属性的值。
      * 
      */
     public void setX(float value) {
@@ -58,7 +58,7 @@ public class Vector2D {
     }
 
     /**
-     * Gets the value of the y property.
+     * 获取y属性的值。
      * 
      */
     public float getY() {
@@ -66,7 +66,7 @@ public class Vector2D {
     }
 
     /**
-     * Sets the value of the y property.
+     * 设置y属性的值。
      * 
      */
     public void setY(float value) {
@@ -74,7 +74,7 @@ public class Vector2D {
     }
 
     /**
-     * Gets the value of the space property.
+     * 获取space属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class Vector2D {
     }
 
     /**
-     * Sets the value of the space property.
+     * 设置space属性的值。
      * 
      * @param value
      *     allowed object is

@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for FocusConfiguration complex type.
+ * <p>FocusConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="FocusConfiguration"&gt;
@@ -67,7 +67,7 @@ public class FocusConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the autoFocusMode property.
+     * 获取autoFocusMode属性的值。
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Sets the value of the autoFocusMode property.
+     * 设置autoFocusMode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Gets the value of the defaultSpeed property.
+     * 获取defaultSpeed属性的值。
      * 
      */
     public float getDefaultSpeed() {
@@ -99,7 +99,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Sets the value of the defaultSpeed property.
+     * 设置defaultSpeed属性的值。
      * 
      */
     public void setDefaultSpeed(float value) {
@@ -107,7 +107,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Gets the value of the nearLimit property.
+     * 获取nearLimit属性的值。
      * 
      */
     public float getNearLimit() {
@@ -115,7 +115,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Sets the value of the nearLimit property.
+     * 设置nearLimit属性的值。
      * 
      */
     public void setNearLimit(float value) {
@@ -123,7 +123,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Gets the value of the farLimit property.
+     * 获取farLimit属性的值。
      * 
      */
     public float getFarLimit() {
@@ -131,7 +131,7 @@ public class FocusConfiguration {
     }
 
     /**
-     * Sets the value of the farLimit property.
+     * 设置farLimit属性的值。
      * 
      */
     public void setFarLimit(float value) {

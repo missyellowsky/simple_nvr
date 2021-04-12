@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ImageStabilization complex type.
+ * <p>ImageStabilization complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ImageStabilization"&gt;
@@ -55,7 +55,7 @@ public class ImageStabilization {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class ImageStabilization {
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -79,7 +79,7 @@ public class ImageStabilization {
     }
 
     /**
-     * Gets the value of the level property.
+     * 获取level属性的值。
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class ImageStabilization {
     }
 
     /**
-     * Sets the value of the level property.
+     * 设置level属性的值。
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public class ImageStabilization {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class ImageStabilization {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

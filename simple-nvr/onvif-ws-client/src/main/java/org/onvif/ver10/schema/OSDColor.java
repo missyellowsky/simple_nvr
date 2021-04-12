@@ -20,9 +20,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  *         transparent.
  *       
  * 
- * <p>Java class for OSDColor complex type.
+ * <p>OSDColor complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="OSDColor"&gt;
@@ -54,7 +54,7 @@ public class OSDColor {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the color property.
+     * 获取color属性的值。
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class OSDColor {
     }
 
     /**
-     * Sets the value of the color property.
+     * 设置color属性的值。
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class OSDColor {
     }
 
     /**
-     * Gets the value of the transparent property.
+     * 获取transparent属性的值。
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class OSDColor {
     }
 
     /**
-     * Sets the value of the transparent property.
+     * 设置transparent属性的值。
      * 
      * @param value
      *     allowed object is

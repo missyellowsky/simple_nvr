@@ -14,9 +14,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for UserCredential complex type.
+ * <p>UserCredential complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="UserCredential"&gt;
@@ -60,7 +60,7 @@ public class UserCredential {
     protected UserCredential.Extension extension;
 
     /**
-     * Gets the value of the userName property.
+     * 获取userName属性的值。
      * 
      * @return
      *     possible object is
@@ -72,7 +72,7 @@ public class UserCredential {
     }
 
     /**
-     * Sets the value of the userName property.
+     * 设置userName属性的值。
      * 
      * @param value
      *     allowed object is
@@ -84,7 +84,7 @@ public class UserCredential {
     }
 
     /**
-     * Gets the value of the password property.
+     * 获取password属性的值。
      * 
      * @return
      *     possible object is
@@ -96,7 +96,7 @@ public class UserCredential {
     }
 
     /**
-     * Sets the value of the password property.
+     * 设置password属性的值。
      * 
      * @param value
      *     allowed object is
@@ -108,7 +108,7 @@ public class UserCredential {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -120,7 +120,7 @@ public class UserCredential {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -143,9 +143,9 @@ public class UserCredential {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

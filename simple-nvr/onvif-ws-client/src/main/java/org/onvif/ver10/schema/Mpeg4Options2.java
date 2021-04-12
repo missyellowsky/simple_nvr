@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Mpeg4Options2 complex type.
+ * <p>Mpeg4Options2 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Mpeg4Options2"&gt;
@@ -55,7 +55,7 @@ public class Mpeg4Options2
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the bitrateRange property.
+     * 获取bitrateRange属性的值。
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class Mpeg4Options2
     }
 
     /**
-     * Sets the value of the bitrateRange property.
+     * 设置bitrateRange属性的值。
      * 
      * @param value
      *     allowed object is

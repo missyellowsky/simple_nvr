@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for FindEventResultList complex type.
+ * <p>FindEventResultList complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="FindEventResultList"&gt;
@@ -46,7 +46,7 @@ public class FindEventResultList {
     protected List<FindEventResult> result;
 
     /**
-     * Gets the value of the searchState property.
+     * 获取searchState属性的值。
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class FindEventResultList {
     }
 
     /**
-     * Sets the value of the searchState property.
+     * 设置searchState属性的值。
      * 
      * @param value
      *     allowed object is

@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Capabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -69,7 +69,7 @@ public class Capabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the analytics property.
+     * 获取analytics属性的值。
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the analytics property.
+     * 设置analytics属性的值。
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the device property.
+     * 获取device属性的值。
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the device property.
+     * 设置device属性的值。
      * 
      * @param value
      *     allowed object is
@@ -117,7 +117,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the events property.
+     * 获取events属性的值。
      * 
      * @return
      *     possible object is
@@ -129,7 +129,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the events property.
+     * 设置events属性的值。
      * 
      * @param value
      *     allowed object is
@@ -141,7 +141,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the imaging property.
+     * 获取imaging属性的值。
      * 
      * @return
      *     possible object is
@@ -153,7 +153,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the imaging property.
+     * 设置imaging属性的值。
      * 
      * @param value
      *     allowed object is
@@ -165,7 +165,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the media property.
+     * 获取media属性的值。
      * 
      * @return
      *     possible object is
@@ -177,7 +177,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the media property.
+     * 设置media属性的值。
      * 
      * @param value
      *     allowed object is
@@ -189,7 +189,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the ptz property.
+     * 获取ptz属性的值。
      * 
      * @return
      *     possible object is
@@ -201,7 +201,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the ptz property.
+     * 设置ptz属性的值。
      * 
      * @param value
      *     allowed object is
@@ -213,7 +213,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -225,7 +225,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

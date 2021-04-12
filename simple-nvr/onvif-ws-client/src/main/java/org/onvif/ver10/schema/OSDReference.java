@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for OSDReference complex type.
+ * <p>OSDReference complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="OSDReference"&gt;
@@ -58,7 +58,7 @@ public class OSDReference {
     }
 
     /**
-     * Sets the value of the value property.
+     * 设置value属性的值。
      * 
      * @param value
      *     allowed object is

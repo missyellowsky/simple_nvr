@@ -12,9 +12,9 @@ import org.onvif.ver10.schema.PTZSpeed;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -49,7 +49,7 @@ public class GotoPreset {
     protected PTZSpeed speed;
 
     /**
-     * Gets the value of the profileToken property.
+     * 获取profileToken属性的值。
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class GotoPreset {
     }
 
     /**
-     * Sets the value of the profileToken property.
+     * 设置profileToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class GotoPreset {
     }
 
     /**
-     * Gets the value of the presetToken property.
+     * 获取presetToken属性的值。
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class GotoPreset {
     }
 
     /**
-     * Sets the value of the presetToken property.
+     * 设置presetToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class GotoPreset {
     }
 
     /**
-     * Gets the value of the speed property.
+     * 获取speed属性的值。
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class GotoPreset {
     }
 
     /**
-     * Sets the value of the speed property.
+     * 设置speed属性的值。
      * 
      * @param value
      *     allowed object is

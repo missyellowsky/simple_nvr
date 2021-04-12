@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Date complex type.
+ * <p>Date complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Date"&gt;
@@ -46,7 +46,7 @@ public class Date {
     protected int day;
 
     /**
-     * Gets the value of the year property.
+     * 获取year属性的值。
      * 
      */
     public int getYear() {
@@ -54,7 +54,7 @@ public class Date {
     }
 
     /**
-     * Sets the value of the year property.
+     * 设置year属性的值。
      * 
      */
     public void setYear(int value) {
@@ -62,7 +62,7 @@ public class Date {
     }
 
     /**
-     * Gets the value of the month property.
+     * 获取month属性的值。
      * 
      */
     public int getMonth() {
@@ -70,7 +70,7 @@ public class Date {
     }
 
     /**
-     * Sets the value of the month property.
+     * 设置month属性的值。
      * 
      */
     public void setMonth(int value) {
@@ -78,7 +78,7 @@ public class Date {
     }
 
     /**
-     * Gets the value of the day property.
+     * 获取day属性的值。
      * 
      */
     public int getDay() {
@@ -86,7 +86,7 @@ public class Date {
     }
 
     /**
-     * Sets the value of the day property.
+     * 设置day属性的值。
      * 
      */
     public void setDay(int value) {

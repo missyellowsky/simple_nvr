@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for VideoRateControl complex type.
+ * <p>VideoRateControl complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoRateControl"&gt;
@@ -46,7 +46,7 @@ public class VideoRateControl {
     protected int bitrateLimit;
 
     /**
-     * Gets the value of the frameRateLimit property.
+     * 获取frameRateLimit属性的值。
      * 
      */
     public int getFrameRateLimit() {
@@ -54,7 +54,7 @@ public class VideoRateControl {
     }
 
     /**
-     * Sets the value of the frameRateLimit property.
+     * 设置frameRateLimit属性的值。
      * 
      */
     public void setFrameRateLimit(int value) {
@@ -62,7 +62,7 @@ public class VideoRateControl {
     }
 
     /**
-     * Gets the value of the encodingInterval property.
+     * 获取encodingInterval属性的值。
      * 
      */
     public int getEncodingInterval() {
@@ -70,7 +70,7 @@ public class VideoRateControl {
     }
 
     /**
-     * Sets the value of the encodingInterval property.
+     * 设置encodingInterval属性的值。
      * 
      */
     public void setEncodingInterval(int value) {
@@ -78,7 +78,7 @@ public class VideoRateControl {
     }
 
     /**
-     * Gets the value of the bitrateLimit property.
+     * 获取bitrateLimit属性的值。
      * 
      */
     public int getBitrateLimit() {
@@ -86,7 +86,7 @@ public class VideoRateControl {
     }
 
     /**
-     * Sets the value of the bitrateLimit property.
+     * 设置bitrateLimit属性的值。
      * 
      */
     public void setBitrateLimit(int value) {

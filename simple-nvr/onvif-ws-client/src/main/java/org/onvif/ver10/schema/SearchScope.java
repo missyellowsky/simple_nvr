@@ -19,9 +19,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  * A structure for defining a limited scope when searching in recorded data.
  *       
  * 
- * <p>Java class for SearchScope complex type.
+ * <p>SearchScope complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SearchScope"&gt;
@@ -120,7 +120,7 @@ public class SearchScope {
     }
 
     /**
-     * Gets the value of the recordingInformationFilter property.
+     * 获取recordingInformationFilter属性的值。
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class SearchScope {
     }
 
     /**
-     * Sets the value of the recordingInformationFilter property.
+     * 设置recordingInformationFilter属性的值。
      * 
      * @param value
      *     allowed object is
@@ -144,7 +144,7 @@ public class SearchScope {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -156,7 +156,7 @@ public class SearchScope {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

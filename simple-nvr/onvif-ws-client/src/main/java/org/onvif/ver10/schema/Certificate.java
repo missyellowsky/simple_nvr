@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Certificate complex type.
+ * <p>Certificate complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Certificate"&gt;
@@ -47,7 +47,7 @@ public class Certificate {
     protected BinaryData certificate;
 
     /**
-     * Gets the value of the certificateID property.
+     * 获取certificateID属性的值。
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class Certificate {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * 设置certificateID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class Certificate {
     }
 
     /**
-     * Gets the value of the certificate property.
+     * 获取certificate属性的值。
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class Certificate {
     }
 
     /**
-     * Sets the value of the certificate property.
+     * 设置certificate属性的值。
      * 
      * @param value
      *     allowed object is

@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Exposure complex type.
+ * <p>Exposure complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Exposure"&gt;
@@ -85,7 +85,7 @@ public class Exposure {
     protected float iris;
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the priority property.
+     * 获取priority属性的值。
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the priority property.
+     * 设置priority属性的值。
      * 
      * @param value
      *     allowed object is
@@ -133,7 +133,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the window property.
+     * 获取window属性的值。
      * 
      * @return
      *     possible object is
@@ -145,7 +145,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the window property.
+     * 设置window属性的值。
      * 
      * @param value
      *     allowed object is
@@ -157,7 +157,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the minExposureTime property.
+     * 获取minExposureTime属性的值。
      * 
      */
     public float getMinExposureTime() {
@@ -165,7 +165,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the minExposureTime property.
+     * 设置minExposureTime属性的值。
      * 
      */
     public void setMinExposureTime(float value) {
@@ -173,7 +173,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the maxExposureTime property.
+     * 获取maxExposureTime属性的值。
      * 
      */
     public float getMaxExposureTime() {
@@ -181,7 +181,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the maxExposureTime property.
+     * 设置maxExposureTime属性的值。
      * 
      */
     public void setMaxExposureTime(float value) {
@@ -189,7 +189,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the minGain property.
+     * 获取minGain属性的值。
      * 
      */
     public float getMinGain() {
@@ -197,7 +197,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the minGain property.
+     * 设置minGain属性的值。
      * 
      */
     public void setMinGain(float value) {
@@ -205,7 +205,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the maxGain property.
+     * 获取maxGain属性的值。
      * 
      */
     public float getMaxGain() {
@@ -213,7 +213,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the maxGain property.
+     * 设置maxGain属性的值。
      * 
      */
     public void setMaxGain(float value) {
@@ -221,7 +221,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the minIris property.
+     * 获取minIris属性的值。
      * 
      */
     public float getMinIris() {
@@ -229,7 +229,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the minIris property.
+     * 设置minIris属性的值。
      * 
      */
     public void setMinIris(float value) {
@@ -237,7 +237,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the maxIris property.
+     * 获取maxIris属性的值。
      * 
      */
     public float getMaxIris() {
@@ -245,7 +245,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the maxIris property.
+     * 设置maxIris属性的值。
      * 
      */
     public void setMaxIris(float value) {
@@ -253,7 +253,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the exposureTime property.
+     * 获取exposureTime属性的值。
      * 
      */
     public float getExposureTime() {
@@ -261,7 +261,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the exposureTime property.
+     * 设置exposureTime属性的值。
      * 
      */
     public void setExposureTime(float value) {
@@ -269,7 +269,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the gain property.
+     * 获取gain属性的值。
      * 
      */
     public float getGain() {
@@ -277,7 +277,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the gain property.
+     * 设置gain属性的值。
      * 
      */
     public void setGain(float value) {
@@ -285,7 +285,7 @@ public class Exposure {
     }
 
     /**
-     * Gets the value of the iris property.
+     * 获取iris属性的值。
      * 
      */
     public float getIris() {
@@ -293,7 +293,7 @@ public class Exposure {
     }
 
     /**
-     * Sets the value of the iris property.
+     * 设置iris属性的值。
      * 
      */
     public void setIris(float value) {

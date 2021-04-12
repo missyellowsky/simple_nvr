@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for BacklightCompensationOptions complex type.
+ * <p>BacklightCompensationOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="BacklightCompensationOptions"&gt;
@@ -75,7 +75,7 @@ public class BacklightCompensationOptions {
     }
 
     /**
-     * Gets the value of the level property.
+     * 获取level属性的值。
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class BacklightCompensationOptions {
     }
 
     /**
-     * Sets the value of the level property.
+     * 设置level属性的值。
      * 
      * @param value
      *     allowed object is

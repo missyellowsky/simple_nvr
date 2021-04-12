@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ImagingOptions20Extension2 complex type.
+ * <p>ImagingOptions20Extension2 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ImagingOptions20Extension2"&gt;
@@ -42,7 +42,7 @@ public class ImagingOptions20Extension2 {
     protected ImagingOptions20Extension3 extension;
 
     /**
-     * Gets the value of the irCutFilterAutoAdjustment property.
+     * 获取irCutFilterAutoAdjustment属性的值。
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class ImagingOptions20Extension2 {
     }
 
     /**
-     * Sets the value of the irCutFilterAutoAdjustment property.
+     * 设置irCutFilterAutoAdjustment属性的值。
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class ImagingOptions20Extension2 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class ImagingOptions20Extension2 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

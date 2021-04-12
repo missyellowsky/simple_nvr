@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Space2DDescription complex type.
+ * <p>Space2DDescription complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Space2DDescription"&gt;
@@ -48,7 +48,7 @@ public class Space2DDescription {
     protected FloatRange yRange;
 
     /**
-     * Gets the value of the uri property.
+     * 获取uri属性的值。
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class Space2DDescription {
     }
 
     /**
-     * Sets the value of the uri property.
+     * 设置uri属性的值。
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class Space2DDescription {
     }
 
     /**
-     * Gets the value of the xRange property.
+     * 获取xRange属性的值。
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class Space2DDescription {
     }
 
     /**
-     * Sets the value of the xRange property.
+     * 设置xRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class Space2DDescription {
     }
 
     /**
-     * Gets the value of the yRange property.
+     * 获取yRange属性的值。
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class Space2DDescription {
     }
 
     /**
-     * Sets the value of the yRange property.
+     * 设置yRange属性的值。
      * 
      * @param value
      *     allowed object is

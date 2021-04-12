@@ -24,9 +24,9 @@ import org.w3c.dom.Element;
  *             and does not change during device operation. The following capabilities are available:
  *           
  * 
- * <p>Java class for ServiceCapabilities complex type.
+ * <p>ServiceCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ServiceCapabilities"&gt;
@@ -115,7 +115,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Gets the value of the maxLimit property.
+     * 获取maxLimit属性的值。
      * 
      */
     public long getMaxLimit() {
@@ -123,7 +123,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Sets the value of the maxLimit property.
+     * 设置maxLimit属性的值。
      * 
      */
     public void setMaxLimit(long value) {
@@ -131,7 +131,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Gets the value of the maxAccessProfiles property.
+     * 获取maxAccessProfiles属性的值。
      * 
      */
     public long getMaxAccessProfiles() {
@@ -139,7 +139,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Sets the value of the maxAccessProfiles property.
+     * 设置maxAccessProfiles属性的值。
      * 
      */
     public void setMaxAccessProfiles(long value) {
@@ -147,7 +147,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Gets the value of the maxAccessPoliciesPerAccessProfile property.
+     * 获取maxAccessPoliciesPerAccessProfile属性的值。
      * 
      */
     public long getMaxAccessPoliciesPerAccessProfile() {
@@ -155,7 +155,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Sets the value of the maxAccessPoliciesPerAccessProfile property.
+     * 设置maxAccessPoliciesPerAccessProfile属性的值。
      * 
      */
     public void setMaxAccessPoliciesPerAccessProfile(long value) {
@@ -163,7 +163,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Gets the value of the multipleSchedulesPerAccessPointSupported property.
+     * 获取multipleSchedulesPerAccessPointSupported属性的值。
      * This getter has been renamed from isMultipleSchedulesPerAccessPointSupported() to getMultipleSchedulesPerAccessPointSupported() by cxf-xjc-boolean plugin.
      * 
      */
@@ -172,7 +172,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Sets the value of the multipleSchedulesPerAccessPointSupported property.
+     * 设置multipleSchedulesPerAccessPointSupported属性的值。
      * 
      */
     public void setMultipleSchedulesPerAccessPointSupported(boolean value) {

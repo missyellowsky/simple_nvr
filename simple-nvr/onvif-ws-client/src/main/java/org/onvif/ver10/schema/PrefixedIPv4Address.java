@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for PrefixedIPv4Address complex type.
+ * <p>PrefixedIPv4Address complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PrefixedIPv4Address"&gt;
@@ -47,7 +47,7 @@ public class PrefixedIPv4Address {
     protected int prefixLength;
 
     /**
-     * Gets the value of the address property.
+     * 获取address属性的值。
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class PrefixedIPv4Address {
     }
 
     /**
-     * Sets the value of the address property.
+     * 设置address属性的值。
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class PrefixedIPv4Address {
     }
 
     /**
-     * Gets the value of the prefixLength property.
+     * 获取prefixLength属性的值。
      * 
      */
     public int getPrefixLength() {
@@ -79,7 +79,7 @@ public class PrefixedIPv4Address {
     }
 
     /**
-     * Sets the value of the prefixLength property.
+     * 设置prefixLength属性的值。
      * 
      */
     public void setPrefixLength(int value) {

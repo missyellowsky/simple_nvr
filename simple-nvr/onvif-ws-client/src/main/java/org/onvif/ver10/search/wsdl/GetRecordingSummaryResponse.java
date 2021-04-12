@@ -12,9 +12,9 @@ import org.onvif.ver10.schema.RecordingSummary;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -41,7 +41,7 @@ public class GetRecordingSummaryResponse {
     protected RecordingSummary summary;
 
     /**
-     * Gets the value of the summary property.
+     * 获取summary属性的值。
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class GetRecordingSummaryResponse {
     }
 
     /**
-     * Sets the value of the summary property.
+     * 设置summary属性的值。
      * 
      * @param value
      *     allowed object is

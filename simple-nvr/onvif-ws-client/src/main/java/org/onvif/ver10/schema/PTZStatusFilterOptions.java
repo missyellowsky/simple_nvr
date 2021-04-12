@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZStatusFilterOptions complex type.
+ * <p>PTZStatusFilterOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZStatusFilterOptions"&gt;
@@ -69,7 +69,7 @@ public class PTZStatusFilterOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the panTiltStatusSupported property.
+     * 获取panTiltStatusSupported属性的值。
      * This getter has been renamed from isPanTiltStatusSupported() to getPanTiltStatusSupported() by cxf-xjc-boolean plugin.
      * 
      */
@@ -78,7 +78,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Sets the value of the panTiltStatusSupported property.
+     * 设置panTiltStatusSupported属性的值。
      * 
      */
     public void setPanTiltStatusSupported(boolean value) {
@@ -86,7 +86,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Gets the value of the zoomStatusSupported property.
+     * 获取zoomStatusSupported属性的值。
      * This getter has been renamed from isZoomStatusSupported() to getZoomStatusSupported() by cxf-xjc-boolean plugin.
      * 
      */
@@ -95,7 +95,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Sets the value of the zoomStatusSupported property.
+     * 设置zoomStatusSupported属性的值。
      * 
      */
     public void setZoomStatusSupported(boolean value) {
@@ -133,7 +133,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Gets the value of the panTiltPositionSupported property.
+     * 获取panTiltPositionSupported属性的值。
      * This getter has been renamed from isPanTiltPositionSupported() to getPanTiltPositionSupported() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -146,7 +146,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Sets the value of the panTiltPositionSupported property.
+     * 设置panTiltPositionSupported属性的值。
      * 
      * @param value
      *     allowed object is
@@ -158,7 +158,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Gets the value of the zoomPositionSupported property.
+     * 获取zoomPositionSupported属性的值。
      * This getter has been renamed from isZoomPositionSupported() to getZoomPositionSupported() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -171,7 +171,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Sets the value of the zoomPositionSupported property.
+     * 设置zoomPositionSupported属性的值。
      * 
      * @param value
      *     allowed object is
@@ -183,7 +183,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class PTZStatusFilterOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

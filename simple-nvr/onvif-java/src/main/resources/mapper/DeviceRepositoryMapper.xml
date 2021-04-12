@@ -28,9 +28,9 @@
     </delete>
 
     <insert id="addDevices" >
-        insert into device_info (id, ip, isAlive,hardwareId,serialNumber,firmwareVersion,model,manufacturer) values
+        insert into device_info (id, ip, isAlive,hardwareId,serialNumber,firmwareVersion,model,manufacturer, net, createDate) values
         <foreach collection="list" separator="," item="item">
-            (#{item.id}, #{item.ip}, #{item.isAlive}, #{item.hardwareId}, #{item.serialNumber}, #{item.firmwareVersion}, #{item.model}, #{item.manufacturer})
+            (#{item.id}, #{item.ip}, #{item.isAlive}, #{item.hardwareId}, #{item.serialNumber}, #{item.firmwareVersion}, #{item.model}, #{item.manufacturer}, #{item.net}, NOW())
         </foreach>
     </insert>
 

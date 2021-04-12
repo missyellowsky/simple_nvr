@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for G711DecOptions complex type.
+ * <p>G711DecOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="G711DecOptions"&gt;
@@ -57,7 +57,7 @@ public class G711DecOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the bitrate property.
+     * 获取bitrate属性的值。
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class G711DecOptions {
     }
 
     /**
-     * Sets the value of the bitrate property.
+     * 设置bitrate属性的值。
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class G711DecOptions {
     }
 
     /**
-     * Gets the value of the sampleRateRange property.
+     * 获取sampleRateRange属性的值。
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class G711DecOptions {
     }
 
     /**
-     * Sets the value of the sampleRateRange property.
+     * 设置sampleRateRange属性的值。
      * 
      * @param value
      *     allowed object is

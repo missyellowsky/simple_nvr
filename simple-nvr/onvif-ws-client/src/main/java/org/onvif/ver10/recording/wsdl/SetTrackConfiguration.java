@@ -12,9 +12,9 @@ import org.onvif.ver10.schema.TrackConfiguration;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -49,7 +49,7 @@ public class SetTrackConfiguration {
     protected TrackConfiguration trackConfiguration;
 
     /**
-     * Gets the value of the recordingToken property.
+     * 获取recordingToken属性的值。
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class SetTrackConfiguration {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * 设置recordingToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class SetTrackConfiguration {
     }
 
     /**
-     * Gets the value of the trackToken property.
+     * 获取trackToken属性的值。
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class SetTrackConfiguration {
     }
 
     /**
-     * Sets the value of the trackToken property.
+     * 设置trackToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class SetTrackConfiguration {
     }
 
     /**
-     * Gets the value of the trackConfiguration property.
+     * 获取trackConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class SetTrackConfiguration {
     }
 
     /**
-     * Sets the value of the trackConfiguration property.
+     * 设置trackConfiguration属性的值。
      * 
      * @param value
      *     allowed object is

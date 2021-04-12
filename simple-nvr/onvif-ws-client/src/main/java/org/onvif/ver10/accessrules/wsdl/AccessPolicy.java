@@ -24,9 +24,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  *             point will result in a union of the schedules.
  *           
  * 
- * <p>Java class for AccessPolicy complex type.
+ * <p>AccessPolicy complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AccessPolicy"&gt;
@@ -67,7 +67,7 @@ public class AccessPolicy {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the scheduleToken property.
+     * 获取scheduleToken属性的值。
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class AccessPolicy {
     }
 
     /**
-     * Sets the value of the scheduleToken property.
+     * 设置scheduleToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class AccessPolicy {
     }
 
     /**
-     * Gets the value of the entity property.
+     * 获取entity属性的值。
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class AccessPolicy {
     }
 
     /**
-     * Sets the value of the entity property.
+     * 设置entity属性的值。
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class AccessPolicy {
     }
 
     /**
-     * Gets the value of the entityType property.
+     * 获取entityType属性的值。
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class AccessPolicy {
     }
 
     /**
-     * Sets the value of the entityType property.
+     * 设置entityType属性的值。
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class AccessPolicy {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class AccessPolicy {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

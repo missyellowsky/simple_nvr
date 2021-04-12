@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for DateTimeRange complex type.
+ * <p>DateTimeRange complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DateTimeRange"&gt;
@@ -61,7 +61,7 @@ public class DateTimeRange {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the from property.
+     * 获取from属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class DateTimeRange {
     }
 
     /**
-     * Sets the value of the from property.
+     * 设置from属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class DateTimeRange {
     }
 
     /**
-     * Gets the value of the until property.
+     * 获取until属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class DateTimeRange {
     }
 
     /**
-     * Sets the value of the until property.
+     * 设置until属性的值。
      * 
      * @param value
      *     allowed object is

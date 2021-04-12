@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for GetRecordingJobsResponseItem complex type.
+ * <p>GetRecordingJobsResponseItem complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="GetRecordingJobsResponseItem"&gt;
@@ -57,7 +57,7 @@ public class GetRecordingJobsResponseItem {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the jobToken property.
+     * 获取jobToken属性的值。
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class GetRecordingJobsResponseItem {
     }
 
     /**
-     * Sets the value of the jobToken property.
+     * 设置jobToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class GetRecordingJobsResponseItem {
     }
 
     /**
-     * Gets the value of the jobConfiguration property.
+     * 获取jobConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class GetRecordingJobsResponseItem {
     }
 
     /**
-     * Sets the value of the jobConfiguration property.
+     * 设置jobConfiguration属性的值。
      * 
      * @param value
      *     allowed object is

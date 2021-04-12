@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -40,7 +40,7 @@ public class GetDot1XConfiguration {
     protected String dot1XConfigurationToken;
 
     /**
-     * Gets the value of the dot1XConfigurationToken property.
+     * 获取dot1XConfigurationToken属性的值。
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class GetDot1XConfiguration {
     }
 
     /**
-     * Sets the value of the dot1XConfigurationToken property.
+     * 设置dot1XConfigurationToken属性的值。
      * 
      * @param value
      *     allowed object is

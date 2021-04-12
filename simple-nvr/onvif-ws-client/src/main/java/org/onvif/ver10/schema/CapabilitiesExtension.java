@@ -14,9 +14,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CapabilitiesExtension complex type.
+ * <p>CapabilitiesExtension complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CapabilitiesExtension"&gt;
@@ -104,7 +104,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the deviceIO property.
+     * 获取deviceIO属性的值。
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the deviceIO property.
+     * 设置deviceIO属性的值。
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the display property.
+     * 获取display属性的值。
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the display property.
+     * 设置display属性的值。
      * 
      * @param value
      *     allowed object is
@@ -152,7 +152,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the recording property.
+     * 获取recording属性的值。
      * 
      * @return
      *     possible object is
@@ -164,7 +164,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the recording property.
+     * 设置recording属性的值。
      * 
      * @param value
      *     allowed object is
@@ -176,7 +176,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the search property.
+     * 获取search属性的值。
      * 
      * @return
      *     possible object is
@@ -188,7 +188,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the search property.
+     * 设置search属性的值。
      * 
      * @param value
      *     allowed object is
@@ -200,7 +200,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the replay property.
+     * 获取replay属性的值。
      * 
      * @return
      *     possible object is
@@ -212,7 +212,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the replay property.
+     * 设置replay属性的值。
      * 
      * @param value
      *     allowed object is
@@ -224,7 +224,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the receiver property.
+     * 获取receiver属性的值。
      * 
      * @return
      *     possible object is
@@ -236,7 +236,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the receiver property.
+     * 设置receiver属性的值。
      * 
      * @param value
      *     allowed object is
@@ -248,7 +248,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the analyticsDevice property.
+     * 获取analyticsDevice属性的值。
      * 
      * @return
      *     possible object is
@@ -260,7 +260,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the analyticsDevice property.
+     * 设置analyticsDevice属性的值。
      * 
      * @param value
      *     allowed object is
@@ -272,7 +272,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the extensions property.
+     * 获取extensions属性的值。
      * 
      * @return
      *     possible object is
@@ -284,7 +284,7 @@ public class CapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the extensions property.
+     * 设置extensions属性的值。
      * 
      * @param value
      *     allowed object is

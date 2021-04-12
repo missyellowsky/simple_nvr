@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
  * 	  Elements replacing the wildcard MUST be namespace qualified, but can be in the targetNamespace
  * 	  
  * 
- * <p>Java class for Header complex type.
+ * <p>Header complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Header"&gt;

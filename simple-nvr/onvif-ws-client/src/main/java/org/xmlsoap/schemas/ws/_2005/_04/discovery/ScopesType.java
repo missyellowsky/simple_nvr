@@ -18,9 +18,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ScopesType complex type.
+ * <p>ScopesType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ScopesType"&gt;
@@ -79,7 +79,7 @@ public class ScopesType {
     }
 
     /**
-     * Gets the value of the matchBy property.
+     * 获取matchBy属性的值。
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class ScopesType {
     }
 
     /**
-     * Sets the value of the matchBy property.
+     * 设置matchBy属性的值。
      * 
      * @param value
      *     allowed object is

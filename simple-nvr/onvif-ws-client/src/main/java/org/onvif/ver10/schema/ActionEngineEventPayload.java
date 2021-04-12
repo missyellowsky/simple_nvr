@@ -22,9 +22,9 @@ import org.w3._2003._05.soap_envelope.Fault;
  *         extension mechanism is provided for future or additional action definitions.
  *       
  * 
- * <p>Java class for ActionEngineEventPayload complex type.
+ * <p>ActionEngineEventPayload complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ActionEngineEventPayload"&gt;
@@ -65,7 +65,7 @@ public class ActionEngineEventPayload {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the requestInfo property.
+     * 获取requestInfo属性的值。
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class ActionEngineEventPayload {
     }
 
     /**
-     * Sets the value of the requestInfo property.
+     * 设置requestInfo属性的值。
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class ActionEngineEventPayload {
     }
 
     /**
-     * Gets the value of the responseInfo property.
+     * 获取responseInfo属性的值。
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class ActionEngineEventPayload {
     }
 
     /**
-     * Sets the value of the responseInfo property.
+     * 设置responseInfo属性的值。
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class ActionEngineEventPayload {
     }
 
     /**
-     * Gets the value of the fault property.
+     * 获取fault属性的值。
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class ActionEngineEventPayload {
     }
 
     /**
-     * Sets the value of the fault property.
+     * 设置fault属性的值。
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class ActionEngineEventPayload {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -149,7 +149,7 @@ public class ActionEngineEventPayload {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

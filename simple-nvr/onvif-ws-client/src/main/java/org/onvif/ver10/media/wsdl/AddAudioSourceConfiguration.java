@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -44,7 +44,7 @@ public class AddAudioSourceConfiguration {
     protected String configurationToken;
 
     /**
-     * Gets the value of the profileToken property.
+     * 获取profileToken属性的值。
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class AddAudioSourceConfiguration {
     }
 
     /**
-     * Sets the value of the profileToken property.
+     * 设置profileToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class AddAudioSourceConfiguration {
     }
 
     /**
-     * Gets the value of the configurationToken property.
+     * 获取configurationToken属性的值。
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class AddAudioSourceConfiguration {
     }
 
     /**
-     * Sets the value of the configurationToken property.
+     * 设置configurationToken属性的值。
      * 
      * @param value
      *     allowed object is

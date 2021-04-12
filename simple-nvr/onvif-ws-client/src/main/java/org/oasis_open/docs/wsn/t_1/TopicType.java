@@ -19,9 +19,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for TopicType complex type.
+ * <p>TopicType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="TopicType"&gt;
@@ -76,7 +76,7 @@ public class TopicType
     protected Boolean _final;
 
     /**
-     * Gets the value of the messagePattern property.
+     * 获取messagePattern属性的值。
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class TopicType
     }
 
     /**
-     * Sets the value of the messagePattern property.
+     * 设置messagePattern属性的值。
      * 
      * @param value
      *     allowed object is
@@ -158,7 +158,7 @@ public class TopicType
     }
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -170,7 +170,7 @@ public class TopicType
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -211,7 +211,7 @@ public class TopicType
     }
 
     /**
-     * Gets the value of the final property.
+     * 获取final属性的值。
      * This getter has been renamed from isFinal() to getFinal() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -228,7 +228,7 @@ public class TopicType
     }
 
     /**
-     * Sets the value of the final property.
+     * 设置final属性的值。
      * 
      * @param value
      *     allowed object is

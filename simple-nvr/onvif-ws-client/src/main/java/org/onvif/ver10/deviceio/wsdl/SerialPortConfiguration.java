@@ -22,9 +22,9 @@ import org.w3c.dom.Element;
 /**
  * The parameters for configuring the serial port.
  * 
- * <p>Java class for SerialPortConfiguration complex type.
+ * <p>SerialPortConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SerialPortConfiguration"&gt;
@@ -76,7 +76,7 @@ public class SerialPortConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the baudRate property.
+     * 获取baudRate属性的值。
      * 
      */
     public int getBaudRate() {
@@ -84,7 +84,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the baudRate property.
+     * 设置baudRate属性的值。
      * 
      */
     public void setBaudRate(int value) {
@@ -92,7 +92,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the parityBit property.
+     * 获取parityBit属性的值。
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the parityBit property.
+     * 设置parityBit属性的值。
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the characterLength property.
+     * 获取characterLength属性的值。
      * 
      */
     public int getCharacterLength() {
@@ -124,7 +124,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the characterLength property.
+     * 设置characterLength属性的值。
      * 
      */
     public void setCharacterLength(int value) {
@@ -132,7 +132,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the stopBit property.
+     * 获取stopBit属性的值。
      * 
      */
     public float getStopBit() {
@@ -140,7 +140,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the stopBit property.
+     * 设置stopBit属性的值。
      * 
      */
     public void setStopBit(float value) {
@@ -178,7 +178,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the token property.
+     * 获取token属性的值。
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the token property.
+     * 设置token属性的值。
      * 
      * @param value
      *     allowed object is
@@ -202,7 +202,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the type property.
+     * 获取type属性的值。
      * 
      * @return
      *     possible object is
@@ -214,7 +214,7 @@ public class SerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the type property.
+     * 设置type属性的值。
      * 
      * @param value
      *     allowed object is

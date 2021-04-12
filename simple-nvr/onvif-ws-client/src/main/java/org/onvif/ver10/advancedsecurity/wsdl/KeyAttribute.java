@@ -23,9 +23,9 @@ import org.w3c.dom.Element;
 /**
  * The attributes of a key in the keystore.
  * 
- * <p>Java class for KeyAttribute complex type.
+ * <p>KeyAttribute complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="KeyAttribute"&gt;
@@ -91,7 +91,7 @@ public class KeyAttribute {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the keyID property.
+     * 获取keyID属性的值。
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the keyID property.
+     * 设置keyID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the alias property.
+     * 获取alias属性的值。
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the alias property.
+     * 设置alias属性的值。
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the hasPrivateKey property.
+     * 获取hasPrivateKey属性的值。
      * This getter has been renamed from isHasPrivateKey() to getHasPrivateKey() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -152,7 +152,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the hasPrivateKey property.
+     * 设置hasPrivateKey属性的值。
      * 
      * @param value
      *     allowed object is
@@ -164,7 +164,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the keyStatus property.
+     * 获取keyStatus属性的值。
      * 
      * @return
      *     possible object is
@@ -176,7 +176,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the keyStatus property.
+     * 设置keyStatus属性的值。
      * 
      * @param value
      *     allowed object is
@@ -218,7 +218,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the externallyGenerated property.
+     * 获取externallyGenerated属性的值。
      * This getter has been renamed from isExternallyGenerated() to getExternallyGenerated() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -231,7 +231,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the externallyGenerated property.
+     * 设置externallyGenerated属性的值。
      * 
      * @param value
      *     allowed object is
@@ -243,7 +243,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the securelyStored property.
+     * 获取securelyStored属性的值。
      * This getter has been renamed from isSecurelyStored() to getSecurelyStored() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -256,7 +256,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the securelyStored property.
+     * 设置securelyStored属性的值。
      * 
      * @param value
      *     allowed object is
@@ -268,7 +268,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -280,7 +280,7 @@ public class KeyAttribute {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -321,9 +321,9 @@ public class KeyAttribute {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

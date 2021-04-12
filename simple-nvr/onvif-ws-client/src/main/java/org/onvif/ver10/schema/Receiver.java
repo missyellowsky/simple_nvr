@@ -22,9 +22,9 @@ import org.w3c.dom.Element;
  *         Description of a receiver, including its token and configuration.
  *       
  * 
- * <p>Java class for Receiver complex type.
+ * <p>Receiver complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Receiver"&gt;
@@ -61,7 +61,7 @@ public class Receiver {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the token property.
+     * 获取token属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class Receiver {
     }
 
     /**
-     * Sets the value of the token property.
+     * 设置token属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class Receiver {
     }
 
     /**
-     * Gets the value of the configuration property.
+     * 获取configuration属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class Receiver {
     }
 
     /**
-     * Sets the value of the configuration property.
+     * 设置configuration属性的值。
      * 
      * @param value
      *     allowed object is

@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingJobStateSource complex type.
+ * <p>RecordingJobStateSource complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="RecordingJobStateSource"&gt;
@@ -61,7 +61,7 @@ public class RecordingJobStateSource {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sourceToken property.
+     * 获取sourceToken属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class RecordingJobStateSource {
     }
 
     /**
-     * Sets the value of the sourceToken property.
+     * 设置sourceToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class RecordingJobStateSource {
     }
 
     /**
-     * Gets the value of the state property.
+     * 获取state属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class RecordingJobStateSource {
     }
 
     /**
-     * Sets the value of the state property.
+     * 设置state属性的值。
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class RecordingJobStateSource {
     }
 
     /**
-     * Gets the value of the tracks property.
+     * 获取tracks属性的值。
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class RecordingJobStateSource {
     }
 
     /**
-     * Sets the value of the tracks property.
+     * 设置tracks属性的值。
      * 
      * @param value
      *     allowed object is

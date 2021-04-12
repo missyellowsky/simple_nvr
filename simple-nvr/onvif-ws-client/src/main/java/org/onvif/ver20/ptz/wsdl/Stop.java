@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -48,7 +48,7 @@ public class Stop {
     protected Boolean zoom;
 
     /**
-     * Gets the value of the profileToken property.
+     * 获取profileToken属性的值。
      * 
      * @return
      *     possible object is
@@ -60,7 +60,7 @@ public class Stop {
     }
 
     /**
-     * Sets the value of the profileToken property.
+     * 设置profileToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -72,7 +72,7 @@ public class Stop {
     }
 
     /**
-     * Gets the value of the panTilt property.
+     * 获取panTilt属性的值。
      * This getter has been renamed from isPanTilt() to getPanTilt() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -85,7 +85,7 @@ public class Stop {
     }
 
     /**
-     * Sets the value of the panTilt property.
+     * 设置panTilt属性的值。
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class Stop {
     }
 
     /**
-     * Gets the value of the zoom property.
+     * 获取zoom属性的值。
      * This getter has been renamed from isZoom() to getZoom() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -110,7 +110,7 @@ public class Stop {
     }
 
     /**
-     * Sets the value of the zoom property.
+     * 设置zoom属性的值。
      * 
      * @param value
      *     allowed object is

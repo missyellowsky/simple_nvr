@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZPositionFilter complex type.
+ * <p>PTZPositionFilter complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZPositionFilter"&gt;
@@ -61,7 +61,7 @@ public class PTZPositionFilter {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the minPosition property.
+     * 获取minPosition属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class PTZPositionFilter {
     }
 
     /**
-     * Sets the value of the minPosition property.
+     * 设置minPosition属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class PTZPositionFilter {
     }
 
     /**
-     * Gets the value of the maxPosition property.
+     * 获取maxPosition属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class PTZPositionFilter {
     }
 
     /**
-     * Sets the value of the maxPosition property.
+     * 设置maxPosition属性的值。
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class PTZPositionFilter {
     }
 
     /**
-     * Gets the value of the enterOrExit property.
+     * 获取enterOrExit属性的值。
      * This getter has been renamed from isEnterOrExit() to getEnterOrExit() by cxf-xjc-boolean plugin.
      * 
      */
@@ -118,7 +118,7 @@ public class PTZPositionFilter {
     }
 
     /**
-     * Sets the value of the enterOrExit property.
+     * 设置enterOrExit属性的值。
      * 
      */
     public void setEnterOrExit(boolean value) {

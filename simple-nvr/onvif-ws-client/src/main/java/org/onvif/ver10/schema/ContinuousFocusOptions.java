@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ContinuousFocusOptions complex type.
+ * <p>ContinuousFocusOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ContinuousFocusOptions"&gt;
@@ -38,7 +38,7 @@ public class ContinuousFocusOptions {
     protected FloatRange speed;
 
     /**
-     * Gets the value of the speed property.
+     * 获取speed属性的值。
      * 
      * @return
      *     possible object is
@@ -50,7 +50,7 @@ public class ContinuousFocusOptions {
     }
 
     /**
-     * Sets the value of the speed property.
+     * 设置speed属性的值。
      * 
      * @param value
      *     allowed object is

@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
  * Configuration of the streaming and coding settings of a Video window.
  *       
  * 
- * <p>Java class for PaneConfiguration complex type.
+ * <p>PaneConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PaneConfiguration"&gt;
@@ -76,7 +76,7 @@ public class PaneConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the paneName property.
+     * 获取paneName属性的值。
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the paneName property.
+     * 设置paneName属性的值。
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Gets the value of the audioOutputToken property.
+     * 获取audioOutputToken属性的值。
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the audioOutputToken property.
+     * 设置audioOutputToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Gets the value of the audioSourceToken property.
+     * 获取audioSourceToken属性的值。
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the audioSourceToken property.
+     * 设置audioSourceToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Gets the value of the audioEncoderConfiguration property.
+     * 获取audioEncoderConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -160,7 +160,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the audioEncoderConfiguration property.
+     * 设置audioEncoderConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Gets the value of the receiverToken property.
+     * 获取receiverToken属性的值。
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the receiverToken property.
+     * 设置receiverToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Gets the value of the token property.
+     * 获取token属性的值。
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class PaneConfiguration {
     }
 
     /**
-     * Sets the value of the token property.
+     * 设置token属性的值。
      * 
      * @param value
      *     allowed object is

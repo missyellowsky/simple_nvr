@@ -12,9 +12,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for RelayOutputSettings complex type.
+ * <p>RelayOutputSettings complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="RelayOutputSettings"&gt;
@@ -50,7 +50,7 @@ public class RelayOutputSettings {
     protected RelayIdleState idleState;
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class RelayOutputSettings {
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class RelayOutputSettings {
     }
 
     /**
-     * Gets the value of the delayTime property.
+     * 获取delayTime属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class RelayOutputSettings {
     }
 
     /**
-     * Sets the value of the delayTime property.
+     * 设置delayTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class RelayOutputSettings {
     }
 
     /**
-     * Gets the value of the idleState property.
+     * 获取idleState属性的值。
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class RelayOutputSettings {
     }
 
     /**
-     * Sets the value of the idleState property.
+     * 设置idleState属性的值。
      * 
      * @param value
      *     allowed object is

@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for BackupFile complex type.
+ * <p>BackupFile complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="BackupFile"&gt;
@@ -42,7 +42,7 @@ public class BackupFile {
     protected AttachmentData data;
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class BackupFile {
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class BackupFile {
     }
 
     /**
-     * Gets the value of the data property.
+     * 获取data属性的值。
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class BackupFile {
     }
 
     /**
-     * Sets the value of the data property.
+     * 设置data属性的值。
      * 
      * @param value
      *     allowed object is

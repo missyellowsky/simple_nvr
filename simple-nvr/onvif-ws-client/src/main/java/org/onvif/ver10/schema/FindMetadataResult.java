@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for FindMetadataResult complex type.
+ * <p>FindMetadataResult complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="FindMetadataResult"&gt;
@@ -64,7 +64,7 @@ public class FindMetadataResult {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recordingToken property.
+     * 获取recordingToken属性的值。
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class FindMetadataResult {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * 设置recordingToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class FindMetadataResult {
     }
 
     /**
-     * Gets the value of the trackToken property.
+     * 获取trackToken属性的值。
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class FindMetadataResult {
     }
 
     /**
-     * Sets the value of the trackToken property.
+     * 设置trackToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -112,7 +112,7 @@ public class FindMetadataResult {
     }
 
     /**
-     * Gets the value of the time property.
+     * 获取time属性的值。
      * 
      * @return
      *     possible object is
@@ -124,7 +124,7 @@ public class FindMetadataResult {
     }
 
     /**
-     * Sets the value of the time property.
+     * 设置time属性的值。
      * 
      * @param value
      *     allowed object is

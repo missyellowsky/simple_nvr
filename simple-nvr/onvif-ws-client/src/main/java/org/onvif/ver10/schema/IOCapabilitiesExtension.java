@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for IOCapabilitiesExtension complex type.
+ * <p>IOCapabilitiesExtension complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="IOCapabilitiesExtension"&gt;
@@ -91,7 +91,7 @@ public class IOCapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the auxiliary property.
+     * 获取auxiliary属性的值。
      * This getter has been renamed from isAuxiliary() to getAuxiliary() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -104,7 +104,7 @@ public class IOCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the auxiliary property.
+     * 设置auxiliary属性的值。
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class IOCapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class IOCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

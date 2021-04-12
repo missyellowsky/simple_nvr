@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for DateTime complex type.
+ * <p>DateTime complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DateTime"&gt;
@@ -42,7 +42,7 @@ public class DateTime {
     protected Date date;
 
     /**
-     * Gets the value of the time property.
+     * 获取time属性的值。
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class DateTime {
     }
 
     /**
-     * Sets the value of the time property.
+     * 设置time属性的值。
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class DateTime {
     }
 
     /**
-     * Gets the value of the date property.
+     * 获取date属性的值。
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class DateTime {
     }
 
     /**
-     * Sets the value of the date property.
+     * 设置date属性的值。
      * 
      * @param value
      *     allowed object is

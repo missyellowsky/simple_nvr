@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MetadataAttributes complex type.
+ * <p>MetadataAttributes complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MetadataAttributes"&gt;
@@ -65,7 +65,7 @@ public class MetadataAttributes {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the canContainPTZ property.
+     * 获取canContainPTZ属性的值。
      * This getter has been renamed from isCanContainPTZ() to getCanContainPTZ() by cxf-xjc-boolean plugin.
      * 
      */
@@ -74,7 +74,7 @@ public class MetadataAttributes {
     }
 
     /**
-     * Sets the value of the canContainPTZ property.
+     * 设置canContainPTZ属性的值。
      * 
      */
     public void setCanContainPTZ(boolean value) {
@@ -82,7 +82,7 @@ public class MetadataAttributes {
     }
 
     /**
-     * Gets the value of the canContainAnalytics property.
+     * 获取canContainAnalytics属性的值。
      * This getter has been renamed from isCanContainAnalytics() to getCanContainAnalytics() by cxf-xjc-boolean plugin.
      * 
      */
@@ -91,7 +91,7 @@ public class MetadataAttributes {
     }
 
     /**
-     * Sets the value of the canContainAnalytics property.
+     * 设置canContainAnalytics属性的值。
      * 
      */
     public void setCanContainAnalytics(boolean value) {
@@ -99,7 +99,7 @@ public class MetadataAttributes {
     }
 
     /**
-     * Gets the value of the canContainNotifications property.
+     * 获取canContainNotifications属性的值。
      * This getter has been renamed from isCanContainNotifications() to getCanContainNotifications() by cxf-xjc-boolean plugin.
      * 
      */
@@ -108,7 +108,7 @@ public class MetadataAttributes {
     }
 
     /**
-     * Sets the value of the canContainNotifications property.
+     * 设置canContainNotifications属性的值。
      * 
      */
     public void setCanContainNotifications(boolean value) {

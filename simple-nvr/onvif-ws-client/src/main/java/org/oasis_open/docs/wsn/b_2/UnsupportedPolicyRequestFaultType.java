@@ -14,9 +14,9 @@ import org.oasis_open.docs.wsrf.bf_2.BaseFaultType;
 
 
 /**
- * <p>Java class for UnsupportedPolicyRequestFaultType complex type.
+ * <p>UnsupportedPolicyRequestFaultType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="UnsupportedPolicyRequestFaultType"&gt;

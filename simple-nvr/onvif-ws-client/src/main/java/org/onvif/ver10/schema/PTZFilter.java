@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for PTZFilter complex type.
+ * <p>PTZFilter complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZFilter"&gt;
@@ -49,7 +49,7 @@ public class PTZFilter {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the status property.
+     * 获取status属性的值。
      * This getter has been renamed from isStatus() to getStatus() by cxf-xjc-boolean plugin.
      * 
      */
@@ -58,7 +58,7 @@ public class PTZFilter {
     }
 
     /**
-     * Sets the value of the status property.
+     * 设置status属性的值。
      * 
      */
     public void setStatus(boolean value) {
@@ -66,7 +66,7 @@ public class PTZFilter {
     }
 
     /**
-     * Gets the value of the position property.
+     * 获取position属性的值。
      * This getter has been renamed from isPosition() to getPosition() by cxf-xjc-boolean plugin.
      * 
      */
@@ -75,7 +75,7 @@ public class PTZFilter {
     }
 
     /**
-     * Sets the value of the position property.
+     * 设置position属性的值。
      * 
      */
     public void setPosition(boolean value) {

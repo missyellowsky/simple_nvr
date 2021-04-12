@@ -24,9 +24,9 @@ import org.w3c.dom.Element;
  *         time interval.
  *       
  * 
- * <p>Java class for MediaAttributes complex type.
+ * <p>MediaAttributes complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MediaAttributes"&gt;
@@ -73,7 +73,7 @@ public class MediaAttributes {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recordingToken property.
+     * 获取recordingToken属性的值。
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class MediaAttributes {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * 设置recordingToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class MediaAttributes {
     }
 
     /**
-     * Gets the value of the from property.
+     * 获取from属性的值。
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class MediaAttributes {
     }
 
     /**
-     * Sets the value of the from property.
+     * 设置from属性的值。
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class MediaAttributes {
     }
 
     /**
-     * Gets the value of the until property.
+     * 获取until属性的值。
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class MediaAttributes {
     }
 
     /**
-     * Sets the value of the until property.
+     * 设置until属性的值。
      * 
      * @param value
      *     allowed object is

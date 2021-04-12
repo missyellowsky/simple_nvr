@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for NetworkProtocol complex type.
+ * <p>NetworkProtocol complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="NetworkProtocol"&gt;
@@ -61,7 +61,7 @@ public class NetworkProtocol {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class NetworkProtocol {
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class NetworkProtocol {
     }
 
     /**
-     * Gets the value of the enabled property.
+     * 获取enabled属性的值。
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      */
@@ -94,7 +94,7 @@ public class NetworkProtocol {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * 设置enabled属性的值。
      * 
      */
     public void setEnabled(boolean value) {
@@ -131,7 +131,7 @@ public class NetworkProtocol {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class NetworkProtocol {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

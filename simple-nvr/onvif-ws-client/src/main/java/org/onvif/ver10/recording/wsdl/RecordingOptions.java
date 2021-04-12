@@ -14,9 +14,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingOptions complex type.
+ * <p>RecordingOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="RecordingOptions"&gt;
@@ -50,7 +50,7 @@ public class RecordingOptions {
     protected List<Object> any;
 
     /**
-     * Gets the value of the job property.
+     * 获取job属性的值。
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class RecordingOptions {
     }
 
     /**
-     * Sets the value of the job property.
+     * 设置job属性的值。
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class RecordingOptions {
     }
 
     /**
-     * Gets the value of the track property.
+     * 获取track属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class RecordingOptions {
     }
 
     /**
-     * Sets the value of the track property.
+     * 设置track属性的值。
      * 
      * @param value
      *     allowed object is

@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -54,7 +54,7 @@ public class ReplaceCertPathValidationPolicyAssignment {
     protected String newCertPathValidationPolicyID;
 
     /**
-     * Gets the value of the oldCertPathValidationPolicyID property.
+     * 获取oldCertPathValidationPolicyID属性的值。
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class ReplaceCertPathValidationPolicyAssignment {
     }
 
     /**
-     * Sets the value of the oldCertPathValidationPolicyID property.
+     * 设置oldCertPathValidationPolicyID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class ReplaceCertPathValidationPolicyAssignment {
     }
 
     /**
-     * Gets the value of the newCertPathValidationPolicyID property.
+     * 获取newCertPathValidationPolicyID属性的值。
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class ReplaceCertPathValidationPolicyAssignment {
     }
 
     /**
-     * Sets the value of the newCertPathValidationPolicyID property.
+     * 设置newCertPathValidationPolicyID属性的值。
      * 
      * @param value
      *     allowed object is

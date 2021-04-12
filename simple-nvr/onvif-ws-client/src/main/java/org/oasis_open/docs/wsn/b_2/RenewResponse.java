@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -56,7 +56,7 @@ public class RenewResponse {
     protected List<Object> any;
 
     /**
-     * Gets the value of the terminationTime property.
+     * 获取terminationTime属性的值。
      * 
      * @return
      *     possible object is
@@ -68,7 +68,7 @@ public class RenewResponse {
     }
 
     /**
-     * Sets the value of the terminationTime property.
+     * 设置terminationTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -80,7 +80,7 @@ public class RenewResponse {
     }
 
     /**
-     * Gets the value of the currentTime property.
+     * 获取currentTime属性的值。
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class RenewResponse {
     }
 
     /**
-     * Sets the value of the currentTime property.
+     * 设置currentTime属性的值。
      * 
      * @param value
      *     allowed object is

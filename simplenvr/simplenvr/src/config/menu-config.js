@@ -20,4 +20,20 @@ module.exports = [{
     name: '服务器列表',
     componentName: 'ServerList'
   }]
+},{
+  name: '转码设置',
+  id: 'transcodeconfig',
+  icon: 'th-large',
+  sub: [{
+    name: '转码任务列表',
+    componentName: 'TranscodeTask'
+  }]
+}, {
+  name: 'GIS测试',
+  id: 'gis',
+  icon: 'th-large',
+  sub: [{
+    name: 'gis地图测试',
+    componentName: 'Gis'
+  }]
 }]

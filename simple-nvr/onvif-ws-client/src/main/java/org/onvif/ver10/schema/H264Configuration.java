@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for H264Configuration complex type.
+ * <p>H264Configuration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="H264Configuration"&gt;
@@ -44,7 +44,7 @@ public class H264Configuration {
     protected H264Profile h264Profile;
 
     /**
-     * Gets the value of the govLength property.
+     * 获取govLength属性的值。
      * 
      */
     public int getGovLength() {
@@ -52,7 +52,7 @@ public class H264Configuration {
     }
 
     /**
-     * Sets the value of the govLength property.
+     * 设置govLength属性的值。
      * 
      */
     public void setGovLength(int value) {
@@ -60,7 +60,7 @@ public class H264Configuration {
     }
 
     /**
-     * Gets the value of the h264Profile property.
+     * 获取h264Profile属性的值。
      * 
      * @return
      *     possible object is
@@ -72,7 +72,7 @@ public class H264Configuration {
     }
 
     /**
-     * Sets the value of the h264Profile property.
+     * 设置h264Profile属性的值。
      * 
      * @param value
      *     allowed object is

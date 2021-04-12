@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioEncoderConfigurationOption complex type.
+ * <p>AudioEncoderConfigurationOption complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AudioEncoderConfigurationOption"&gt;
@@ -63,7 +63,7 @@ public class AudioEncoderConfigurationOption {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * 获取encoding属性的值。
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class AudioEncoderConfigurationOption {
     }
 
     /**
-     * Sets the value of the encoding property.
+     * 设置encoding属性的值。
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class AudioEncoderConfigurationOption {
     }
 
     /**
-     * Gets the value of the bitrateList property.
+     * 获取bitrateList属性的值。
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class AudioEncoderConfigurationOption {
     }
 
     /**
-     * Sets the value of the bitrateList property.
+     * 设置bitrateList属性的值。
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class AudioEncoderConfigurationOption {
     }
 
     /**
-     * Gets the value of the sampleRateList property.
+     * 获取sampleRateList属性的值。
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class AudioEncoderConfigurationOption {
     }
 
     /**
-     * Sets the value of the sampleRateList property.
+     * 设置sampleRateList属性的值。
      * 
      * @param value
      *     allowed object is

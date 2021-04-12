@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -54,7 +54,7 @@ public class SendReceiveSerialCommand {
     protected String delimiter;
 
     /**
-     * Gets the value of the serialData property.
+     * 获取serialData属性的值。
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class SendReceiveSerialCommand {
     }
 
     /**
-     * Sets the value of the serialData property.
+     * 设置serialData属性的值。
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class SendReceiveSerialCommand {
     }
 
     /**
-     * Gets the value of the timeOut property.
+     * 获取timeOut属性的值。
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class SendReceiveSerialCommand {
     }
 
     /**
-     * Sets the value of the timeOut property.
+     * 设置timeOut属性的值。
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class SendReceiveSerialCommand {
     }
 
     /**
-     * Gets the value of the dataLength property.
+     * 获取dataLength属性的值。
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class SendReceiveSerialCommand {
     }
 
     /**
-     * Sets the value of the dataLength property.
+     * 设置dataLength属性的值。
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class SendReceiveSerialCommand {
     }
 
     /**
-     * Gets the value of the delimiter property.
+     * 获取delimiter属性的值。
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class SendReceiveSerialCommand {
     }
 
     /**
-     * Sets the value of the delimiter property.
+     * 设置delimiter属性的值。
      * 
      * @param value
      *     allowed object is

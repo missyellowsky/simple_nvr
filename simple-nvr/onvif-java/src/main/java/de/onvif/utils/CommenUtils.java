@@ -34,4 +34,21 @@ public class CommenUtils {
 		System.err.println("远程路径：" + path);
 		return host;
 	}
+
+	public static String generateCameraId(String cameraIp, String netIp){
+		final int secret = 210558;
+		byte[] cameraIpB = cameraIp.getBytes();
+		byte[] netIpB = netIp.getBytes();
+		for(int i=0;i<cameraIpB.length;i++)
+		{
+			cameraIpB[i]=(byte)(cameraIpB[i]^secret); //通过异或运算进行加密
+		}
+		for(int i=0;i<netIpB.length;i++)
+		{
+			netIpB[i]=(byte)(netIpB[i]^secret); //通过异或运算进行加密
+		}
+		cameraIp = new String(cameraIpB,0,cameraIpB.length);
+		netIp = new String(netIpB,0,netIpB.length);
+		return cameraIp+"#"+netIp;
+	}
 }

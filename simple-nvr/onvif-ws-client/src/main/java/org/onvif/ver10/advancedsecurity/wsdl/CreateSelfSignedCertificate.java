@@ -18,9 +18,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -78,7 +78,7 @@ public class CreateSelfSignedCertificate {
     protected List<X509V3Extension> extension;
 
     /**
-     * Gets the value of the x509Version property.
+     * 获取x509Version属性的值。
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the x509Version property.
+     * 设置x509Version属性的值。
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the subject property.
+     * 获取subject属性的值。
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the subject property.
+     * 设置subject属性的值。
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the keyID property.
+     * 获取keyID属性的值。
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the keyID property.
+     * 设置keyID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the alias property.
+     * 获取alias属性的值。
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the alias property.
+     * 设置alias属性的值。
      * 
      * @param value
      *     allowed object is
@@ -174,7 +174,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the notValidBefore property.
+     * 获取notValidBefore属性的值。
      * 
      * @return
      *     possible object is
@@ -186,7 +186,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the notValidBefore property.
+     * 设置notValidBefore属性的值。
      * 
      * @param value
      *     allowed object is
@@ -198,7 +198,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the notValidAfter property.
+     * 获取notValidAfter属性的值。
      * 
      * @return
      *     possible object is
@@ -210,7 +210,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the notValidAfter property.
+     * 设置notValidAfter属性的值。
      * 
      * @param value
      *     allowed object is
@@ -222,7 +222,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Gets the value of the signatureAlgorithm property.
+     * 获取signatureAlgorithm属性的值。
      * 
      * @return
      *     possible object is
@@ -234,7 +234,7 @@ public class CreateSelfSignedCertificate {
     }
 
     /**
-     * Sets the value of the signatureAlgorithm property.
+     * 设置signatureAlgorithm属性的值。
      * 
      * @param value
      *     allowed object is

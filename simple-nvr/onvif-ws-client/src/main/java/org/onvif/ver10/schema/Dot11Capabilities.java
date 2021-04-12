@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Dot11Capabilities complex type.
+ * <p>Dot11Capabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Dot11Capabilities"&gt;
@@ -69,7 +69,7 @@ public class Dot11Capabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the tkip property.
+     * 获取tkip属性的值。
      * This getter has been renamed from isTKIP() to getTKIP() by cxf-xjc-boolean plugin.
      * 
      */
@@ -78,7 +78,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Sets the value of the tkip property.
+     * 设置tkip属性的值。
      * 
      */
     public void setTKIP(boolean value) {
@@ -86,7 +86,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Gets the value of the scanAvailableNetworks property.
+     * 获取scanAvailableNetworks属性的值。
      * This getter has been renamed from isScanAvailableNetworks() to getScanAvailableNetworks() by cxf-xjc-boolean plugin.
      * 
      */
@@ -95,7 +95,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Sets the value of the scanAvailableNetworks property.
+     * 设置scanAvailableNetworks属性的值。
      * 
      */
     public void setScanAvailableNetworks(boolean value) {
@@ -103,7 +103,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Gets the value of the multipleConfiguration property.
+     * 获取multipleConfiguration属性的值。
      * This getter has been renamed from isMultipleConfiguration() to getMultipleConfiguration() by cxf-xjc-boolean plugin.
      * 
      */
@@ -112,7 +112,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Sets the value of the multipleConfiguration property.
+     * 设置multipleConfiguration属性的值。
      * 
      */
     public void setMultipleConfiguration(boolean value) {
@@ -120,7 +120,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Gets the value of the adHocStationMode property.
+     * 获取adHocStationMode属性的值。
      * This getter has been renamed from isAdHocStationMode() to getAdHocStationMode() by cxf-xjc-boolean plugin.
      * 
      */
@@ -129,7 +129,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Sets the value of the adHocStationMode property.
+     * 设置adHocStationMode属性的值。
      * 
      */
     public void setAdHocStationMode(boolean value) {
@@ -137,7 +137,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Gets the value of the wep property.
+     * 获取wep属性的值。
      * This getter has been renamed from isWEP() to getWEP() by cxf-xjc-boolean plugin.
      * 
      */
@@ -146,7 +146,7 @@ public class Dot11Capabilities {
     }
 
     /**
-     * Sets the value of the wep property.
+     * 设置wep属性的值。
      * 
      */
     public void setWEP(boolean value) {

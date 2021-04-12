@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PassphraseAttribute complex type.
+ * <p>PassphraseAttribute complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PassphraseAttribute"&gt;
@@ -72,7 +72,7 @@ public class PassphraseAttribute {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the passphraseID property.
+     * 获取passphraseID属性的值。
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class PassphraseAttribute {
     }
 
     /**
-     * Sets the value of the passphraseID property.
+     * 设置passphraseID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class PassphraseAttribute {
     }
 
     /**
-     * Gets the value of the alias property.
+     * 获取alias属性的值。
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class PassphraseAttribute {
     }
 
     /**
-     * Sets the value of the alias property.
+     * 设置alias属性的值。
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class PassphraseAttribute {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class PassphraseAttribute {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -173,9 +173,9 @@ public class PassphraseAttribute {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

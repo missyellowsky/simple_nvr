@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CertificateWithPrivateKey complex type.
+ * <p>CertificateWithPrivateKey complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CertificateWithPrivateKey"&gt;
@@ -66,7 +66,7 @@ public class CertificateWithPrivateKey {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the certificateID property.
+     * 获取certificateID属性的值。
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class CertificateWithPrivateKey {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * 设置certificateID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class CertificateWithPrivateKey {
     }
 
     /**
-     * Gets the value of the certificate property.
+     * 获取certificate属性的值。
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class CertificateWithPrivateKey {
     }
 
     /**
-     * Sets the value of the certificate property.
+     * 设置certificate属性的值。
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class CertificateWithPrivateKey {
     }
 
     /**
-     * Gets the value of the privateKey property.
+     * 获取privateKey属性的值。
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class CertificateWithPrivateKey {
     }
 
     /**
-     * Sets the value of the privateKey property.
+     * 设置privateKey属性的值。
      * 
      * @param value
      *     allowed object is

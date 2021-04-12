@@ -39,9 +39,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  *         resources.
  *       
  * 
- * <p>Java class for Profile complex type.
+ * <p>Profile complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Profile"&gt;
@@ -108,7 +108,7 @@ public class Profile {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -120,7 +120,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -132,7 +132,7 @@ public class Profile {
     }
 
     /**
-     * Gets the value of the videoSourceConfiguration property.
+     * 获取videoSourceConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -144,7 +144,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the videoSourceConfiguration property.
+     * 设置videoSourceConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -156,7 +156,7 @@ public class Profile {
     }
 
     /**
-     * Gets the value of the audioSourceConfiguration property.
+     * 获取audioSourceConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -168,7 +168,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the audioSourceConfiguration property.
+     * 设置audioSourceConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -180,7 +180,7 @@ public class Profile {
     }
 
     /**
-     * Gets the value of the videoEncoderConfiguration property.
+     * 获取videoEncoderConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -192,7 +192,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the videoEncoderConfiguration property.
+     * 设置videoEncoderConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -204,7 +204,7 @@ public class Profile {
     }
 
     /**
-     * Gets the value of the audioEncoderConfiguration property.
+     * 获取audioEncoderConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -216,7 +216,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the audioEncoderConfiguration property.
+     * 设置audioEncoderConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -228,7 +228,7 @@ public class Profile {
     }
 
     /**
-     * Gets the value of the videoAnalyticsConfiguration property.
+     * 获取videoAnalyticsConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -240,7 +240,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the videoAnalyticsConfiguration property.
+     * 设置videoAnalyticsConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -252,7 +252,7 @@ public class Profile {
     }
 
     /**
-     * Gets the value of the ptzConfiguration property.
+     * 获取ptzConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -264,7 +264,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the ptzConfiguration property.
+     * 设置ptzConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -276,7 +276,7 @@ public class Profile {
     }
 
     /**
-     * Gets the value of the metadataConfiguration property.
+     * 获取metadataConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -288,7 +288,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the metadataConfiguration property.
+     * 设置metadataConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -300,7 +300,7 @@ public class Profile {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -312,7 +312,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -324,7 +324,7 @@ public class Profile {
     }
 
     /**
-     * Gets the value of the token property.
+     * 获取token属性的值。
      * 
      * @return
      *     possible object is
@@ -336,7 +336,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the token property.
+     * 设置token属性的值。
      * 
      * @param value
      *     allowed object is
@@ -348,7 +348,7 @@ public class Profile {
     }
 
     /**
-     * Gets the value of the fixed property.
+     * 获取fixed属性的值。
      * This getter has been renamed from isFixed() to getFixed() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -361,7 +361,7 @@ public class Profile {
     }
 
     /**
-     * Sets the value of the fixed property.
+     * 设置fixed属性的值。
      * 
      * @param value
      *     allowed object is

@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Mpeg4Configuration complex type.
+ * <p>Mpeg4Configuration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Mpeg4Configuration"&gt;
@@ -44,7 +44,7 @@ public class Mpeg4Configuration {
     protected Mpeg4Profile mpeg4Profile;
 
     /**
-     * Gets the value of the govLength property.
+     * 获取govLength属性的值。
      * 
      */
     public int getGovLength() {
@@ -52,7 +52,7 @@ public class Mpeg4Configuration {
     }
 
     /**
-     * Sets the value of the govLength property.
+     * 设置govLength属性的值。
      * 
      */
     public void setGovLength(int value) {
@@ -60,7 +60,7 @@ public class Mpeg4Configuration {
     }
 
     /**
-     * Gets the value of the mpeg4Profile property.
+     * 获取mpeg4Profile属性的值。
      * 
      * @return
      *     possible object is
@@ -72,7 +72,7 @@ public class Mpeg4Configuration {
     }
 
     /**
-     * Sets the value of the mpeg4Profile property.
+     * 设置mpeg4Profile属性的值。
      * 
      * @param value
      *     allowed object is

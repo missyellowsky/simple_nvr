@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  * Type describing whether WDR mode is enabled or disabled (on/off).
  *       
  * 
- * <p>Java class for WideDynamicRange20 complex type.
+ * <p>WideDynamicRange20 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="WideDynamicRange20"&gt;
@@ -47,7 +47,7 @@ public class WideDynamicRange20 {
     protected Float level;
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class WideDynamicRange20 {
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class WideDynamicRange20 {
     }
 
     /**
-     * Gets the value of the level property.
+     * 获取level属性的值。
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class WideDynamicRange20 {
     }
 
     /**
-     * Sets the value of the level property.
+     * 设置level属性的值。
      * 
      * @param value
      *     allowed object is

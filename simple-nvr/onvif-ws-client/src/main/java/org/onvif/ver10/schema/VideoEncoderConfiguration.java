@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoEncoderConfiguration complex type.
+ * <p>VideoEncoderConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoEncoderConfiguration"&gt;
@@ -86,7 +86,7 @@ public class VideoEncoderConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * 获取encoding属性的值。
      * 
      * @return
      *     possible object is
@@ -98,7 +98,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the encoding property.
+     * 设置encoding属性的值。
      * 
      * @param value
      *     allowed object is
@@ -110,7 +110,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the resolution property.
+     * 获取resolution属性的值。
      * 
      * @return
      *     possible object is
@@ -122,7 +122,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the resolution property.
+     * 设置resolution属性的值。
      * 
      * @param value
      *     allowed object is
@@ -134,7 +134,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the quality property.
+     * 获取quality属性的值。
      * 
      */
     public float getQuality() {
@@ -142,7 +142,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the quality property.
+     * 设置quality属性的值。
      * 
      */
     public void setQuality(float value) {
@@ -150,7 +150,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the rateControl property.
+     * 获取rateControl属性的值。
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the rateControl property.
+     * 设置rateControl属性的值。
      * 
      * @param value
      *     allowed object is
@@ -174,7 +174,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the mpeg4 property.
+     * 获取mpeg4属性的值。
      * 
      * @return
      *     possible object is
@@ -186,7 +186,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the mpeg4 property.
+     * 设置mpeg4属性的值。
      * 
      * @param value
      *     allowed object is
@@ -198,7 +198,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the h264 property.
+     * 获取h264属性的值。
      * 
      * @return
      *     possible object is
@@ -210,7 +210,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the h264 property.
+     * 设置h264属性的值。
      * 
      * @param value
      *     allowed object is
@@ -222,7 +222,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the multicast property.
+     * 获取multicast属性的值。
      * 
      * @return
      *     possible object is
@@ -234,7 +234,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the multicast property.
+     * 设置multicast属性的值。
      * 
      * @param value
      *     allowed object is
@@ -246,7 +246,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Gets the value of the sessionTimeout property.
+     * 获取sessionTimeout属性的值。
      * 
      * @return
      *     possible object is
@@ -258,7 +258,7 @@ public class VideoEncoderConfiguration
     }
 
     /**
-     * Sets the value of the sessionTimeout property.
+     * 设置sessionTimeout属性的值。
      * 
      * @param value
      *     allowed object is

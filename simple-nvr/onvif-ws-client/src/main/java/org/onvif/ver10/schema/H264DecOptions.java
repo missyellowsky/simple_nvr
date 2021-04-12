@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for H264DecOptions complex type.
+ * <p>H264DecOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="H264DecOptions"&gt;
@@ -125,7 +125,7 @@ public class H264DecOptions {
     }
 
     /**
-     * Gets the value of the supportedInputBitrate property.
+     * 获取supportedInputBitrate属性的值。
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class H264DecOptions {
     }
 
     /**
-     * Sets the value of the supportedInputBitrate property.
+     * 设置supportedInputBitrate属性的值。
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class H264DecOptions {
     }
 
     /**
-     * Gets the value of the supportedFrameRate property.
+     * 获取supportedFrameRate属性的值。
      * 
      * @return
      *     possible object is
@@ -161,7 +161,7 @@ public class H264DecOptions {
     }
 
     /**
-     * Sets the value of the supportedFrameRate property.
+     * 设置supportedFrameRate属性的值。
      * 
      * @param value
      *     allowed object is

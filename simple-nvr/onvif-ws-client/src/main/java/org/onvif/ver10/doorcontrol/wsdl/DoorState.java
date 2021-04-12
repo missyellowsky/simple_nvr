@@ -23,9 +23,9 @@ import org.w3c.dom.Element;
  *             The DoorState structure contains current aggregate runtime status of Door.
  *           
  * 
- * <p>Java class for DoorState complex type.
+ * <p>DoorState complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DoorState"&gt;
@@ -87,7 +87,7 @@ public class DoorState {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the doorPhysicalState property.
+     * 获取doorPhysicalState属性的值。
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the doorPhysicalState property.
+     * 设置doorPhysicalState属性的值。
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the lockPhysicalState property.
+     * 获取lockPhysicalState属性的值。
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the lockPhysicalState property.
+     * 设置lockPhysicalState属性的值。
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the doubleLockPhysicalState property.
+     * 获取doubleLockPhysicalState属性的值。
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the doubleLockPhysicalState property.
+     * 设置doubleLockPhysicalState属性的值。
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the alarm property.
+     * 获取alarm属性的值。
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the alarm property.
+     * 设置alarm属性的值。
      * 
      * @param value
      *     allowed object is
@@ -183,7 +183,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the tamper property.
+     * 获取tamper属性的值。
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the tamper property.
+     * 设置tamper属性的值。
      * 
      * @param value
      *     allowed object is
@@ -207,7 +207,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the fault property.
+     * 获取fault属性的值。
      * 
      * @return
      *     possible object is
@@ -219,7 +219,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the fault property.
+     * 设置fault属性的值。
      * 
      * @param value
      *     allowed object is
@@ -231,7 +231,7 @@ public class DoorState {
     }
 
     /**
-     * Gets the value of the doorMode property.
+     * 获取doorMode属性的值。
      * 
      * @return
      *     possible object is
@@ -243,7 +243,7 @@ public class DoorState {
     }
 
     /**
-     * Sets the value of the doorMode property.
+     * 设置doorMode属性的值。
      * 
      * @param value
      *     allowed object is

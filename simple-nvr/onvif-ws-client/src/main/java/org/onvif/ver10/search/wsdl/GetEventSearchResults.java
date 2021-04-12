@@ -12,9 +12,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -53,7 +53,7 @@ public class GetEventSearchResults {
     protected Duration waitTime;
 
     /**
-     * Gets the value of the searchToken property.
+     * 获取searchToken属性的值。
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Sets the value of the searchToken property.
+     * 设置searchToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -77,7 +77,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Gets the value of the minResults property.
+     * 获取minResults属性的值。
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Sets the value of the minResults property.
+     * 设置minResults属性的值。
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Gets the value of the maxResults property.
+     * 获取maxResults属性的值。
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Sets the value of the maxResults property.
+     * 设置maxResults属性的值。
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Gets the value of the waitTime property.
+     * 获取waitTime属性的值。
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class GetEventSearchResults {
     }
 
     /**
-     * Sets the value of the waitTime property.
+     * 设置waitTime属性的值。
      * 
      * @param value
      *     allowed object is

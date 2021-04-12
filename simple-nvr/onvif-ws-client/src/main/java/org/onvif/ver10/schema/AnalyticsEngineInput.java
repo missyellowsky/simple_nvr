@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AnalyticsEngineInput complex type.
+ * <p>AnalyticsEngineInput complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AnalyticsEngineInput"&gt;
@@ -63,7 +63,7 @@ public class AnalyticsEngineInput
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sourceIdentification property.
+     * 获取sourceIdentification属性的值。
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class AnalyticsEngineInput
     }
 
     /**
-     * Sets the value of the sourceIdentification property.
+     * 设置sourceIdentification属性的值。
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class AnalyticsEngineInput
     }
 
     /**
-     * Gets the value of the videoInput property.
+     * 获取videoInput属性的值。
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class AnalyticsEngineInput
     }
 
     /**
-     * Sets the value of the videoInput property.
+     * 设置videoInput属性的值。
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class AnalyticsEngineInput
     }
 
     /**
-     * Gets the value of the metadataInput property.
+     * 获取metadataInput属性的值。
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class AnalyticsEngineInput
     }
 
     /**
-     * Sets the value of the metadataInput property.
+     * 设置metadataInput属性的值。
      * 
      * @param value
      *     allowed object is

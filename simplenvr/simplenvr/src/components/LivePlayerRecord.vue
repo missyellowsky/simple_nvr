@@ -4,6 +4,16 @@
       <el-tree :data="cameras" :props="defaultProps" ref="tree" :check-strictly="true" show-checkbox  @check="checkGroupNode" node-key="ip" check-on-click-node></el-tree>
     </div>
     <div style="width: 15%;margin-right: 1rem">
+      <div class="block">
+        <span class="demonstration">默认</span>
+        <el-date-picker
+          v-model="date"
+          type="date"
+          @change="dateChange"
+          placeholder="选择日期">
+        </el-date-picker>
+      </div>
+      <br/>
       <el-tree :data="videoFiles" :props="defaultProps" ref="video" node-key="id" @node-click="playRecord"></el-tree>
     </div>
     <div style="display: flex;flex-wrap: wrap;">
@@ -38,7 +48,9 @@
           isLeaf:"isLeaf"
         },
         player:null,
-        fileLenth:3600
+        fileLenth:3600,
+        date: Date.now(),
+        ip:""
       }
     },
     components: {
@@ -106,10 +118,16 @@
         if(!a.isLeaf){
           return
         }
-        this.initVideoFiles(a.ip,"1612429202")
+        this.ip = a.ip;
+        let time = this.date.toString().substring(0,10);
+        this.initVideoFiles(a.ip,time)
+      },
+      dateChange: function(){
+        let time = Number(this.date).toString().substring(0,10);
+        console.log(time)
+        this.initVideoFiles(this.ip,time)
       },
       playRecord:function (a, b,c) {
-        debugger
         if(!a.isLeaf){
           return;
         }
@@ -123,7 +141,6 @@
         date = date.replace(/-/g,'/');
         var timestamp = new Date(date).getTime();
         let endTime = (timestamp + this.fileLenth*1000)/1000
-        debugger
         this.destroy()
         this.getRecordUrl(ip,timestamp,endTime)
 

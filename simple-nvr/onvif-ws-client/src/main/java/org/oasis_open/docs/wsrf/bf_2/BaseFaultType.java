@@ -45,9 +45,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for BaseFaultType complex type.
+ * <p>BaseFaultType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="BaseFaultType"&gt;
@@ -176,7 +176,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Gets the value of the timestamp property.
+     * 获取timestamp属性的值。
      * 
      * @return
      *     possible object is
@@ -188,7 +188,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Sets the value of the timestamp property.
+     * 设置timestamp属性的值。
      * 
      * @param value
      *     allowed object is
@@ -200,7 +200,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Gets the value of the originator property.
+     * 获取originator属性的值。
      * 
      * @return
      *     possible object is
@@ -212,7 +212,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Sets the value of the originator property.
+     * 设置originator属性的值。
      * 
      * @param value
      *     allowed object is
@@ -224,7 +224,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Gets the value of the errorCode property.
+     * 获取errorCode属性的值。
      * 
      * @return
      *     possible object is
@@ -236,7 +236,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Sets the value of the errorCode property.
+     * 设置errorCode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -277,7 +277,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Gets the value of the faultCause property.
+     * 获取faultCause属性的值。
      * 
      * @return
      *     possible object is
@@ -289,7 +289,7 @@ public class BaseFaultType {
     }
 
     /**
-     * Sets the value of the faultCause property.
+     * 设置faultCause属性的值。
      * 
      * @param value
      *     allowed object is
@@ -330,9 +330,9 @@ public class BaseFaultType {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -358,7 +358,7 @@ public class BaseFaultType {
         protected String lang;
 
         /**
-         * Gets the value of the value property.
+         * 获取value属性的值。
          * 
          * @return
          *     possible object is
@@ -370,7 +370,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Sets the value of the value property.
+         * 设置value属性的值。
          * 
          * @param value
          *     allowed object is
@@ -382,7 +382,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Gets the value of the lang property.
+         * 获取lang属性的值。
          * 
          * @return
          *     possible object is
@@ -394,7 +394,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Sets the value of the lang property.
+         * 设置lang属性的值。
          * 
          * @param value
          *     allowed object is
@@ -419,9 +419,9 @@ public class BaseFaultType {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -482,7 +482,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Gets the value of the dialect property.
+         * 获取dialect属性的值。
          * 
          * @return
          *     possible object is
@@ -494,7 +494,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Sets the value of the dialect property.
+         * 设置dialect属性的值。
          * 
          * @param value
          *     allowed object is
@@ -537,9 +537,9 @@ public class BaseFaultType {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -565,7 +565,7 @@ public class BaseFaultType {
         protected Object any;
 
         /**
-         * Gets the value of the any property.
+         * 获取any属性的值。
          * 
          * @return
          *     possible object is
@@ -578,7 +578,7 @@ public class BaseFaultType {
         }
 
         /**
-         * Sets the value of the any property.
+         * 设置any属性的值。
          * 
          * @param value
          *     allowed object is

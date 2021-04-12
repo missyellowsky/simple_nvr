@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for SecurityCapabilitiesExtension complex type.
+ * <p>SecurityCapabilitiesExtension complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SecurityCapabilitiesExtension"&gt;
@@ -42,7 +42,7 @@ public class SecurityCapabilitiesExtension {
     protected SecurityCapabilitiesExtension2 extension;
 
     /**
-     * Gets the value of the tls10 property.
+     * 获取tls10属性的值。
      * This getter has been renamed from isTLS10() to getTLS10() by cxf-xjc-boolean plugin.
      * 
      */
@@ -51,7 +51,7 @@ public class SecurityCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the tls10 property.
+     * 设置tls10属性的值。
      * 
      */
     public void setTLS10(boolean value) {
@@ -59,7 +59,7 @@ public class SecurityCapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class SecurityCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

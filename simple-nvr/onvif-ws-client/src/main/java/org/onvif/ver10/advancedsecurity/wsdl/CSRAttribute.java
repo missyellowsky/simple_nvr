@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 /**
  * A CSR attribute as specified in PKCS#10.
  * 
- * <p>Java class for CSRAttribute complex type.
+ * <p>CSRAttribute complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CSRAttribute"&gt;
@@ -68,7 +68,7 @@ public class CSRAttribute {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the x509V3Extension property.
+     * 获取x509V3Extension属性的值。
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class CSRAttribute {
     }
 
     /**
-     * Sets the value of the x509V3Extension property.
+     * 设置x509V3Extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class CSRAttribute {
     }
 
     /**
-     * Gets the value of the basicRequestAttribute property.
+     * 获取basicRequestAttribute属性的值。
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class CSRAttribute {
     }
 
     /**
-     * Sets the value of the basicRequestAttribute property.
+     * 设置basicRequestAttribute属性的值。
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class CSRAttribute {
     }
 
     /**
-     * Gets the value of the anyAttribute property.
+     * 获取anyAttribute属性的值。
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class CSRAttribute {
     }
 
     /**
-     * Sets the value of the anyAttribute property.
+     * 设置anyAttribute属性的值。
      * 
      * @param value
      *     allowed object is
@@ -169,9 +169,9 @@ public class CSRAttribute {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for VideoResolution complex type.
+ * <p>VideoResolution complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoResolution"&gt;
@@ -42,7 +42,7 @@ public class VideoResolution {
     protected int height;
 
     /**
-     * Gets the value of the width property.
+     * 获取width属性的值。
      * 
      */
     public int getWidth() {
@@ -50,7 +50,7 @@ public class VideoResolution {
     }
 
     /**
-     * Sets the value of the width property.
+     * 设置width属性的值。
      * 
      */
     public void setWidth(int value) {
@@ -58,7 +58,7 @@ public class VideoResolution {
     }
 
     /**
-     * Gets the value of the height property.
+     * 获取height属性的值。
      * 
      */
     public int getHeight() {
@@ -66,7 +66,7 @@ public class VideoResolution {
     }
 
     /**
-     * Sets the value of the height property.
+     * 设置height属性的值。
      * 
      */
     public void setHeight(int value) {

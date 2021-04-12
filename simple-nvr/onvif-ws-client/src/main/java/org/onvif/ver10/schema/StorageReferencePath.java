@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for StorageReferencePath complex type.
+ * <p>StorageReferencePath complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="StorageReferencePath"&gt;
@@ -53,7 +53,7 @@ public class StorageReferencePath {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the storageToken property.
+     * 获取storageToken属性的值。
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class StorageReferencePath {
     }
 
     /**
-     * Sets the value of the storageToken property.
+     * 设置storageToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -77,7 +77,7 @@ public class StorageReferencePath {
     }
 
     /**
-     * Gets the value of the relativePath property.
+     * 获取relativePath属性的值。
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class StorageReferencePath {
     }
 
     /**
-     * Sets the value of the relativePath property.
+     * 设置relativePath属性的值。
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class StorageReferencePath {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class StorageReferencePath {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

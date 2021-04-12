@@ -12,9 +12,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -54,7 +54,7 @@ public class ExternalAuthorization {
     protected Decision decision;
 
     /**
-     * Gets the value of the accessPointToken property.
+     * 获取accessPointToken属性的值。
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Sets the value of the accessPointToken property.
+     * 设置accessPointToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Gets the value of the credentialToken property.
+     * 获取credentialToken属性的值。
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Sets the value of the credentialToken property.
+     * 设置credentialToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Gets the value of the reason property.
+     * 获取reason属性的值。
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Sets the value of the reason property.
+     * 设置reason属性的值。
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Gets the value of the decision property.
+     * 获取decision属性的值。
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class ExternalAuthorization {
     }
 
     /**
-     * Sets the value of the decision property.
+     * 设置decision属性的值。
      * 
      * @param value
      *     allowed object is

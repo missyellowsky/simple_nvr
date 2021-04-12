@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Dot11SecurityConfiguration complex type.
+ * <p>Dot11SecurityConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Dot11SecurityConfiguration"&gt;
@@ -64,7 +64,7 @@ public class Dot11SecurityConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class Dot11SecurityConfiguration {
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class Dot11SecurityConfiguration {
     }
 
     /**
-     * Gets the value of the algorithm property.
+     * 获取algorithm属性的值。
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class Dot11SecurityConfiguration {
     }
 
     /**
-     * Sets the value of the algorithm property.
+     * 设置algorithm属性的值。
      * 
      * @param value
      *     allowed object is
@@ -112,7 +112,7 @@ public class Dot11SecurityConfiguration {
     }
 
     /**
-     * Gets the value of the psk property.
+     * 获取psk属性的值。
      * 
      * @return
      *     possible object is
@@ -124,7 +124,7 @@ public class Dot11SecurityConfiguration {
     }
 
     /**
-     * Sets the value of the psk property.
+     * 设置psk属性的值。
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class Dot11SecurityConfiguration {
     }
 
     /**
-     * Gets the value of the dot1X property.
+     * 获取dot1X属性的值。
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class Dot11SecurityConfiguration {
     }
 
     /**
-     * Sets the value of the dot1X property.
+     * 设置dot1X属性的值。
      * 
      * @param value
      *     allowed object is
@@ -160,7 +160,7 @@ public class Dot11SecurityConfiguration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -172,7 +172,7 @@ public class Dot11SecurityConfiguration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

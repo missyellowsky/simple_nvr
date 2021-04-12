@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CertificateStatus complex type.
+ * <p>CertificateStatus complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CertificateStatus"&gt;
@@ -62,7 +62,7 @@ public class CertificateStatus {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the certificateID property.
+     * 获取certificateID属性的值。
      * 
      * @return
      *     possible object is
@@ -74,7 +74,7 @@ public class CertificateStatus {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * 设置certificateID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -86,7 +86,7 @@ public class CertificateStatus {
     }
 
     /**
-     * Gets the value of the status property.
+     * 获取status属性的值。
      * This getter has been renamed from isStatus() to getStatus() by cxf-xjc-boolean plugin.
      * 
      */
@@ -95,7 +95,7 @@ public class CertificateStatus {
     }
 
     /**
-     * Sets the value of the status property.
+     * 设置status属性的值。
      * 
      */
     public void setStatus(boolean value) {

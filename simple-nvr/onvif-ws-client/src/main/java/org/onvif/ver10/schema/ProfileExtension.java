@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for ProfileExtension complex type.
+ * <p>ProfileExtension complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ProfileExtension"&gt;
@@ -91,7 +91,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Gets the value of the audioOutputConfiguration property.
+     * 获取audioOutputConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Sets the value of the audioOutputConfiguration property.
+     * 设置audioOutputConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Gets the value of the audioDecoderConfiguration property.
+     * 获取audioDecoderConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Sets the value of the audioDecoderConfiguration property.
+     * 设置audioDecoderConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class ProfileExtension {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

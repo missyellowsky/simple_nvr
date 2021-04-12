@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for NoiseReduction complex type.
+ * <p>NoiseReduction complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="NoiseReduction"&gt;
@@ -53,7 +53,7 @@ public class NoiseReduction {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the level property.
+     * 获取level属性的值。
      * 
      */
     public float getLevel() {
@@ -61,7 +61,7 @@ public class NoiseReduction {
     }
 
     /**
-     * Sets the value of the level property.
+     * 设置level属性的值。
      * 
      */
     public void setLevel(float value) {

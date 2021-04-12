@@ -16,9 +16,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for RecordingJobSource complex type.
+ * <p>RecordingJobSource complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="RecordingJobSource"&gt;
@@ -59,7 +59,7 @@ public class RecordingJobSource {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sourceToken property.
+     * 获取sourceToken属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class RecordingJobSource {
     }
 
     /**
-     * Sets the value of the sourceToken property.
+     * 设置sourceToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class RecordingJobSource {
     }
 
     /**
-     * Gets the value of the autoCreateReceiver property.
+     * 获取autoCreateReceiver属性的值。
      * This getter has been renamed from isAutoCreateReceiver() to getAutoCreateReceiver() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -96,7 +96,7 @@ public class RecordingJobSource {
     }
 
     /**
-     * Sets the value of the autoCreateReceiver property.
+     * 设置autoCreateReceiver属性的值。
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class RecordingJobSource {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -149,7 +149,7 @@ public class RecordingJobSource {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

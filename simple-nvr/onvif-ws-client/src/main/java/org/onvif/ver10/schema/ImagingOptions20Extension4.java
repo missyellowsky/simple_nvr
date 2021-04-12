@@ -13,9 +13,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for ImagingOptions20Extension4 complex type.
+ * <p>ImagingOptions20Extension4 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ImagingOptions20Extension4"&gt;

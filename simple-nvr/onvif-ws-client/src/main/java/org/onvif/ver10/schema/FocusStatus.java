@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for FocusStatus complex type.
+ * <p>FocusStatus complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="FocusStatus"&gt;
@@ -63,7 +63,7 @@ public class FocusStatus {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the position property.
+     * 获取position属性的值。
      * 
      */
     public float getPosition() {
@@ -71,7 +71,7 @@ public class FocusStatus {
     }
 
     /**
-     * Sets the value of the position property.
+     * 设置position属性的值。
      * 
      */
     public void setPosition(float value) {
@@ -79,7 +79,7 @@ public class FocusStatus {
     }
 
     /**
-     * Gets the value of the moveStatus property.
+     * 获取moveStatus属性的值。
      * 
      * @return
      *     possible object is
@@ -91,7 +91,7 @@ public class FocusStatus {
     }
 
     /**
-     * Sets the value of the moveStatus property.
+     * 设置moveStatus属性的值。
      * 
      * @param value
      *     allowed object is
@@ -103,7 +103,7 @@ public class FocusStatus {
     }
 
     /**
-     * Gets the value of the error property.
+     * 获取error属性的值。
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class FocusStatus {
     }
 
     /**
-     * Sets the value of the error property.
+     * 设置error属性的值。
      * 
      * @param value
      *     allowed object is

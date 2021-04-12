@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for DigitalInput complex type.
+ * <p>DigitalInput complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DigitalInput"&gt;
@@ -84,7 +84,7 @@ public class DigitalInput
     }
 
     /**
-     * Gets the value of the idleState property.
+     * 获取idleState属性的值。
      * 
      * @return
      *     possible object is
@@ -96,7 +96,7 @@ public class DigitalInput
     }
 
     /**
-     * Sets the value of the idleState property.
+     * 设置idleState属性的值。
      * 
      * @param value
      *     allowed object is

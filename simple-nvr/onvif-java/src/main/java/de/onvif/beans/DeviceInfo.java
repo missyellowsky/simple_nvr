@@ -12,6 +12,7 @@ public class DeviceInfo implements Serializable {
   private String ip;
   private boolean isAlive = true;
   private String playHost;
+  private String net;
   public DeviceInfo(){}
   public DeviceInfo(
       String manufacturer,
@@ -120,5 +121,13 @@ public class DeviceInfo implements Serializable {
 
   public void setPlayHost(String playHost) {
     this.playHost = playHost;
+  }
+
+  public String getNet() {
+    return net;
+  }
+
+  public void setNet(String net) {
+    this.net = net;
   }
 }

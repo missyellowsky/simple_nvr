@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for IPv6Configuration complex type.
+ * <p>IPv6Configuration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="IPv6Configuration"&gt;
@@ -73,7 +73,7 @@ public class IPv6Configuration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the acceptRouterAdvert property.
+     * 获取acceptRouterAdvert属性的值。
      * This getter has been renamed from isAcceptRouterAdvert() to getAcceptRouterAdvert() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -86,7 +86,7 @@ public class IPv6Configuration {
     }
 
     /**
-     * Sets the value of the acceptRouterAdvert property.
+     * 设置acceptRouterAdvert属性的值。
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class IPv6Configuration {
     }
 
     /**
-     * Gets the value of the dhcp property.
+     * 获取dhcp属性的值。
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class IPv6Configuration {
     }
 
     /**
-     * Sets the value of the dhcp property.
+     * 设置dhcp属性的值。
      * 
      * @param value
      *     allowed object is
@@ -238,7 +238,7 @@ public class IPv6Configuration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -250,7 +250,7 @@ public class IPv6Configuration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

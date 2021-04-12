@@ -2,28 +2,10 @@ package de.onvif.discovery;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.Inet4Address;
-import java.net.Inet6Address;
-import java.net.InetAddress;
-import java.net.InterfaceAddress;
-import java.net.MalformedURLException;
-import java.net.NetworkInterface;
-import java.net.SocketException;
-import java.net.SocketTimeoutException;
-import java.net.URL;
+import java.net.*;
 import java.nio.charset.StandardCharsets;
 import java.security.SecureRandom;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.Enumeration;
-import java.util.List;
-import java.util.Random;
-import java.util.TreeSet;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
@@ -104,6 +86,40 @@ public class DeviceDiscovery {
       }
     }
     return urls;
+  }
+
+  /**
+   * Discover WS device on the local network with specified filter
+   *
+   * @param net
+   * @param regexpProtocol url protocol matching regexp like "^http$", might be empty ""
+   * @param regexpPath url path matching regexp like "onvif", might be empty ""
+   * @return list of unique device urls filtered
+   */
+  public static Map<String, Collection<URL>> discoverWsDevicesAsUrlsByUrl(String net, String regexpProtocol, String regexpPath) {
+    Map<String, Collection<URL>> urlMap = new HashMap<>();
+    final Collection<URL> urls =
+            new TreeSet<>(
+                    new Comparator<URL>() {
+                      public int compare(URL o1, URL o2) {
+                        return o1.toString().compareTo(o2.toString());
+                      }
+                    });
+    for (String key : discoverWsDevices(net)) {
+      try {
+        final URL url = new URL(key);
+        boolean ok = true;
+        if (regexpProtocol.length() > 0 && !url.getProtocol().matches(regexpProtocol)) ok = false;
+        if (regexpPath.length() > 0 && !url.getPath().matches(regexpPath)) ok = false;
+        // ignore ip6 hosts
+        if (ok && !enableIPv6 && url.getHost().startsWith("[")) ok = false;
+        if (ok) urls.add(url);
+      } catch (MalformedURLException e) {
+        e.printStackTrace();
+      }
+    }
+    urlMap.put(net, urls);
+    return urlMap;
   }
 
   /**
@@ -221,6 +237,109 @@ public class DeviceDiscovery {
     return addresses;
   }
 
+  /**
+   * Discover WS device on the local network
+   *
+   * @return list of unique devices access strings which might be URLs in most cases
+   */
+  public static Collection<String> discoverWsDevices(String net) {
+    InetAddress address = null;
+    final Collection<String> addresses = new ConcurrentSkipListSet<>();
+    final CountDownLatch serverStarted = new CountDownLatch(1);
+    final CountDownLatch serverFinished = new CountDownLatch(1);
+    try {
+      if (net != null) {
+        address = InetAddress.getByName(net);
+      }
+    } catch (UnknownHostException e) {
+      e.printStackTrace();
+    }
+    ExecutorService executorService = Executors.newCachedThreadPool();
+    if (address != null) {
+      InetAddress finalAddress = address;
+      Runnable runnable =
+              new Runnable() {
+                public void run() {
+                  try {
+                    final String uuid = UUID.randomUUID().toString();
+                    final String probe =
+                            WS_DISCOVERY_PROBE_MESSAGE.replaceAll(
+                                    "<wsa:MessageID>urn:uuid:.*</wsa:MessageID>",
+                                    "<wsa:MessageID>urn:uuid:" + uuid + "</wsa:MessageID>");
+                    final int port = random.nextInt(20000) + 40000;
+                    @SuppressWarnings("SocketOpenedButNotSafelyClosed")
+                    final DatagramSocket server = new DatagramSocket(port, finalAddress);
+                    new Thread() {
+                      public void run() {
+                        try {
+                          final DatagramPacket packet = new DatagramPacket(new byte[4096], 4096);
+                          server.setSoTimeout(WS_DISCOVERY_TIMEOUT);
+                          long timerStarted = System.currentTimeMillis();
+                          while (System.currentTimeMillis() - timerStarted < (WS_DISCOVERY_TIMEOUT)) {
+                            serverStarted.countDown();
+                            server.receive(packet);
+                            final Collection<String> collection =
+                                    parseSoapResponseForUrls(
+                                            Arrays.copyOf(packet.getData(), packet.getLength()));
+                            for (String key : collection) {
+                              addresses.add(key);
+                            }
+                          }
+                        } catch (SocketTimeoutException ignored) {
+                        } catch (Exception e) {
+                          e.printStackTrace();
+                        } finally {
+                          serverFinished.countDown();
+                          server.close();
+                        }
+                      }
+                    }.start();
+                    try {
+                      serverStarted.await(1000, TimeUnit.MILLISECONDS);
+                    } catch (InterruptedException e) {
+                      e.printStackTrace();
+                    }
+                    if (finalAddress instanceof Inet4Address) {
+                      server.send(
+                              new DatagramPacket(
+                                      probe.getBytes(StandardCharsets.UTF_8),
+                                      probe.length(),
+                                      InetAddress.getByName(WS_DISCOVERY_ADDRESS_IPv4),
+                                      WS_DISCOVERY_PORT));
+                    } else {
+                      if (finalAddress instanceof Inet6Address) {
+                        if (enableIPv6)
+                          server.send(
+                                  new DatagramPacket(
+                                          probe.getBytes(StandardCharsets.UTF_8),
+                                          probe.length(),
+                                          InetAddress.getByName(WS_DISCOVERY_ADDRESS_IPv6),
+                                          WS_DISCOVERY_PORT));
+                      } else {
+                        assert (false); // 	unknown network type.. ignore or warn developer
+                      }
+                    }
+
+                  } catch (Exception e) {
+                    e.printStackTrace();
+                  }
+                  try {
+                    serverFinished.await((WS_DISCOVERY_TIMEOUT), TimeUnit.MILLISECONDS);
+                  } catch (InterruptedException e) {
+                    e.printStackTrace();
+                  }
+                }
+              };
+      executorService.submit(runnable);
+    }
+    try {
+      executorService.shutdown();
+      executorService.awaitTermination(WS_DISCOVERY_TIMEOUT + 2000, TimeUnit.MILLISECONDS);
+    } catch (InterruptedException ignored) {
+    }
+    return addresses;
+  }
+
   private static Collection<Node> getNodeMatching(Node body, String regexp) {
     final Collection<Node> nodes = new ArrayList<>();
     if (body.getNodeName().matches(regexp)) nodes.add(body);
@@ -249,4 +368,5 @@ public class DeviceDiscovery {
     }
     return urls;
   }
+
 }

@@ -16,9 +16,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ShapeDescriptor complex type.
+ * <p>ShapeDescriptor complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ShapeDescriptor"&gt;
@@ -59,7 +59,7 @@ public class ShapeDescriptor {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the boundingBox property.
+     * 获取boundingBox属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class ShapeDescriptor {
     }
 
     /**
-     * Sets the value of the boundingBox property.
+     * 设置boundingBox属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class ShapeDescriptor {
     }
 
     /**
-     * Gets the value of the centerOfGravity property.
+     * 获取centerOfGravity属性的值。
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class ShapeDescriptor {
     }
 
     /**
-     * Sets the value of the centerOfGravity property.
+     * 设置centerOfGravity属性的值。
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class ShapeDescriptor {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class ShapeDescriptor {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

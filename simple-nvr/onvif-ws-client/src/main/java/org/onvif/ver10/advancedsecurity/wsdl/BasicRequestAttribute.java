@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 /**
  * A CSR attribute as specified in RFC 2986.
  * 
- * <p>Java class for BasicRequestAttribute complex type.
+ * <p>BasicRequestAttribute complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="BasicRequestAttribute"&gt;
@@ -59,7 +59,7 @@ public class BasicRequestAttribute {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the oid property.
+     * 获取oid属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class BasicRequestAttribute {
     }
 
     /**
-     * Sets the value of the oid property.
+     * 设置oid属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class BasicRequestAttribute {
     }
 
     /**
-     * Gets the value of the value property.
+     * 获取value属性的值。
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class BasicRequestAttribute {
     }
 
     /**
-     * Sets the value of the value property.
+     * 设置value属性的值。
      * 
      * @param value
      *     allowed object is

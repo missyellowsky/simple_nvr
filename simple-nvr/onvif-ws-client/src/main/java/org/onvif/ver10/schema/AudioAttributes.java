@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AudioAttributes complex type.
+ * <p>AudioAttributes complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AudioAttributes"&gt;
@@ -63,7 +63,7 @@ public class AudioAttributes {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the bitrate property.
+     * 获取bitrate属性的值。
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class AudioAttributes {
     }
 
     /**
-     * Sets the value of the bitrate property.
+     * 设置bitrate属性的值。
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class AudioAttributes {
     }
 
     /**
-     * Gets the value of the encoding property.
+     * 获取encoding属性的值。
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class AudioAttributes {
     }
 
     /**
-     * Sets the value of the encoding property.
+     * 设置encoding属性的值。
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class AudioAttributes {
     }
 
     /**
-     * Gets the value of the samplerate property.
+     * 获取samplerate属性的值。
      * 
      */
     public int getSamplerate() {
@@ -119,7 +119,7 @@ public class AudioAttributes {
     }
 
     /**
-     * Sets the value of the samplerate property.
+     * 设置samplerate属性的值。
      * 
      */
     public void setSamplerate(int value) {

@@ -13,10 +13,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author wuguodong
- * @Title CameraThread.java
- * @description TODO
- * @time 2019年12月16日 上午9:32:43
+ *
+ * @Title 直播任务线程类
  **/
 public class CameraThread {
 
@@ -54,12 +52,12 @@ public class CameraThread {
                 push.push();
                 // 清除缓存
                 CacheUtil.STREATMAP.remove(cameraPojo.getToken());
-                MediaService.JOBMAP.remove(cameraPojo.getToken());
+                CacheUtil.JOBMAP.remove(cameraPojo.getToken());
                 CacheUtil.PUSHMAP.remove(cameraPojo.getToken());
                 CacheUtil.PUSHMAPANOTHER.remove(cameraPojo.getToken());
             } catch (Exception e) {
                 CacheUtil.STREATMAP.remove(cameraPojo.getToken());
-                MediaService.JOBMAP.remove(cameraPojo.getToken());
+                CacheUtil.JOBMAP.remove(cameraPojo.getToken());
                 CacheUtil.PUSHMAP.remove(cameraPojo.getToken());
                 CacheUtil.PUSHMAPANOTHER.remove(cameraPojo.getToken());
             }

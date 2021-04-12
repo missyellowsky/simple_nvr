@@ -16,9 +16,21 @@ module.exports = {
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''
-        },
-      }
+        }
+      },
+      '/geoserver': {
+        target: 'http://114.116.194.186:9090',
+        changeOrigin: true
 
+      },
+      '/img':{
+        target: 'http://114.116.194.186:9090/demo/examples',
+        changeOrigin: true
+      },
+      '/gis':{
+        target: 'http://114.116.194.186:9090',
+        changeOrigin: true
+      }
     },
 
     // Various Dev Server settings

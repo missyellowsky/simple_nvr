@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingSummary complex type.
+ * <p>RecordingSummary complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="RecordingSummary"&gt;
@@ -65,7 +65,7 @@ public class RecordingSummary {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the dataFrom property.
+     * 获取dataFrom属性的值。
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class RecordingSummary {
     }
 
     /**
-     * Sets the value of the dataFrom property.
+     * 设置dataFrom属性的值。
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class RecordingSummary {
     }
 
     /**
-     * Gets the value of the dataUntil property.
+     * 获取dataUntil属性的值。
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class RecordingSummary {
     }
 
     /**
-     * Sets the value of the dataUntil property.
+     * 设置dataUntil属性的值。
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class RecordingSummary {
     }
 
     /**
-     * Gets the value of the numberRecordings property.
+     * 获取numberRecordings属性的值。
      * 
      */
     public int getNumberRecordings() {
@@ -121,7 +121,7 @@ public class RecordingSummary {
     }
 
     /**
-     * Sets the value of the numberRecordings property.
+     * 设置numberRecordings属性的值。
      * 
      */
     public void setNumberRecordings(int value) {

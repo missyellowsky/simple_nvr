@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -52,7 +52,7 @@ public class PullMessagesFaultResponse {
     protected List<Object> any;
 
     /**
-     * Gets the value of the maxTimeout property.
+     * 获取maxTimeout属性的值。
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class PullMessagesFaultResponse {
     }
 
     /**
-     * Sets the value of the maxTimeout property.
+     * 设置maxTimeout属性的值。
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class PullMessagesFaultResponse {
     }
 
     /**
-     * Gets the value of the maxMessageLimit property.
+     * 获取maxMessageLimit属性的值。
      * 
      */
     public int getMaxMessageLimit() {
@@ -84,7 +84,7 @@ public class PullMessagesFaultResponse {
     }
 
     /**
-     * Sets the value of the maxMessageLimit property.
+     * 设置maxMessageLimit属性的值。
      * 
      */
     public void setMaxMessageLimit(int value) {

@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for BinaryData complex type.
+ * <p>BinaryData complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="BinaryData"&gt;
@@ -42,7 +42,7 @@ public class BinaryData {
     protected String contentType;
 
     /**
-     * Gets the value of the data property.
+     * 获取data属性的值。
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class BinaryData {
     }
 
     /**
-     * Sets the value of the data property.
+     * 设置data属性的值。
      * 
      * @param value
      *     allowed object is
@@ -64,7 +64,7 @@ public class BinaryData {
     }
 
     /**
-     * Gets the value of the contentType property.
+     * 获取contentType属性的值。
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class BinaryData {
     }
 
     /**
-     * Sets the value of the contentType property.
+     * 设置contentType属性的值。
      * 
      * @param value
      *     allowed object is

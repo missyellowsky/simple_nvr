@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 /**
  * An identifier of an algorithm.
  * 
- * <p>Java class for AlgorithmIdentifier complex type.
+ * <p>AlgorithmIdentifier complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AlgorithmIdentifier"&gt;
@@ -67,7 +67,7 @@ public class AlgorithmIdentifier {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the algorithm property.
+     * 获取algorithm属性的值。
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class AlgorithmIdentifier {
     }
 
     /**
-     * Sets the value of the algorithm property.
+     * 设置algorithm属性的值。
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class AlgorithmIdentifier {
     }
 
     /**
-     * Gets the value of the parameters property.
+     * 获取parameters属性的值。
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class AlgorithmIdentifier {
     }
 
     /**
-     * Sets the value of the parameters property.
+     * 设置parameters属性的值。
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class AlgorithmIdentifier {
     }
 
     /**
-     * Gets the value of the anyParameters property.
+     * 获取anyParameters属性的值。
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class AlgorithmIdentifier {
     }
 
     /**
-     * Sets the value of the anyParameters property.
+     * 设置anyParameters属性的值。
      * 
      * @param value
      *     allowed object is
@@ -166,9 +166,9 @@ public class AlgorithmIdentifier {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

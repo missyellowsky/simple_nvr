@@ -17,7 +17,7 @@
     <checkstyle-maven-plugin.version>3.0.0</checkstyle-maven-plugin.version>
     <javax.activation.version>1.2.0</javax.activation.version>
     <jaxb.api.version>2.3.1</jaxb.api.version>         <!-- 2.3.0,  2.3.1 or 2.4.0-b180830.0359 -->
-    <java.release>8</java.release>
+    <java.release>1.8</java.release>
     <!--		<java.version>1.10</java.version>-->
     <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

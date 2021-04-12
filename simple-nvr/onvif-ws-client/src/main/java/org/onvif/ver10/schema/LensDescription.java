@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for LensDescription complex type.
+ * <p>LensDescription complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="LensDescription"&gt;
@@ -65,7 +65,7 @@ public class LensDescription {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the offset property.
+     * 获取offset属性的值。
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class LensDescription {
     }
 
     /**
-     * Sets the value of the offset property.
+     * 设置offset属性的值。
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class LensDescription {
     }
 
     /**
-     * Gets the value of the xFactor property.
+     * 获取xFactor属性的值。
      * 
      */
     public float getXFactor() {
@@ -126,7 +126,7 @@ public class LensDescription {
     }
 
     /**
-     * Sets the value of the xFactor property.
+     * 设置xFactor属性的值。
      * 
      */
     public void setXFactor(float value) {
@@ -164,7 +164,7 @@ public class LensDescription {
     }
 
     /**
-     * Gets the value of the focalLength property.
+     * 获取focalLength属性的值。
      * 
      * @return
      *     possible object is
@@ -176,7 +176,7 @@ public class LensDescription {
     }
 
     /**
-     * Sets the value of the focalLength property.
+     * 设置focalLength属性的值。
      * 
      * @param value
      *     allowed object is

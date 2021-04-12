@@ -10,9 +10,9 @@ import org.oasis_open.docs.wsrf.bf_2.BaseFaultType;
 
 
 /**
- * <p>Java class for ResourceUnavailableFaultType complex type.
+ * <p>ResourceUnavailableFaultType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ResourceUnavailableFaultType"&gt;

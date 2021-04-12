@@ -14,9 +14,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for NetworkCapabilitiesExtension complex type.
+ * <p>NetworkCapabilitiesExtension complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="NetworkCapabilitiesExtension"&gt;
@@ -80,7 +80,7 @@ public class NetworkCapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the dot11Configuration property.
+     * 获取dot11Configuration属性的值。
      * This getter has been renamed from isDot11Configuration() to getDot11Configuration() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -93,7 +93,7 @@ public class NetworkCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the dot11Configuration property.
+     * 设置dot11Configuration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class NetworkCapabilitiesExtension {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class NetworkCapabilitiesExtension {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

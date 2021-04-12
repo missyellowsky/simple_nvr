@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Capabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -97,7 +97,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the wsSubscriptionPolicySupport property.
+     * 获取wsSubscriptionPolicySupport属性的值。
      * This getter has been renamed from isWSSubscriptionPolicySupport() to getWSSubscriptionPolicySupport() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -110,7 +110,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the wsSubscriptionPolicySupport property.
+     * 设置wsSubscriptionPolicySupport属性的值。
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the wsPullPointSupport property.
+     * 获取wsPullPointSupport属性的值。
      * This getter has been renamed from isWSPullPointSupport() to getWSPullPointSupport() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -135,7 +135,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the wsPullPointSupport property.
+     * 设置wsPullPointSupport属性的值。
      * 
      * @param value
      *     allowed object is
@@ -147,7 +147,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the wsPausableSubscriptionManagerInterfaceSupport property.
+     * 获取wsPausableSubscriptionManagerInterfaceSupport属性的值。
      * This getter has been renamed from isWSPausableSubscriptionManagerInterfaceSupport() to getWSPausableSubscriptionManagerInterfaceSupport() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -160,7 +160,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the wsPausableSubscriptionManagerInterfaceSupport property.
+     * 设置wsPausableSubscriptionManagerInterfaceSupport属性的值。
      * 
      * @param value
      *     allowed object is
@@ -172,7 +172,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxNotificationProducers property.
+     * 获取maxNotificationProducers属性的值。
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxNotificationProducers property.
+     * 设置maxNotificationProducers属性的值。
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxPullPoints property.
+     * 获取maxPullPoints属性的值。
      * 
      * @return
      *     possible object is
@@ -208,7 +208,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxPullPoints property.
+     * 设置maxPullPoints属性的值。
      * 
      * @param value
      *     allowed object is
@@ -220,7 +220,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the persistentNotificationStorage property.
+     * 获取persistentNotificationStorage属性的值。
      * This getter has been renamed from isPersistentNotificationStorage() to getPersistentNotificationStorage() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -233,7 +233,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the persistentNotificationStorage property.
+     * 设置persistentNotificationStorage属性的值。
      * 
      * @param value
      *     allowed object is

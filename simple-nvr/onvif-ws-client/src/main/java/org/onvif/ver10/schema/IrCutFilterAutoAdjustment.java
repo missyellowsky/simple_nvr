@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for IrCutFilterAutoAdjustment complex type.
+ * <p>IrCutFilterAutoAdjustment complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="IrCutFilterAutoAdjustment"&gt;
@@ -58,7 +58,7 @@ public class IrCutFilterAutoAdjustment {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the boundaryType property.
+     * 获取boundaryType属性的值。
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Sets the value of the boundaryType property.
+     * 设置boundaryType属性的值。
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Gets the value of the boundaryOffset property.
+     * 获取boundaryOffset属性的值。
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Sets the value of the boundaryOffset property.
+     * 设置boundaryOffset属性的值。
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Gets the value of the responseTime property.
+     * 获取responseTime属性的值。
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Sets the value of the responseTime property.
+     * 设置responseTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class IrCutFilterAutoAdjustment {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

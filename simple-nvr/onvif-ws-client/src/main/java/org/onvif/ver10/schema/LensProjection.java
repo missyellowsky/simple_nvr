@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for LensProjection complex type.
+ * <p>LensProjection complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="LensProjection"&gt;
@@ -61,7 +61,7 @@ public class LensProjection {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the angle property.
+     * 获取angle属性的值。
      * 
      */
     public float getAngle() {
@@ -69,7 +69,7 @@ public class LensProjection {
     }
 
     /**
-     * Sets the value of the angle property.
+     * 设置angle属性的值。
      * 
      */
     public void setAngle(float value) {
@@ -77,7 +77,7 @@ public class LensProjection {
     }
 
     /**
-     * Gets the value of the radius property.
+     * 获取radius属性的值。
      * 
      */
     public float getRadius() {
@@ -85,7 +85,7 @@ public class LensProjection {
     }
 
     /**
-     * Sets the value of the radius property.
+     * 设置radius属性的值。
      * 
      */
     public void setRadius(float value) {
@@ -93,7 +93,7 @@ public class LensProjection {
     }
 
     /**
-     * Gets the value of the transmittance property.
+     * 获取transmittance属性的值。
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class LensProjection {
     }
 
     /**
-     * Sets the value of the transmittance property.
+     * 设置transmittance属性的值。
      * 
      * @param value
      *     allowed object is

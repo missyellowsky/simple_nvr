@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Time complex type.
+ * <p>Time complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Time"&gt;
@@ -46,7 +46,7 @@ public class Time {
     protected int second;
 
     /**
-     * Gets the value of the hour property.
+     * 获取hour属性的值。
      * 
      */
     public int getHour() {
@@ -54,7 +54,7 @@ public class Time {
     }
 
     /**
-     * Sets the value of the hour property.
+     * 设置hour属性的值。
      * 
      */
     public void setHour(int value) {
@@ -62,7 +62,7 @@ public class Time {
     }
 
     /**
-     * Gets the value of the minute property.
+     * 获取minute属性的值。
      * 
      */
     public int getMinute() {
@@ -70,7 +70,7 @@ public class Time {
     }
 
     /**
-     * Sets the value of the minute property.
+     * 设置minute属性的值。
      * 
      */
     public void setMinute(int value) {
@@ -78,7 +78,7 @@ public class Time {
     }
 
     /**
-     * Gets the value of the second property.
+     * 获取second属性的值。
      * 
      */
     public int getSecond() {
@@ -86,7 +86,7 @@ public class Time {
     }
 
     /**
-     * Sets the value of the second property.
+     * 设置second属性的值。
      * 
      */
     public void setSecond(int value) {

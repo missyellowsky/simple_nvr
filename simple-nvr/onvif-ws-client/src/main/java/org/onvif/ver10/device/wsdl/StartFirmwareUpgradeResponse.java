@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -51,7 +51,7 @@ public class StartFirmwareUpgradeResponse {
     protected Duration expectedDownTime;
 
     /**
-     * Gets the value of the uploadUri property.
+     * 获取uploadUri属性的值。
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class StartFirmwareUpgradeResponse {
     }
 
     /**
-     * Sets the value of the uploadUri property.
+     * 设置uploadUri属性的值。
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class StartFirmwareUpgradeResponse {
     }
 
     /**
-     * Gets the value of the uploadDelay property.
+     * 获取uploadDelay属性的值。
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class StartFirmwareUpgradeResponse {
     }
 
     /**
-     * Sets the value of the uploadDelay property.
+     * 设置uploadDelay属性的值。
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class StartFirmwareUpgradeResponse {
     }
 
     /**
-     * Gets the value of the expectedDownTime property.
+     * 获取expectedDownTime属性的值。
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class StartFirmwareUpgradeResponse {
     }
 
     /**
-     * Sets the value of the expectedDownTime property.
+     * 设置expectedDownTime属性的值。
      * 
      * @param value
      *     allowed object is

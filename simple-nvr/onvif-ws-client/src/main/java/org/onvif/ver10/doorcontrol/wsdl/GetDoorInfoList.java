@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -44,7 +44,7 @@ public class GetDoorInfoList {
     protected String startReference;
 
     /**
-     * Gets the value of the limit property.
+     * 获取limit属性的值。
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class GetDoorInfoList {
     }
 
     /**
-     * Sets the value of the limit property.
+     * 设置limit属性的值。
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class GetDoorInfoList {
     }
 
     /**
-     * Gets the value of the startReference property.
+     * 获取startReference属性的值。
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class GetDoorInfoList {
     }
 
     /**
-     * Sets the value of the startReference property.
+     * 设置startReference属性的值。
      * 
      * @param value
      *     allowed object is

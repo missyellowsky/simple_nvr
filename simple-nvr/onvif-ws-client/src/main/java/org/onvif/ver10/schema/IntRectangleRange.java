@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  *         position and size. Units are pixel.
  *       
  * 
- * <p>Java class for IntRectangleRange complex type.
+ * <p>IntRectangleRange complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="IntRectangleRange"&gt;
@@ -54,7 +54,7 @@ public class IntRectangleRange {
     protected IntRange heightRange;
 
     /**
-     * Gets the value of the xRange property.
+     * 获取xRange属性的值。
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class IntRectangleRange {
     }
 
     /**
-     * Sets the value of the xRange property.
+     * 设置xRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class IntRectangleRange {
     }
 
     /**
-     * Gets the value of the yRange property.
+     * 获取yRange属性的值。
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class IntRectangleRange {
     }
 
     /**
-     * Sets the value of the yRange property.
+     * 设置yRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class IntRectangleRange {
     }
 
     /**
-     * Gets the value of the widthRange property.
+     * 获取widthRange属性的值。
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class IntRectangleRange {
     }
 
     /**
-     * Sets the value of the widthRange property.
+     * 设置widthRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class IntRectangleRange {
     }
 
     /**
-     * Gets the value of the heightRange property.
+     * 获取heightRange属性的值。
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class IntRectangleRange {
     }
 
     /**
-     * Sets the value of the heightRange property.
+     * 设置heightRange属性的值。
      * 
      * @param value
      *     allowed object is

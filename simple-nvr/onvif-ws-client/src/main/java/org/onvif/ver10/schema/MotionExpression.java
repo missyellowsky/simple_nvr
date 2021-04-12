@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MotionExpression complex type.
+ * <p>MotionExpression complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MotionExpression"&gt;
@@ -57,7 +57,7 @@ public class MotionExpression {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the expression property.
+     * 获取expression属性的值。
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class MotionExpression {
     }
 
     /**
-     * Sets the value of the expression property.
+     * 设置expression属性的值。
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class MotionExpression {
     }
 
     /**
-     * Gets the value of the type property.
+     * 获取type属性的值。
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class MotionExpression {
     }
 
     /**
-     * Sets the value of the type property.
+     * 设置type属性的值。
      * 
      * @param value
      *     allowed object is

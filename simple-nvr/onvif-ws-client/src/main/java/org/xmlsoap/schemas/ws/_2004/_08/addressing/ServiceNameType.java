@@ -18,9 +18,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ServiceNameType complex type.
+ * <p>ServiceNameType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ServiceNameType"&gt;
@@ -51,7 +51,7 @@ public class ServiceNameType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the value property.
+     * 获取value属性的值。
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class ServiceNameType {
     }
 
     /**
-     * Sets the value of the value property.
+     * 设置value属性的值。
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class ServiceNameType {
     }
 
     /**
-     * Gets the value of the portName property.
+     * 获取portName属性的值。
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class ServiceNameType {
     }
 
     /**
-     * Sets the value of the portName property.
+     * 设置portName属性的值。
      * 
      * @param value
      *     allowed object is

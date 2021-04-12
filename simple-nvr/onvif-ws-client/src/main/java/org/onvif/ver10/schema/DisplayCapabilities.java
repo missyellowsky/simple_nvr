@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for DisplayCapabilities complex type.
+ * <p>DisplayCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DisplayCapabilities"&gt;
@@ -59,7 +59,7 @@ public class DisplayCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * 获取xAddr属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class DisplayCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * 设置xAddr属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class DisplayCapabilities {
     }
 
     /**
-     * Gets the value of the fixedLayout property.
+     * 获取fixedLayout属性的值。
      * This getter has been renamed from isFixedLayout() to getFixedLayout() by cxf-xjc-boolean plugin.
      * 
      */
@@ -92,7 +92,7 @@ public class DisplayCapabilities {
     }
 
     /**
-     * Sets the value of the fixedLayout property.
+     * 设置fixedLayout属性的值。
      * 
      */
     public void setFixedLayout(boolean value) {

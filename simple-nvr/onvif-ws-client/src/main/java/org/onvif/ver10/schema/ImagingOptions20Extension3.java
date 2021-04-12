@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ImagingOptions20Extension3 complex type.
+ * <p>ImagingOptions20Extension3 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ImagingOptions20Extension3"&gt;
@@ -50,7 +50,7 @@ public class ImagingOptions20Extension3 {
     protected ImagingOptions20Extension4 extension;
 
     /**
-     * Gets the value of the toneCompensationOptions property.
+     * 获取toneCompensationOptions属性的值。
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Sets the value of the toneCompensationOptions property.
+     * 设置toneCompensationOptions属性的值。
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Gets the value of the defoggingOptions property.
+     * 获取defoggingOptions属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Sets the value of the defoggingOptions property.
+     * 设置defoggingOptions属性的值。
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Gets the value of the noiseReductionOptions property.
+     * 获取noiseReductionOptions属性的值。
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Sets the value of the noiseReductionOptions property.
+     * 设置noiseReductionOptions属性的值。
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class ImagingOptions20Extension3 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

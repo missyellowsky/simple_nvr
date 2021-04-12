@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MediaUri complex type.
+ * <p>MediaUri complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MediaUri"&gt;
@@ -68,7 +68,7 @@ public class MediaUri {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the uri property.
+     * 获取uri属性的值。
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class MediaUri {
     }
 
     /**
-     * Sets the value of the uri property.
+     * 设置uri属性的值。
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class MediaUri {
     }
 
     /**
-     * Gets the value of the invalidAfterConnect property.
+     * 获取invalidAfterConnect属性的值。
      * This getter has been renamed from isInvalidAfterConnect() to getInvalidAfterConnect() by cxf-xjc-boolean plugin.
      * 
      */
@@ -101,7 +101,7 @@ public class MediaUri {
     }
 
     /**
-     * Sets the value of the invalidAfterConnect property.
+     * 设置invalidAfterConnect属性的值。
      * 
      */
     public void setInvalidAfterConnect(boolean value) {
@@ -109,7 +109,7 @@ public class MediaUri {
     }
 
     /**
-     * Gets the value of the invalidAfterReboot property.
+     * 获取invalidAfterReboot属性的值。
      * This getter has been renamed from isInvalidAfterReboot() to getInvalidAfterReboot() by cxf-xjc-boolean plugin.
      * 
      */
@@ -118,7 +118,7 @@ public class MediaUri {
     }
 
     /**
-     * Sets the value of the invalidAfterReboot property.
+     * 设置invalidAfterReboot属性的值。
      * 
      */
     public void setInvalidAfterReboot(boolean value) {
@@ -126,7 +126,7 @@ public class MediaUri {
     }
 
     /**
-     * Gets the value of the timeout property.
+     * 获取timeout属性的值。
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class MediaUri {
     }
 
     /**
-     * Sets the value of the timeout property.
+     * 设置timeout属性的值。
      * 
      * @param value
      *     allowed object is

@@ -19,9 +19,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for NetworkZeroConfiguration complex type.
+ * <p>NetworkZeroConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="NetworkZeroConfiguration"&gt;
@@ -64,7 +64,7 @@ public class NetworkZeroConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the interfaceToken property.
+     * 获取interfaceToken属性的值。
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class NetworkZeroConfiguration {
     }
 
     /**
-     * Sets the value of the interfaceToken property.
+     * 设置interfaceToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class NetworkZeroConfiguration {
     }
 
     /**
-     * Gets the value of the enabled property.
+     * 获取enabled属性的值。
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      */
@@ -97,7 +97,7 @@ public class NetworkZeroConfiguration {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * 设置enabled属性的值。
      * 
      */
     public void setEnabled(boolean value) {
@@ -134,7 +134,7 @@ public class NetworkZeroConfiguration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -146,7 +146,7 @@ public class NetworkZeroConfiguration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for OSDConfiguration complex type.
+ * <p>OSDConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="OSDConfiguration"&gt;
@@ -69,7 +69,7 @@ public class OSDConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the videoSourceConfigurationToken property.
+     * 获取videoSourceConfigurationToken属性的值。
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the videoSourceConfigurationToken property.
+     * 设置videoSourceConfigurationToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Gets the value of the type property.
+     * 获取type属性的值。
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the type property.
+     * 设置type属性的值。
      * 
      * @param value
      *     allowed object is
@@ -117,7 +117,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Gets the value of the position property.
+     * 获取position属性的值。
      * 
      * @return
      *     possible object is
@@ -129,7 +129,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the position property.
+     * 设置position属性的值。
      * 
      * @param value
      *     allowed object is
@@ -141,7 +141,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Gets the value of the textString property.
+     * 获取textString属性的值。
      * 
      * @return
      *     possible object is
@@ -153,7 +153,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the textString property.
+     * 设置textString属性的值。
      * 
      * @param value
      *     allowed object is
@@ -165,7 +165,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Gets the value of the image property.
+     * 获取image属性的值。
      * 
      * @return
      *     possible object is
@@ -177,7 +177,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the image property.
+     * 设置image属性的值。
      * 
      * @param value
      *     allowed object is
@@ -189,7 +189,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -201,7 +201,7 @@ public class OSDConfiguration
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

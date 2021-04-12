@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for HostnameInformation complex type.
+ * <p>HostnameInformation complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="HostnameInformation"&gt;
@@ -58,7 +58,7 @@ public class HostnameInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the fromDHCP property.
+     * 获取fromDHCP属性的值。
      * This getter has been renamed from isFromDHCP() to getFromDHCP() by cxf-xjc-boolean plugin.
      * 
      */
@@ -67,7 +67,7 @@ public class HostnameInformation {
     }
 
     /**
-     * Sets the value of the fromDHCP property.
+     * 设置fromDHCP属性的值。
      * 
      */
     public void setFromDHCP(boolean value) {
@@ -75,7 +75,7 @@ public class HostnameInformation {
     }
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class HostnameInformation {
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class HostnameInformation {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class HostnameInformation {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

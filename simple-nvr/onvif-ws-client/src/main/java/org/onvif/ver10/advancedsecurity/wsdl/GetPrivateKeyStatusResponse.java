@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -38,7 +38,7 @@ public class GetPrivateKeyStatusResponse {
     protected boolean hasPrivateKey;
 
     /**
-     * Gets the value of the hasPrivateKey property.
+     * 获取hasPrivateKey属性的值。
      * This getter has been renamed from isHasPrivateKey() to getHasPrivateKey() by cxf-xjc-boolean plugin.
      * 
      */
@@ -47,7 +47,7 @@ public class GetPrivateKeyStatusResponse {
     }
 
     /**
-     * Sets the value of the hasPrivateKey property.
+     * 设置hasPrivateKey属性的值。
      * 
      */
     public void setHasPrivateKey(boolean value) {

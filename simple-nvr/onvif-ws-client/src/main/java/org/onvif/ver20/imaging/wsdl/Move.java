@@ -12,9 +12,9 @@ import org.onvif.ver10.schema.FocusMove;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -45,7 +45,7 @@ public class Move {
     protected FocusMove focus;
 
     /**
-     * Gets the value of the videoSourceToken property.
+     * 获取videoSourceToken属性的值。
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class Move {
     }
 
     /**
-     * Sets the value of the videoSourceToken property.
+     * 设置videoSourceToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class Move {
     }
 
     /**
-     * Gets the value of the focus property.
+     * 获取focus属性的值。
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class Move {
     }
 
     /**
-     * Sets the value of the focus property.
+     * 设置focus属性的值。
      * 
      * @param value
      *     allowed object is

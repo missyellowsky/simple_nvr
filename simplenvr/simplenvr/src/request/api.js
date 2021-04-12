@@ -11,4 +11,6 @@ export default {
   getLiveUrl:'media/live',//直播
   queryRecordList:'device/queryRecordList',//查询录像文件(全)
   getRecordUrl:'media/record',//回看
+  queryTranscodeTask: 'media/queryTranscodeTask',//查询转码任务
+  dropStream:'media/dropStream',//终止转码任务
 }

@@ -12,9 +12,9 @@ import org.onvif.ver10.schema.SystemLog;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -41,7 +41,7 @@ public class GetSystemLogResponse {
     protected SystemLog systemLog;
 
     /**
-     * Gets the value of the systemLog property.
+     * 获取systemLog属性的值。
      * 
      * @return
      *     possible object is
@@ -53,7 +53,7 @@ public class GetSystemLogResponse {
     }
 
     /**
-     * Sets the value of the systemLog property.
+     * 设置systemLog属性的值。
      * 
      * @param value
      *     allowed object is

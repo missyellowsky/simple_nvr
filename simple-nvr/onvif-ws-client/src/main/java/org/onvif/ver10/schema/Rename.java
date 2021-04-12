@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Rename complex type.
+ * <p>Rename complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Rename"&gt;
@@ -42,7 +42,7 @@ public class Rename {
     protected ObjectId to;
 
     /**
-     * Gets the value of the from property.
+     * 获取from属性的值。
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class Rename {
     }
 
     /**
-     * Sets the value of the from property.
+     * 设置from属性的值。
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class Rename {
     }
 
     /**
-     * Gets the value of the to property.
+     * 获取to属性的值。
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class Rename {
     }
 
     /**
-     * Sets the value of the to property.
+     * 设置to属性的值。
      * 
      * @param value
      *     allowed object is

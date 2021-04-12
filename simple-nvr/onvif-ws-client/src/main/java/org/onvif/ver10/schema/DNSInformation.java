@@ -19,9 +19,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for DNSInformation complex type.
+ * <p>DNSInformation complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DNSInformation"&gt;
@@ -68,7 +68,7 @@ public class DNSInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the fromDHCP property.
+     * 获取fromDHCP属性的值。
      * This getter has been renamed from isFromDHCP() to getFromDHCP() by cxf-xjc-boolean plugin.
      * 
      */
@@ -77,7 +77,7 @@ public class DNSInformation {
     }
 
     /**
-     * Sets the value of the fromDHCP property.
+     * 设置fromDHCP属性的值。
      * 
      */
     public void setFromDHCP(boolean value) {
@@ -172,7 +172,7 @@ public class DNSInformation {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -184,7 +184,7 @@ public class DNSInformation {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for EngineConfiguration complex type.
+ * <p>EngineConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="EngineConfiguration"&gt;
@@ -57,7 +57,7 @@ public class EngineConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the videoAnalyticsConfiguration property.
+     * 获取videoAnalyticsConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class EngineConfiguration {
     }
 
     /**
-     * Sets the value of the videoAnalyticsConfiguration property.
+     * 设置videoAnalyticsConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class EngineConfiguration {
     }
 
     /**
-     * Gets the value of the analyticsEngineInputInfo property.
+     * 获取analyticsEngineInputInfo属性的值。
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class EngineConfiguration {
     }
 
     /**
-     * Sets the value of the analyticsEngineInputInfo property.
+     * 设置analyticsEngineInputInfo属性的值。
      * 
      * @param value
      *     allowed object is

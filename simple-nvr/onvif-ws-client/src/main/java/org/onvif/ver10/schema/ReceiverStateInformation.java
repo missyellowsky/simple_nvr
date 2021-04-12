@@ -23,9 +23,9 @@ import org.w3c.dom.Element;
  *         Contains information about a receiver's current state.
  *       
  * 
- * <p>Java class for ReceiverStateInformation complex type.
+ * <p>ReceiverStateInformation complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ReceiverStateInformation"&gt;
@@ -63,7 +63,7 @@ public class ReceiverStateInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the state property.
+     * 获取state属性的值。
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class ReceiverStateInformation {
     }
 
     /**
-     * Sets the value of the state property.
+     * 设置state属性的值。
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class ReceiverStateInformation {
     }
 
     /**
-     * Gets the value of the autoCreated property.
+     * 获取autoCreated属性的值。
      * This getter has been renamed from isAutoCreated() to getAutoCreated() by cxf-xjc-boolean plugin.
      * 
      */
@@ -96,7 +96,7 @@ public class ReceiverStateInformation {
     }
 
     /**
-     * Sets the value of the autoCreated property.
+     * 设置autoCreated属性的值。
      * 
      */
     public void setAutoCreated(boolean value) {

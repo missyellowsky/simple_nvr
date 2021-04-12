@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Capabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -109,7 +109,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the dynamicRecordings property.
+     * 获取dynamicRecordings属性的值。
      * This getter has been renamed from isDynamicRecordings() to getDynamicRecordings() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -122,7 +122,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the dynamicRecordings property.
+     * 设置dynamicRecordings属性的值。
      * 
      * @param value
      *     allowed object is
@@ -134,7 +134,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the dynamicTracks property.
+     * 获取dynamicTracks属性的值。
      * This getter has been renamed from isDynamicTracks() to getDynamicTracks() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -147,7 +147,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the dynamicTracks property.
+     * 设置dynamicTracks属性的值。
      * 
      * @param value
      *     allowed object is
@@ -188,7 +188,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxRate property.
+     * 获取maxRate属性的值。
      * 
      * @return
      *     possible object is
@@ -200,7 +200,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxRate property.
+     * 设置maxRate属性的值。
      * 
      * @param value
      *     allowed object is
@@ -212,7 +212,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxTotalRate property.
+     * 获取maxTotalRate属性的值。
      * 
      * @return
      *     possible object is
@@ -224,7 +224,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxTotalRate property.
+     * 设置maxTotalRate属性的值。
      * 
      * @param value
      *     allowed object is
@@ -236,7 +236,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxRecordings property.
+     * 获取maxRecordings属性的值。
      * 
      * @return
      *     possible object is
@@ -248,7 +248,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxRecordings property.
+     * 设置maxRecordings属性的值。
      * 
      * @param value
      *     allowed object is
@@ -260,7 +260,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the maxRecordingJobs property.
+     * 获取maxRecordingJobs属性的值。
      * 
      * @return
      *     possible object is
@@ -272,7 +272,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the maxRecordingJobs property.
+     * 设置maxRecordingJobs属性的值。
      * 
      * @param value
      *     allowed object is
@@ -284,7 +284,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the options property.
+     * 获取options属性的值。
      * This getter has been renamed from isOptions() to getOptions() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -297,7 +297,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the options property.
+     * 设置options属性的值。
      * 
      * @param value
      *     allowed object is
@@ -309,7 +309,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the metadataRecording property.
+     * 获取metadataRecording属性的值。
      * This getter has been renamed from isMetadataRecording() to getMetadataRecording() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -322,7 +322,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the metadataRecording property.
+     * 设置metadataRecording属性的值。
      * 
      * @param value
      *     allowed object is

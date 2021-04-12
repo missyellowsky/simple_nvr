@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -46,7 +46,7 @@ public class GetAccessProfileInfoListResponse {
     protected List<AccessProfileInfo> accessProfileInfo;
 
     /**
-     * Gets the value of the nextStartReference property.
+     * 获取nextStartReference属性的值。
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class GetAccessProfileInfoListResponse {
     }
 
     /**
-     * Sets the value of the nextStartReference property.
+     * 设置nextStartReference属性的值。
      * 
      * @param value
      *     allowed object is

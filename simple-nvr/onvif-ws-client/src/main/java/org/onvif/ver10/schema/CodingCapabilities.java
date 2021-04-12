@@ -22,9 +22,9 @@ import org.w3c.dom.Element;
  *         service.
  *       
  * 
- * <p>Java class for CodingCapabilities complex type.
+ * <p>CodingCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CodingCapabilities"&gt;
@@ -65,7 +65,7 @@ public class CodingCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the audioEncodingCapabilities property.
+     * 获取audioEncodingCapabilities属性的值。
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class CodingCapabilities {
     }
 
     /**
-     * Sets the value of the audioEncodingCapabilities property.
+     * 设置audioEncodingCapabilities属性的值。
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class CodingCapabilities {
     }
 
     /**
-     * Gets the value of the audioDecodingCapabilities property.
+     * 获取audioDecodingCapabilities属性的值。
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class CodingCapabilities {
     }
 
     /**
-     * Sets the value of the audioDecodingCapabilities property.
+     * 设置audioDecodingCapabilities属性的值。
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class CodingCapabilities {
     }
 
     /**
-     * Gets the value of the videoDecodingCapabilities property.
+     * 获取videoDecodingCapabilities属性的值。
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class CodingCapabilities {
     }
 
     /**
-     * Sets the value of the videoDecodingCapabilities property.
+     * 设置videoDecodingCapabilities属性的值。
      * 
      * @param value
      *     allowed object is

@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ImagingSettings complex type.
+ * <p>ImagingSettings complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ImagingSettings"&gt;
@@ -87,7 +87,7 @@ public class ImagingSettings {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the backlightCompensation property.
+     * 获取backlightCompensation属性的值。
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the backlightCompensation property.
+     * 设置backlightCompensation属性的值。
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Gets the value of the brightness property.
+     * 获取brightness属性的值。
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the brightness property.
+     * 设置brightness属性的值。
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Gets the value of the colorSaturation property.
+     * 获取colorSaturation属性的值。
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the colorSaturation property.
+     * 设置colorSaturation属性的值。
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Gets the value of the contrast property.
+     * 获取contrast属性的值。
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the contrast property.
+     * 设置contrast属性的值。
      * 
      * @param value
      *     allowed object is
@@ -183,7 +183,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Gets the value of the exposure property.
+     * 获取exposure属性的值。
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the exposure property.
+     * 设置exposure属性的值。
      * 
      * @param value
      *     allowed object is
@@ -207,7 +207,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Gets the value of the focus property.
+     * 获取focus属性的值。
      * 
      * @return
      *     possible object is
@@ -219,7 +219,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the focus property.
+     * 设置focus属性的值。
      * 
      * @param value
      *     allowed object is
@@ -231,7 +231,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Gets the value of the irCutFilter property.
+     * 获取irCutFilter属性的值。
      * 
      * @return
      *     possible object is
@@ -243,7 +243,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the irCutFilter property.
+     * 设置irCutFilter属性的值。
      * 
      * @param value
      *     allowed object is
@@ -255,7 +255,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Gets the value of the sharpness property.
+     * 获取sharpness属性的值。
      * 
      * @return
      *     possible object is
@@ -267,7 +267,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the sharpness property.
+     * 设置sharpness属性的值。
      * 
      * @param value
      *     allowed object is
@@ -279,7 +279,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Gets the value of the wideDynamicRange property.
+     * 获取wideDynamicRange属性的值。
      * 
      * @return
      *     possible object is
@@ -291,7 +291,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the wideDynamicRange property.
+     * 设置wideDynamicRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -303,7 +303,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Gets the value of the whiteBalance property.
+     * 获取whiteBalance属性的值。
      * 
      * @return
      *     possible object is
@@ -315,7 +315,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the whiteBalance property.
+     * 设置whiteBalance属性的值。
      * 
      * @param value
      *     allowed object is
@@ -327,7 +327,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -339,7 +339,7 @@ public class ImagingSettings {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

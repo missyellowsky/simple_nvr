@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for EndpointReferenceType complex type.
+ * <p>EndpointReferenceType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="EndpointReferenceType"&gt;
@@ -69,7 +69,7 @@ public class EndpointReferenceType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the address property.
+     * 获取address属性的值。
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Sets the value of the address property.
+     * 设置address属性的值。
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Gets the value of the referenceProperties property.
+     * 获取referenceProperties属性的值。
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Sets the value of the referenceProperties property.
+     * 设置referenceProperties属性的值。
      * 
      * @param value
      *     allowed object is
@@ -117,7 +117,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Gets the value of the referenceParameters property.
+     * 获取referenceParameters属性的值。
      * 
      * @return
      *     possible object is
@@ -129,7 +129,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Sets the value of the referenceParameters property.
+     * 设置referenceParameters属性的值。
      * 
      * @param value
      *     allowed object is
@@ -141,7 +141,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Gets the value of the portType property.
+     * 获取portType属性的值。
      * 
      * @return
      *     possible object is
@@ -153,7 +153,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Sets the value of the portType property.
+     * 设置portType属性的值。
      * 
      * @param value
      *     allowed object is
@@ -165,7 +165,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Gets the value of the serviceName property.
+     * 获取serviceName属性的值。
      * 
      * @return
      *     possible object is
@@ -177,7 +177,7 @@ public class EndpointReferenceType {
     }
 
     /**
-     * Sets the value of the serviceName property.
+     * 设置serviceName属性的值。
      * 
      * @param value
      *     allowed object is

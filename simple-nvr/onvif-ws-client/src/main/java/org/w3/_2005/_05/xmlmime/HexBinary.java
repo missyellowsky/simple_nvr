@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for hexBinary complex type.
+ * <p>hexBinary complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="hexBinary"&gt;
@@ -44,7 +44,7 @@ public class HexBinary {
     protected String contentType;
 
     /**
-     * Gets the value of the value property.
+     * 获取value属性的值。
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class HexBinary {
     }
 
     /**
-     * Sets the value of the value property.
+     * 设置value属性的值。
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class HexBinary {
     }
 
     /**
-     * Gets the value of the contentType property.
+     * 获取contentType属性的值。
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class HexBinary {
     }
 
     /**
-     * Sets the value of the contentType property.
+     * 设置contentType属性的值。
      * 
      * @param value
      *     allowed object is

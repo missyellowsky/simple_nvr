@@ -21,9 +21,9 @@ import org.xmlsoap.schemas.ws._2004._08.addressing.EndpointReferenceType;
 
 
 /**
- * <p>Java class for ResolveMatchType complex type.
+ * <p>ResolveMatchType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ResolveMatchType"&gt;
@@ -75,7 +75,7 @@ public class ResolveMatchType {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the endpointReference property.
+     * 获取endpointReference属性的值。
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class ResolveMatchType {
     }
 
     /**
-     * Sets the value of the endpointReference property.
+     * 设置endpointReference属性的值。
      * 
      * @param value
      *     allowed object is
@@ -128,7 +128,7 @@ public class ResolveMatchType {
     }
 
     /**
-     * Gets the value of the scopes property.
+     * 获取scopes属性的值。
      * 
      * @return
      *     possible object is
@@ -140,7 +140,7 @@ public class ResolveMatchType {
     }
 
     /**
-     * Sets the value of the scopes property.
+     * 设置scopes属性的值。
      * 
      * @param value
      *     allowed object is
@@ -181,7 +181,7 @@ public class ResolveMatchType {
     }
 
     /**
-     * Gets the value of the metadataVersion property.
+     * 获取metadataVersion属性的值。
      * 
      */
     public long getMetadataVersion() {
@@ -189,7 +189,7 @@ public class ResolveMatchType {
     }
 
     /**
-     * Sets the value of the metadataVersion property.
+     * 设置metadataVersion属性的值。
      * 
      */
     public void setMetadataVersion(long value) {

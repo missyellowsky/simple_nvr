@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for TopicExpressionType complex type.
+ * <p>TopicExpressionType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="TopicExpressionType"&gt;
@@ -87,7 +87,7 @@ public class TopicExpressionType {
     }
 
     /**
-     * Gets the value of the dialect property.
+     * 获取dialect属性的值。
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class TopicExpressionType {
     }
 
     /**
-     * Sets the value of the dialect property.
+     * 设置dialect属性的值。
      * 
      * @param value
      *     allowed object is

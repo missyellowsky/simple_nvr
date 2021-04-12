@@ -16,9 +16,9 @@ import org.oasis_open.docs.wsn.t_1.TopicSetType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -116,7 +116,7 @@ public class GetEventPropertiesResponse {
     }
 
     /**
-     * Sets the value of the fixedTopicSet property.
+     * 设置fixedTopicSet属性的值。
      * 
      */
     public void setFixedTopicSet(boolean value) {
@@ -136,7 +136,7 @@ public class GetEventPropertiesResponse {
     }
 
     /**
-     * Sets the value of the topicSet property.
+     * 设置topicSet属性的值。
      * 
      * @param value
      *     allowed object is

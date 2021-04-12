@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  * Rectangle defined by lower left corner position and size. Units are pixel.
  *       
  * 
- * <p>Java class for IntRectangle complex type.
+ * <p>IntRectangle complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="IntRectangle"&gt;
@@ -46,7 +46,7 @@ public class IntRectangle {
     protected int height;
 
     /**
-     * Gets the value of the x property.
+     * 获取x属性的值。
      * 
      */
     public int getX() {
@@ -54,7 +54,7 @@ public class IntRectangle {
     }
 
     /**
-     * Sets the value of the x property.
+     * 设置x属性的值。
      * 
      */
     public void setX(int value) {
@@ -62,7 +62,7 @@ public class IntRectangle {
     }
 
     /**
-     * Gets the value of the y property.
+     * 获取y属性的值。
      * 
      */
     public int getY() {
@@ -70,7 +70,7 @@ public class IntRectangle {
     }
 
     /**
-     * Sets the value of the y property.
+     * 设置y属性的值。
      * 
      */
     public void setY(int value) {
@@ -78,7 +78,7 @@ public class IntRectangle {
     }
 
     /**
-     * Gets the value of the width property.
+     * 获取width属性的值。
      * 
      */
     public int getWidth() {
@@ -86,7 +86,7 @@ public class IntRectangle {
     }
 
     /**
-     * Sets the value of the width property.
+     * 设置width属性的值。
      * 
      */
     public void setWidth(int value) {
@@ -94,7 +94,7 @@ public class IntRectangle {
     }
 
     /**
-     * Gets the value of the height property.
+     * 获取height属性的值。
      * 
      */
     public int getHeight() {
@@ -102,7 +102,7 @@ public class IntRectangle {
     }
 
     /**
-     * Sets the value of the height property.
+     * 设置height属性的值。
      * 
      */
     public void setHeight(int value) {

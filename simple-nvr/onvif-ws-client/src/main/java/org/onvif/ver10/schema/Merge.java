@@ -12,9 +12,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Merge complex type.
+ * <p>Merge complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Merge"&gt;
@@ -73,7 +73,7 @@ public class Merge {
     }
 
     /**
-     * Gets the value of the to property.
+     * 获取to属性的值。
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class Merge {
     }
 
     /**
-     * Sets the value of the to property.
+     * 设置to属性的值。
      * 
      * @param value
      *     allowed object is

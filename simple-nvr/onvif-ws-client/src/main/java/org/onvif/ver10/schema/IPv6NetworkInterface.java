@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for IPv6NetworkInterface complex type.
+ * <p>IPv6NetworkInterface complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="IPv6NetworkInterface"&gt;
@@ -42,7 +42,7 @@ public class IPv6NetworkInterface {
     protected IPv6Configuration config;
 
     /**
-     * Gets the value of the enabled property.
+     * 获取enabled属性的值。
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      */
@@ -51,7 +51,7 @@ public class IPv6NetworkInterface {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * 设置enabled属性的值。
      * 
      */
     public void setEnabled(boolean value) {
@@ -59,7 +59,7 @@ public class IPv6NetworkInterface {
     }
 
     /**
-     * Gets the value of the config property.
+     * 获取config属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class IPv6NetworkInterface {
     }
 
     /**
-     * Sets the value of the config property.
+     * 设置config属性的值。
      * 
      * @param value
      *     allowed object is

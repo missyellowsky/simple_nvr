@@ -16,9 +16,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 /**
  * Representation of a physical video outputs.
  * 
- * <p>Java class for VideoOutput complex type.
+ * <p>VideoOutput complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoOutput"&gt;
@@ -65,7 +65,7 @@ public class VideoOutput
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the layout property.
+     * 获取layout属性的值。
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class VideoOutput
     }
 
     /**
-     * Sets the value of the layout property.
+     * 设置layout属性的值。
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class VideoOutput
     }
 
     /**
-     * Gets the value of the resolution property.
+     * 获取resolution属性的值。
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class VideoOutput
     }
 
     /**
-     * Sets the value of the resolution property.
+     * 设置resolution属性的值。
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class VideoOutput
     }
 
     /**
-     * Gets the value of the refreshRate property.
+     * 获取refreshRate属性的值。
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class VideoOutput
     }
 
     /**
-     * Sets the value of the refreshRate property.
+     * 设置refreshRate属性的值。
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class VideoOutput
     }
 
     /**
-     * Gets the value of the aspectRatio property.
+     * 获取aspectRatio属性的值。
      * 
      * @return
      *     possible object is
@@ -149,7 +149,7 @@ public class VideoOutput
     }
 
     /**
-     * Sets the value of the aspectRatio property.
+     * 设置aspectRatio属性的值。
      * 
      * @param value
      *     allowed object is
@@ -161,7 +161,7 @@ public class VideoOutput
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -173,7 +173,7 @@ public class VideoOutput
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -44,7 +44,7 @@ public class SetSerialPortConfiguration {
     protected boolean forcePersistance;
 
     /**
-     * Gets the value of the serialPortConfiguration property.
+     * 获取serialPortConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class SetSerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the serialPortConfiguration property.
+     * 设置serialPortConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class SetSerialPortConfiguration {
     }
 
     /**
-     * Gets the value of the forcePersistance property.
+     * 获取forcePersistance属性的值。
      * This getter has been renamed from isForcePersistance() to getForcePersistance() by cxf-xjc-boolean plugin.
      * 
      */
@@ -77,7 +77,7 @@ public class SetSerialPortConfiguration {
     }
 
     /**
-     * Sets the value of the forcePersistance property.
+     * 设置forcePersistance属性的值。
      * 
      */
     public void setForcePersistance(boolean value) {

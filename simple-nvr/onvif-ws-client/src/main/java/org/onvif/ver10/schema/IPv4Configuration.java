@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for IPv4Configuration complex type.
+ * <p>IPv4Configuration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="IPv4Configuration"&gt;
@@ -94,7 +94,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Gets the value of the linkLocal property.
+     * 获取linkLocal属性的值。
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Sets the value of the linkLocal property.
+     * 设置linkLocal属性的值。
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Gets the value of the fromDHCP property.
+     * 获取fromDHCP属性的值。
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Sets the value of the fromDHCP property.
+     * 设置fromDHCP属性的值。
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Gets the value of the dhcp property.
+     * 获取dhcp属性的值。
      * This getter has been renamed from isDHCP() to getDHCP() by cxf-xjc-boolean plugin.
      * 
      */
@@ -151,7 +151,7 @@ public class IPv4Configuration {
     }
 
     /**
-     * Sets the value of the dhcp property.
+     * 设置dhcp属性的值。
      * 
      */
     public void setDHCP(boolean value) {

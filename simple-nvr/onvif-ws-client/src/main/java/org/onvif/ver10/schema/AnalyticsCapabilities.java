@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for AnalyticsCapabilities complex type.
+ * <p>AnalyticsCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AnalyticsCapabilities"&gt;
@@ -63,7 +63,7 @@ public class AnalyticsCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * 获取xAddr属性的值。
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class AnalyticsCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * 设置xAddr属性的值。
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class AnalyticsCapabilities {
     }
 
     /**
-     * Gets the value of the ruleSupport property.
+     * 获取ruleSupport属性的值。
      * This getter has been renamed from isRuleSupport() to getRuleSupport() by cxf-xjc-boolean plugin.
      * 
      */
@@ -96,7 +96,7 @@ public class AnalyticsCapabilities {
     }
 
     /**
-     * Sets the value of the ruleSupport property.
+     * 设置ruleSupport属性的值。
      * 
      */
     public void setRuleSupport(boolean value) {
@@ -104,7 +104,7 @@ public class AnalyticsCapabilities {
     }
 
     /**
-     * Gets the value of the analyticsModuleSupport property.
+     * 获取analyticsModuleSupport属性的值。
      * This getter has been renamed from isAnalyticsModuleSupport() to getAnalyticsModuleSupport() by cxf-xjc-boolean plugin.
      * 
      */
@@ -113,7 +113,7 @@ public class AnalyticsCapabilities {
     }
 
     /**
-     * Sets the value of the analyticsModuleSupport property.
+     * 设置analyticsModuleSupport属性的值。
      * 
      */
     public void setAnalyticsModuleSupport(boolean value) {

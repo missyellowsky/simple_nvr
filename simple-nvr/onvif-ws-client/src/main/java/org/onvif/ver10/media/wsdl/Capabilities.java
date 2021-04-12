@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Capabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -73,7 +73,7 @@ public class Capabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the profileCapabilities property.
+     * 获取profileCapabilities属性的值。
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the profileCapabilities property.
+     * 设置profileCapabilities属性的值。
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the streamingCapabilities property.
+     * 获取streamingCapabilities属性的值。
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the streamingCapabilities property.
+     * 设置streamingCapabilities属性的值。
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the snapshotUri property.
+     * 获取snapshotUri属性的值。
      * This getter has been renamed from isSnapshotUri() to getSnapshotUri() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -164,7 +164,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the snapshotUri property.
+     * 设置snapshotUri属性的值。
      * 
      * @param value
      *     allowed object is
@@ -176,7 +176,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the rotation property.
+     * 获取rotation属性的值。
      * This getter has been renamed from isRotation() to getRotation() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -189,7 +189,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the rotation property.
+     * 设置rotation属性的值。
      * 
      * @param value
      *     allowed object is
@@ -201,7 +201,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the videoSourceMode property.
+     * 获取videoSourceMode属性的值。
      * This getter has been renamed from isVideoSourceMode() to getVideoSourceMode() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -214,7 +214,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the videoSourceMode property.
+     * 设置videoSourceMode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the osd property.
+     * 获取osd属性的值。
      * This getter has been renamed from isOSD() to getOSD() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -239,7 +239,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the osd property.
+     * 设置osd属性的值。
      * 
      * @param value
      *     allowed object is
@@ -251,7 +251,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the exiCompression property.
+     * 获取exiCompression属性的值。
      * This getter has been renamed from isEXICompression() to getEXICompression() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -264,7 +264,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the exiCompression property.
+     * 设置exiCompression属性的值。
      * 
      * @param value
      *     allowed object is

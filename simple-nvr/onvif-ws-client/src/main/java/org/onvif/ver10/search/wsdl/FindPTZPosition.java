@@ -16,9 +16,9 @@ import org.onvif.ver10.schema.SearchScope;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -67,7 +67,7 @@ public class FindPTZPosition {
     protected Duration keepAliveTime;
 
     /**
-     * Gets the value of the startPoint property.
+     * 获取startPoint属性的值。
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Sets the value of the startPoint property.
+     * 设置startPoint属性的值。
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Gets the value of the endPoint property.
+     * 获取endPoint属性的值。
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Sets the value of the endPoint property.
+     * 设置endPoint属性的值。
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Gets the value of the scope property.
+     * 获取scope属性的值。
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Sets the value of the scope property.
+     * 设置scope属性的值。
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Gets the value of the searchFilter property.
+     * 获取searchFilter属性的值。
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Sets the value of the searchFilter property.
+     * 设置searchFilter属性的值。
      * 
      * @param value
      *     allowed object is
@@ -163,7 +163,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Gets the value of the maxMatches property.
+     * 获取maxMatches属性的值。
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Sets the value of the maxMatches property.
+     * 设置maxMatches属性的值。
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Gets the value of the keepAliveTime property.
+     * 获取keepAliveTime属性的值。
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class FindPTZPosition {
     }
 
     /**
-     * Sets the value of the keepAliveTime property.
+     * 设置keepAliveTime属性的值。
      * 
      * @param value
      *     allowed object is

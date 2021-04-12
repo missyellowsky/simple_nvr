@@ -14,9 +14,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CertPathValidationParameters complex type.
+ * <p>CertPathValidationParameters complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CertPathValidationParameters"&gt;
@@ -59,7 +59,7 @@ public class CertPathValidationParameters {
     protected CertPathValidationParameters.AnyParameters anyParameters;
 
     /**
-     * Gets the value of the requireTLSWWWClientAuthExtendedKeyUsage property.
+     * 获取requireTLSWWWClientAuthExtendedKeyUsage属性的值。
      * This getter has been renamed from isRequireTLSWWWClientAuthExtendedKeyUsage() to getRequireTLSWWWClientAuthExtendedKeyUsage() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -72,7 +72,7 @@ public class CertPathValidationParameters {
     }
 
     /**
-     * Sets the value of the requireTLSWWWClientAuthExtendedKeyUsage property.
+     * 设置requireTLSWWWClientAuthExtendedKeyUsage属性的值。
      * 
      * @param value
      *     allowed object is
@@ -84,7 +84,7 @@ public class CertPathValidationParameters {
     }
 
     /**
-     * Gets the value of the useDeltaCRLs property.
+     * 获取useDeltaCRLs属性的值。
      * This getter has been renamed from isUseDeltaCRLs() to getUseDeltaCRLs() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -97,7 +97,7 @@ public class CertPathValidationParameters {
     }
 
     /**
-     * Sets the value of the useDeltaCRLs property.
+     * 设置useDeltaCRLs属性的值。
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class CertPathValidationParameters {
     }
 
     /**
-     * Gets the value of the anyParameters property.
+     * 获取anyParameters属性的值。
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class CertPathValidationParameters {
     }
 
     /**
-     * Sets the value of the anyParameters property.
+     * 设置anyParameters属性的值。
      * 
      * @param value
      *     allowed object is
@@ -144,9 +144,9 @@ public class CertPathValidationParameters {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

@@ -19,9 +19,9 @@ import org.onvif.ver10.schema.VideoResolution;
 
 
 /**
- * <p>Java class for VideoSourceMode complex type.
+ * <p>VideoSourceMode complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoSourceMode"&gt;
@@ -77,7 +77,7 @@ public class VideoSourceMode {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the maxFramerate property.
+     * 获取maxFramerate属性的值。
      * 
      */
     public float getMaxFramerate() {
@@ -85,7 +85,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Sets the value of the maxFramerate property.
+     * 设置maxFramerate属性的值。
      * 
      */
     public void setMaxFramerate(float value) {
@@ -93,7 +93,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Gets the value of the maxResolution property.
+     * 获取maxResolution属性的值。
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Sets the value of the maxResolution property.
+     * 设置maxResolution属性的值。
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Gets the value of the reboot property.
+     * 获取reboot属性的值。
      * This getter has been renamed from isReboot() to getReboot() by cxf-xjc-boolean plugin.
      * 
      */
@@ -155,7 +155,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Sets the value of the reboot property.
+     * 设置reboot属性的值。
      * 
      */
     public void setReboot(boolean value) {
@@ -163,7 +163,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Gets the value of the description property.
+     * 获取description属性的值。
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Sets the value of the description property.
+     * 设置description属性的值。
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -211,7 +211,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Gets the value of the token property.
+     * 获取token属性的值。
      * 
      * @return
      *     possible object is
@@ -223,7 +223,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Sets the value of the token property.
+     * 设置token属性的值。
      * 
      * @param value
      *     allowed object is
@@ -235,7 +235,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Gets the value of the enabled property.
+     * 获取enabled属性的值。
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -248,7 +248,7 @@ public class VideoSourceMode {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * 设置enabled属性的值。
      * 
      * @param value
      *     allowed object is

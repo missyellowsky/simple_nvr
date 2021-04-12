@@ -24,9 +24,9 @@ import org.w3c.dom.Element;
  * The configuration options that relates to serial port.
  *           
  * 
- * <p>Java class for SerialPortConfigurationOptions complex type.
+ * <p>SerialPortConfigurationOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SerialPortConfigurationOptions"&gt;
@@ -74,7 +74,7 @@ public class SerialPortConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the baudRateList property.
+     * 获取baudRateList属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Sets the value of the baudRateList property.
+     * 设置baudRateList属性的值。
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Gets the value of the parityBitList property.
+     * 获取parityBitList属性的值。
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Sets the value of the parityBitList property.
+     * 设置parityBitList属性的值。
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Gets the value of the characterLengthList property.
+     * 获取characterLengthList属性的值。
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Sets the value of the characterLengthList property.
+     * 设置characterLengthList属性的值。
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Gets the value of the stopBitList property.
+     * 获取stopBitList属性的值。
      * 
      * @return
      *     possible object is
@@ -158,7 +158,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Sets the value of the stopBitList property.
+     * 设置stopBitList属性的值。
      * 
      * @param value
      *     allowed object is
@@ -200,7 +200,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Gets the value of the token property.
+     * 获取token属性的值。
      * 
      * @return
      *     possible object is
@@ -212,7 +212,7 @@ public class SerialPortConfigurationOptions {
     }
 
     /**
-     * Sets the value of the token property.
+     * 设置token属性的值。
      * 
      * @param value
      *     allowed object is

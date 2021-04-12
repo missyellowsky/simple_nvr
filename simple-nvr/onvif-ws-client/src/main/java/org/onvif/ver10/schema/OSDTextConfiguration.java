@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for OSDTextConfiguration complex type.
+ * <p>OSDTextConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="OSDTextConfiguration"&gt;
@@ -73,7 +73,7 @@ public class OSDTextConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the type property.
+     * 获取type属性的值。
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the type property.
+     * 设置type属性的值。
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the dateFormat property.
+     * 获取dateFormat属性的值。
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the dateFormat property.
+     * 设置dateFormat属性的值。
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the timeFormat property.
+     * 获取timeFormat属性的值。
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the timeFormat property.
+     * 设置timeFormat属性的值。
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the fontSize property.
+     * 获取fontSize属性的值。
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the fontSize property.
+     * 设置fontSize属性的值。
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the fontColor property.
+     * 获取fontColor属性的值。
      * 
      * @return
      *     possible object is
@@ -181,7 +181,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the fontColor property.
+     * 设置fontColor属性的值。
      * 
      * @param value
      *     allowed object is
@@ -193,7 +193,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the backgroundColor property.
+     * 获取backgroundColor属性的值。
      * 
      * @return
      *     possible object is
@@ -205,7 +205,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the backgroundColor property.
+     * 设置backgroundColor属性的值。
      * 
      * @param value
      *     allowed object is
@@ -217,7 +217,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the plainText property.
+     * 获取plainText属性的值。
      * 
      * @return
      *     possible object is
@@ -229,7 +229,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the plainText property.
+     * 设置plainText属性的值。
      * 
      * @param value
      *     allowed object is
@@ -241,7 +241,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -253,7 +253,7 @@ public class OSDTextConfiguration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

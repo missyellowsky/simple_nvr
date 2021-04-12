@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for DeviceIOCapabilities complex type.
+ * <p>DeviceIOCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DeviceIOCapabilities"&gt;
@@ -75,7 +75,7 @@ public class DeviceIOCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * 获取xAddr属性的值。
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * 设置xAddr属性的值。
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Gets the value of the videoSources property.
+     * 获取videoSources属性的值。
      * 
      */
     public int getVideoSources() {
@@ -107,7 +107,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the videoSources property.
+     * 设置videoSources属性的值。
      * 
      */
     public void setVideoSources(int value) {
@@ -115,7 +115,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Gets the value of the videoOutputs property.
+     * 获取videoOutputs属性的值。
      * 
      */
     public int getVideoOutputs() {
@@ -123,7 +123,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the videoOutputs property.
+     * 设置videoOutputs属性的值。
      * 
      */
     public void setVideoOutputs(int value) {
@@ -131,7 +131,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Gets the value of the audioSources property.
+     * 获取audioSources属性的值。
      * 
      */
     public int getAudioSources() {
@@ -139,7 +139,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the audioSources property.
+     * 设置audioSources属性的值。
      * 
      */
     public void setAudioSources(int value) {
@@ -147,7 +147,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Gets the value of the audioOutputs property.
+     * 获取audioOutputs属性的值。
      * 
      */
     public int getAudioOutputs() {
@@ -155,7 +155,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the audioOutputs property.
+     * 设置audioOutputs属性的值。
      * 
      */
     public void setAudioOutputs(int value) {
@@ -163,7 +163,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Gets the value of the relayOutputs property.
+     * 获取relayOutputs属性的值。
      * 
      */
     public int getRelayOutputs() {
@@ -171,7 +171,7 @@ public class DeviceIOCapabilities {
     }
 
     /**
-     * Sets the value of the relayOutputs property.
+     * 设置relayOutputs属性的值。
      * 
      */
     public void setRelayOutputs(int value) {

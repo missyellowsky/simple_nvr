@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for NetworkInterfaceSetConfiguration complex type.
+ * <p>NetworkInterfaceSetConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="NetworkInterfaceSetConfiguration"&gt;
@@ -65,7 +65,7 @@ public class NetworkInterfaceSetConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the enabled property.
+     * 获取enabled属性的值。
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -78,7 +78,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * 设置enabled属性的值。
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the link property.
+     * 获取link属性的值。
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the link property.
+     * 设置link属性的值。
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the mtu property.
+     * 获取mtu属性的值。
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the mtu property.
+     * 设置mtu属性的值。
      * 
      * @param value
      *     allowed object is
@@ -138,7 +138,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the iPv4 property.
+     * 获取iPv4属性的值。
      * 
      * @return
      *     possible object is
@@ -150,7 +150,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the iPv4 property.
+     * 设置iPv4属性的值。
      * 
      * @param value
      *     allowed object is
@@ -162,7 +162,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the iPv6 property.
+     * 获取iPv6属性的值。
      * 
      * @return
      *     possible object is
@@ -174,7 +174,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the iPv6 property.
+     * 设置iPv6属性的值。
      * 
      * @param value
      *     allowed object is
@@ -186,7 +186,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -198,7 +198,7 @@ public class NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

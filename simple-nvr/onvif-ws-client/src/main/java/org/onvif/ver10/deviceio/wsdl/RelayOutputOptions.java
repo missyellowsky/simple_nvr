@@ -20,9 +20,9 @@ import org.onvif.ver10.schema.RelayMode;
 
 
 /**
- * <p>Java class for RelayOutputOptions complex type.
+ * <p>RelayOutputOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="RelayOutputOptions"&gt;
@@ -126,7 +126,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Gets the value of the discrete property.
+     * 获取discrete属性的值。
      * This getter has been renamed from isDiscrete() to getDiscrete() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -139,7 +139,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Sets the value of the discrete property.
+     * 设置discrete属性的值。
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -163,7 +163,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -175,7 +175,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Gets the value of the token property.
+     * 获取token属性的值。
      * 
      * @return
      *     possible object is
@@ -187,7 +187,7 @@ public class RelayOutputOptions {
     }
 
     /**
-     * Sets the value of the token property.
+     * 设置token属性的值。
      * 
      * @param value
      *     allowed object is

@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoOutputConfiguration complex type.
+ * <p>VideoOutputConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoOutputConfiguration"&gt;
@@ -55,7 +55,7 @@ public class VideoOutputConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the outputToken property.
+     * 获取outputToken属性的值。
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class VideoOutputConfiguration
     }
 
     /**
-     * Sets the value of the outputToken property.
+     * 设置outputToken属性的值。
      * 
      * @param value
      *     allowed object is

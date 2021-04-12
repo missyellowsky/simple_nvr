@@ -15,9 +15,9 @@ import org.onvif.ver10.schema.TimeZone;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -57,7 +57,7 @@ public class SetSystemDateAndTime {
     protected DateTime utcDateTime;
 
     /**
-     * Gets the value of the dateTimeType property.
+     * 获取dateTimeType属性的值。
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Sets the value of the dateTimeType property.
+     * 设置dateTimeType属性的值。
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Gets the value of the daylightSavings property.
+     * 获取daylightSavings属性的值。
      * This getter has been renamed from isDaylightSavings() to getDaylightSavings() by cxf-xjc-boolean plugin.
      * 
      */
@@ -90,7 +90,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Sets the value of the daylightSavings property.
+     * 设置daylightSavings属性的值。
      * 
      */
     public void setDaylightSavings(boolean value) {
@@ -98,7 +98,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Gets the value of the timeZone property.
+     * 获取timeZone属性的值。
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Sets the value of the timeZone property.
+     * 设置timeZone属性的值。
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Gets the value of the utcDateTime property.
+     * 获取utcDateTime属性的值。
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class SetSystemDateAndTime {
     }
 
     /**
-     * Sets the value of the utcDateTime property.
+     * 设置utcDateTime属性的值。
      * 
      * @param value
      *     allowed object is

@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for DeviceCapabilities complex type.
+ * <p>DeviceCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DeviceCapabilities"&gt;
@@ -67,7 +67,7 @@ public class DeviceCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * 获取xAddr属性的值。
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * 设置xAddr属性的值。
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Gets the value of the network property.
+     * 获取network属性的值。
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the network property.
+     * 设置network属性的值。
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Gets the value of the system property.
+     * 获取system属性的值。
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the system property.
+     * 设置system属性的值。
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Gets the value of the io property.
+     * 获取io属性的值。
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the io property.
+     * 设置io属性的值。
      * 
      * @param value
      *     allowed object is
@@ -163,7 +163,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Gets the value of the security property.
+     * 获取security属性的值。
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the security property.
+     * 设置security属性的值。
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -199,7 +199,7 @@ public class DeviceCapabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

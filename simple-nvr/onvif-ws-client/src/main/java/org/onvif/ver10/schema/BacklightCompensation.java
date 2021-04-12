@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for BacklightCompensation complex type.
+ * <p>BacklightCompensation complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="BacklightCompensation"&gt;
@@ -44,7 +44,7 @@ public class BacklightCompensation {
     protected float level;
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class BacklightCompensation {
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class BacklightCompensation {
     }
 
     /**
-     * Gets the value of the level property.
+     * 获取level属性的值。
      * 
      */
     public float getLevel() {
@@ -76,7 +76,7 @@ public class BacklightCompensation {
     }
 
     /**
-     * Sets the value of the level property.
+     * 设置level属性的值。
      * 
      */
     public void setLevel(float value) {

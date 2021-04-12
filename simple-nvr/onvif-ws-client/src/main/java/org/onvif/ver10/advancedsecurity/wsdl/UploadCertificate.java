@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -52,7 +52,7 @@ public class UploadCertificate {
     protected Boolean privateKeyRequired;
 
     /**
-     * Gets the value of the certificate property.
+     * 获取certificate属性的值。
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class UploadCertificate {
     }
 
     /**
-     * Sets the value of the certificate property.
+     * 设置certificate属性的值。
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class UploadCertificate {
     }
 
     /**
-     * Gets the value of the alias property.
+     * 获取alias属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class UploadCertificate {
     }
 
     /**
-     * Sets the value of the alias property.
+     * 设置alias属性的值。
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class UploadCertificate {
     }
 
     /**
-     * Gets the value of the keyAlias property.
+     * 获取keyAlias属性的值。
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class UploadCertificate {
     }
 
     /**
-     * Sets the value of the keyAlias property.
+     * 设置keyAlias属性的值。
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class UploadCertificate {
     }
 
     /**
-     * Gets the value of the privateKeyRequired property.
+     * 获取privateKeyRequired属性的值。
      * This getter has been renamed from isPrivateKeyRequired() to getPrivateKeyRequired() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -135,7 +135,7 @@ public class UploadCertificate {
     }
 
     /**
-     * Sets the value of the privateKeyRequired property.
+     * 设置privateKeyRequired属性的值。
      * 
      * @param value
      *     allowed object is

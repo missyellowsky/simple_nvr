@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Scope complex type.
+ * <p>Scope complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Scope"&gt;
@@ -45,7 +45,7 @@ public class Scope {
     protected String scopeItem;
 
     /**
-     * Gets the value of the scopeDef property.
+     * 获取scopeDef属性的值。
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class Scope {
     }
 
     /**
-     * Sets the value of the scopeDef property.
+     * 设置scopeDef属性的值。
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class Scope {
     }
 
     /**
-     * Gets the value of the scopeItem property.
+     * 获取scopeItem属性的值。
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class Scope {
     }
 
     /**
-     * Sets the value of the scopeItem property.
+     * 设置scopeItem属性的值。
      * 
      * @param value
      *     allowed object is

@@ -16,9 +16,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for OSDTextOptions complex type.
+ * <p>OSDTextOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="OSDTextOptions"&gt;
@@ -100,7 +100,7 @@ public class OSDTextOptions {
     }
 
     /**
-     * Gets the value of the fontSizeRange property.
+     * 获取fontSizeRange属性的值。
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class OSDTextOptions {
     }
 
     /**
-     * Sets the value of the fontSizeRange property.
+     * 设置fontSizeRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -182,7 +182,7 @@ public class OSDTextOptions {
     }
 
     /**
-     * Gets the value of the fontColor property.
+     * 获取fontColor属性的值。
      * 
      * @return
      *     possible object is
@@ -194,7 +194,7 @@ public class OSDTextOptions {
     }
 
     /**
-     * Sets the value of the fontColor property.
+     * 设置fontColor属性的值。
      * 
      * @param value
      *     allowed object is
@@ -206,7 +206,7 @@ public class OSDTextOptions {
     }
 
     /**
-     * Gets the value of the backgroundColor property.
+     * 获取backgroundColor属性的值。
      * 
      * @return
      *     possible object is
@@ -218,7 +218,7 @@ public class OSDTextOptions {
     }
 
     /**
-     * Sets the value of the backgroundColor property.
+     * 设置backgroundColor属性的值。
      * 
      * @param value
      *     allowed object is
@@ -230,7 +230,7 @@ public class OSDTextOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -242,7 +242,7 @@ public class OSDTextOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

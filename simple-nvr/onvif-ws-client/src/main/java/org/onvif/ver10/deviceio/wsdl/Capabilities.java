@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Capabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -103,7 +103,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the videoSources property.
+     * 获取videoSources属性的值。
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the videoSources property.
+     * 设置videoSources属性的值。
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the videoOutputs property.
+     * 获取videoOutputs属性的值。
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the videoOutputs property.
+     * 设置videoOutputs属性的值。
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the audioSources property.
+     * 获取audioSources属性的值。
      * 
      * @return
      *     possible object is
@@ -175,7 +175,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the audioSources property.
+     * 设置audioSources属性的值。
      * 
      * @param value
      *     allowed object is
@@ -187,7 +187,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the audioOutputs property.
+     * 获取audioOutputs属性的值。
      * 
      * @return
      *     possible object is
@@ -203,7 +203,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the audioOutputs property.
+     * 设置audioOutputs属性的值。
      * 
      * @param value
      *     allowed object is
@@ -215,7 +215,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the relayOutputs property.
+     * 获取relayOutputs属性的值。
      * 
      * @return
      *     possible object is
@@ -231,7 +231,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the relayOutputs property.
+     * 设置relayOutputs属性的值。
      * 
      * @param value
      *     allowed object is
@@ -243,7 +243,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the serialPorts property.
+     * 获取serialPorts属性的值。
      * 
      * @return
      *     possible object is
@@ -259,7 +259,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the serialPorts property.
+     * 设置serialPorts属性的值。
      * 
      * @param value
      *     allowed object is
@@ -271,7 +271,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the digitalInputs property.
+     * 获取digitalInputs属性的值。
      * 
      * @return
      *     possible object is
@@ -287,7 +287,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the digitalInputs property.
+     * 设置digitalInputs属性的值。
      * 
      * @param value
      *     allowed object is
@@ -299,7 +299,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the digitalInputOptions property.
+     * 获取digitalInputOptions属性的值。
      * This getter has been renamed from isDigitalInputOptions() to getDigitalInputOptions() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -316,7 +316,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the digitalInputOptions property.
+     * 设置digitalInputOptions属性的值。
      * 
      * @param value
      *     allowed object is

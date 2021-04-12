@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for TrackInformation complex type.
+ * <p>TrackInformation complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="TrackInformation"&gt;
@@ -74,7 +74,7 @@ public class TrackInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the trackToken property.
+     * 获取trackToken属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class TrackInformation {
     }
 
     /**
-     * Sets the value of the trackToken property.
+     * 设置trackToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class TrackInformation {
     }
 
     /**
-     * Gets the value of the trackType property.
+     * 获取trackType属性的值。
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class TrackInformation {
     }
 
     /**
-     * Sets the value of the trackType property.
+     * 设置trackType属性的值。
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class TrackInformation {
     }
 
     /**
-     * Gets the value of the description property.
+     * 获取description属性的值。
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class TrackInformation {
     }
 
     /**
-     * Sets the value of the description property.
+     * 设置description属性的值。
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class TrackInformation {
     }
 
     /**
-     * Gets the value of the dataFrom property.
+     * 获取dataFrom属性的值。
      * 
      * @return
      *     possible object is
@@ -158,7 +158,7 @@ public class TrackInformation {
     }
 
     /**
-     * Sets the value of the dataFrom property.
+     * 设置dataFrom属性的值。
      * 
      * @param value
      *     allowed object is
@@ -170,7 +170,7 @@ public class TrackInformation {
     }
 
     /**
-     * Gets the value of the dataTo property.
+     * 获取dataTo属性的值。
      * 
      * @return
      *     possible object is
@@ -182,7 +182,7 @@ public class TrackInformation {
     }
 
     /**
-     * Sets the value of the dataTo property.
+     * 设置dataTo属性的值。
      * 
      * @param value
      *     allowed object is

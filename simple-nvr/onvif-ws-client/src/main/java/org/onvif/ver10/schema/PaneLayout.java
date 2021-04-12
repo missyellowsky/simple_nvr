@@ -22,9 +22,9 @@ import org.w3c.dom.Element;
  *         configuration to a region of the screen.
  *       
  * 
- * <p>Java class for PaneLayout complex type.
+ * <p>PaneLayout complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PaneLayout"&gt;
@@ -61,7 +61,7 @@ public class PaneLayout {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the pane property.
+     * 获取pane属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class PaneLayout {
     }
 
     /**
-     * Sets the value of the pane property.
+     * 设置pane属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class PaneLayout {
     }
 
     /**
-     * Gets the value of the area property.
+     * 获取area属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class PaneLayout {
     }
 
     /**
-     * Sets the value of the area property.
+     * 设置area属性的值。
      * 
      * @param value
      *     allowed object is

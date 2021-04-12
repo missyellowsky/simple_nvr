@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoEncoder2Configuration complex type.
+ * <p>VideoEncoder2Configuration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoEncoder2Configuration"&gt;
@@ -78,7 +78,7 @@ public class VideoEncoder2Configuration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * 获取encoding属性的值。
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the encoding property.
+     * 设置encoding属性的值。
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the resolution property.
+     * 获取resolution属性的值。
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the resolution property.
+     * 设置resolution属性的值。
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the rateControl property.
+     * 获取rateControl属性的值。
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the rateControl property.
+     * 设置rateControl属性的值。
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the multicast property.
+     * 获取multicast属性的值。
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the multicast property.
+     * 设置multicast属性的值。
      * 
      * @param value
      *     allowed object is
@@ -174,7 +174,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the quality property.
+     * 获取quality属性的值。
      * 
      */
     public float getQuality() {
@@ -182,7 +182,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the quality property.
+     * 设置quality属性的值。
      * 
      */
     public void setQuality(float value) {
@@ -220,7 +220,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the govLength property.
+     * 获取govLength属性的值。
      * 
      * @return
      *     possible object is
@@ -232,7 +232,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the govLength property.
+     * 设置govLength属性的值。
      * 
      * @param value
      *     allowed object is
@@ -244,7 +244,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Gets the value of the profile property.
+     * 获取profile属性的值。
      * 
      * @return
      *     possible object is
@@ -256,7 +256,7 @@ public class VideoEncoder2Configuration
     }
 
     /**
-     * Sets the value of the profile property.
+     * 设置profile属性的值。
      * 
      * @param value
      *     allowed object is

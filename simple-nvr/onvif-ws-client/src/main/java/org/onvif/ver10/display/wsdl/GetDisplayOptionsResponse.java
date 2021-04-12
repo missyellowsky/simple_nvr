@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -54,7 +54,7 @@ public class GetDisplayOptionsResponse {
     protected List<Object> any;
 
     /**
-     * Gets the value of the layoutOptions property.
+     * 获取layoutOptions属性的值。
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class GetDisplayOptionsResponse {
     }
 
     /**
-     * Sets the value of the layoutOptions property.
+     * 设置layoutOptions属性的值。
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class GetDisplayOptionsResponse {
     }
 
     /**
-     * Gets the value of the codingCapabilities property.
+     * 获取codingCapabilities属性的值。
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class GetDisplayOptionsResponse {
     }
 
     /**
-     * Sets the value of the codingCapabilities property.
+     * 设置codingCapabilities属性的值。
      * 
      * @param value
      *     allowed object is

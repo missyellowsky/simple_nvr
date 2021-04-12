@@ -16,9 +16,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 /**
  * Representation of a physical video input.
  * 
- * <p>Java class for VideoSource complex type.
+ * <p>VideoSource complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoSource"&gt;
@@ -61,7 +61,7 @@ public class VideoSource
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the framerate property.
+     * 获取framerate属性的值。
      * 
      */
     public float getFramerate() {
@@ -69,7 +69,7 @@ public class VideoSource
     }
 
     /**
-     * Sets the value of the framerate property.
+     * 设置framerate属性的值。
      * 
      */
     public void setFramerate(float value) {
@@ -77,7 +77,7 @@ public class VideoSource
     }
 
     /**
-     * Gets the value of the resolution property.
+     * 获取resolution属性的值。
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class VideoSource
     }
 
     /**
-     * Sets the value of the resolution property.
+     * 设置resolution属性的值。
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class VideoSource
     }
 
     /**
-     * Gets the value of the imaging property.
+     * 获取imaging属性的值。
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class VideoSource
     }
 
     /**
-     * Sets the value of the imaging property.
+     * 设置imaging属性的值。
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class VideoSource
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class VideoSource
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for PTZPresetTourSupported complex type.
+ * <p>PTZPresetTourSupported complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourSupported"&gt;
@@ -57,7 +57,7 @@ public class PTZPresetTourSupported {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the maximumNumberOfPresetTours property.
+     * 获取maximumNumberOfPresetTours属性的值。
      * 
      */
     public int getMaximumNumberOfPresetTours() {
@@ -65,7 +65,7 @@ public class PTZPresetTourSupported {
     }
 
     /**
-     * Sets the value of the maximumNumberOfPresetTours property.
+     * 设置maximumNumberOfPresetTours属性的值。
      * 
      */
     public void setMaximumNumberOfPresetTours(int value) {
@@ -102,7 +102,7 @@ public class PTZPresetTourSupported {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class PTZPresetTourSupported {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

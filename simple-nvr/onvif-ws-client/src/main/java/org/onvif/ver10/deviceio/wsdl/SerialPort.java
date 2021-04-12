@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 /**
  * Lists all available serial ports of a device
  * 
- * <p>Java class for SerialPort complex type.
+ * <p>SerialPort complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SerialPort"&gt;

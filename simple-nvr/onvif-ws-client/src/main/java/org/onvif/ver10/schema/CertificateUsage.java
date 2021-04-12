@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for CertificateUsage complex type.
+ * <p>CertificateUsage complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CertificateUsage"&gt;
@@ -39,7 +39,7 @@ public class CertificateUsage {
     protected boolean critical;
 
     /**
-     * Gets the value of the value property.
+     * 获取value属性的值。
      * 
      * @return
      *     possible object is
@@ -51,7 +51,7 @@ public class CertificateUsage {
     }
 
     /**
-     * Sets the value of the value property.
+     * 设置value属性的值。
      * 
      * @param value
      *     allowed object is
@@ -63,7 +63,7 @@ public class CertificateUsage {
     }
 
     /**
-     * Gets the value of the critical property.
+     * 获取critical属性的值。
      * This getter has been renamed from isCritical() to getCritical() by cxf-xjc-boolean plugin.
      * 
      */
@@ -72,7 +72,7 @@ public class CertificateUsage {
     }
 
     /**
-     * Sets the value of the critical property.
+     * 设置critical属性的值。
      * 
      */
     public void setCritical(boolean value) {

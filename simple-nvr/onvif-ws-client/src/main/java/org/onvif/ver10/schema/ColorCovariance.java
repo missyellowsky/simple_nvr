@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ColorCovariance complex type.
+ * <p>ColorCovariance complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ColorCovariance"&gt;
@@ -54,7 +54,7 @@ public class ColorCovariance {
     protected String colorspace;
 
     /**
-     * Gets the value of the xx property.
+     * 获取xx属性的值。
      * 
      */
     public float getXX() {
@@ -62,7 +62,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the xx property.
+     * 设置xx属性的值。
      * 
      */
     public void setXX(float value) {
@@ -70,7 +70,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the yy property.
+     * 获取yy属性的值。
      * 
      */
     public float getYY() {
@@ -78,7 +78,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the yy property.
+     * 设置yy属性的值。
      * 
      */
     public void setYY(float value) {
@@ -86,7 +86,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the zz property.
+     * 获取zz属性的值。
      * 
      */
     public float getZZ() {
@@ -94,7 +94,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the zz property.
+     * 设置zz属性的值。
      * 
      */
     public void setZZ(float value) {
@@ -102,7 +102,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the xy property.
+     * 获取xy属性的值。
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the xy property.
+     * 设置xy属性的值。
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the xz property.
+     * 获取xz属性的值。
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the xz property.
+     * 设置xz属性的值。
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the yz property.
+     * 获取yz属性的值。
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the yz property.
+     * 设置yz属性的值。
      * 
      * @param value
      *     allowed object is
@@ -174,7 +174,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Gets the value of the colorspace property.
+     * 获取colorspace属性的值。
      * 
      * @return
      *     possible object is
@@ -186,7 +186,7 @@ public class ColorCovariance {
     }
 
     /**
-     * Sets the value of the colorspace property.
+     * 设置colorspace属性的值。
      * 
      * @param value
      *     allowed object is

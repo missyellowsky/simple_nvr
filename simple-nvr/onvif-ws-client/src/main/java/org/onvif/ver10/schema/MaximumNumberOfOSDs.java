@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for MaximumNumberOfOSDs complex type.
+ * <p>MaximumNumberOfOSDs complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MaximumNumberOfOSDs"&gt;
@@ -56,7 +56,7 @@ public class MaximumNumberOfOSDs {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the total property.
+     * 获取total属性的值。
      * 
      */
     public int getTotal() {
@@ -64,7 +64,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the total property.
+     * 设置total属性的值。
      * 
      */
     public void setTotal(int value) {
@@ -72,7 +72,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Gets the value of the image property.
+     * 获取image属性的值。
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the image property.
+     * 设置image属性的值。
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Gets the value of the plainText property.
+     * 获取plainText属性的值。
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the plainText property.
+     * 设置plainText属性的值。
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Gets the value of the date property.
+     * 获取date属性的值。
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the date property.
+     * 设置date属性的值。
      * 
      * @param value
      *     allowed object is
@@ -144,7 +144,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Gets the value of the time property.
+     * 获取time属性的值。
      * 
      * @return
      *     possible object is
@@ -156,7 +156,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the time property.
+     * 设置time属性的值。
      * 
      * @param value
      *     allowed object is
@@ -168,7 +168,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Gets the value of the dateAndTime property.
+     * 获取dateAndTime属性的值。
      * 
      * @return
      *     possible object is
@@ -180,7 +180,7 @@ public class MaximumNumberOfOSDs {
     }
 
     /**
-     * Sets the value of the dateAndTime property.
+     * 设置dateAndTime属性的值。
      * 
      * @param value
      *     allowed object is

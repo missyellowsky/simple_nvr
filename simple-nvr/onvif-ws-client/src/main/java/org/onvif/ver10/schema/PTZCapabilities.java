@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZCapabilities complex type.
+ * <p>PTZCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZCapabilities"&gt;
@@ -55,7 +55,7 @@ public class PTZCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * 获取xAddr属性的值。
      * 
      * @return
      *     possible object is
@@ -67,7 +67,7 @@ public class PTZCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * 设置xAddr属性的值。
      * 
      * @param value
      *     allowed object is

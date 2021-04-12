@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for OnvifVersion complex type.
+ * <p>OnvifVersion complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="OnvifVersion"&gt;
@@ -42,7 +42,7 @@ public class OnvifVersion {
     protected int minor;
 
     /**
-     * Gets the value of the major property.
+     * 获取major属性的值。
      * 
      */
     public int getMajor() {
@@ -50,7 +50,7 @@ public class OnvifVersion {
     }
 
     /**
-     * Sets the value of the major property.
+     * 设置major属性的值。
      * 
      */
     public void setMajor(int value) {
@@ -58,7 +58,7 @@ public class OnvifVersion {
     }
 
     /**
-     * Gets the value of the minor property.
+     * 获取minor属性的值。
      * 
      */
     public int getMinor() {
@@ -66,7 +66,7 @@ public class OnvifVersion {
     }
 
     /**
-     * Sets the value of the minor property.
+     * 设置minor属性的值。
      * 
      */
     public void setMinor(int value) {

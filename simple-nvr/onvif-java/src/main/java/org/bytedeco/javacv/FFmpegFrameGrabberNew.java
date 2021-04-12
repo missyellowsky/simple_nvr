@@ -39,16 +39,16 @@ public class FFmpegFrameGrabberNew extends FrameGrabber {
 		throw new UnsupportedOperationException("Device enumeration not support by FFmpeg.");
 	}
 
-	public static FFmpegFrameGrabber createDefault(File deviceFile) throws Exception {
-		return new FFmpegFrameGrabber(deviceFile);
+	public static FFmpegFrameGrabberNew createDefault(File deviceFile) throws Exception {
+		return new FFmpegFrameGrabberNew(deviceFile);
 	}
 
-	public static FFmpegFrameGrabber createDefault(String devicePath) throws Exception {
-		return new FFmpegFrameGrabber(devicePath);
+	public static FFmpegFrameGrabberNew createDefault(String devicePath) throws Exception {
+		return new FFmpegFrameGrabberNew(devicePath);
 	}
 
-	public static FFmpegFrameGrabber createDefault(int deviceNumber) throws Exception {
-		throw new Exception(FFmpegFrameGrabber.class + " does not support device numbers.");
+	public static FFmpegFrameGrabberNew createDefault(int deviceNumber) throws Exception {
+		throw new Exception(FFmpegFrameGrabberNew.class + " does not support device numbers.");
 	}
 
 	private static Exception loadingException = null;
@@ -76,7 +76,7 @@ public class FFmpegFrameGrabberNew extends FrameGrabber {
 				if (t instanceof Exception) {
 					throw loadingException = (Exception) t;
 				} else {
-					throw loadingException = new Exception("Failed to load " + FFmpegFrameGrabber.class, t);
+					throw loadingException = new Exception("Failed to load " + FFmpegFrameGrabberNew.class, t);
 				}
 			}
 		}
@@ -101,7 +101,7 @@ public class FFmpegFrameGrabberNew extends FrameGrabber {
 	}
 
 	/**
-	 * Calls {@code FFmpegFrameGrabber(inputStream, Integer.MAX_VALUE - 8)} so that
+	 * Calls {@code FFmpegFrameGrabberNew(inputStream, Integer.MAX_VALUE - 8)} so that
 	 * the whole input stream is seekable.
 	 */
 	public FFmpegFrameGrabberNew(InputStream inputStream) {
@@ -358,7 +358,7 @@ public class FFmpegFrameGrabberNew extends FrameGrabber {
 
 	/**
 	 * Is there a video stream?
-	 * 
+	 *
 	 * @return {@code video_st!=null;}
 	 */
 	public boolean hasVideo() {
@@ -367,7 +367,7 @@ public class FFmpegFrameGrabberNew extends FrameGrabber {
 
 	/**
 	 * Is there an audio stream?
-	 * 
+	 *
 	 * @return {@code audio_st!=null;}
 	 */
 	public boolean hasAudio() {
@@ -885,7 +885,7 @@ public class FFmpegFrameGrabberNew extends FrameGrabber {
 			}
 			inputStream.mark(maximumSize);
 			oc = avformat_alloc_context();
-			avio = avio_alloc_context(new BytePointer(av_malloc(4096)), 4096, 0, oc, readCallback, null, seekCallback);
+			avio = avio_alloc_context(new BytePointer(av_malloc(4096)), 4096, 0, oc, readCallback, null, maximumSize > 0 ? seekCallback : null);
 			oc.pb(avio);
 
 			filename = inputStream.toString();

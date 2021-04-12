@@ -12,9 +12,9 @@ import org.onvif.ver10.schema.ImagingSettings20;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -49,7 +49,7 @@ public class SetImagingSettings {
     protected Boolean forcePersistence;
 
     /**
-     * Gets the value of the videoSourceToken property.
+     * 获取videoSourceToken属性的值。
      * 
      * @return
      *     possible object is
@@ -61,7 +61,7 @@ public class SetImagingSettings {
     }
 
     /**
-     * Sets the value of the videoSourceToken property.
+     * 设置videoSourceToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class SetImagingSettings {
     }
 
     /**
-     * Gets the value of the imagingSettings property.
+     * 获取imagingSettings属性的值。
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class SetImagingSettings {
     }
 
     /**
-     * Sets the value of the imagingSettings property.
+     * 设置imagingSettings属性的值。
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class SetImagingSettings {
     }
 
     /**
-     * Gets the value of the forcePersistence property.
+     * 获取forcePersistence属性的值。
      * This getter has been renamed from isForcePersistence() to getForcePersistence() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -110,7 +110,7 @@ public class SetImagingSettings {
     }
 
     /**
-     * Sets the value of the forcePersistence property.
+     * 设置forcePersistence属性的值。
      * 
      * @param value
      *     allowed object is

@@ -25,9 +25,9 @@ import org.w3c.dom.Element;
  *             The following capabilities are available:
  *           
  * 
- * <p>Java class for ServiceCapabilities complex type.
+ * <p>ServiceCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ServiceCapabilities"&gt;
@@ -90,7 +90,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Gets the value of the maxLimit property.
+     * 获取maxLimit属性的值。
      * 
      */
     public long getMaxLimit() {
@@ -98,7 +98,7 @@ public class ServiceCapabilities {
     }
 
     /**
-     * Sets the value of the maxLimit property.
+     * 设置maxLimit属性的值。
      * 
      */
     public void setMaxLimit(long value) {

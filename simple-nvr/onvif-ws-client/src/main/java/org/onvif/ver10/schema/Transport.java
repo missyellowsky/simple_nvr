@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Transport complex type.
+ * <p>Transport complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Transport"&gt;
@@ -44,7 +44,7 @@ public class Transport {
     protected Transport tunnel;
 
     /**
-     * Gets the value of the protocol property.
+     * 获取protocol属性的值。
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class Transport {
     }
 
     /**
-     * Sets the value of the protocol property.
+     * 设置protocol属性的值。
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class Transport {
     }
 
     /**
-     * Gets the value of the tunnel property.
+     * 获取tunnel属性的值。
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class Transport {
     }
 
     /**
-     * Sets the value of the tunnel property.
+     * 设置tunnel属性的值。
      * 
      * @param value
      *     allowed object is

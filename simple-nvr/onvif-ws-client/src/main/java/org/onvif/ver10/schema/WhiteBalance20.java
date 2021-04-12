@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for WhiteBalance20 complex type.
+ * <p>WhiteBalance20 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="WhiteBalance20"&gt;
@@ -59,7 +59,7 @@ public class WhiteBalance20 {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Gets the value of the crGain property.
+     * 获取crGain属性的值。
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Sets the value of the crGain property.
+     * 设置crGain属性的值。
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Gets the value of the cbGain property.
+     * 获取cbGain属性的值。
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Sets the value of the cbGain property.
+     * 设置cbGain属性的值。
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class WhiteBalance20 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

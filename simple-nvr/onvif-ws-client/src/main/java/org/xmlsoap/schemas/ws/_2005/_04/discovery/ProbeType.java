@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for ProbeType complex type.
+ * <p>ProbeType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ProbeType"&gt;
@@ -88,7 +88,7 @@ public class ProbeType {
     }
 
     /**
-     * Gets the value of the scopes property.
+     * 获取scopes属性的值。
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class ProbeType {
     }
 
     /**
-     * Sets the value of the scopes property.
+     * 设置scopes属性的值。
      * 
      * @param value
      *     allowed object is

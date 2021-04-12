@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for GetTracksResponseItem complex type.
+ * <p>GetTracksResponseItem complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="GetTracksResponseItem"&gt;
@@ -57,7 +57,7 @@ public class GetTracksResponseItem {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the trackToken property.
+     * 获取trackToken属性的值。
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class GetTracksResponseItem {
     }
 
     /**
-     * Sets the value of the trackToken property.
+     * 设置trackToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class GetTracksResponseItem {
     }
 
     /**
-     * Gets the value of the configuration property.
+     * 获取configuration属性的值。
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class GetTracksResponseItem {
     }
 
     /**
-     * Sets the value of the configuration property.
+     * 设置configuration属性的值。
      * 
      * @param value
      *     allowed object is

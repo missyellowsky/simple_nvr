@@ -16,9 +16,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for IrCutFilterAutoAdjustmentOptions complex type.
+ * <p>IrCutFilterAutoAdjustmentOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="IrCutFilterAutoAdjustmentOptions"&gt;
@@ -88,7 +88,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Gets the value of the boundaryOffset property.
+     * 获取boundaryOffset属性的值。
      * This getter has been renamed from isBoundaryOffset() to getBoundaryOffset() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -101,7 +101,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Sets the value of the boundaryOffset property.
+     * 设置boundaryOffset属性的值。
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Gets the value of the responseTimeRange property.
+     * 获取responseTimeRange属性的值。
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Sets the value of the responseTimeRange property.
+     * 设置responseTimeRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -149,7 +149,7 @@ public class IrCutFilterAutoAdjustmentOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

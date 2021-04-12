@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Vector complex type.
+ * <p>Vector complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Vector"&gt;
@@ -37,7 +37,7 @@ public class Vector {
     protected Float y;
 
     /**
-     * Gets the value of the x property.
+     * 获取x属性的值。
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class Vector {
     }
 
     /**
-     * Sets the value of the x property.
+     * 设置x属性的值。
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class Vector {
     }
 
     /**
-     * Gets the value of the y property.
+     * 获取y属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class Vector {
     }
 
     /**
-     * Sets the value of the y property.
+     * 设置y属性的值。
      * 
      * @param value
      *     allowed object is

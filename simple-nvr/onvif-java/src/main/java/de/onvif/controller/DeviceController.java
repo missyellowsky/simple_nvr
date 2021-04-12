@@ -51,16 +51,18 @@ public class DeviceController {
     DeviceService deviceService;
 
     @RequestMapping(value = "device/refreshCamera", method = RequestMethod.GET)
-    public Result refreshCamera() {
+    public Result refreshCamera(@RequestParam String net) {
         List<DeviceInfo> onvifDevices = null;
         try {
-            onvifDevices = initCameras.initCamera();
+            onvifDevices = initCameras.initCamera(net);
         } catch (SOAPException e) {
             log.error("SOAPException: " + e.getMessage());
             Result.fail(e.getMessage());
         } catch (ConnectException e) {
             log.error("ConnectException: " + e.getMessage());
             Result.fail(e.getMessage());
+        } catch (Exception e){
+            log.error("InitCameras: " + e.getMessage());
         }
         return Result.success(onvifDevices);
     }

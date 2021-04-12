@@ -15,9 +15,9 @@ import org.onvif.ver10.schema.BinaryData;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -54,7 +54,7 @@ public class GetPkcs10Request {
     protected BinaryData attributes;
 
     /**
-     * Gets the value of the certificateID property.
+     * 获取certificateID属性的值。
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class GetPkcs10Request {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * 设置certificateID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class GetPkcs10Request {
     }
 
     /**
-     * Gets the value of the subject property.
+     * 获取subject属性的值。
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class GetPkcs10Request {
     }
 
     /**
-     * Sets the value of the subject property.
+     * 设置subject属性的值。
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class GetPkcs10Request {
     }
 
     /**
-     * Gets the value of the attributes property.
+     * 获取attributes属性的值。
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class GetPkcs10Request {
     }
 
     /**
-     * Sets the value of the attributes property.
+     * 设置attributes属性的值。
      * 
      * @param value
      *     allowed object is

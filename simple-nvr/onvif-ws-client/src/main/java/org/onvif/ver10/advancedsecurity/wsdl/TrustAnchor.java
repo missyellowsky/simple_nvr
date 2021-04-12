@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for TrustAnchor complex type.
+ * <p>TrustAnchor complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="TrustAnchor"&gt;
@@ -51,7 +51,7 @@ public class TrustAnchor {
     protected List<Object> any;
 
     /**
-     * Gets the value of the certificateID property.
+     * 获取certificateID属性的值。
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class TrustAnchor {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * 设置certificateID属性的值。
      * 
      * @param value
      *     allowed object is

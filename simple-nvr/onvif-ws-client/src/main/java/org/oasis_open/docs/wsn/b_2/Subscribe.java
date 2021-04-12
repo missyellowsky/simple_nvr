@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -73,7 +73,7 @@ public class Subscribe {
     protected List<Object> any;
 
     /**
-     * Gets the value of the consumerReference property.
+     * 获取consumerReference属性的值。
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class Subscribe {
     }
 
     /**
-     * Sets the value of the consumerReference property.
+     * 设置consumerReference属性的值。
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class Subscribe {
     }
 
     /**
-     * Gets the value of the filter property.
+     * 获取filter属性的值。
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class Subscribe {
     }
 
     /**
-     * Sets the value of the filter property.
+     * 设置filter属性的值。
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class Subscribe {
     }
 
     /**
-     * Gets the value of the initialTerminationTime property.
+     * 获取initialTerminationTime属性的值。
      * 
      * @return
      *     possible object is
@@ -133,7 +133,7 @@ public class Subscribe {
     }
 
     /**
-     * Sets the value of the initialTerminationTime property.
+     * 设置initialTerminationTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class Subscribe {
     }
 
     /**
-     * Gets the value of the subscriptionPolicy property.
+     * 获取subscriptionPolicy属性的值。
      * 
      * @return
      *     possible object is
@@ -157,7 +157,7 @@ public class Subscribe {
     }
 
     /**
-     * Sets the value of the subscriptionPolicy property.
+     * 设置subscriptionPolicy属性的值。
      * 
      * @param value
      *     allowed object is
@@ -210,9 +210,9 @@ public class Subscribe {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

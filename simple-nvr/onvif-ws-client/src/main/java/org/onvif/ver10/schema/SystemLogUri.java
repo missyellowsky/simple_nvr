@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SystemLogUri complex type.
+ * <p>SystemLogUri complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SystemLogUri"&gt;
@@ -60,7 +60,7 @@ public class SystemLogUri {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the type property.
+     * 获取type属性的值。
      * 
      * @return
      *     possible object is
@@ -72,7 +72,7 @@ public class SystemLogUri {
     }
 
     /**
-     * Sets the value of the type property.
+     * 设置type属性的值。
      * 
      * @param value
      *     allowed object is
@@ -84,7 +84,7 @@ public class SystemLogUri {
     }
 
     /**
-     * Gets the value of the uri property.
+     * 获取uri属性的值。
      * 
      * @return
      *     possible object is
@@ -96,7 +96,7 @@ public class SystemLogUri {
     }
 
     /**
-     * Sets the value of the uri property.
+     * 设置uri属性的值。
      * 
      * @param value
      *     allowed object is

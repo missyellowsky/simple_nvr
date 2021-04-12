@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -40,7 +40,7 @@ public class SetHostnameFromDHCPResponse {
     protected boolean rebootNeeded;
 
     /**
-     * Gets the value of the rebootNeeded property.
+     * 获取rebootNeeded属性的值。
      * This getter has been renamed from isRebootNeeded() to getRebootNeeded() by cxf-xjc-boolean plugin.
      * 
      */
@@ -49,7 +49,7 @@ public class SetHostnameFromDHCPResponse {
     }
 
     /**
-     * Sets the value of the rebootNeeded property.
+     * 设置rebootNeeded属性的值。
      * 
      */
     public void setRebootNeeded(boolean value) {

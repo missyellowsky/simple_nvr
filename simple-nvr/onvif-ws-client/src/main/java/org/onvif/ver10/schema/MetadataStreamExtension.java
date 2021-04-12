@@ -14,9 +14,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MetadataStreamExtension complex type.
+ * <p>MetadataStreamExtension complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MetadataStreamExtension"&gt;
@@ -80,7 +80,7 @@ public class MetadataStreamExtension {
     }
 
     /**
-     * Gets the value of the audioAnalyticsStream property.
+     * 获取audioAnalyticsStream属性的值。
      * 
      * @return
      *     possible object is
@@ -92,7 +92,7 @@ public class MetadataStreamExtension {
     }
 
     /**
-     * Sets the value of the audioAnalyticsStream property.
+     * 设置audioAnalyticsStream属性的值。
      * 
      * @param value
      *     allowed object is
@@ -104,7 +104,7 @@ public class MetadataStreamExtension {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -116,7 +116,7 @@ public class MetadataStreamExtension {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

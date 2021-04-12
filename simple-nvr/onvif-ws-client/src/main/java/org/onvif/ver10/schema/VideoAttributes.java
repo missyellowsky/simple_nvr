@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoAttributes complex type.
+ * <p>VideoAttributes complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoAttributes"&gt;
@@ -71,7 +71,7 @@ public class VideoAttributes {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the bitrate property.
+     * 获取bitrate属性的值。
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Sets the value of the bitrate property.
+     * 设置bitrate属性的值。
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Gets the value of the width property.
+     * 获取width属性的值。
      * 
      */
     public int getWidth() {
@@ -103,7 +103,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Sets the value of the width property.
+     * 设置width属性的值。
      * 
      */
     public void setWidth(int value) {
@@ -111,7 +111,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Gets the value of the height property.
+     * 获取height属性的值。
      * 
      */
     public int getHeight() {
@@ -119,7 +119,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Sets the value of the height property.
+     * 设置height属性的值。
      * 
      */
     public void setHeight(int value) {
@@ -127,7 +127,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Gets the value of the encoding property.
+     * 获取encoding属性的值。
      * 
      * @return
      *     possible object is
@@ -139,7 +139,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Sets the value of the encoding property.
+     * 设置encoding属性的值。
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Gets the value of the framerate property.
+     * 获取framerate属性的值。
      * 
      */
     public float getFramerate() {
@@ -159,7 +159,7 @@ public class VideoAttributes {
     }
 
     /**
-     * Sets the value of the framerate property.
+     * 设置framerate属性的值。
      * 
      */
     public void setFramerate(float value) {

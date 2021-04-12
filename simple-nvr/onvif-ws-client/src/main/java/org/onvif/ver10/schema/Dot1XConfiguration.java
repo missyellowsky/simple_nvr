@@ -19,9 +19,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Dot1XConfiguration complex type.
+ * <p>Dot1XConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Dot1XConfiguration"&gt;
@@ -76,7 +76,7 @@ public class Dot1XConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the dot1XConfigurationToken property.
+     * 获取dot1XConfigurationToken属性的值。
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the dot1XConfigurationToken property.
+     * 设置dot1XConfigurationToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Gets the value of the identity property.
+     * 获取identity属性的值。
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the identity property.
+     * 设置identity属性的值。
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Gets the value of the anonymousID property.
+     * 获取anonymousID属性的值。
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the anonymousID property.
+     * 设置anonymousID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Gets the value of the eapMethod property.
+     * 获取eapMethod属性的值。
      * 
      */
     public int getEAPMethod() {
@@ -156,7 +156,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the eapMethod property.
+     * 设置eapMethod属性的值。
      * 
      */
     public void setEAPMethod(int value) {
@@ -193,7 +193,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Gets the value of the eapMethodConfiguration property.
+     * 获取eapMethodConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -205,7 +205,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the eapMethodConfiguration property.
+     * 设置eapMethodConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -217,7 +217,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -229,7 +229,7 @@ public class Dot1XConfiguration {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

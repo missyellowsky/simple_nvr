@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Behaviour complex type.
+ * <p>Behaviour complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Behaviour"&gt;
@@ -76,7 +76,7 @@ public class Behaviour {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the removed property.
+     * 获取removed属性的值。
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class Behaviour {
     }
 
     /**
-     * Sets the value of the removed property.
+     * 设置removed属性的值。
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class Behaviour {
     }
 
     /**
-     * Gets the value of the idle property.
+     * 获取idle属性的值。
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class Behaviour {
     }
 
     /**
-     * Sets the value of the idle property.
+     * 设置idle属性的值。
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class Behaviour {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class Behaviour {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -177,9 +177,9 @@ public class Behaviour {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -247,9 +247,9 @@ public class Behaviour {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

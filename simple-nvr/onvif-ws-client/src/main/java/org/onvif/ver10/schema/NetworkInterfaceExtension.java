@@ -14,9 +14,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for NetworkInterfaceExtension complex type.
+ * <p>NetworkInterfaceExtension complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="NetworkInterfaceExtension"&gt;
@@ -88,7 +88,7 @@ public class NetworkInterfaceExtension {
     }
 
     /**
-     * Gets the value of the interfaceType property.
+     * 获取interfaceType属性的值。
      * 
      */
     public int getInterfaceType() {
@@ -96,7 +96,7 @@ public class NetworkInterfaceExtension {
     }
 
     /**
-     * Sets the value of the interfaceType property.
+     * 设置interfaceType属性的值。
      * 
      */
     public void setInterfaceType(int value) {
@@ -162,7 +162,7 @@ public class NetworkInterfaceExtension {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -174,7 +174,7 @@ public class NetworkInterfaceExtension {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

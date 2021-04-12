@@ -24,9 +24,9 @@ import org.w3c.dom.Element;
  *         filter on recordings based on information in this structure.
  *       
  * 
- * <p>Java class for RecordingSourceInformation complex type.
+ * <p>RecordingSourceInformation complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="RecordingSourceInformation"&gt;
@@ -77,7 +77,7 @@ public class RecordingSourceInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the sourceId property.
+     * 获取sourceId属性的值。
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Sets the value of the sourceId property.
+     * 设置sourceId属性的值。
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Gets the value of the location property.
+     * 获取location属性的值。
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Sets the value of the location property.
+     * 设置location属性的值。
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Gets the value of the description property.
+     * 获取description属性的值。
      * 
      * @return
      *     possible object is
@@ -161,7 +161,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Sets the value of the description property.
+     * 设置description属性的值。
      * 
      * @param value
      *     allowed object is
@@ -173,7 +173,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Gets the value of the address property.
+     * 获取address属性的值。
      * 
      * @return
      *     possible object is
@@ -185,7 +185,7 @@ public class RecordingSourceInformation {
     }
 
     /**
-     * Sets the value of the address property.
+     * 设置address属性的值。
      * 
      * @param value
      *     allowed object is

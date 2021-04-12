@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for ProfileCapabilities complex type.
+ * <p>ProfileCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ProfileCapabilities"&gt;
@@ -53,7 +53,7 @@ public class ProfileCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the maximumNumberOfProfiles property.
+     * 获取maximumNumberOfProfiles属性的值。
      * 
      */
     public int getMaximumNumberOfProfiles() {
@@ -61,7 +61,7 @@ public class ProfileCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfProfiles property.
+     * 设置maximumNumberOfProfiles属性的值。
      * 
      */
     public void setMaximumNumberOfProfiles(int value) {

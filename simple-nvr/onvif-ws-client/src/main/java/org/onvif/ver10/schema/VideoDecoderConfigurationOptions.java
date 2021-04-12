@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for VideoDecoderConfigurationOptions complex type.
+ * <p>VideoDecoderConfigurationOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoDecoderConfigurationOptions"&gt;
@@ -57,7 +57,7 @@ public class VideoDecoderConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the jpegDecOptions property.
+     * 获取jpegDecOptions属性的值。
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class VideoDecoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the jpegDecOptions property.
+     * 设置jpegDecOptions属性的值。
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class VideoDecoderConfigurationOptions {
     }
 
     /**
-     * Gets the value of the h264DecOptions property.
+     * 获取h264DecOptions属性的值。
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class VideoDecoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the h264DecOptions property.
+     * 设置h264DecOptions属性的值。
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class VideoDecoderConfigurationOptions {
     }
 
     /**
-     * Gets the value of the mpeg4DecOptions property.
+     * 获取mpeg4DecOptions属性的值。
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class VideoDecoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the mpeg4DecOptions property.
+     * 设置mpeg4DecOptions属性的值。
      * 
      * @param value
      *     allowed object is
@@ -129,7 +129,7 @@ public class VideoDecoderConfigurationOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -141,7 +141,7 @@ public class VideoDecoderConfigurationOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

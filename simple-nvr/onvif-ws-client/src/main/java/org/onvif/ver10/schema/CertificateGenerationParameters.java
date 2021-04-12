@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for CertificateGenerationParameters complex type.
+ * <p>CertificateGenerationParameters complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CertificateGenerationParameters"&gt;
@@ -70,7 +70,7 @@ public class CertificateGenerationParameters {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the certificateID property.
+     * 获取certificateID属性的值。
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * 设置certificateID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Gets the value of the subject property.
+     * 获取subject属性的值。
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Sets the value of the subject property.
+     * 设置subject属性的值。
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Gets the value of the validNotBefore property.
+     * 获取validNotBefore属性的值。
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Sets the value of the validNotBefore property.
+     * 设置validNotBefore属性的值。
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Gets the value of the validNotAfter property.
+     * 获取validNotAfter属性的值。
      * 
      * @return
      *     possible object is
@@ -154,7 +154,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Sets the value of the validNotAfter property.
+     * 设置validNotAfter属性的值。
      * 
      * @param value
      *     allowed object is
@@ -166,7 +166,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -178,7 +178,7 @@ public class CertificateGenerationParameters {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

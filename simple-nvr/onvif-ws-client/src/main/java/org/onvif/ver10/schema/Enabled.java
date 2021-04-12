@@ -6,9 +6,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for Enabled.
+ * <p>Enabled的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * <p>
  * <pre>
  * &lt;simpleType name="Enabled"&gt;

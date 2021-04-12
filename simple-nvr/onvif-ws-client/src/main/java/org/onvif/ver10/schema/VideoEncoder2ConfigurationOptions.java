@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoEncoder2ConfigurationOptions complex type.
+ * <p>VideoEncoder2ConfigurationOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoEncoder2ConfigurationOptions"&gt;
@@ -81,7 +81,7 @@ public class VideoEncoder2ConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the encoding property.
+     * 获取encoding属性的值。
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the encoding property.
+     * 设置encoding属性的值。
      * 
      * @param value
      *     allowed object is
@@ -105,7 +105,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Gets the value of the qualityRange property.
+     * 获取qualityRange属性的值。
      * 
      * @return
      *     possible object is
@@ -117,7 +117,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the qualityRange property.
+     * 设置qualityRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -158,7 +158,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Gets the value of the bitrateRange property.
+     * 获取bitrateRange属性的值。
      * 
      * @return
      *     possible object is
@@ -170,7 +170,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the bitrateRange property.
+     * 设置bitrateRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -299,7 +299,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Gets the value of the constantBitRateSupported property.
+     * 获取constantBitRateSupported属性的值。
      * This getter has been renamed from isConstantBitRateSupported() to getConstantBitRateSupported() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -312,7 +312,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the constantBitRateSupported property.
+     * 设置constantBitRateSupported属性的值。
      * 
      * @param value
      *     allowed object is
@@ -324,7 +324,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Gets the value of the guaranteedInstances property.
+     * 获取guaranteedInstances属性的值。
      * 
      * @return
      *     possible object is
@@ -336,7 +336,7 @@ public class VideoEncoder2ConfigurationOptions {
     }
 
     /**
-     * Sets the value of the guaranteedInstances property.
+     * 设置guaranteedInstances属性的值。
      * 
      * @param value
      *     allowed object is

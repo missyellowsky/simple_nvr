@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for FocusOptions complex type.
+ * <p>FocusOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="FocusOptions"&gt;
@@ -83,7 +83,7 @@ public class FocusOptions {
     }
 
     /**
-     * Gets the value of the defaultSpeed property.
+     * 获取defaultSpeed属性的值。
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class FocusOptions {
     }
 
     /**
-     * Sets the value of the defaultSpeed property.
+     * 设置defaultSpeed属性的值。
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class FocusOptions {
     }
 
     /**
-     * Gets the value of the nearLimit property.
+     * 获取nearLimit属性的值。
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class FocusOptions {
     }
 
     /**
-     * Sets the value of the nearLimit property.
+     * 设置nearLimit属性的值。
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class FocusOptions {
     }
 
     /**
-     * Gets the value of the farLimit property.
+     * 获取farLimit属性的值。
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class FocusOptions {
     }
 
     /**
-     * Sets the value of the farLimit property.
+     * 设置farLimit属性的值。
      * 
      * @param value
      *     allowed object is

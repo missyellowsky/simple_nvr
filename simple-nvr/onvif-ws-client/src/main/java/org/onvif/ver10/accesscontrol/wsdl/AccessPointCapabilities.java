@@ -27,9 +27,9 @@ import org.w3c.dom.Element;
  *             The following capabilities are available:
  *           
  * 
- * <p>Java class for AccessPointCapabilities complex type.
+ * <p>AccessPointCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AccessPointCapabilities"&gt;
@@ -103,7 +103,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Gets the value of the disableAccessPoint property.
+     * 获取disableAccessPoint属性的值。
      * This getter has been renamed from isDisableAccessPoint() to getDisableAccessPoint() by cxf-xjc-boolean plugin.
      * 
      */
@@ -112,7 +112,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Sets the value of the disableAccessPoint property.
+     * 设置disableAccessPoint属性的值。
      * 
      */
     public void setDisableAccessPoint(boolean value) {
@@ -120,7 +120,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Gets the value of the duress property.
+     * 获取duress属性的值。
      * This getter has been renamed from isDuress() to getDuress() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -133,7 +133,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Sets the value of the duress property.
+     * 设置duress属性的值。
      * 
      * @param value
      *     allowed object is
@@ -145,7 +145,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Gets the value of the anonymousAccess property.
+     * 获取anonymousAccess属性的值。
      * This getter has been renamed from isAnonymousAccess() to getAnonymousAccess() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -158,7 +158,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Sets the value of the anonymousAccess property.
+     * 设置anonymousAccess属性的值。
      * 
      * @param value
      *     allowed object is
@@ -170,7 +170,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Gets the value of the accessTaken property.
+     * 获取accessTaken属性的值。
      * This getter has been renamed from isAccessTaken() to getAccessTaken() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -183,7 +183,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Sets the value of the accessTaken property.
+     * 设置accessTaken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -195,7 +195,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Gets the value of the externalAuthorization property.
+     * 获取externalAuthorization属性的值。
      * This getter has been renamed from isExternalAuthorization() to getExternalAuthorization() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -208,7 +208,7 @@ public class AccessPointCapabilities {
     }
 
     /**
-     * Sets the value of the externalAuthorization property.
+     * 设置externalAuthorization属性的值。
      * 
      * @param value
      *     allowed object is

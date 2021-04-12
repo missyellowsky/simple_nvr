@@ -16,9 +16,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 /**
  * The serial port data.
  * 
- * <p>Java class for SerialData complex type.
+ * <p>SerialData complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SerialData"&gt;
@@ -51,7 +51,7 @@ public class SerialData {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the binary property.
+     * 获取binary属性的值。
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class SerialData {
     }
 
     /**
-     * Sets the value of the binary property.
+     * 设置binary属性的值。
      * 
      * @param value
      *     allowed object is
@@ -73,7 +73,7 @@ public class SerialData {
     }
 
     /**
-     * Gets the value of the string property.
+     * 获取string属性的值。
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class SerialData {
     }
 
     /**
-     * Sets the value of the string property.
+     * 设置string属性的值。
      * 
      * @param value
      *     allowed object is

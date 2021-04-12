@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Capabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -88,7 +88,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the reversePlayback property.
+     * 获取reversePlayback属性的值。
      * This getter has been renamed from isReversePlayback() to getReversePlayback() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -105,7 +105,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the reversePlayback property.
+     * 设置reversePlayback属性的值。
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the rtprtsptcp property.
+     * 获取rtprtsptcp属性的值。
      * This getter has been renamed from isRTPRTSPTCP() to getRTPRTSPTCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -159,7 +159,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the rtprtsptcp property.
+     * 设置rtprtsptcp属性的值。
      * 
      * @param value
      *     allowed object is

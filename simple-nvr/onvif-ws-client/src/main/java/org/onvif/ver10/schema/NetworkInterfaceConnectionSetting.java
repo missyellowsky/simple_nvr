@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for NetworkInterfaceConnectionSetting complex type.
+ * <p>NetworkInterfaceConnectionSetting complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="NetworkInterfaceConnectionSetting"&gt;
@@ -48,7 +48,7 @@ public class NetworkInterfaceConnectionSetting {
     protected Duplex duplex;
 
     /**
-     * Gets the value of the autoNegotiation property.
+     * 获取autoNegotiation属性的值。
      * This getter has been renamed from isAutoNegotiation() to getAutoNegotiation() by cxf-xjc-boolean plugin.
      * 
      */
@@ -57,7 +57,7 @@ public class NetworkInterfaceConnectionSetting {
     }
 
     /**
-     * Sets the value of the autoNegotiation property.
+     * 设置autoNegotiation属性的值。
      * 
      */
     public void setAutoNegotiation(boolean value) {
@@ -65,7 +65,7 @@ public class NetworkInterfaceConnectionSetting {
     }
 
     /**
-     * Gets the value of the speed property.
+     * 获取speed属性的值。
      * 
      */
     public int getSpeed() {
@@ -73,7 +73,7 @@ public class NetworkInterfaceConnectionSetting {
     }
 
     /**
-     * Sets the value of the speed property.
+     * 设置speed属性的值。
      * 
      */
     public void setSpeed(int value) {
@@ -81,7 +81,7 @@ public class NetworkInterfaceConnectionSetting {
     }
 
     /**
-     * Gets the value of the duplex property.
+     * 获取duplex属性的值。
      * 
      * @return
      *     possible object is
@@ -93,7 +93,7 @@ public class NetworkInterfaceConnectionSetting {
     }
 
     /**
-     * Sets the value of the duplex property.
+     * 设置duplex属性的值。
      * 
      * @param value
      *     allowed object is

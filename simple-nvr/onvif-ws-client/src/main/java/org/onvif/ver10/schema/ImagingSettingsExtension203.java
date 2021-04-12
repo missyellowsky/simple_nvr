@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ImagingSettingsExtension203 complex type.
+ * <p>ImagingSettingsExtension203 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ImagingSettingsExtension203"&gt;
@@ -50,7 +50,7 @@ public class ImagingSettingsExtension203 {
     protected ImagingSettingsExtension204 extension;
 
     /**
-     * Gets the value of the toneCompensation property.
+     * 获取toneCompensation属性的值。
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Sets the value of the toneCompensation property.
+     * 设置toneCompensation属性的值。
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Gets the value of the defogging property.
+     * 获取defogging属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Sets the value of the defogging property.
+     * 设置defogging属性的值。
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Gets the value of the noiseReduction property.
+     * 获取noiseReduction属性的值。
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Sets the value of the noiseReduction property.
+     * 设置noiseReduction属性的值。
      * 
      * @param value
      *     allowed object is
@@ -122,7 +122,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -134,7 +134,7 @@ public class ImagingSettingsExtension203 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

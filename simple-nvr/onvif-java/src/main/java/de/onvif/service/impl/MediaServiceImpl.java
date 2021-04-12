@@ -5,10 +5,12 @@ import com.alibaba.fastjson.JSONObject;
 import de.onvif.beans.*;
 import de.onvif.beans.constant.Constant;
 import de.onvif.cache.CacheUtil;
+import de.onvif.push.CameraPushWithWatermark;
 import de.onvif.service.DeviceService;
 import de.onvif.service.MediaService;
 import de.onvif.soap.OnvifDevice;
 import de.onvif.thread.CameraThread;
+import de.onvif.thread.TranscodeTaskThread;
 import de.onvif.utils.HttpClient;
 import de.onvif.utils.RSAEncrypt;
 import de.onvif.utils.RedisUtils;
@@ -216,7 +218,7 @@ public class MediaServiceImpl implements MediaService {
         // 执行任务
         CameraThread.MyRunnable job = new CameraThread.MyRunnable(cameraPojo);
         CameraThread.MyRunnable.es.execute(job);
-        JOBMAP.put(token, job);
+        CacheUtil.JOBMAP.put(token, job);
         map.put("pojo", cameraPojo);
         map.put("errorcode", 0);
         map.put("message", "打开视频流成功");
@@ -262,6 +264,41 @@ public class MediaServiceImpl implements MediaService {
         return newUrl;
     }
 
+    @Override
+    public String addTranscodeTask(TranscodeParam transcodeParam) {
+        transcodeParam.setTaskId(UUID.randomUUID().toString());
+        String url = "rtmp://" + config.getPush_host() + ":" + config.getPush_port() + "/transcode/" + transcodeParam.getTaskId() ;
+        transcodeParam.setOutputUrl(url);
+        TranscodeTaskThread.MyRunnable job = new TranscodeTaskThread.MyRunnable(transcodeParam);
+        TranscodeTaskThread.MyRunnable.es.execute(job);
+        CacheUtil.TRANSCODETASkJOBMAP.put(transcodeParam.getTaskId(), job);
+        String playUrl;
+        switch (transcodeParam.getStreamType()) {
+            case HLS:
+                playUrl = "http://" + config.getPush_host() + ":" + config.getPlay_port() + "/transcodehls/" + transcodeParam.getTaskId() + "/index.m3u8";
+                break;
+            case FLV:
+                playUrl = "http://" + config.getPush_host() + ":" + config.getPlay_port() + "/transcode?port=" + config.getPush_port() + "&app=transcode&stream=" + transcodeParam.getTaskId();
+                break;
+            default:playUrl = "rtmp://" + config.getPush_host() + ":" + config.getPush_port() + "/transcode/" + transcodeParam.getTaskId();
+        }
+        transcodeParam.setPlayUrl(playUrl);
+        return playUrl;
+    }
+
+    @Override
+    public Boolean stopTranscodeTask(String name) {
+        try{
+
+            TranscodeTaskThread.MyRunnable job = CacheUtil.TRANSCODETASkJOBMAP.get(name);
+            if(job != null){
+                job.setInterrupted(name);
+            }
+            return true;
+        }catch (Exception e){
+            return false;
+        }
+    }
 
     /**
      * 校验流是否已推送并获取播放地址
@@ -416,7 +453,7 @@ public class MediaServiceImpl implements MediaService {
         // 执行任务
         CameraThread.MyRunnable job = new CameraThread.MyRunnable(cameraPojo);
         CameraThread.MyRunnable.es.execute(job);
-        JOBMAP.put(token, job);
+        CacheUtil.JOBMAP.put(token, job);
         return url;
     }
 }

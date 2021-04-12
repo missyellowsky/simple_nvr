@@ -16,9 +16,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for SecurityCapabilities complex type.
+ * <p>SecurityCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SecurityCapabilities"&gt;
@@ -94,7 +94,7 @@ public class SecurityCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the tls10 property.
+     * 获取tls10属性的值。
      * This getter has been renamed from isTLS10() to getTLS10() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -107,7 +107,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the tls10 property.
+     * 设置tls10属性的值。
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the tls11 property.
+     * 获取tls11属性的值。
      * This getter has been renamed from isTLS11() to getTLS11() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -132,7 +132,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the tls11 property.
+     * 设置tls11属性的值。
      * 
      * @param value
      *     allowed object is
@@ -144,7 +144,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the tls12 property.
+     * 获取tls12属性的值。
      * This getter has been renamed from isTLS12() to getTLS12() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -157,7 +157,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the tls12 property.
+     * 设置tls12属性的值。
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the onboardKeyGeneration property.
+     * 获取onboardKeyGeneration属性的值。
      * This getter has been renamed from isOnboardKeyGeneration() to getOnboardKeyGeneration() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -182,7 +182,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the onboardKeyGeneration property.
+     * 设置onboardKeyGeneration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -194,7 +194,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the accessPolicyConfig property.
+     * 获取accessPolicyConfig属性的值。
      * This getter has been renamed from isAccessPolicyConfig() to getAccessPolicyConfig() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -207,7 +207,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the accessPolicyConfig property.
+     * 设置accessPolicyConfig属性的值。
      * 
      * @param value
      *     allowed object is
@@ -219,7 +219,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the defaultAccessPolicy property.
+     * 获取defaultAccessPolicy属性的值。
      * This getter has been renamed from isDefaultAccessPolicy() to getDefaultAccessPolicy() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -232,7 +232,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the defaultAccessPolicy property.
+     * 设置defaultAccessPolicy属性的值。
      * 
      * @param value
      *     allowed object is
@@ -244,7 +244,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the dot1X property.
+     * 获取dot1X属性的值。
      * This getter has been renamed from isDot1X() to getDot1X() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -257,7 +257,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the dot1X property.
+     * 设置dot1X属性的值。
      * 
      * @param value
      *     allowed object is
@@ -269,7 +269,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the remoteUserHandling property.
+     * 获取remoteUserHandling属性的值。
      * This getter has been renamed from isRemoteUserHandling() to getRemoteUserHandling() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -282,7 +282,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the remoteUserHandling property.
+     * 设置remoteUserHandling属性的值。
      * 
      * @param value
      *     allowed object is
@@ -294,7 +294,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the x509Token property.
+     * 获取x509Token属性的值。
      * This getter has been renamed from isX509Token() to getX509Token() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -307,7 +307,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the x509Token property.
+     * 设置x509Token属性的值。
      * 
      * @param value
      *     allowed object is
@@ -319,7 +319,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the samlToken property.
+     * 获取samlToken属性的值。
      * This getter has been renamed from isSAMLToken() to getSAMLToken() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -332,7 +332,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the samlToken property.
+     * 设置samlToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -344,7 +344,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the kerberosToken property.
+     * 获取kerberosToken属性的值。
      * This getter has been renamed from isKerberosToken() to getKerberosToken() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -357,7 +357,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the kerberosToken property.
+     * 设置kerberosToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -369,7 +369,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the usernameToken property.
+     * 获取usernameToken属性的值。
      * This getter has been renamed from isUsernameToken() to getUsernameToken() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -382,7 +382,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the usernameToken property.
+     * 设置usernameToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -394,7 +394,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the httpDigest property.
+     * 获取httpDigest属性的值。
      * This getter has been renamed from isHttpDigest() to getHttpDigest() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -407,7 +407,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the httpDigest property.
+     * 设置httpDigest属性的值。
      * 
      * @param value
      *     allowed object is
@@ -419,7 +419,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the relToken property.
+     * 获取relToken属性的值。
      * This getter has been renamed from isRELToken() to getRELToken() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -432,7 +432,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the relToken property.
+     * 设置relToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -473,7 +473,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the maxUsers property.
+     * 获取maxUsers属性的值。
      * 
      * @return
      *     possible object is
@@ -485,7 +485,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the maxUsers property.
+     * 设置maxUsers属性的值。
      * 
      * @param value
      *     allowed object is
@@ -497,7 +497,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the maxUserNameLength property.
+     * 获取maxUserNameLength属性的值。
      * 
      * @return
      *     possible object is
@@ -509,7 +509,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the maxUserNameLength property.
+     * 设置maxUserNameLength属性的值。
      * 
      * @param value
      *     allowed object is
@@ -521,7 +521,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Gets the value of the maxPasswordLength property.
+     * 获取maxPasswordLength属性的值。
      * 
      * @return
      *     possible object is
@@ -533,7 +533,7 @@ public class SecurityCapabilities {
     }
 
     /**
-     * Sets the value of the maxPasswordLength property.
+     * 设置maxPasswordLength属性的值。
      * 
      * @param value
      *     allowed object is

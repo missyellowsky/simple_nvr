@@ -16,9 +16,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for ColorDescriptor complex type.
+ * <p>ColorDescriptor complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ColorDescriptor"&gt;
@@ -92,7 +92,7 @@ public class ColorDescriptor {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class ColorDescriptor {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -145,9 +145,9 @@ public class ColorDescriptor {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -181,7 +181,7 @@ public class ColorDescriptor {
         protected ColorCovariance covariance;
 
         /**
-         * Gets the value of the color property.
+         * 获取color属性的值。
          * 
          * @return
          *     possible object is
@@ -193,7 +193,7 @@ public class ColorDescriptor {
         }
 
         /**
-         * Sets the value of the color property.
+         * 设置color属性的值。
          * 
          * @param value
          *     allowed object is
@@ -205,7 +205,7 @@ public class ColorDescriptor {
         }
 
         /**
-         * Gets the value of the weight property.
+         * 获取weight属性的值。
          * 
          * @return
          *     possible object is
@@ -217,7 +217,7 @@ public class ColorDescriptor {
         }
 
         /**
-         * Sets the value of the weight property.
+         * 设置weight属性的值。
          * 
          * @param value
          *     allowed object is
@@ -229,7 +229,7 @@ public class ColorDescriptor {
         }
 
         /**
-         * Gets the value of the covariance property.
+         * 获取covariance属性的值。
          * 
          * @return
          *     possible object is
@@ -241,7 +241,7 @@ public class ColorDescriptor {
         }
 
         /**
-         * Sets the value of the covariance property.
+         * 设置covariance属性的值。
          * 
          * @param value
          *     allowed object is

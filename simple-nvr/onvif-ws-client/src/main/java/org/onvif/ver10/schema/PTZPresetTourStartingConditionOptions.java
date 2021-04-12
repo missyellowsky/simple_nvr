@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for PTZPresetTourStartingConditionOptions complex type.
+ * <p>PTZPresetTourStartingConditionOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourStartingConditionOptions"&gt;
@@ -61,7 +61,7 @@ public class PTZPresetTourStartingConditionOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recurringTime property.
+     * 获取recurringTime属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class PTZPresetTourStartingConditionOptions {
     }
 
     /**
-     * Sets the value of the recurringTime property.
+     * 设置recurringTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class PTZPresetTourStartingConditionOptions {
     }
 
     /**
-     * Gets the value of the recurringDuration property.
+     * 获取recurringDuration属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class PTZPresetTourStartingConditionOptions {
     }
 
     /**
-     * Sets the value of the recurringDuration property.
+     * 设置recurringDuration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -138,7 +138,7 @@ public class PTZPresetTourStartingConditionOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -150,7 +150,7 @@ public class PTZPresetTourStartingConditionOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

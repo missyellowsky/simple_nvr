@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CellLayout complex type.
+ * <p>CellLayout complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CellLayout"&gt;
@@ -61,7 +61,7 @@ public class CellLayout {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the transformation property.
+     * 获取transformation属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class CellLayout {
     }
 
     /**
-     * Sets the value of the transformation property.
+     * 设置transformation属性的值。
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class CellLayout {
     }
 
     /**
-     * Gets the value of the columns property.
+     * 获取columns属性的值。
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class CellLayout {
     }
 
     /**
-     * Sets the value of the columns property.
+     * 设置columns属性的值。
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class CellLayout {
     }
 
     /**
-     * Gets the value of the rows property.
+     * 获取rows属性的值。
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class CellLayout {
     }
 
     /**
-     * Sets the value of the rows property.
+     * 设置rows属性的值。
      * 
      * @param value
      *     allowed object is

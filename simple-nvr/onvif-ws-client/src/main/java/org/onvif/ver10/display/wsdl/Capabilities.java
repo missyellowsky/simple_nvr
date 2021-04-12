@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Capabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -82,7 +82,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the fixedLayout property.
+     * 获取fixedLayout属性的值。
      * This getter has been renamed from isFixedLayout() to getFixedLayout() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -95,7 +95,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the fixedLayout property.
+     * 设置fixedLayout属性的值。
      * 
      * @param value
      *     allowed object is

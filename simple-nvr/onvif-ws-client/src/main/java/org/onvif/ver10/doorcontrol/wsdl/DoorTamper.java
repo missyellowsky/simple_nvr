@@ -23,9 +23,9 @@ import org.w3c.dom.Element;
  *             Tampering information for a Door.
  *           
  * 
- * <p>Java class for DoorTamper complex type.
+ * <p>DoorTamper complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DoorTamper"&gt;
@@ -63,7 +63,7 @@ public class DoorTamper {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the reason property.
+     * 获取reason属性的值。
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class DoorTamper {
     }
 
     /**
-     * Sets the value of the reason property.
+     * 设置reason属性的值。
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class DoorTamper {
     }
 
     /**
-     * Gets the value of the state property.
+     * 获取state属性的值。
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class DoorTamper {
     }
 
     /**
-     * Sets the value of the state property.
+     * 设置state属性的值。
      * 
      * @param value
      *     allowed object is

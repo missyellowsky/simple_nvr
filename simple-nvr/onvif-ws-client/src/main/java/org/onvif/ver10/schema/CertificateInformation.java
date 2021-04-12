@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for CertificateInformation complex type.
+ * <p>CertificateInformation complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CertificateInformation"&gt;
@@ -90,7 +90,7 @@ public class CertificateInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the certificateID property.
+     * 获取certificateID属性的值。
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the certificateID property.
+     * 设置certificateID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the issuerDN property.
+     * 获取issuerDN属性的值。
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the issuerDN property.
+     * 设置issuerDN属性的值。
      * 
      * @param value
      *     allowed object is
@@ -138,7 +138,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the subjectDN property.
+     * 获取subjectDN属性的值。
      * 
      * @return
      *     possible object is
@@ -150,7 +150,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the subjectDN property.
+     * 设置subjectDN属性的值。
      * 
      * @param value
      *     allowed object is
@@ -162,7 +162,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the keyUsage property.
+     * 获取keyUsage属性的值。
      * 
      * @return
      *     possible object is
@@ -174,7 +174,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the keyUsage property.
+     * 设置keyUsage属性的值。
      * 
      * @param value
      *     allowed object is
@@ -186,7 +186,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the extendedKeyUsage property.
+     * 获取extendedKeyUsage属性的值。
      * 
      * @return
      *     possible object is
@@ -198,7 +198,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the extendedKeyUsage property.
+     * 设置extendedKeyUsage属性的值。
      * 
      * @param value
      *     allowed object is
@@ -210,7 +210,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the keyLength property.
+     * 获取keyLength属性的值。
      * 
      * @return
      *     possible object is
@@ -222,7 +222,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the keyLength property.
+     * 设置keyLength属性的值。
      * 
      * @param value
      *     allowed object is
@@ -234,7 +234,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the version property.
+     * 获取version属性的值。
      * 
      * @return
      *     possible object is
@@ -246,7 +246,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the version property.
+     * 设置version属性的值。
      * 
      * @param value
      *     allowed object is
@@ -258,7 +258,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the serialNum property.
+     * 获取serialNum属性的值。
      * 
      * @return
      *     possible object is
@@ -270,7 +270,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the serialNum property.
+     * 设置serialNum属性的值。
      * 
      * @param value
      *     allowed object is
@@ -282,7 +282,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the signatureAlgorithm property.
+     * 获取signatureAlgorithm属性的值。
      * 
      * @return
      *     possible object is
@@ -294,7 +294,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the signatureAlgorithm property.
+     * 设置signatureAlgorithm属性的值。
      * 
      * @param value
      *     allowed object is
@@ -306,7 +306,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the validity property.
+     * 获取validity属性的值。
      * 
      * @return
      *     possible object is
@@ -318,7 +318,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the validity property.
+     * 设置validity属性的值。
      * 
      * @param value
      *     allowed object is
@@ -330,7 +330,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -342,7 +342,7 @@ public class CertificateInformation {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

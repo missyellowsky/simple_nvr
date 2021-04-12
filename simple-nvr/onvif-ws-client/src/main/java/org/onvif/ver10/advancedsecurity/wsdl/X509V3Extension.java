@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 /**
  * An X.509v3 extension field as specified in RFC 5280
  * 
- * <p>Java class for X509v3Extension complex type.
+ * <p>X509v3Extension complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="X509v3Extension"&gt;
@@ -63,7 +63,7 @@ public class X509V3Extension {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the extnOID property.
+     * 获取extnOID属性的值。
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class X509V3Extension {
     }
 
     /**
-     * Sets the value of the extnOID property.
+     * 设置extnOID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class X509V3Extension {
     }
 
     /**
-     * Gets the value of the critical property.
+     * 获取critical属性的值。
      * This getter has been renamed from isCritical() to getCritical() by cxf-xjc-boolean plugin.
      * 
      */
@@ -96,7 +96,7 @@ public class X509V3Extension {
     }
 
     /**
-     * Sets the value of the critical property.
+     * 设置critical属性的值。
      * 
      */
     public void setCritical(boolean value) {
@@ -104,7 +104,7 @@ public class X509V3Extension {
     }
 
     /**
-     * Gets the value of the extnValue property.
+     * 获取extnValue属性的值。
      * 
      * @return
      *     possible object is
@@ -115,7 +115,7 @@ public class X509V3Extension {
     }
 
     /**
-     * Sets the value of the extnValue property.
+     * 设置extnValue属性的值。
      * 
      * @param value
      *     allowed object is

@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -71,7 +71,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     protected String passphrase;
 
     /**
-     * Gets the value of the certWithPrivateKey property.
+     * 获取certWithPrivateKey属性的值。
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Sets the value of the certWithPrivateKey property.
+     * 设置certWithPrivateKey属性的值。
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Gets the value of the certificationPathAlias property.
+     * 获取certificationPathAlias属性的值。
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Sets the value of the certificationPathAlias property.
+     * 设置certificationPathAlias属性的值。
      * 
      * @param value
      *     allowed object is
@@ -117,7 +117,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Gets the value of the keyAlias property.
+     * 获取keyAlias属性的值。
      * 
      * @return
      *     possible object is
@@ -129,7 +129,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Sets the value of the keyAlias property.
+     * 设置keyAlias属性的值。
      * 
      * @param value
      *     allowed object is
@@ -141,7 +141,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Gets the value of the ignoreAdditionalCertificates property.
+     * 获取ignoreAdditionalCertificates属性的值。
      * This getter has been renamed from isIgnoreAdditionalCertificates() to getIgnoreAdditionalCertificates() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -154,7 +154,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Sets the value of the ignoreAdditionalCertificates property.
+     * 设置ignoreAdditionalCertificates属性的值。
      * 
      * @param value
      *     allowed object is
@@ -166,7 +166,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Gets the value of the integrityPassphraseID property.
+     * 获取integrityPassphraseID属性的值。
      * 
      * @return
      *     possible object is
@@ -178,7 +178,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Sets the value of the integrityPassphraseID property.
+     * 设置integrityPassphraseID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -190,7 +190,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Gets the value of the encryptionPassphraseID property.
+     * 获取encryptionPassphraseID属性的值。
      * 
      * @return
      *     possible object is
@@ -202,7 +202,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Sets the value of the encryptionPassphraseID property.
+     * 设置encryptionPassphraseID属性的值。
      * 
      * @param value
      *     allowed object is
@@ -214,7 +214,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Gets the value of the passphrase property.
+     * 获取passphrase属性的值。
      * 
      * @return
      *     possible object is
@@ -226,7 +226,7 @@ public class UploadCertificateWithPrivateKeyInPKCS12 {
     }
 
     /**
-     * Sets the value of the passphrase property.
+     * 设置passphrase属性的值。
      * 
      * @param value
      *     allowed object is

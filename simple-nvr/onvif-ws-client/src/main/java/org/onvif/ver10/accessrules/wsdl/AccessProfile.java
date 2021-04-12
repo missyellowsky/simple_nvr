@@ -24,9 +24,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  *             policies.
  *           
  * 
- * <p>Java class for AccessProfile complex type.
+ * <p>AccessProfile complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AccessProfile"&gt;
@@ -90,7 +90,7 @@ public class AccessProfile
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class AccessProfile
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

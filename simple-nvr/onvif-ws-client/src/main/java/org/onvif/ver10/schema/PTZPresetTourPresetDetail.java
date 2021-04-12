@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZPresetTourPresetDetail complex type.
+ * <p>PTZPresetTourPresetDetail complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourPresetDetail"&gt;
@@ -67,7 +67,7 @@ public class PTZPresetTourPresetDetail {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the presetToken property.
+     * 获取presetToken属性的值。
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Sets the value of the presetToken property.
+     * 设置presetToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Gets the value of the home property.
+     * 获取home属性的值。
      * This getter has been renamed from isHome() to getHome() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -104,7 +104,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Sets the value of the home property.
+     * 设置home属性的值。
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Gets the value of the ptzPosition property.
+     * 获取ptzPosition属性的值。
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Sets the value of the ptzPosition property.
+     * 设置ptzPosition属性的值。
      * 
      * @param value
      *     allowed object is
@@ -140,7 +140,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Gets the value of the typeExtension property.
+     * 获取typeExtension属性的值。
      * 
      * @return
      *     possible object is
@@ -152,7 +152,7 @@ public class PTZPresetTourPresetDetail {
     }
 
     /**
-     * Sets the value of the typeExtension property.
+     * 设置typeExtension属性的值。
      * 
      * @param value
      *     allowed object is

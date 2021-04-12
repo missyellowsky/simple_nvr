@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SigType complex type.
+ * <p>SigType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SigType"&gt;
@@ -96,7 +96,7 @@ public class SigType {
     }
 
     /**
-     * Gets the value of the scheme property.
+     * 获取scheme属性的值。
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class SigType {
     }
 
     /**
-     * Sets the value of the scheme property.
+     * 设置scheme属性的值。
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class SigType {
     }
 
     /**
-     * Gets the value of the keyId property.
+     * 获取keyId属性的值。
      * 
      * @return
      *     possible object is
@@ -131,7 +131,7 @@ public class SigType {
     }
 
     /**
-     * Sets the value of the keyId property.
+     * 设置keyId属性的值。
      * 
      * @param value
      *     allowed object is
@@ -171,7 +171,7 @@ public class SigType {
     }
 
     /**
-     * Gets the value of the sig property.
+     * 获取sig属性的值。
      * 
      * @return
      *     possible object is
@@ -182,7 +182,7 @@ public class SigType {
     }
 
     /**
-     * Sets the value of the sig property.
+     * 设置sig属性的值。
      * 
      * @param value
      *     allowed object is

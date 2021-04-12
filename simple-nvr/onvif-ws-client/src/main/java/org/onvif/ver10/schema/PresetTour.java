@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for PresetTour complex type.
+ * <p>PresetTour complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PresetTour"&gt;
@@ -71,7 +71,7 @@ public class PresetTour {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class PresetTour {
     }
 
     /**
-     * Gets the value of the status property.
+     * 获取status属性的值。
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the status property.
+     * 设置status属性的值。
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class PresetTour {
     }
 
     /**
-     * Gets the value of the autoStart property.
+     * 获取autoStart属性的值。
      * This getter has been renamed from isAutoStart() to getAutoStart() by cxf-xjc-boolean plugin.
      * 
      */
@@ -128,7 +128,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the autoStart property.
+     * 设置autoStart属性的值。
      * 
      */
     public void setAutoStart(boolean value) {
@@ -136,7 +136,7 @@ public class PresetTour {
     }
 
     /**
-     * Gets the value of the startingCondition property.
+     * 获取startingCondition属性的值。
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the startingCondition property.
+     * 设置startingCondition属性的值。
      * 
      * @param value
      *     allowed object is
@@ -189,7 +189,7 @@ public class PresetTour {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -201,7 +201,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -213,7 +213,7 @@ public class PresetTour {
     }
 
     /**
-     * Gets the value of the token property.
+     * 获取token属性的值。
      * 
      * @return
      *     possible object is
@@ -225,7 +225,7 @@ public class PresetTour {
     }
 
     /**
-     * Sets the value of the token property.
+     * 设置token属性的值。
      * 
      * @param value
      *     allowed object is

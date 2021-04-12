@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -40,7 +40,7 @@ public class SetVideoSourceModeResponse {
     protected boolean reboot;
 
     /**
-     * Gets the value of the reboot property.
+     * 获取reboot属性的值。
      * This getter has been renamed from isReboot() to getReboot() by cxf-xjc-boolean plugin.
      * 
      */
@@ -49,7 +49,7 @@ public class SetVideoSourceModeResponse {
     }
 
     /**
-     * Sets the value of the reboot property.
+     * 设置reboot属性的值。
      * 
      */
     public void setReboot(boolean value) {

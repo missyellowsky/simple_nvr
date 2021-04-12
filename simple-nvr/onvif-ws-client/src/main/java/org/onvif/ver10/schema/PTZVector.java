@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for PTZVector complex type.
+ * <p>PTZVector complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZVector"&gt;
@@ -42,7 +42,7 @@ public class PTZVector {
     protected Vector1D zoom;
 
     /**
-     * Gets the value of the panTilt property.
+     * 获取panTilt属性的值。
      * 
      * @return
      *     possible object is
@@ -54,7 +54,7 @@ public class PTZVector {
     }
 
     /**
-     * Sets the value of the panTilt property.
+     * 设置panTilt属性的值。
      * 
      * @param value
      *     allowed object is
@@ -66,7 +66,7 @@ public class PTZVector {
     }
 
     /**
-     * Gets the value of the zoom property.
+     * 获取zoom属性的值。
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class PTZVector {
     }
 
     /**
-     * Sets the value of the zoom property.
+     * 设置zoom属性的值。
      * 
      * @param value
      *     allowed object is

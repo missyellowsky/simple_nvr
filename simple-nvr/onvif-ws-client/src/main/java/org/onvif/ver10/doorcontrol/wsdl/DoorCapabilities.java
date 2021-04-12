@@ -26,9 +26,9 @@ import org.w3c.dom.Element;
  *             The following capabilities are available:
  *           
  * 
- * <p>Java class for DoorCapabilities complex type.
+ * <p>DoorCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DoorCapabilities"&gt;
@@ -129,7 +129,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the access property.
+     * 获取access属性的值。
      * This getter has been renamed from isAccess() to getAccess() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -142,7 +142,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the access property.
+     * 设置access属性的值。
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the accessTimingOverride property.
+     * 获取accessTimingOverride属性的值。
      * This getter has been renamed from isAccessTimingOverride() to getAccessTimingOverride() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -167,7 +167,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the accessTimingOverride property.
+     * 设置accessTimingOverride属性的值。
      * 
      * @param value
      *     allowed object is
@@ -179,7 +179,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the lock property.
+     * 获取lock属性的值。
      * This getter has been renamed from isLock() to getLock() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -192,7 +192,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the lock property.
+     * 设置lock属性的值。
      * 
      * @param value
      *     allowed object is
@@ -204,7 +204,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the unlock property.
+     * 获取unlock属性的值。
      * This getter has been renamed from isUnlock() to getUnlock() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -217,7 +217,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the unlock property.
+     * 设置unlock属性的值。
      * 
      * @param value
      *     allowed object is
@@ -229,7 +229,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the block property.
+     * 获取block属性的值。
      * This getter has been renamed from isBlock() to getBlock() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -242,7 +242,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the block property.
+     * 设置block属性的值。
      * 
      * @param value
      *     allowed object is
@@ -254,7 +254,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the doubleLock property.
+     * 获取doubleLock属性的值。
      * This getter has been renamed from isDoubleLock() to getDoubleLock() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -267,7 +267,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the doubleLock property.
+     * 设置doubleLock属性的值。
      * 
      * @param value
      *     allowed object is
@@ -279,7 +279,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the lockDown property.
+     * 获取lockDown属性的值。
      * This getter has been renamed from isLockDown() to getLockDown() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -292,7 +292,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the lockDown property.
+     * 设置lockDown属性的值。
      * 
      * @param value
      *     allowed object is
@@ -304,7 +304,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the lockOpen property.
+     * 获取lockOpen属性的值。
      * This getter has been renamed from isLockOpen() to getLockOpen() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -317,7 +317,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the lockOpen property.
+     * 设置lockOpen属性的值。
      * 
      * @param value
      *     allowed object is
@@ -329,7 +329,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the doorMonitor property.
+     * 获取doorMonitor属性的值。
      * This getter has been renamed from isDoorMonitor() to getDoorMonitor() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -342,7 +342,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the doorMonitor property.
+     * 设置doorMonitor属性的值。
      * 
      * @param value
      *     allowed object is
@@ -354,7 +354,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the lockMonitor property.
+     * 获取lockMonitor属性的值。
      * This getter has been renamed from isLockMonitor() to getLockMonitor() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -367,7 +367,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the lockMonitor property.
+     * 设置lockMonitor属性的值。
      * 
      * @param value
      *     allowed object is
@@ -379,7 +379,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the doubleLockMonitor property.
+     * 获取doubleLockMonitor属性的值。
      * This getter has been renamed from isDoubleLockMonitor() to getDoubleLockMonitor() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -392,7 +392,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the doubleLockMonitor property.
+     * 设置doubleLockMonitor属性的值。
      * 
      * @param value
      *     allowed object is
@@ -404,7 +404,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the alarm property.
+     * 获取alarm属性的值。
      * This getter has been renamed from isAlarm() to getAlarm() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -417,7 +417,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the alarm property.
+     * 设置alarm属性的值。
      * 
      * @param value
      *     allowed object is
@@ -429,7 +429,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the tamper property.
+     * 获取tamper属性的值。
      * This getter has been renamed from isTamper() to getTamper() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -442,7 +442,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the tamper property.
+     * 设置tamper属性的值。
      * 
      * @param value
      *     allowed object is
@@ -454,7 +454,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Gets the value of the fault property.
+     * 获取fault属性的值。
      * This getter has been renamed from isFault() to getFault() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -467,7 +467,7 @@ public class DoorCapabilities {
     }
 
     /**
-     * Sets the value of the fault property.
+     * 设置fault属性的值。
      * 
      * @param value
      *     allowed object is

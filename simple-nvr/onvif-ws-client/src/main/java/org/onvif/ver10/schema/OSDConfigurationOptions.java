@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for OSDConfigurationOptions complex type.
+ * <p>OSDConfigurationOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="OSDConfigurationOptions"&gt;
@@ -69,7 +69,7 @@ public class OSDConfigurationOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the maximumNumberOfOSDs property.
+     * 获取maximumNumberOfOSDs属性的值。
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Sets the value of the maximumNumberOfOSDs property.
+     * 设置maximumNumberOfOSDs属性的值。
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Gets the value of the textOption property.
+     * 获取textOption属性的值。
      * 
      * @return
      *     possible object is
@@ -163,7 +163,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Sets the value of the textOption property.
+     * 设置textOption属性的值。
      * 
      * @param value
      *     allowed object is
@@ -175,7 +175,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Gets the value of the imageOption property.
+     * 获取imageOption属性的值。
      * 
      * @return
      *     possible object is
@@ -187,7 +187,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Sets the value of the imageOption property.
+     * 设置imageOption属性的值。
      * 
      * @param value
      *     allowed object is
@@ -199,7 +199,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -211,7 +211,7 @@ public class OSDConfigurationOptions {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

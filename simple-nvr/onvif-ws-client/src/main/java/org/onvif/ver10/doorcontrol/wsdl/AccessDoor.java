@@ -12,9 +12,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -61,7 +61,7 @@ public class AccessDoor {
     protected AccessDoorExtension extension;
 
     /**
-     * Gets the value of the token property.
+     * 获取token属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the token property.
+     * 设置token属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class AccessDoor {
     }
 
     /**
-     * Gets the value of the useExtendedTime property.
+     * 获取useExtendedTime属性的值。
      * This getter has been renamed from isUseExtendedTime() to getUseExtendedTime() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -98,7 +98,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the useExtendedTime property.
+     * 设置useExtendedTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -110,7 +110,7 @@ public class AccessDoor {
     }
 
     /**
-     * Gets the value of the accessTime property.
+     * 获取accessTime属性的值。
      * 
      * @return
      *     possible object is
@@ -122,7 +122,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the accessTime property.
+     * 设置accessTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -134,7 +134,7 @@ public class AccessDoor {
     }
 
     /**
-     * Gets the value of the openTooLongTime property.
+     * 获取openTooLongTime属性的值。
      * 
      * @return
      *     possible object is
@@ -146,7 +146,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the openTooLongTime property.
+     * 设置openTooLongTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -158,7 +158,7 @@ public class AccessDoor {
     }
 
     /**
-     * Gets the value of the preAlarmTime property.
+     * 获取preAlarmTime属性的值。
      * 
      * @return
      *     possible object is
@@ -170,7 +170,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the preAlarmTime property.
+     * 设置preAlarmTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -182,7 +182,7 @@ public class AccessDoor {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -194,7 +194,7 @@ public class AccessDoor {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

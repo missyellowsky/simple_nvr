@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for NetworkInterfaceInfo complex type.
+ * <p>NetworkInterfaceInfo complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="NetworkInterfaceInfo"&gt;
@@ -51,7 +51,7 @@ public class NetworkInterfaceInfo {
     protected Integer mtu;
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class NetworkInterfaceInfo {
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class NetworkInterfaceInfo {
     }
 
     /**
-     * Gets the value of the hwAddress property.
+     * 获取hwAddress属性的值。
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class NetworkInterfaceInfo {
     }
 
     /**
-     * Sets the value of the hwAddress property.
+     * 设置hwAddress属性的值。
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class NetworkInterfaceInfo {
     }
 
     /**
-     * Gets the value of the mtu property.
+     * 获取mtu属性的值。
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class NetworkInterfaceInfo {
     }
 
     /**
-     * Sets the value of the mtu property.
+     * 设置mtu属性的值。
      * 
      * @param value
      *     allowed object is

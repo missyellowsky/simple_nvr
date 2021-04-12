@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MulticastConfiguration complex type.
+ * <p>MulticastConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MulticastConfiguration"&gt;
@@ -65,7 +65,7 @@ public class MulticastConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the address property.
+     * 获取address属性的值。
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Sets the value of the address property.
+     * 设置address属性的值。
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Gets the value of the port property.
+     * 获取port属性的值。
      * 
      */
     public int getPort() {
@@ -97,7 +97,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Sets the value of the port property.
+     * 设置port属性的值。
      * 
      */
     public void setPort(int value) {
@@ -105,7 +105,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Gets the value of the ttl property.
+     * 获取ttl属性的值。
      * 
      */
     public int getTTL() {
@@ -113,7 +113,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Sets the value of the ttl property.
+     * 设置ttl属性的值。
      * 
      */
     public void setTTL(int value) {
@@ -121,7 +121,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Gets the value of the autoStart property.
+     * 获取autoStart属性的值。
      * This getter has been renamed from isAutoStart() to getAutoStart() by cxf-xjc-boolean plugin.
      * 
      */
@@ -130,7 +130,7 @@ public class MulticastConfiguration {
     }
 
     /**
-     * Sets the value of the autoStart property.
+     * 设置autoStart属性的值。
      * 
      */
     public void setAutoStart(boolean value) {

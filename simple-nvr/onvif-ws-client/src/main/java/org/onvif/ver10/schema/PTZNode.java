@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for PTZNode complex type.
+ * <p>PTZNode complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZNode"&gt;
@@ -73,7 +73,7 @@ public class PTZNode
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class PTZNode
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class PTZNode
     }
 
     /**
-     * Gets the value of the supportedPTZSpaces property.
+     * 获取supportedPTZSpaces属性的值。
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class PTZNode
     }
 
     /**
-     * Sets the value of the supportedPTZSpaces property.
+     * 设置supportedPTZSpaces属性的值。
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class PTZNode
     }
 
     /**
-     * Gets the value of the maximumNumberOfPresets property.
+     * 获取maximumNumberOfPresets属性的值。
      * 
      */
     public int getMaximumNumberOfPresets() {
@@ -129,7 +129,7 @@ public class PTZNode
     }
 
     /**
-     * Sets the value of the maximumNumberOfPresets property.
+     * 设置maximumNumberOfPresets属性的值。
      * 
      */
     public void setMaximumNumberOfPresets(int value) {
@@ -137,7 +137,7 @@ public class PTZNode
     }
 
     /**
-     * Gets the value of the homeSupported property.
+     * 获取homeSupported属性的值。
      * This getter has been renamed from isHomeSupported() to getHomeSupported() by cxf-xjc-boolean plugin.
      * 
      */
@@ -146,7 +146,7 @@ public class PTZNode
     }
 
     /**
-     * Sets the value of the homeSupported property.
+     * 设置homeSupported属性的值。
      * 
      */
     public void setHomeSupported(boolean value) {
@@ -183,7 +183,7 @@ public class PTZNode
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -195,7 +195,7 @@ public class PTZNode
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -207,7 +207,7 @@ public class PTZNode
     }
 
     /**
-     * Gets the value of the fixedHomePosition property.
+     * 获取fixedHomePosition属性的值。
      * This getter has been renamed from isFixedHomePosition() to getFixedHomePosition() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -220,7 +220,7 @@ public class PTZNode
     }
 
     /**
-     * Sets the value of the fixedHomePosition property.
+     * 设置fixedHomePosition属性的值。
      * 
      * @param value
      *     allowed object is

@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for EventCapabilities complex type.
+ * <p>EventCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="EventCapabilities"&gt;
@@ -67,7 +67,7 @@ public class EventCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * 获取xAddr属性的值。
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * 设置xAddr属性的值。
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Gets the value of the wsSubscriptionPolicySupport property.
+     * 获取wsSubscriptionPolicySupport属性的值。
      * This getter has been renamed from isWSSubscriptionPolicySupport() to getWSSubscriptionPolicySupport() by cxf-xjc-boolean plugin.
      * 
      */
@@ -100,7 +100,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Sets the value of the wsSubscriptionPolicySupport property.
+     * 设置wsSubscriptionPolicySupport属性的值。
      * 
      */
     public void setWSSubscriptionPolicySupport(boolean value) {
@@ -108,7 +108,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Gets the value of the wsPullPointSupport property.
+     * 获取wsPullPointSupport属性的值。
      * This getter has been renamed from isWSPullPointSupport() to getWSPullPointSupport() by cxf-xjc-boolean plugin.
      * 
      */
@@ -117,7 +117,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Sets the value of the wsPullPointSupport property.
+     * 设置wsPullPointSupport属性的值。
      * 
      */
     public void setWSPullPointSupport(boolean value) {
@@ -125,7 +125,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Gets the value of the wsPausableSubscriptionManagerInterfaceSupport property.
+     * 获取wsPausableSubscriptionManagerInterfaceSupport属性的值。
      * This getter has been renamed from isWSPausableSubscriptionManagerInterfaceSupport() to getWSPausableSubscriptionManagerInterfaceSupport() by cxf-xjc-boolean plugin.
      * 
      */
@@ -134,7 +134,7 @@ public class EventCapabilities {
     }
 
     /**
-     * Sets the value of the wsPausableSubscriptionManagerInterfaceSupport property.
+     * 设置wsPausableSubscriptionManagerInterfaceSupport属性的值。
      * 
      */
     public void setWSPausableSubscriptionManagerInterfaceSupport(boolean value) {

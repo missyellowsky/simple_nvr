@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for MediaCapabilities complex type.
+ * <p>MediaCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MediaCapabilities"&gt;
@@ -63,7 +63,7 @@ public class MediaCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * 获取xAddr属性的值。
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class MediaCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * 设置xAddr属性的值。
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class MediaCapabilities {
     }
 
     /**
-     * Gets the value of the streamingCapabilities property.
+     * 获取streamingCapabilities属性的值。
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class MediaCapabilities {
     }
 
     /**
-     * Sets the value of the streamingCapabilities property.
+     * 设置streamingCapabilities属性的值。
      * 
      * @param value
      *     allowed object is
@@ -141,7 +141,7 @@ public class MediaCapabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -153,7 +153,7 @@ public class MediaCapabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

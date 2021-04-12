@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Mpeg4Options complex type.
+ * <p>Mpeg4Options complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Mpeg4Options"&gt;
@@ -91,7 +91,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Gets the value of the govLengthRange property.
+     * 获取govLengthRange属性的值。
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Sets the value of the govLengthRange property.
+     * 设置govLengthRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Gets the value of the frameRateRange property.
+     * 获取frameRateRange属性的值。
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Sets the value of the frameRateRange property.
+     * 设置frameRateRange属性的值。
      * 
      * @param value
      *     allowed object is
@@ -139,7 +139,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Gets the value of the encodingIntervalRange property.
+     * 获取encodingIntervalRange属性的值。
      * 
      * @return
      *     possible object is
@@ -151,7 +151,7 @@ public class Mpeg4Options {
     }
 
     /**
-     * Sets the value of the encodingIntervalRange property.
+     * 设置encodingIntervalRange属性的值。
      * 
      * @param value
      *     allowed object is

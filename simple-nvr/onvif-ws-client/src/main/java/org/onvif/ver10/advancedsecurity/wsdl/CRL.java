@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for CRL complex type.
+ * <p>CRL complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="CRL"&gt;
@@ -61,7 +61,7 @@ public class CRL {
     protected List<Object> any;
 
     /**
-     * Gets the value of the crlid property.
+     * 获取crlid属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class CRL {
     }
 
     /**
-     * Sets the value of the crlid property.
+     * 设置crlid属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class CRL {
     }
 
     /**
-     * Gets the value of the alias property.
+     * 获取alias属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class CRL {
     }
 
     /**
-     * Sets the value of the alias property.
+     * 设置alias属性的值。
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class CRL {
     }
 
     /**
-     * Gets the value of the crlContent property.
+     * 获取crlContent属性的值。
      * 
      * @return
      *     possible object is
@@ -120,7 +120,7 @@ public class CRL {
     }
 
     /**
-     * Sets the value of the crlContent property.
+     * 设置crlContent属性的值。
      * 
      * @param value
      *     allowed object is

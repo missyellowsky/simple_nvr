@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for PTZConfiguration complex type.
+ * <p>PTZConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZConfiguration"&gt;
@@ -109,7 +109,7 @@ public class PTZConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the nodeToken property.
+     * 获取nodeToken属性的值。
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the nodeToken property.
+     * 设置nodeToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -133,7 +133,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the defaultAbsolutePantTiltPositionSpace property.
+     * 获取defaultAbsolutePantTiltPositionSpace属性的值。
      * 
      * @return
      *     possible object is
@@ -145,7 +145,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the defaultAbsolutePantTiltPositionSpace property.
+     * 设置defaultAbsolutePantTiltPositionSpace属性的值。
      * 
      * @param value
      *     allowed object is
@@ -157,7 +157,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the defaultAbsoluteZoomPositionSpace property.
+     * 获取defaultAbsoluteZoomPositionSpace属性的值。
      * 
      * @return
      *     possible object is
@@ -169,7 +169,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the defaultAbsoluteZoomPositionSpace property.
+     * 设置defaultAbsoluteZoomPositionSpace属性的值。
      * 
      * @param value
      *     allowed object is
@@ -181,7 +181,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the defaultRelativePanTiltTranslationSpace property.
+     * 获取defaultRelativePanTiltTranslationSpace属性的值。
      * 
      * @return
      *     possible object is
@@ -193,7 +193,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the defaultRelativePanTiltTranslationSpace property.
+     * 设置defaultRelativePanTiltTranslationSpace属性的值。
      * 
      * @param value
      *     allowed object is
@@ -205,7 +205,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the defaultRelativeZoomTranslationSpace property.
+     * 获取defaultRelativeZoomTranslationSpace属性的值。
      * 
      * @return
      *     possible object is
@@ -217,7 +217,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the defaultRelativeZoomTranslationSpace property.
+     * 设置defaultRelativeZoomTranslationSpace属性的值。
      * 
      * @param value
      *     allowed object is
@@ -229,7 +229,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the defaultContinuousPanTiltVelocitySpace property.
+     * 获取defaultContinuousPanTiltVelocitySpace属性的值。
      * 
      * @return
      *     possible object is
@@ -241,7 +241,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the defaultContinuousPanTiltVelocitySpace property.
+     * 设置defaultContinuousPanTiltVelocitySpace属性的值。
      * 
      * @param value
      *     allowed object is
@@ -253,7 +253,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the defaultContinuousZoomVelocitySpace property.
+     * 获取defaultContinuousZoomVelocitySpace属性的值。
      * 
      * @return
      *     possible object is
@@ -265,7 +265,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the defaultContinuousZoomVelocitySpace property.
+     * 设置defaultContinuousZoomVelocitySpace属性的值。
      * 
      * @param value
      *     allowed object is
@@ -277,7 +277,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the defaultPTZSpeed property.
+     * 获取defaultPTZSpeed属性的值。
      * 
      * @return
      *     possible object is
@@ -289,7 +289,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the defaultPTZSpeed property.
+     * 设置defaultPTZSpeed属性的值。
      * 
      * @param value
      *     allowed object is
@@ -301,7 +301,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the defaultPTZTimeout property.
+     * 获取defaultPTZTimeout属性的值。
      * 
      * @return
      *     possible object is
@@ -313,7 +313,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the defaultPTZTimeout property.
+     * 设置defaultPTZTimeout属性的值。
      * 
      * @param value
      *     allowed object is
@@ -325,7 +325,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the panTiltLimits property.
+     * 获取panTiltLimits属性的值。
      * 
      * @return
      *     possible object is
@@ -337,7 +337,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the panTiltLimits property.
+     * 设置panTiltLimits属性的值。
      * 
      * @param value
      *     allowed object is
@@ -349,7 +349,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the zoomLimits property.
+     * 获取zoomLimits属性的值。
      * 
      * @return
      *     possible object is
@@ -361,7 +361,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the zoomLimits property.
+     * 设置zoomLimits属性的值。
      * 
      * @param value
      *     allowed object is
@@ -373,7 +373,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -385,7 +385,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -397,7 +397,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the moveRamp property.
+     * 获取moveRamp属性的值。
      * 
      * @return
      *     possible object is
@@ -409,7 +409,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the moveRamp property.
+     * 设置moveRamp属性的值。
      * 
      * @param value
      *     allowed object is
@@ -421,7 +421,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the presetRamp property.
+     * 获取presetRamp属性的值。
      * 
      * @return
      *     possible object is
@@ -433,7 +433,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the presetRamp property.
+     * 设置presetRamp属性的值。
      * 
      * @param value
      *     allowed object is
@@ -445,7 +445,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Gets the value of the presetTourRamp property.
+     * 获取presetTourRamp属性的值。
      * 
      * @return
      *     possible object is
@@ -457,7 +457,7 @@ public class PTZConfiguration
     }
 
     /**
-     * Sets the value of the presetTourRamp property.
+     * 设置presetTourRamp属性的值。
      * 
      * @param value
      *     allowed object is

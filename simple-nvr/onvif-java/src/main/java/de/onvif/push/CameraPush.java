@@ -74,11 +74,11 @@ public class CameraPush {
 
     public void release() {
         try {
-            grabber.stop();
-            grabber.close();
             if (recorder != null) {
-                recorder.stop();
-                recorder.release();
+                recorder.close();
+            }
+            if(grabber != null ){
+                grabber.stop();
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -99,12 +99,21 @@ public class CameraPush {
             grabber.setOption("rtsp_transport", "tcp");
             // 设置采集器构造超时时间
             grabber.setOption("stimeout", "2000000");
+            String mainCode;
+            String subCode;
+            if(config == null){
+                mainCode = "2048";
+                subCode = "512";
+            }else{
+                mainCode = config.getMain_code();
+                subCode = config.getSub_code();
+            }
             if ("sub".equals(pojo.getStream())) {
-                grabber.start(config.getSub_code());
+                grabber.start(subCode);
             } else if ("main".equals(pojo.getStream())) {
-                grabber.start(config.getMain_code());
+                grabber.start(mainCode);
             } else {
-                grabber.start(config.getMain_code());
+                grabber.start(mainCode);
             }
 
             // 部分监控设备流信息里携带的帧率为9000，如出现此问题，会导致dts、pts时间戳计算失败，播放器无法播放，故出现错误的帧率时，默认为25帧
@@ -176,6 +185,9 @@ public class CameraPush {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             Frame frame = new Frame();
             while ((packet = grabber.grabPacket()) != null) {
+                if (exitcode == 1) {
+                    break;
+                }
                 long currentDts = packet.dts();
                 if (currentDts >= dts) {
                     recorder.setTimestamp(grabber.getTimestamp());

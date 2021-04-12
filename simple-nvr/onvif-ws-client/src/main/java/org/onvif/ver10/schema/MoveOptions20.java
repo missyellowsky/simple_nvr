@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for MoveOptions20 complex type.
+ * <p>MoveOptions20 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MoveOptions20"&gt;
@@ -46,7 +46,7 @@ public class MoveOptions20 {
     protected ContinuousFocusOptions continuous;
 
     /**
-     * Gets the value of the absolute property.
+     * 获取absolute属性的值。
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class MoveOptions20 {
     }
 
     /**
-     * Sets the value of the absolute property.
+     * 设置absolute属性的值。
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class MoveOptions20 {
     }
 
     /**
-     * Gets the value of the relative property.
+     * 获取relative属性的值。
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class MoveOptions20 {
     }
 
     /**
-     * Sets the value of the relative property.
+     * 设置relative属性的值。
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class MoveOptions20 {
     }
 
     /**
-     * Gets the value of the continuous property.
+     * 获取continuous属性的值。
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class MoveOptions20 {
     }
 
     /**
-     * Sets the value of the continuous property.
+     * 设置continuous属性的值。
      * 
      * @param value
      *     allowed object is

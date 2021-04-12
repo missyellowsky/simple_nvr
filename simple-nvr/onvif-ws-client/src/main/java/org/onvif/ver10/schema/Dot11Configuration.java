@@ -21,9 +21,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Dot11Configuration complex type.
+ * <p>Dot11Configuration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Dot11Configuration"&gt;
@@ -76,7 +76,7 @@ public class Dot11Configuration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ssid property.
+     * 获取ssid属性的值。
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Sets the value of the ssid property.
+     * 设置ssid属性的值。
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Gets the value of the alias property.
+     * 获取alias属性的值。
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Sets the value of the alias property.
+     * 设置alias属性的值。
      * 
      * @param value
      *     allowed object is
@@ -148,7 +148,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Gets the value of the priority property.
+     * 获取priority属性的值。
      * 
      */
     public int getPriority() {
@@ -156,7 +156,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Sets the value of the priority property.
+     * 设置priority属性的值。
      * 
      */
     public void setPriority(int value) {
@@ -164,7 +164,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Gets the value of the security property.
+     * 获取security属性的值。
      * 
      * @return
      *     possible object is
@@ -176,7 +176,7 @@ public class Dot11Configuration {
     }
 
     /**
-     * Sets the value of the security property.
+     * 设置security属性的值。
      * 
      * @param value
      *     allowed object is

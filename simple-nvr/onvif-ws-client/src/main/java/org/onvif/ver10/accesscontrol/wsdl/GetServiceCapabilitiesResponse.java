@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -40,7 +40,7 @@ public class GetServiceCapabilitiesResponse {
     protected ServiceCapabilities capabilities;
 
     /**
-     * Gets the value of the capabilities property.
+     * 获取capabilities属性的值。
      * 
      * @return
      *     possible object is
@@ -52,7 +52,7 @@ public class GetServiceCapabilitiesResponse {
     }
 
     /**
-     * Sets the value of the capabilities property.
+     * 设置capabilities属性的值。
      * 
      * @param value
      *     allowed object is

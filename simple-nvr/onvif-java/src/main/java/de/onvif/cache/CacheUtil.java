@@ -5,6 +5,10 @@ import de.onvif.beans.CameraPojo;
 import de.onvif.push.CameraPush;
 import de.onvif.push.CameraPushWithWatermark;
 import de.onvif.soap.OnvifDevice;
+import de.onvif.thread.CameraThread;
+import de.onvif.thread.TranscodeTaskThread;
+
+import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -21,12 +25,12 @@ public final class CacheUtil {
 	public static Map<String, CameraPojo> STREATMAP = new ConcurrentHashMap<String, CameraPojo>();
 
 	/*
-	 * 保存push
+	 * 保存push(转码任务)
 	 */
 	public static Map<String, CameraPushWithWatermark> PUSHMAP = new ConcurrentHashMap<>();
 
 	/*
-	 * 保存push
+	 * 保存push(直播任务)
 	 */
 	public static Map<String, CameraPush> PUSHMAPANOTHER = new ConcurrentHashMap<>();
 
@@ -36,6 +40,10 @@ public final class CacheUtil {
 	 * 保存摄像机数据
 	 */
 	public static Map<String, OnvifDevice> CAMERAMAP = new ConcurrentHashMap<>();
+
+	public static Map<String, CameraThread.MyRunnable> JOBMAP = new HashMap<String, CameraThread.MyRunnable>();
+
+	public static Map<String, TranscodeTaskThread.MyRunnable> TRANSCODETASkJOBMAP = new HashMap<String, TranscodeTaskThread.MyRunnable>();
 	/*
 	 * 保存服务启动时间
 	 */

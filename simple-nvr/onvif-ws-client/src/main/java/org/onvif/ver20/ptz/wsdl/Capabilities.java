@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for Capabilities complex type.
+ * <p>Capabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Capabilities"&gt;
@@ -94,7 +94,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the eFlip property.
+     * 获取eFlip属性的值。
      * This getter has been renamed from isEFlip() to getEFlip() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -107,7 +107,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the eFlip property.
+     * 设置eFlip属性的值。
      * 
      * @param value
      *     allowed object is
@@ -119,7 +119,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the reverse property.
+     * 获取reverse属性的值。
      * This getter has been renamed from isReverse() to getReverse() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -132,7 +132,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the reverse property.
+     * 设置reverse属性的值。
      * 
      * @param value
      *     allowed object is
@@ -144,7 +144,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the getCompatibleConfigurations property.
+     * 获取getCompatibleConfigurations属性的值。
      * This getter has been renamed from isGetCompatibleConfigurations() to getGetCompatibleConfigurations() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -157,7 +157,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the getCompatibleConfigurations property.
+     * 设置getCompatibleConfigurations属性的值。
      * 
      * @param value
      *     allowed object is
@@ -169,7 +169,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the moveStatus property.
+     * 获取moveStatus属性的值。
      * This getter has been renamed from isMoveStatus() to getMoveStatus() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -182,7 +182,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the moveStatus property.
+     * 设置moveStatus属性的值。
      * 
      * @param value
      *     allowed object is
@@ -194,7 +194,7 @@ public class Capabilities {
     }
 
     /**
-     * Gets the value of the statusPosition property.
+     * 获取statusPosition属性的值。
      * This getter has been renamed from isStatusPosition() to getStatusPosition() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -207,7 +207,7 @@ public class Capabilities {
     }
 
     /**
-     * Sets the value of the statusPosition property.
+     * 设置statusPosition属性的值。
      * 
      * @param value
      *     allowed object is

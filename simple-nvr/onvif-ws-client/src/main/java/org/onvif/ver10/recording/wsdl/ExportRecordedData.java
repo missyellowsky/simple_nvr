@@ -13,9 +13,9 @@ import org.onvif.ver10.schema.StorageReferencePath;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -50,7 +50,7 @@ public class ExportRecordedData {
     protected StorageReferencePath storageDestination;
 
     /**
-     * Gets the value of the searchScope property.
+     * 获取searchScope属性的值。
      * 
      * @return
      *     possible object is
@@ -62,7 +62,7 @@ public class ExportRecordedData {
     }
 
     /**
-     * Sets the value of the searchScope property.
+     * 设置searchScope属性的值。
      * 
      * @param value
      *     allowed object is
@@ -74,7 +74,7 @@ public class ExportRecordedData {
     }
 
     /**
-     * Gets the value of the fileFormat property.
+     * 获取fileFormat属性的值。
      * 
      * @return
      *     possible object is
@@ -86,7 +86,7 @@ public class ExportRecordedData {
     }
 
     /**
-     * Sets the value of the fileFormat property.
+     * 设置fileFormat属性的值。
      * 
      * @param value
      *     allowed object is
@@ -98,7 +98,7 @@ public class ExportRecordedData {
     }
 
     /**
-     * Gets the value of the storageDestination property.
+     * 获取storageDestination属性的值。
      * 
      * @return
      *     possible object is
@@ -110,7 +110,7 @@ public class ExportRecordedData {
     }
 
     /**
-     * Sets the value of the storageDestination property.
+     * 设置storageDestination属性的值。
      * 
      * @param value
      *     allowed object is

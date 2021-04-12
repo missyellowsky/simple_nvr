@@ -23,9 +23,9 @@ import org.w3c.dom.Element;
  *         Describes the configuration of a receiver.
  *       
  * 
- * <p>Java class for ReceiverConfiguration complex type.
+ * <p>ReceiverConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="ReceiverConfiguration"&gt;
@@ -68,7 +68,7 @@ public class ReceiverConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the mode property.
+     * 获取mode属性的值。
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class ReceiverConfiguration {
     }
 
     /**
-     * Sets the value of the mode property.
+     * 设置mode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class ReceiverConfiguration {
     }
 
     /**
-     * Gets the value of the mediaUri property.
+     * 获取mediaUri属性的值。
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class ReceiverConfiguration {
     }
 
     /**
-     * Sets the value of the mediaUri property.
+     * 设置mediaUri属性的值。
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class ReceiverConfiguration {
     }
 
     /**
-     * Gets the value of the streamSetup property.
+     * 获取streamSetup属性的值。
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class ReceiverConfiguration {
     }
 
     /**
-     * Sets the value of the streamSetup property.
+     * 设置streamSetup属性的值。
      * 
      * @param value
      *     allowed object is

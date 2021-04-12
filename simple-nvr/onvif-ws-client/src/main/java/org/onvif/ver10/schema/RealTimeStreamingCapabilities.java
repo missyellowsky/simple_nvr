@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for RealTimeStreamingCapabilities complex type.
+ * <p>RealTimeStreamingCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="RealTimeStreamingCapabilities"&gt;
@@ -57,7 +57,7 @@ public class RealTimeStreamingCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the rtpMulticast property.
+     * 获取rtpMulticast属性的值。
      * This getter has been renamed from isRTPMulticast() to getRTPMulticast() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -70,7 +70,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Sets the value of the rtpMulticast property.
+     * 设置rtpMulticast属性的值。
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Gets the value of the rtptcp property.
+     * 获取rtptcp属性的值。
      * This getter has been renamed from isRTPTCP() to getRTPTCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -95,7 +95,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Sets the value of the rtptcp property.
+     * 设置rtptcp属性的值。
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Gets the value of the rtprtsptcp property.
+     * 获取rtprtsptcp属性的值。
      * This getter has been renamed from isRTPRTSPTCP() to getRTPRTSPTCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -120,7 +120,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Sets the value of the rtprtsptcp property.
+     * 设置rtprtsptcp属性的值。
      * 
      * @param value
      *     allowed object is
@@ -132,7 +132,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -144,7 +144,7 @@ public class RealTimeStreamingCapabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

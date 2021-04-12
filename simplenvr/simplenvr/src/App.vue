@@ -99,4 +99,12 @@ export default {
     position: absolute;
     z-index: 0;
   }
+  .el-input__inner {
+    background-color: #000;
+    border: 1px solid dimgray;
+    color: #fff;
+  }
+  .el-picker-panel {
+    background: #000;
+  }
 </style>

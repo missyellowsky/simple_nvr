@@ -23,9 +23,9 @@ import org.w3c.dom.Element;
  * The capabilities of a TLS server implementation on a device.
  *           
  * 
- * <p>Java class for TLSServerCapabilities complex type.
+ * <p>TLSServerCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="TLSServerCapabilities"&gt;
@@ -127,7 +127,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfTLSCertificationPaths property.
+     * 获取maximumNumberOfTLSCertificationPaths属性的值。
      * 
      * @return
      *     possible object is
@@ -139,7 +139,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfTLSCertificationPaths property.
+     * 设置maximumNumberOfTLSCertificationPaths属性的值。
      * 
      * @param value
      *     allowed object is
@@ -151,7 +151,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Gets the value of the tlsClientAuthSupported property.
+     * 获取tlsClientAuthSupported属性的值。
      * This getter has been renamed from isTLSClientAuthSupported() to getTLSClientAuthSupported() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -164,7 +164,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Sets the value of the tlsClientAuthSupported property.
+     * 设置tlsClientAuthSupported属性的值。
      * 
      * @param value
      *     allowed object is
@@ -176,7 +176,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Gets the value of the maximumNumberOfTLSCertificationPathValidationPolicies property.
+     * 获取maximumNumberOfTLSCertificationPathValidationPolicies属性的值。
      * 
      * @return
      *     possible object is
@@ -188,7 +188,7 @@ public class TLSServerCapabilities {
     }
 
     /**
-     * Sets the value of the maximumNumberOfTLSCertificationPathValidationPolicies property.
+     * 设置maximumNumberOfTLSCertificationPathValidationPolicies属性的值。
      * 
      * @param value
      *     allowed object is

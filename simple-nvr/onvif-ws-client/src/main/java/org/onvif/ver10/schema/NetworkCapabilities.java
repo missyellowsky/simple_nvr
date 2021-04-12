@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for NetworkCapabilities complex type.
+ * <p>NetworkCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="NetworkCapabilities"&gt;
@@ -61,7 +61,7 @@ public class NetworkCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ipFilter property.
+     * 获取ipFilter属性的值。
      * This getter has been renamed from isIPFilter() to getIPFilter() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -74,7 +74,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Sets the value of the ipFilter property.
+     * 设置ipFilter属性的值。
      * 
      * @param value
      *     allowed object is
@@ -86,7 +86,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Gets the value of the zeroConfiguration property.
+     * 获取zeroConfiguration属性的值。
      * This getter has been renamed from isZeroConfiguration() to getZeroConfiguration() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -99,7 +99,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Sets the value of the zeroConfiguration property.
+     * 设置zeroConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Gets the value of the ipVersion6 property.
+     * 获取ipVersion6属性的值。
      * This getter has been renamed from isIPVersion6() to getIPVersion6() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -124,7 +124,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Sets the value of the ipVersion6 property.
+     * 设置ipVersion6属性的值。
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Gets the value of the dynDNS property.
+     * 获取dynDNS属性的值。
      * This getter has been renamed from isDynDNS() to getDynDNS() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -149,7 +149,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Sets the value of the dynDNS property.
+     * 设置dynDNS属性的值。
      * 
      * @param value
      *     allowed object is
@@ -161,7 +161,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -173,7 +173,7 @@ public class NetworkCapabilities {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

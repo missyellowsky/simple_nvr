@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for VideoAnalyticsConfiguration complex type.
+ * <p>VideoAnalyticsConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="VideoAnalyticsConfiguration"&gt;
@@ -59,7 +59,7 @@ public class VideoAnalyticsConfiguration
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the analyticsEngineConfiguration property.
+     * 获取analyticsEngineConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class VideoAnalyticsConfiguration
     }
 
     /**
-     * Sets the value of the analyticsEngineConfiguration property.
+     * 设置analyticsEngineConfiguration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class VideoAnalyticsConfiguration
     }
 
     /**
-     * Gets the value of the ruleEngineConfiguration property.
+     * 获取ruleEngineConfiguration属性的值。
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class VideoAnalyticsConfiguration
     }
 
     /**
-     * Sets the value of the ruleEngineConfiguration property.
+     * 设置ruleEngineConfiguration属性的值。
      * 
      * @param value
      *     allowed object is

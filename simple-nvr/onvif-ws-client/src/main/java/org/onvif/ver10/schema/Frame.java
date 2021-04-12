@@ -19,9 +19,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Frame complex type.
+ * <p>Frame complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Frame"&gt;
@@ -70,7 +70,7 @@ public class Frame {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the ptzStatus property.
+     * 获取ptzStatus属性的值。
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class Frame {
     }
 
     /**
-     * Sets the value of the ptzStatus property.
+     * 设置ptzStatus属性的值。
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class Frame {
     }
 
     /**
-     * Gets the value of the transformation property.
+     * 获取transformation属性的值。
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class Frame {
     }
 
     /**
-     * Sets the value of the transformation property.
+     * 设置transformation属性的值。
      * 
      * @param value
      *     allowed object is
@@ -147,7 +147,7 @@ public class Frame {
     }
 
     /**
-     * Gets the value of the objectTree property.
+     * 获取objectTree属性的值。
      * 
      * @return
      *     possible object is
@@ -159,7 +159,7 @@ public class Frame {
     }
 
     /**
-     * Sets the value of the objectTree property.
+     * 设置objectTree属性的值。
      * 
      * @param value
      *     allowed object is
@@ -171,7 +171,7 @@ public class Frame {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -183,7 +183,7 @@ public class Frame {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -195,7 +195,7 @@ public class Frame {
     }
 
     /**
-     * Gets the value of the utcTime property.
+     * 获取utcTime属性的值。
      * 
      * @return
      *     possible object is
@@ -207,7 +207,7 @@ public class Frame {
     }
 
     /**
-     * Sets the value of the utcTime property.
+     * 设置utcTime属性的值。
      * 
      * @param value
      *     allowed object is

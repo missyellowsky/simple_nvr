@@ -13,9 +13,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  * Range of values greater equal Min value and less equal Max value.
  *       
  * 
- * <p>Java class for IntRange complex type.
+ * <p>IntRange complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="IntRange"&gt;
@@ -45,7 +45,7 @@ public class IntRange {
     protected int max;
 
     /**
-     * Gets the value of the min property.
+     * 获取min属性的值。
      * 
      */
     public int getMin() {
@@ -53,7 +53,7 @@ public class IntRange {
     }
 
     /**
-     * Sets the value of the min property.
+     * 设置min属性的值。
      * 
      */
     public void setMin(int value) {
@@ -61,7 +61,7 @@ public class IntRange {
     }
 
     /**
-     * Gets the value of the max property.
+     * 获取max属性的值。
      * 
      */
     public int getMax() {
@@ -69,7 +69,7 @@ public class IntRange {
     }
 
     /**
-     * Sets the value of the max property.
+     * 设置max属性的值。
      * 
      */
     public void setMax(int value) {

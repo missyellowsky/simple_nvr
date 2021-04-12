@@ -12,9 +12,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Split complex type.
+ * <p>Split complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Split"&gt;
@@ -44,7 +44,7 @@ public class Split {
     protected List<ObjectId> to;
 
     /**
-     * Gets the value of the from property.
+     * 获取from属性的值。
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class Split {
     }
 
     /**
-     * Sets the value of the from property.
+     * 设置from属性的值。
      * 
      * @param value
      *     allowed object is

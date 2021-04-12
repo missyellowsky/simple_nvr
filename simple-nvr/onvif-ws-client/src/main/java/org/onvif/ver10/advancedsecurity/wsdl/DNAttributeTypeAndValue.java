@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 /**
  * A distinguished name attribute type and value pair.
  * 
- * <p>Java class for DNAttributeTypeAndValue complex type.
+ * <p>DNAttributeTypeAndValue complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DNAttributeTypeAndValue"&gt;
@@ -59,7 +59,7 @@ public class DNAttributeTypeAndValue {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the type property.
+     * 获取type属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class DNAttributeTypeAndValue {
     }
 
     /**
-     * Sets the value of the type property.
+     * 设置type属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class DNAttributeTypeAndValue {
     }
 
     /**
-     * Gets the value of the value property.
+     * 获取value属性的值。
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class DNAttributeTypeAndValue {
     }
 
     /**
-     * Sets the value of the value property.
+     * 设置value属性的值。
      * 
      * @param value
      *     allowed object is

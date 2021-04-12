@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for FileProgress complex type.
+ * <p>FileProgress complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="FileProgress"&gt;
@@ -57,7 +57,7 @@ public class FileProgress {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the fileName property.
+     * 获取fileName属性的值。
      * 
      * @return
      *     possible object is
@@ -69,7 +69,7 @@ public class FileProgress {
     }
 
     /**
-     * Sets the value of the fileName property.
+     * 设置fileName属性的值。
      * 
      * @param value
      *     allowed object is
@@ -81,7 +81,7 @@ public class FileProgress {
     }
 
     /**
-     * Gets the value of the progress property.
+     * 获取progress属性的值。
      * 
      */
     public float getProgress() {
@@ -89,7 +89,7 @@ public class FileProgress {
     }
 
     /**
-     * Sets the value of the progress property.
+     * 设置progress属性的值。
      * 
      */
     public void setProgress(float value) {

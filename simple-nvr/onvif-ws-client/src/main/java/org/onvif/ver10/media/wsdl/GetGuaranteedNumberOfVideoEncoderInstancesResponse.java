@@ -11,9 +11,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -52,7 +52,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     protected Integer mpeg4;
 
     /**
-     * Gets the value of the totalNumber property.
+     * 获取totalNumber属性的值。
      * 
      */
     public int getTotalNumber() {
@@ -60,7 +60,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Sets the value of the totalNumber property.
+     * 设置totalNumber属性的值。
      * 
      */
     public void setTotalNumber(int value) {
@@ -68,7 +68,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Gets the value of the jpeg property.
+     * 获取jpeg属性的值。
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Sets the value of the jpeg property.
+     * 设置jpeg属性的值。
      * 
      * @param value
      *     allowed object is
@@ -92,7 +92,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Gets the value of the h264 property.
+     * 获取h264属性的值。
      * 
      * @return
      *     possible object is
@@ -104,7 +104,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Sets the value of the h264 property.
+     * 设置h264属性的值。
      * 
      * @param value
      *     allowed object is
@@ -116,7 +116,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Gets the value of the mpeg4 property.
+     * 获取mpeg4属性的值。
      * 
      * @return
      *     possible object is
@@ -128,7 +128,7 @@ public class GetGuaranteedNumberOfVideoEncoderInstancesResponse {
     }
 
     /**
-     * Sets the value of the mpeg4 property.
+     * 设置mpeg4属性的值。
      * 
      * @param value
      *     allowed object is

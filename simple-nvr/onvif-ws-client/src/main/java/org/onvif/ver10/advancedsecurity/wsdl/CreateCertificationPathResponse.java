@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -45,7 +45,7 @@ public class CreateCertificationPathResponse {
     protected String certificationPathID;
 
     /**
-     * Gets the value of the certificationPathID property.
+     * 获取certificationPathID属性的值。
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class CreateCertificationPathResponse {
     }
 
     /**
-     * Sets the value of the certificationPathID property.
+     * 设置certificationPathID属性的值。
      * 
      * @param value
      *     allowed object is

@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
  * Range of duration greater equal Min duration and less equal Max duration.
  *       
  * 
- * <p>Java class for DurationRange complex type.
+ * <p>DurationRange complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DurationRange"&gt;
@@ -46,7 +46,7 @@ public class DurationRange {
     protected Duration max;
 
     /**
-     * Gets the value of the min property.
+     * 获取min属性的值。
      * 
      * @return
      *     possible object is
@@ -58,7 +58,7 @@ public class DurationRange {
     }
 
     /**
-     * Sets the value of the min property.
+     * 设置min属性的值。
      * 
      * @param value
      *     allowed object is
@@ -70,7 +70,7 @@ public class DurationRange {
     }
 
     /**
-     * Gets the value of the max property.
+     * 获取max属性的值。
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class DurationRange {
     }
 
     /**
-     * Sets the value of the max property.
+     * 设置max属性的值。
      * 
      * @param value
      *     allowed object is

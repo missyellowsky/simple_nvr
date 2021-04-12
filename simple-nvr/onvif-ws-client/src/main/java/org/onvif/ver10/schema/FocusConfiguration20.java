@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for FocusConfiguration20 complex type.
+ * <p>FocusConfiguration20 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="FocusConfiguration20"&gt;
@@ -63,7 +63,7 @@ public class FocusConfiguration20 {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the autoFocusMode property.
+     * 获取autoFocusMode属性的值。
      * 
      * @return
      *     possible object is
@@ -75,7 +75,7 @@ public class FocusConfiguration20 {
     }
 
     /**
-     * Sets the value of the autoFocusMode property.
+     * 设置autoFocusMode属性的值。
      * 
      * @param value
      *     allowed object is
@@ -87,7 +87,7 @@ public class FocusConfiguration20 {
     }
 
     /**
-     * Gets the value of the defaultSpeed property.
+     * 获取defaultSpeed属性的值。
      * 
      * @return
      *     possible object is
@@ -99,7 +99,7 @@ public class FocusConfiguration20 {
     }
 
     /**
-     * Sets the value of the defaultSpeed property.
+     * 设置defaultSpeed属性的值。
      * 
      * @param value
      *     allowed object is
@@ -111,7 +111,7 @@ public class FocusConfiguration20 {
     }
 
     /**
-     * Gets the value of the nearLimit property.
+     * 获取nearLimit属性的值。
      * 
      * @return
      *     possible object is
@@ -123,7 +123,7 @@ public class FocusConfiguration20 {
     }
 
     /**
-     * Sets the value of the nearLimit property.
+     * 设置nearLimit属性的值。
      * 
      * @param value
      *     allowed object is
@@ -135,7 +135,7 @@ public class FocusConfiguration20 {
     }
 
     /**
-     * Gets the value of the farLimit property.
+     * 获取farLimit属性的值。
      * 
      * @return
      *     possible object is
@@ -147,7 +147,7 @@ public class FocusConfiguration20 {
     }
 
     /**
-     * Sets the value of the farLimit property.
+     * 设置farLimit属性的值。
      * 
      * @param value
      *     allowed object is
@@ -159,7 +159,7 @@ public class FocusConfiguration20 {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -171,7 +171,7 @@ public class FocusConfiguration20 {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

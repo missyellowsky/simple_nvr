@@ -16,9 +16,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -53,7 +53,7 @@ public class SetVideoOutputConfiguration {
     protected List<Object> any;
 
     /**
-     * Gets the value of the configuration property.
+     * 获取configuration属性的值。
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class SetVideoOutputConfiguration {
     }
 
     /**
-     * Sets the value of the configuration property.
+     * 设置configuration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -77,7 +77,7 @@ public class SetVideoOutputConfiguration {
     }
 
     /**
-     * Gets the value of the forcePersistence property.
+     * 获取forcePersistence属性的值。
      * This getter has been renamed from isForcePersistence() to getForcePersistence() by cxf-xjc-boolean plugin.
      * 
      */
@@ -86,7 +86,7 @@ public class SetVideoOutputConfiguration {
     }
 
     /**
-     * Sets the value of the forcePersistence property.
+     * 设置forcePersistence属性的值。
      * 
      */
     public void setForcePersistence(boolean value) {

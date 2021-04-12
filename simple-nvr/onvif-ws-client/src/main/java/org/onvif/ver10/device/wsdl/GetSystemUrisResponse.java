@@ -17,9 +17,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -70,7 +70,7 @@ public class GetSystemUrisResponse {
     protected GetSystemUrisResponse.Extension extension;
 
     /**
-     * Gets the value of the systemLogUris property.
+     * 获取systemLogUris属性的值。
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Sets the value of the systemLogUris property.
+     * 设置systemLogUris属性的值。
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Gets the value of the supportInfoUri property.
+     * 获取supportInfoUri属性的值。
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Sets the value of the supportInfoUri property.
+     * 设置supportInfoUri属性的值。
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Gets the value of the systemBackupUri property.
+     * 获取systemBackupUri属性的值。
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Sets the value of the systemBackupUri property.
+     * 设置systemBackupUri属性的值。
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -154,7 +154,7 @@ public class GetSystemUrisResponse {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -177,9 +177,9 @@ public class GetSystemUrisResponse {
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;

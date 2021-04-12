@@ -14,9 +14,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SecurityCapabilitiesExtension2 complex type.
+ * <p>SecurityCapabilitiesExtension2 complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SecurityCapabilitiesExtension2"&gt;
@@ -54,7 +54,7 @@ public class SecurityCapabilitiesExtension2 {
     protected List<java.lang.Object> any;
 
     /**
-     * Gets the value of the dot1X property.
+     * 获取dot1X属性的值。
      * This getter has been renamed from isDot1X() to getDot1X() by cxf-xjc-boolean plugin.
      * 
      */
@@ -63,7 +63,7 @@ public class SecurityCapabilitiesExtension2 {
     }
 
     /**
-     * Sets the value of the dot1X property.
+     * 设置dot1X属性的值。
      * 
      */
     public void setDot1X(boolean value) {
@@ -100,7 +100,7 @@ public class SecurityCapabilitiesExtension2 {
     }
 
     /**
-     * Gets the value of the remoteUserHandling property.
+     * 获取remoteUserHandling属性的值。
      * This getter has been renamed from isRemoteUserHandling() to getRemoteUserHandling() by cxf-xjc-boolean plugin.
      * 
      */
@@ -109,7 +109,7 @@ public class SecurityCapabilitiesExtension2 {
     }
 
     /**
-     * Sets the value of the remoteUserHandling property.
+     * 设置remoteUserHandling属性的值。
      * 
      */
     public void setRemoteUserHandling(boolean value) {

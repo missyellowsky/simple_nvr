@@ -16,9 +16,9 @@ import org.onvif.ver10.pacs.DataEntity;
  *             Used as extension base.
  *           
  * 
- * <p>Java class for DoorInfoBase complex type.
+ * <p>DoorInfoBase complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="DoorInfoBase"&gt;
@@ -53,7 +53,7 @@ public class DoorInfoBase
     protected String description;
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class DoorInfoBase
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -77,7 +77,7 @@ public class DoorInfoBase
     }
 
     /**
-     * Gets the value of the description property.
+     * 获取description属性的值。
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class DoorInfoBase
     }
 
     /**
-     * Sets the value of the description property.
+     * 设置description属性的值。
      * 
      * @param value
      *     allowed object is

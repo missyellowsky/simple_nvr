@@ -17,9 +17,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for PTZPresetTourStartingCondition complex type.
+ * <p>PTZPresetTourStartingCondition complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourStartingCondition"&gt;
@@ -64,7 +64,7 @@ public class PTZPresetTourStartingCondition {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recurringTime property.
+     * 获取recurringTime属性的值。
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Sets the value of the recurringTime property.
+     * 设置recurringTime属性的值。
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Gets the value of the recurringDuration property.
+     * 获取recurringDuration属性的值。
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Sets the value of the recurringDuration property.
+     * 设置recurringDuration属性的值。
      * 
      * @param value
      *     allowed object is
@@ -112,7 +112,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Gets the value of the direction property.
+     * 获取direction属性的值。
      * 
      * @return
      *     possible object is
@@ -124,7 +124,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Sets the value of the direction property.
+     * 设置direction属性的值。
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -160,7 +160,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Gets the value of the randomPresetOrder property.
+     * 获取randomPresetOrder属性的值。
      * This getter has been renamed from isRandomPresetOrder() to getRandomPresetOrder() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -173,7 +173,7 @@ public class PTZPresetTourStartingCondition {
     }
 
     /**
-     * Sets the value of the randomPresetOrder property.
+     * 设置randomPresetOrder属性的值。
      * 
      * @param value
      *     allowed object is

@@ -15,9 +15,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for User complex type.
+ * <p>User complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="User"&gt;
@@ -59,7 +59,7 @@ public class User {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the username property.
+     * 获取username属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class User {
     }
 
     /**
-     * Sets the value of the username property.
+     * 设置username属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class User {
     }
 
     /**
-     * Gets the value of the password property.
+     * 获取password属性的值。
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class User {
     }
 
     /**
-     * Sets the value of the password property.
+     * 设置password属性的值。
      * 
      * @param value
      *     allowed object is
@@ -107,7 +107,7 @@ public class User {
     }
 
     /**
-     * Gets the value of the userLevel property.
+     * 获取userLevel属性的值。
      * 
      * @return
      *     possible object is
@@ -119,7 +119,7 @@ public class User {
     }
 
     /**
-     * Sets the value of the userLevel property.
+     * 设置userLevel属性的值。
      * 
      * @param value
      *     allowed object is
@@ -131,7 +131,7 @@ public class User {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -143,7 +143,7 @@ public class User {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

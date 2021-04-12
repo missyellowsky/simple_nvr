@@ -13,9 +13,9 @@ import org.onvif.ver10.schema.SearchState;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -43,7 +43,7 @@ public class GetSearchStateResponse {
     protected SearchState state;
 
     /**
-     * Gets the value of the state property.
+     * 获取state属性的值。
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class GetSearchStateResponse {
     }
 
     /**
-     * Sets the value of the state property.
+     * 设置state属性的值。
      * 
      * @param value
      *     allowed object is

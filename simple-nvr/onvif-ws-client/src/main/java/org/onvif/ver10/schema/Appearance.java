@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Appearance complex type.
+ * <p>Appearance complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Appearance"&gt;
@@ -61,7 +61,7 @@ public class Appearance {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the transformation property.
+     * 获取transformation属性的值。
      * 
      * @return
      *     possible object is
@@ -73,7 +73,7 @@ public class Appearance {
     }
 
     /**
-     * Sets the value of the transformation property.
+     * 设置transformation属性的值。
      * 
      * @param value
      *     allowed object is
@@ -85,7 +85,7 @@ public class Appearance {
     }
 
     /**
-     * Gets the value of the shape property.
+     * 获取shape属性的值。
      * 
      * @return
      *     possible object is
@@ -97,7 +97,7 @@ public class Appearance {
     }
 
     /**
-     * Sets the value of the shape property.
+     * 设置shape属性的值。
      * 
      * @param value
      *     allowed object is
@@ -109,7 +109,7 @@ public class Appearance {
     }
 
     /**
-     * Gets the value of the color property.
+     * 获取color属性的值。
      * 
      * @return
      *     possible object is
@@ -121,7 +121,7 @@ public class Appearance {
     }
 
     /**
-     * Sets the value of the color property.
+     * 设置color属性的值。
      * 
      * @param value
      *     allowed object is
@@ -133,7 +133,7 @@ public class Appearance {
     }
 
     /**
-     * Gets the value of the clazz property.
+     * 获取clazz属性的值。
      * 
      * @return
      *     possible object is
@@ -145,7 +145,7 @@ public class Appearance {
     }
 
     /**
-     * Sets the value of the clazz property.
+     * 设置clazz属性的值。
      * 
      * @param value
      *     allowed object is
@@ -157,7 +157,7 @@ public class Appearance {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -169,7 +169,7 @@ public class Appearance {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is

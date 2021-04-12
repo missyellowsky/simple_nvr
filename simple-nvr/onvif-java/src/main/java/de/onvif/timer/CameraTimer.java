@@ -40,7 +40,7 @@ public class CameraTimer implements CommandLineRunner {
 		timer.schedule(new TimerTask() {
 			@Override
 			public void run() {
-				logger.info("定时任务  当前有" + MediaService.JOBMAP.size() + "个推流任务正在进行推流");
+				logger.info("定时任务  当前有" + CacheUtil.JOBMAP.size() + "个推流任务正在进行推流");
 				// 管理缓存
 				if (null != CacheUtil.STREATMAP && 0 != CacheUtil.STREATMAP.size()) {
 					Set<String> keys = CacheUtil.STREATMAP.keySet();
@@ -55,7 +55,7 @@ public class CameraTimer implements CommandLineRunner {
 							// 如果通道使用人数为0，则关闭推流
 							if (CacheUtil.STREATMAP.get(key).getCount() == 0) {
 								// 结束线程
-								MediaService.JOBMAP.get(key).setInterrupted(key);
+								CacheUtil.JOBMAP.get(key).setInterrupted(key);
 								logger.info("定时任务 当前设备使用人数为0结束推流 设备信息：[ip：" + CacheUtil.STREATMAP.get(key).getIp()
 										+ " channel:" + CacheUtil.STREATMAP.get(key).getChannel() + " stream:"
 										+ CacheUtil.STREATMAP.get(key).getStream() + " starttime:"
@@ -65,7 +65,7 @@ public class CameraTimer implements CommandLineRunner {
 										+ CacheUtil.STREATMAP.get(key).getUrl() + "]");
 							} else if (null == CacheUtil.STREATMAP.get(key).getStarttime()
 									&& (newTime - openTime) / 1000 / 60 >= Integer.valueOf(config.getKeepalive())) {
-								MediaService.JOBMAP.get(key).setInterrupted(key);
+								CacheUtil.JOBMAP.get(key).setInterrupted(key);
 								logger.info("定时任务 当前设备使用时间超时结束推流 设备信息：[ip:" + CacheUtil.STREATMAP.get(key).getIp()
 										+ " channel:" + CacheUtil.STREATMAP.get(key).getChannel() + " stream:"
 										+ CacheUtil.STREATMAP.get(key).getStream() + " starttime:"

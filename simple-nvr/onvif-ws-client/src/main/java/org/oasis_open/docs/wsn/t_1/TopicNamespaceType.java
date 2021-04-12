@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for TopicNamespaceType complex type.
+ * <p>TopicNamespaceType complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="TopicNamespaceType"&gt;
@@ -133,7 +133,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -145,7 +145,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -157,7 +157,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Gets the value of the targetNamespace property.
+     * 获取targetNamespace属性的值。
      * 
      * @return
      *     possible object is
@@ -169,7 +169,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Sets the value of the targetNamespace property.
+     * 设置targetNamespace属性的值。
      * 
      * @param value
      *     allowed object is
@@ -181,7 +181,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Gets the value of the final property.
+     * 获取final属性的值。
      * This getter has been renamed from isFinal() to getFinal() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -198,7 +198,7 @@ public class TopicNamespaceType
     }
 
     /**
-     * Sets the value of the final property.
+     * 设置final属性的值。
      * 
      * @param value
      *     allowed object is
@@ -221,9 +221,9 @@ public class TopicNamespaceType
 
 
     /**
-     * <p>Java class for anonymous complex type.
+     * <p>anonymous complex type的 Java 类。
      * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
+     * <p>以下模式片段指定包含在此类中的预期内容。
      * 
      * <pre>
      * &lt;complexType&gt;
@@ -249,7 +249,7 @@ public class TopicNamespaceType
         protected String parent;
 
         /**
-         * Gets the value of the parent property.
+         * 获取parent属性的值。
          * 
          * @return
          *     possible object is
@@ -261,7 +261,7 @@ public class TopicNamespaceType
         }
 
         /**
-         * Sets the value of the parent property.
+         * 设置parent属性的值。
          * 
          * @param value
          *     allowed object is

@@ -20,9 +20,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for RecordingInformation complex type.
+ * <p>RecordingInformation complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="RecordingInformation"&gt;
@@ -82,7 +82,7 @@ public class RecordingInformation {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the recordingToken property.
+     * 获取recordingToken属性的值。
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the recordingToken property.
+     * 设置recordingToken属性的值。
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Gets the value of the source property.
+     * 获取source属性的值。
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the source property.
+     * 设置source属性的值。
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Gets the value of the earliestRecording property.
+     * 获取earliestRecording属性的值。
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the earliestRecording property.
+     * 设置earliestRecording属性的值。
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Gets the value of the latestRecording property.
+     * 获取latestRecording属性的值。
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the latestRecording property.
+     * 设置latestRecording属性的值。
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Gets the value of the content property.
+     * 获取content属性的值。
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the content property.
+     * 设置content属性的值。
      * 
      * @param value
      *     allowed object is
@@ -231,7 +231,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Gets the value of the recordingStatus property.
+     * 获取recordingStatus属性的值。
      * 
      * @return
      *     possible object is
@@ -243,7 +243,7 @@ public class RecordingInformation {
     }
 
     /**
-     * Sets the value of the recordingStatus property.
+     * 设置recordingStatus属性的值。
      * 
      * @param value
      *     allowed object is

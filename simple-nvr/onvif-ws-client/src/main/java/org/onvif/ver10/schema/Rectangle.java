@@ -10,9 +10,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for Rectangle complex type.
+ * <p>Rectangle complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="Rectangle"&gt;
@@ -43,7 +43,7 @@ public class Rectangle {
     protected Float left;
 
     /**
-     * Gets the value of the bottom property.
+     * 获取bottom属性的值。
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class Rectangle {
     }
 
     /**
-     * Sets the value of the bottom property.
+     * 设置bottom属性的值。
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class Rectangle {
     }
 
     /**
-     * Gets the value of the top property.
+     * 获取top属性的值。
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class Rectangle {
     }
 
     /**
-     * Sets the value of the top property.
+     * 设置top属性的值。
      * 
      * @param value
      *     allowed object is
@@ -91,7 +91,7 @@ public class Rectangle {
     }
 
     /**
-     * Gets the value of the right property.
+     * 获取right属性的值。
      * 
      * @return
      *     possible object is
@@ -103,7 +103,7 @@ public class Rectangle {
     }
 
     /**
-     * Sets the value of the right property.
+     * 设置right属性的值。
      * 
      * @param value
      *     allowed object is
@@ -115,7 +115,7 @@ public class Rectangle {
     }
 
     /**
-     * Gets the value of the left property.
+     * 获取left属性的值。
      * 
      * @return
      *     possible object is
@@ -127,7 +127,7 @@ public class Rectangle {
     }
 
     /**
-     * Sets the value of the left property.
+     * 设置left属性的值。
      * 
      * @param value
      *     allowed object is

@@ -158,14 +158,10 @@ export default {
               this.players[key] = null;
             }
           }
-
-
           let ip = a.ip
-          debugger
         },
         //播放器组选择事件
         groupClick:function (e) {
-          debugger
           this.index = e;
         },
         initCameraTree:function () {

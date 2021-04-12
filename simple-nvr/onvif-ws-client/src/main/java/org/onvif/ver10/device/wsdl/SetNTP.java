@@ -14,9 +14,9 @@ import org.onvif.ver10.schema.NetworkHost;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>anonymous complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -47,7 +47,7 @@ public class SetNTP {
     protected List<NetworkHost> ntpManual;
 
     /**
-     * Gets the value of the fromDHCP property.
+     * 获取fromDHCP属性的值。
      * This getter has been renamed from isFromDHCP() to getFromDHCP() by cxf-xjc-boolean plugin.
      * 
      */
@@ -56,7 +56,7 @@ public class SetNTP {
     }
 
     /**
-     * Sets the value of the fromDHCP property.
+     * 设置fromDHCP属性的值。
      * 
      */
     public void setFromDHCP(boolean value) {

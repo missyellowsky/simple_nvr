@@ -14,9 +14,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for SystemCapabilities complex type.
+ * <p>SystemCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SystemCapabilities"&gt;
@@ -71,7 +71,7 @@ public class SystemCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the discoveryResolve property.
+     * 获取discoveryResolve属性的值。
      * This getter has been renamed from isDiscoveryResolve() to getDiscoveryResolve() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -84,7 +84,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the discoveryResolve property.
+     * 设置discoveryResolve属性的值。
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Gets the value of the discoveryBye property.
+     * 获取discoveryBye属性的值。
      * This getter has been renamed from isDiscoveryBye() to getDiscoveryBye() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -109,7 +109,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the discoveryBye property.
+     * 设置discoveryBye属性的值。
      * 
      * @param value
      *     allowed object is
@@ -121,7 +121,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Gets the value of the remoteDiscovery property.
+     * 获取remoteDiscovery属性的值。
      * This getter has been renamed from isRemoteDiscovery() to getRemoteDiscovery() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -134,7 +134,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the remoteDiscovery property.
+     * 设置remoteDiscovery属性的值。
      * 
      * @param value
      *     allowed object is
@@ -146,7 +146,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Gets the value of the systemBackup property.
+     * 获取systemBackup属性的值。
      * This getter has been renamed from isSystemBackup() to getSystemBackup() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -159,7 +159,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the systemBackup property.
+     * 设置systemBackup属性的值。
      * 
      * @param value
      *     allowed object is
@@ -171,7 +171,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Gets the value of the systemLogging property.
+     * 获取systemLogging属性的值。
      * This getter has been renamed from isSystemLogging() to getSystemLogging() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -184,7 +184,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the systemLogging property.
+     * 设置systemLogging属性的值。
      * 
      * @param value
      *     allowed object is
@@ -196,7 +196,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Gets the value of the firmwareUpgrade property.
+     * 获取firmwareUpgrade属性的值。
      * This getter has been renamed from isFirmwareUpgrade() to getFirmwareUpgrade() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -209,7 +209,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the firmwareUpgrade property.
+     * 设置firmwareUpgrade属性的值。
      * 
      * @param value
      *     allowed object is
@@ -221,7 +221,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Gets the value of the httpFirmwareUpgrade property.
+     * 获取httpFirmwareUpgrade属性的值。
      * This getter has been renamed from isHttpFirmwareUpgrade() to getHttpFirmwareUpgrade() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -234,7 +234,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the httpFirmwareUpgrade property.
+     * 设置httpFirmwareUpgrade属性的值。
      * 
      * @param value
      *     allowed object is
@@ -246,7 +246,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Gets the value of the httpSystemBackup property.
+     * 获取httpSystemBackup属性的值。
      * This getter has been renamed from isHttpSystemBackup() to getHttpSystemBackup() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -259,7 +259,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the httpSystemBackup property.
+     * 设置httpSystemBackup属性的值。
      * 
      * @param value
      *     allowed object is
@@ -271,7 +271,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Gets the value of the httpSystemLogging property.
+     * 获取httpSystemLogging属性的值。
      * This getter has been renamed from isHttpSystemLogging() to getHttpSystemLogging() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -284,7 +284,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the httpSystemLogging property.
+     * 设置httpSystemLogging属性的值。
      * 
      * @param value
      *     allowed object is
@@ -296,7 +296,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Gets the value of the httpSupportInformation property.
+     * 获取httpSupportInformation属性的值。
      * This getter has been renamed from isHttpSupportInformation() to getHttpSupportInformation() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -309,7 +309,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the httpSupportInformation property.
+     * 设置httpSupportInformation属性的值。
      * 
      * @param value
      *     allowed object is
@@ -321,7 +321,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Gets the value of the storageConfiguration property.
+     * 获取storageConfiguration属性的值。
      * This getter has been renamed from isStorageConfiguration() to getStorageConfiguration() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -334,7 +334,7 @@ public class SystemCapabilities {
     }
 
     /**
-     * Sets the value of the storageConfiguration property.
+     * 设置storageConfiguration属性的值。
      * 
      * @param value
      *     allowed object is

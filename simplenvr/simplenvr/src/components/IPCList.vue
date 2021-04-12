@@ -150,7 +150,6 @@
               })
             }
             this.options = op;
-            debugger
           }
         })
       },

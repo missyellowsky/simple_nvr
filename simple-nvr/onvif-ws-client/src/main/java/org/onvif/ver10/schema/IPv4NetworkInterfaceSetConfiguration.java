@@ -12,9 +12,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for IPv4NetworkInterfaceSetConfiguration complex type.
+ * <p>IPv4NetworkInterfaceSetConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="IPv4NetworkInterfaceSetConfiguration"&gt;
@@ -48,7 +48,7 @@ public class IPv4NetworkInterfaceSetConfiguration {
     protected Boolean dhcp;
 
     /**
-     * Gets the value of the enabled property.
+     * 获取enabled属性的值。
      * This getter has been renamed from isEnabled() to getEnabled() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -61,7 +61,7 @@ public class IPv4NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the enabled property.
+     * 设置enabled属性的值。
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class IPv4NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Gets the value of the dhcp property.
+     * 获取dhcp属性的值。
      * This getter has been renamed from isDHCP() to getDHCP() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -115,7 +115,7 @@ public class IPv4NetworkInterfaceSetConfiguration {
     }
 
     /**
-     * Sets the value of the dhcp property.
+     * 设置dhcp属性的值。
      * 
      * @param value
      *     allowed object is

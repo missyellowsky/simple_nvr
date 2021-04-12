@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PTZPresetTourOptions complex type.
+ * <p>PTZPresetTourOptions complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PTZPresetTourOptions"&gt;
@@ -61,7 +61,7 @@ public class PTZPresetTourOptions {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the autoStart property.
+     * 获取autoStart属性的值。
      * This getter has been renamed from isAutoStart() to getAutoStart() by cxf-xjc-boolean plugin.
      * 
      */
@@ -70,7 +70,7 @@ public class PTZPresetTourOptions {
     }
 
     /**
-     * Sets the value of the autoStart property.
+     * 设置autoStart属性的值。
      * 
      */
     public void setAutoStart(boolean value) {
@@ -78,7 +78,7 @@ public class PTZPresetTourOptions {
     }
 
     /**
-     * Gets the value of the startingCondition property.
+     * 获取startingCondition属性的值。
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class PTZPresetTourOptions {
     }
 
     /**
-     * Sets the value of the startingCondition property.
+     * 设置startingCondition属性的值。
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class PTZPresetTourOptions {
     }
 
     /**
-     * Gets the value of the tourSpot property.
+     * 获取tourSpot属性的值。
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class PTZPresetTourOptions {
     }
 
     /**
-     * Sets the value of the tourSpot property.
+     * 设置tourSpot属性的值。
      * 
      * @param value
      *     allowed object is

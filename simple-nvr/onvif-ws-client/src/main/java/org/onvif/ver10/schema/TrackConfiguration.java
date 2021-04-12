@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for TrackConfiguration complex type.
+ * <p>TrackConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="TrackConfiguration"&gt;
@@ -59,7 +59,7 @@ public class TrackConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the trackType property.
+     * 获取trackType属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class TrackConfiguration {
     }
 
     /**
-     * Sets the value of the trackType property.
+     * 设置trackType属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class TrackConfiguration {
     }
 
     /**
-     * Gets the value of the description property.
+     * 获取description属性的值。
      * 
      * @return
      *     possible object is
@@ -95,7 +95,7 @@ public class TrackConfiguration {
     }
 
     /**
-     * Sets the value of the description property.
+     * 设置description属性的值。
      * 
      * @param value
      *     allowed object is

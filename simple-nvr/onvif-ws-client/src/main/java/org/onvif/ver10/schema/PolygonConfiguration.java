@@ -18,9 +18,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for PolygonConfiguration complex type.
+ * <p>PolygonConfiguration complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="PolygonConfiguration"&gt;
@@ -53,7 +53,7 @@ public class PolygonConfiguration {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the polygon property.
+     * 获取polygon属性的值。
      * 
      * @return
      *     possible object is
@@ -65,7 +65,7 @@ public class PolygonConfiguration {
     }
 
     /**
-     * Sets the value of the polygon property.
+     * 设置polygon属性的值。
      * 
      * @param value
      *     allowed object is

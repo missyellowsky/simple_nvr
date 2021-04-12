@@ -19,9 +19,9 @@ import org.w3c.dom.Element;
 
 
 /**
- * <p>Java class for SearchCapabilities complex type.
+ * <p>SearchCapabilities complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="SearchCapabilities"&gt;
@@ -59,7 +59,7 @@ public class SearchCapabilities {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the xAddr property.
+     * 获取xAddr属性的值。
      * 
      * @return
      *     possible object is
@@ -71,7 +71,7 @@ public class SearchCapabilities {
     }
 
     /**
-     * Sets the value of the xAddr property.
+     * 设置xAddr属性的值。
      * 
      * @param value
      *     allowed object is
@@ -83,7 +83,7 @@ public class SearchCapabilities {
     }
 
     /**
-     * Gets the value of the metadataSearch property.
+     * 获取metadataSearch属性的值。
      * This getter has been renamed from isMetadataSearch() to getMetadataSearch() by cxf-xjc-boolean plugin.
      * 
      */
@@ -92,7 +92,7 @@ public class SearchCapabilities {
     }
 
     /**
-     * Sets the value of the metadataSearch property.
+     * 设置metadataSearch属性的值。
      * 
      */
     public void setMetadataSearch(boolean value) {

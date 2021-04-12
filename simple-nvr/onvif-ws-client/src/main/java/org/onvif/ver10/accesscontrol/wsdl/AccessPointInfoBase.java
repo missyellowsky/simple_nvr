@@ -17,9 +17,9 @@ import org.onvif.ver10.pacs.DataEntity;
  *             Used as extension base for AccessPointInfo.
  *           
  * 
- * <p>Java class for AccessPointInfoBase complex type.
+ * <p>AccessPointInfoBase complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="AccessPointInfoBase"&gt;
@@ -70,7 +70,7 @@ public class AccessPointInfoBase
     protected String entity;
 
     /**
-     * Gets the value of the name property.
+     * 获取name属性的值。
      * 
      * @return
      *     possible object is
@@ -82,7 +82,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the name property.
+     * 设置name属性的值。
      * 
      * @param value
      *     allowed object is
@@ -94,7 +94,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Gets the value of the description property.
+     * 获取description属性的值。
      * 
      * @return
      *     possible object is
@@ -106,7 +106,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the description property.
+     * 设置description属性的值。
      * 
      * @param value
      *     allowed object is
@@ -118,7 +118,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Gets the value of the areaFrom property.
+     * 获取areaFrom属性的值。
      * 
      * @return
      *     possible object is
@@ -130,7 +130,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the areaFrom property.
+     * 设置areaFrom属性的值。
      * 
      * @param value
      *     allowed object is
@@ -142,7 +142,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Gets the value of the areaTo property.
+     * 获取areaTo属性的值。
      * 
      * @return
      *     possible object is
@@ -154,7 +154,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the areaTo property.
+     * 设置areaTo属性的值。
      * 
      * @param value
      *     allowed object is
@@ -166,7 +166,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Gets the value of the entityType property.
+     * 获取entityType属性的值。
      * 
      * @return
      *     possible object is
@@ -178,7 +178,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the entityType property.
+     * 设置entityType属性的值。
      * 
      * @param value
      *     allowed object is
@@ -190,7 +190,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Gets the value of the entity property.
+     * 获取entity属性的值。
      * 
      * @return
      *     possible object is
@@ -202,7 +202,7 @@ public class AccessPointInfoBase
     }
 
     /**
-     * Sets the value of the entity property.
+     * 设置entity属性的值。
      * 
      * @param value
      *     allowed object is

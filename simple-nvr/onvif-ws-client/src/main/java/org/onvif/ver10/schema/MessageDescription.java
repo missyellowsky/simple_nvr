@@ -16,9 +16,9 @@ import org.apache.cxf.xjc.runtime.JAXBToStringStyle;
 
 
 /**
- * <p>Java class for MessageDescription complex type.
+ * <p>MessageDescription complex type的 Java 类。
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>以下模式片段指定包含在此类中的预期内容。
  * 
  * <pre>
  * &lt;complexType name="MessageDescription"&gt;
@@ -65,7 +65,7 @@ public class MessageDescription {
     private Map<QName, String> otherAttributes = new HashMap<QName, String>();
 
     /**
-     * Gets the value of the source property.
+     * 获取source属性的值。
      * 
      * @return
      *     possible object is
@@ -77,7 +77,7 @@ public class MessageDescription {
     }
 
     /**
-     * Sets the value of the source property.
+     * 设置source属性的值。
      * 
      * @param value
      *     allowed object is
@@ -89,7 +89,7 @@ public class MessageDescription {
     }
 
     /**
-     * Gets the value of the key property.
+     * 获取key属性的值。
      * 
      * @return
      *     possible object is
@@ -101,7 +101,7 @@ public class MessageDescription {
     }
 
     /**
-     * Sets the value of the key property.
+     * 设置key属性的值。
      * 
      * @param value
      *     allowed object is
@@ -113,7 +113,7 @@ public class MessageDescription {
     }
 
     /**
-     * Gets the value of the data property.
+     * 获取data属性的值。
      * 
      * @return
      *     possible object is
@@ -125,7 +125,7 @@ public class MessageDescription {
     }
 
     /**
-     * Sets the value of the data property.
+     * 设置data属性的值。
      * 
      * @param value
      *     allowed object is
@@ -137,7 +137,7 @@ public class MessageDescription {
     }
 
     /**
-     * Gets the value of the extension property.
+     * 获取extension属性的值。
      * 
      * @return
      *     possible object is
@@ -149,7 +149,7 @@ public class MessageDescription {
     }
 
     /**
-     * Sets the value of the extension property.
+     * 设置extension属性的值。
      * 
      * @param value
      *     allowed object is
@@ -161,7 +161,7 @@ public class MessageDescription {
     }
 
     /**
-     * Gets the value of the isProperty property.
+     * 获取isProperty属性的值。
      * This getter has been renamed from isIsProperty() to getIsProperty() by cxf-xjc-boolean plugin.
      * 
      * @return
@@ -174,7 +174,7 @@ public class MessageDescription {
     }
 
     /**
-     * Sets the value of the isProperty property.
+     * 设置isProperty属性的值。
      * 
      * @param value
      *     allowed object is
